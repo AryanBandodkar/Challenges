@@ -1,0 +1,19 @@
+{
+  "challengeId": "08-mongoose-schema-model-validation",
+  "challengeName": "Mongoose Schema Model Validation",
+  "moduleId": "m3-database-integration",
+  "moduleName": "Database Integration",
+  "difficulty": "intermediate",
+  "estimatedTime": "4 hours",
+  "filesToCheck": [
+    "src/challenges/08-mongoose-schema-model-validation/index.js"
+  ],
+  "skills": [
+    "Mongoose schema",
+    "validation",
+    "middleware"
+  ],
+  "patternsRequired": [
+    "mongooseSchema"
+  ]
+}

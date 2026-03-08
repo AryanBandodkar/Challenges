@@ -1,0 +1,19 @@
+{
+  "challengeId": "14-utility-libraries-and-package-publishing",
+  "challengeName": "Utility Libraries and Package Publishing",
+  "moduleId": "m2-npm-package-management",
+  "moduleName": "NPM & Package Management",
+  "difficulty": "intermediate",
+  "estimatedTime": "4 hours",
+  "filesToCheck": [
+    "src/challenges/14-utility-libraries-and-package-publishing/index.js"
+  ],
+  "skills": [
+    "lodash/dayjs usage",
+    "package exports",
+    "npm publish workflow"
+  ],
+  "patternsRequired": [
+    "npmScript"
+  ]
+}

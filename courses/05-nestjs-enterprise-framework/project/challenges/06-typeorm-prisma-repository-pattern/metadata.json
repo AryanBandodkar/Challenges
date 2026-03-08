@@ -1,0 +1,18 @@
+{
+  "challengeId": "06-typeorm-prisma-repository-pattern",
+  "challengeName": "TypeORM Prisma Repository Pattern",
+  "moduleId": "m2-advanced-nestjs-features",
+  "moduleName": "Advanced NestJS Features",
+  "difficulty": "advanced",
+  "estimatedTime": "5 hours",
+  "filesToCheck": [
+    "src/challenges/06-typeorm-prisma-repository-pattern/index.ts"
+  ],
+  "skills": [
+    "TypeORM/Prisma",
+    "repository pattern"
+  ],
+  "patternsRequired": [
+    "repositoryPattern"
+  ]
+}

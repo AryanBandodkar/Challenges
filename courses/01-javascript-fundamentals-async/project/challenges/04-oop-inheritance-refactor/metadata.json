@@ -1,0 +1,20 @@
+{
+  "challengeId": "04-oop-inheritance-refactor",
+  "challengeName": "OOP Inheritance Refactor",
+  "moduleId": "m1-modern-javascript-essentials",
+  "moduleName": "Modern JavaScript Essentials",
+  "difficulty": "intermediate",
+  "estimatedTime": "3 hours",
+  "filesToCheck": [
+    "src/challenges/04-oop-inheritance-refactor/index.js"
+  ],
+  "skills": [
+    "classes",
+    "inheritance",
+    "prototypes"
+  ],
+  "patternsRequired": [
+    "classSyntax",
+    "extendsKeyword"
+  ]
+}

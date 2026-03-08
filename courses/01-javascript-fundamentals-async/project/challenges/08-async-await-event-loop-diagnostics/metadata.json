@@ -1,0 +1,23 @@
+{
+  "challengeId": "08-async-await-event-loop-diagnostics",
+  "challengeName": "Async Await Event Loop Diagnostics",
+  "moduleId": "m2-asynchronous-javascript-mastery",
+  "moduleName": "Asynchronous JavaScript Mastery",
+  "difficulty": "intermediate",
+  "estimatedTime": "4 hours",
+  "filesToCheck": [
+    "src/challenges/08-async-await-event-loop-diagnostics/index.js"
+  ],
+  "skills": [
+    "async/await",
+    "try/catch",
+    "event loop",
+    "non-blocking I/O"
+  ],
+  "patternsRequired": [
+    "asyncFunction",
+    "awaitExpression",
+    "tryCatch",
+    "setTimeoutUsage"
+  ]
+}

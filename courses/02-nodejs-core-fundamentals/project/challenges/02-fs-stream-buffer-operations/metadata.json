@@ -1,0 +1,20 @@
+{
+  "challengeId": "02-fs-stream-buffer-operations",
+  "challengeName": "FS Stream Buffer Operations",
+  "moduleId": "m1-node-architecture-core-apis",
+  "moduleName": "Node.js Architecture & Core APIs",
+  "difficulty": "intermediate",
+  "estimatedTime": "4 hours",
+  "filesToCheck": [
+    "src/challenges/02-fs-stream-buffer-operations/index.js"
+  ],
+  "skills": [
+    "fs",
+    "streams",
+    "buffers"
+  ],
+  "patternsRequired": [
+    "fsModuleImport",
+    "streamPipeline"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "challengeId": "05-typed-express-request-response",
+  "challengeName": "Typed Express Request Response",
+  "moduleId": "m2-typescript-node-express",
+  "moduleName": "TypeScript with Node.js & Express",
+  "difficulty": "intermediate",
+  "estimatedTime": "3 hours",
+  "filesToCheck": [
+    "src/challenges/05-typed-express-request-response/index.ts"
+  ],
+  "skills": [
+    "Request typing",
+    "Response typing",
+    "middleware typing"
+  ],
+  "patternsRequired": [
+    "expressTypeImport",
+    "typeAnnotation"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "05-nestjs-enterprise-framework-project",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "dev": "nodemon --watch src --ext ts --exec \"ts-node src/main.ts\""
+  }
+}

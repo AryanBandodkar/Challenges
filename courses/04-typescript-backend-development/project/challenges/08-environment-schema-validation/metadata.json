@@ -1,0 +1,19 @@
+{
+  "challengeId": "08-environment-schema-validation",
+  "challengeName": "Environment Schema Validation",
+  "moduleId": "m2-typescript-node-express",
+  "moduleName": "TypeScript with Node.js & Express",
+  "difficulty": "intermediate",
+  "estimatedTime": "2 hours",
+  "filesToCheck": [
+    "src/challenges/08-environment-schema-validation/index.ts"
+  ],
+  "skills": [
+    "runtime env validation",
+    "zod/joi schema",
+    "fail-fast configuration"
+  ],
+  "patternsRequired": [
+    "envSchemaValidation"
+  ]
+}

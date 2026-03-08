@@ -1,0 +1,18 @@
+{
+  "challengeId": "10-stream-based-transfer-service",
+  "challengeName": "Stream Based Transfer Service",
+  "moduleId": "m3-http-network-programming",
+  "moduleName": "HTTP & Network Programming",
+  "difficulty": "intermediate",
+  "estimatedTime": "4 hours",
+  "filesToCheck": [
+    "src/challenges/10-stream-based-transfer-service/index.js"
+  ],
+  "skills": [
+    "streaming",
+    "large transfer handling"
+  ],
+  "patternsRequired": [
+    "streamPipeline"
+  ]
+}

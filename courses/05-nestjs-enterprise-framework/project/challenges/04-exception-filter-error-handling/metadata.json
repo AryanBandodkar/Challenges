@@ -1,0 +1,18 @@
+{
+  "challengeId": "04-exception-filter-error-handling",
+  "challengeName": "Exception Filter Error Handling",
+  "moduleId": "m1-nestjs-architecture-core-concepts",
+  "moduleName": "NestJS Architecture & Core Concepts",
+  "difficulty": "intermediate",
+  "estimatedTime": "3 hours",
+  "filesToCheck": [
+    "src/challenges/04-exception-filter-error-handling/index.ts"
+  ],
+  "skills": [
+    "exception filters",
+    "error flow"
+  ],
+  "patternsRequired": [
+    "nestjsExceptionFilter"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "challengeId": "19-https-tls-api-hardening",
+  "challengeName": "HTTPS TLS API Hardening",
+  "moduleId": "m4-authentication-security",
+  "moduleName": "Authentication & Security",
+  "difficulty": "advanced",
+  "estimatedTime": "4 hours",
+  "filesToCheck": [
+    "src/challenges/19-https-tls-api-hardening/index.js"
+  ],
+  "skills": [
+    "HTTPS",
+    "SSL/TLS fundamentals"
+  ],
+  "patternsRequired": [
+    "httpsServer"
+  ]
+}

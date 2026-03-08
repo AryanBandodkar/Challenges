@@ -1,0 +1,20 @@
+{
+  "challengeId": "14-unit-e2e-mocking-strategy",
+  "challengeName": "Unit E2E Mocking Strategy",
+  "moduleId": "m5-testing-in-nestjs",
+  "moduleName": "Testing in NestJS",
+  "difficulty": "intermediate",
+  "estimatedTime": "4 hours",
+  "filesToCheck": [
+    "src/challenges/14-unit-e2e-mocking-strategy/index.ts"
+  ],
+  "skills": [
+    "unit tests",
+    "e2e tests",
+    "mocking"
+  ],
+  "patternsRequired": [
+    "jestDescribeIt",
+    "supertestRequest"
+  ]
+}

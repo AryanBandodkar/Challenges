@@ -1,0 +1,23 @@
+{
+  "challengeId": "03-array-methods-data-pipeline",
+  "challengeName": "Array Methods Data Pipeline",
+  "moduleId": "m1-modern-javascript-essentials",
+  "moduleName": "Modern JavaScript Essentials",
+  "difficulty": "beginner",
+  "estimatedTime": "3 hours",
+  "filesToCheck": [
+    "src/challenges/03-array-methods-data-pipeline/index.js"
+  ],
+  "skills": [
+    "map",
+    "filter",
+    "reduce",
+    "forEach",
+    "find"
+  ],
+  "patternsRequired": [
+    "arrayMap",
+    "arrayFilter",
+    "arrayReduce"
+  ]
+}

@@ -1,0 +1,527 @@
+[
+  {
+    "challengeId": "01-es6-syntax-foundations",
+    "challengeName": "ES6 Syntax Foundations",
+    "moduleId": "m1-modern-javascript-essentials",
+    "moduleName": "Modern JavaScript Essentials",
+    "score": 40,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 0,
+        "totalChecks": 1,
+        "passedChecks": 0,
+        "failedFiles": [
+          "src/challenges/01-es6-syntax-foundations/index.js"
+        ]
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 0,
+        "required": [
+          "arrowFunction",
+          "destructuring",
+          "spreadOperator"
+        ],
+        "found": [],
+        "missing": [
+          "arrowFunction",
+          "destructuring",
+          "spreadOperator"
+        ]
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "not_configured",
+        "hasUnit": false,
+        "hasE2E": false,
+        "unitCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\challenge-01-es6-syntax-foundations.test.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\challenge-01-es6-syntax-foundations.test.ts"
+        ],
+        "e2eCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\e2e\\challenge-01-es6-syntax-foundations.spec.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\e2e\\challenge-01-es6-syntax-foundations.spec.ts"
+        ],
+        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "skipped",
+        "strengths": [],
+        "improvements": [
+          "Code appears incomplete. AI review skipped until substantial implementation exists."
+        ]
+      }
+    },
+    "reviewedAt": "2026-03-08T07:45:56.227Z"
+  },
+  {
+    "challengeId": "02-template-literal-string-lab",
+    "challengeName": "Template Literal String Lab",
+    "moduleId": "m1-modern-javascript-essentials",
+    "moduleName": "Modern JavaScript Essentials",
+    "score": 40,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 0,
+        "totalChecks": 1,
+        "passedChecks": 0,
+        "failedFiles": [
+          "src/challenges/02-template-literal-string-lab/index.js"
+        ]
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 0,
+        "required": [
+          "templateLiteral"
+        ],
+        "found": [],
+        "missing": [
+          "templateLiteral"
+        ]
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "not_configured",
+        "hasUnit": false,
+        "hasE2E": false,
+        "unitCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\challenge-02-template-literal-string-lab.test.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\challenge-02-template-literal-string-lab.test.ts"
+        ],
+        "e2eCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\e2e\\challenge-02-template-literal-string-lab.spec.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\e2e\\challenge-02-template-literal-string-lab.spec.ts"
+        ],
+        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "skipped",
+        "strengths": [],
+        "improvements": [
+          "Code appears incomplete. AI review skipped until substantial implementation exists."
+        ]
+      }
+    },
+    "reviewedAt": "2026-03-08T07:45:56.230Z"
+  },
+  {
+    "challengeId": "03-array-methods-data-pipeline",
+    "challengeName": "Array Methods Data Pipeline",
+    "moduleId": "m1-modern-javascript-essentials",
+    "moduleName": "Modern JavaScript Essentials",
+    "score": 40,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 0,
+        "totalChecks": 1,
+        "passedChecks": 0,
+        "failedFiles": [
+          "src/challenges/03-array-methods-data-pipeline/index.js"
+        ]
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 0,
+        "required": [
+          "arrayMap",
+          "arrayFilter",
+          "arrayReduce"
+        ],
+        "found": [],
+        "missing": [
+          "arrayMap",
+          "arrayFilter",
+          "arrayReduce"
+        ]
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "not_configured",
+        "hasUnit": false,
+        "hasE2E": false,
+        "unitCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\challenge-03-array-methods-data-pipeline.test.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\challenge-03-array-methods-data-pipeline.test.ts"
+        ],
+        "e2eCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\e2e\\challenge-03-array-methods-data-pipeline.spec.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\e2e\\challenge-03-array-methods-data-pipeline.spec.ts"
+        ],
+        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "skipped",
+        "strengths": [],
+        "improvements": [
+          "Code appears incomplete. AI review skipped until substantial implementation exists."
+        ]
+      }
+    },
+    "reviewedAt": "2026-03-08T07:45:56.231Z"
+  },
+  {
+    "challengeId": "04-oop-inheritance-refactor",
+    "challengeName": "OOP Inheritance Refactor",
+    "moduleId": "m1-modern-javascript-essentials",
+    "moduleName": "Modern JavaScript Essentials",
+    "score": 40,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 0,
+        "totalChecks": 1,
+        "passedChecks": 0,
+        "failedFiles": [
+          "src/challenges/04-oop-inheritance-refactor/index.js"
+        ]
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 0,
+        "required": [
+          "classSyntax",
+          "extendsKeyword"
+        ],
+        "found": [],
+        "missing": [
+          "classSyntax",
+          "extendsKeyword"
+        ]
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "not_configured",
+        "hasUnit": false,
+        "hasE2E": false,
+        "unitCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\challenge-04-oop-inheritance-refactor.test.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\challenge-04-oop-inheritance-refactor.test.ts"
+        ],
+        "e2eCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\e2e\\challenge-04-oop-inheritance-refactor.spec.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\e2e\\challenge-04-oop-inheritance-refactor.spec.ts"
+        ],
+        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "skipped",
+        "strengths": [],
+        "improvements": [
+          "Code appears incomplete. AI review skipped until substantial implementation exists."
+        ]
+      }
+    },
+    "reviewedAt": "2026-03-08T07:45:56.233Z"
+  },
+  {
+    "challengeId": "05-module-system-conversion",
+    "challengeName": "Module System Conversion",
+    "moduleId": "m1-modern-javascript-essentials",
+    "moduleName": "Modern JavaScript Essentials",
+    "score": 45,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 0,
+        "totalChecks": 1,
+        "passedChecks": 0,
+        "failedFiles": [
+          "src/challenges/05-module-system-conversion/index.js"
+        ]
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 50,
+        "required": [
+          "importStatement",
+          "exportStatement"
+        ],
+        "found": [
+          "exportStatement"
+        ],
+        "missing": [
+          "importStatement"
+        ]
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "not_configured",
+        "hasUnit": false,
+        "hasE2E": false,
+        "unitCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\challenge-05-module-system-conversion.test.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\challenge-05-module-system-conversion.test.ts"
+        ],
+        "e2eCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\e2e\\challenge-05-module-system-conversion.spec.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\e2e\\challenge-05-module-system-conversion.spec.ts"
+        ],
+        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "skipped",
+        "strengths": [],
+        "improvements": [
+          "Code appears incomplete. AI review skipped until substantial implementation exists."
+        ]
+      }
+    },
+    "reviewedAt": "2026-03-08T07:45:56.234Z"
+  },
+  {
+    "challengeId": "06-callback-hell-rescue",
+    "challengeName": "Callback Hell Rescue",
+    "moduleId": "m2-asynchronous-javascript-mastery",
+    "moduleName": "Asynchronous JavaScript Mastery",
+    "score": 40,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 0,
+        "totalChecks": 1,
+        "passedChecks": 0,
+        "failedFiles": [
+          "src/challenges/06-callback-hell-rescue/index.js"
+        ]
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 0,
+        "required": [
+          "callbackFunction"
+        ],
+        "found": [],
+        "missing": [
+          "callbackFunction"
+        ]
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "not_configured",
+        "hasUnit": false,
+        "hasE2E": false,
+        "unitCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\challenge-06-callback-hell-rescue.test.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\challenge-06-callback-hell-rescue.test.ts"
+        ],
+        "e2eCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\e2e\\challenge-06-callback-hell-rescue.spec.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\e2e\\challenge-06-callback-hell-rescue.spec.ts"
+        ],
+        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "skipped",
+        "strengths": [],
+        "improvements": [
+          "Code appears incomplete. AI review skipped until substantial implementation exists."
+        ]
+      }
+    },
+    "reviewedAt": "2026-03-08T07:45:56.235Z"
+  },
+  {
+    "challengeId": "07-promises-chain-rejection-handling",
+    "challengeName": "Promises Chain Rejection Handling",
+    "moduleId": "m2-asynchronous-javascript-mastery",
+    "moduleName": "Asynchronous JavaScript Mastery",
+    "score": 40,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 0,
+        "totalChecks": 1,
+        "passedChecks": 0,
+        "failedFiles": [
+          "src/challenges/07-promises-chain-rejection-handling/index.js"
+        ]
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 0,
+        "required": [
+          "promiseUsage",
+          "promiseCatch"
+        ],
+        "found": [],
+        "missing": [
+          "promiseUsage",
+          "promiseCatch"
+        ]
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "not_configured",
+        "hasUnit": false,
+        "hasE2E": false,
+        "unitCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\challenge-07-promises-chain-rejection-handling.test.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\challenge-07-promises-chain-rejection-handling.test.ts"
+        ],
+        "e2eCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\e2e\\challenge-07-promises-chain-rejection-handling.spec.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\e2e\\challenge-07-promises-chain-rejection-handling.spec.ts"
+        ],
+        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "skipped",
+        "strengths": [],
+        "improvements": [
+          "Code appears incomplete. AI review skipped until substantial implementation exists."
+        ]
+      }
+    },
+    "reviewedAt": "2026-03-08T07:45:56.237Z"
+  },
+  {
+    "challengeId": "08-async-await-event-loop-diagnostics",
+    "challengeName": "Async Await Event Loop Diagnostics",
+    "moduleId": "m2-asynchronous-javascript-mastery",
+    "moduleName": "Asynchronous JavaScript Mastery",
+    "score": 40,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 0,
+        "totalChecks": 1,
+        "passedChecks": 0,
+        "failedFiles": [
+          "src/challenges/08-async-await-event-loop-diagnostics/index.js"
+        ]
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 0,
+        "required": [
+          "asyncFunction",
+          "awaitExpression",
+          "tryCatch",
+          "setTimeoutUsage"
+        ],
+        "found": [],
+        "missing": [
+          "asyncFunction",
+          "awaitExpression",
+          "tryCatch",
+          "setTimeoutUsage"
+        ]
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "not_configured",
+        "hasUnit": false,
+        "hasE2E": false,
+        "unitCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\challenge-08-async-await-event-loop-diagnostics.test.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\challenge-08-async-await-event-loop-diagnostics.test.ts"
+        ],
+        "e2eCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\e2e\\challenge-08-async-await-event-loop-diagnostics.spec.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\e2e\\challenge-08-async-await-event-loop-diagnostics.spec.ts"
+        ],
+        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "skipped",
+        "strengths": [],
+        "improvements": [
+          "Code appears incomplete. AI review skipped until substantial implementation exists."
+        ]
+      }
+    },
+    "reviewedAt": "2026-03-08T07:45:56.238Z"
+  }
+]

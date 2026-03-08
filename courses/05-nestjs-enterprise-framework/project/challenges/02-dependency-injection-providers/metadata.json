@@ -1,0 +1,18 @@
+{
+  "challengeId": "02-dependency-injection-providers",
+  "challengeName": "Dependency Injection Providers",
+  "moduleId": "m1-nestjs-architecture-core-concepts",
+  "moduleName": "NestJS Architecture & Core Concepts",
+  "difficulty": "beginner",
+  "estimatedTime": "3 hours",
+  "filesToCheck": [
+    "src/challenges/02-dependency-injection-providers/index.ts"
+  ],
+  "skills": [
+    "providers",
+    "dependency injection"
+  ],
+  "patternsRequired": [
+    "nestjsInjectable"
+  ]
+}

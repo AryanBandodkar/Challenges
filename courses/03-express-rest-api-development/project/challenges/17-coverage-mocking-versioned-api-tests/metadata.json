@@ -1,0 +1,19 @@
+{
+  "challengeId": "17-coverage-mocking-versioned-api-tests",
+  "challengeName": "Coverage Mocking Versioned API Tests",
+  "moduleId": "m5-api-documentation-testing",
+  "moduleName": "API Documentation & Testing",
+  "difficulty": "advanced",
+  "estimatedTime": "4 hours",
+  "filesToCheck": [
+    "src/challenges/17-coverage-mocking-versioned-api-tests/index.js"
+  ],
+  "skills": [
+    "coverage",
+    "mocking",
+    "API version test documentation"
+  ],
+  "patternsRequired": [
+    "supertestRequest"
+  ]
+}

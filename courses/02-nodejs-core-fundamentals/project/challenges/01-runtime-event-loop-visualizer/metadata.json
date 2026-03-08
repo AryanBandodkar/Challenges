@@ -1,0 +1,20 @@
+{
+  "challengeId": "01-runtime-event-loop-visualizer",
+  "challengeName": "Runtime Event Loop Visualizer",
+  "moduleId": "m1-node-architecture-core-apis",
+  "moduleName": "Node.js Architecture & Core APIs",
+  "difficulty": "beginner",
+  "estimatedTime": "3 hours",
+  "filesToCheck": [
+    "src/challenges/01-runtime-event-loop-visualizer/index.js"
+  ],
+  "skills": [
+    "V8 runtime",
+    "event loop phases",
+    "microtasks/macrotasks"
+  ],
+  "patternsRequired": [
+    "promiseUsage",
+    "setTimeoutUsage"
+  ]
+}

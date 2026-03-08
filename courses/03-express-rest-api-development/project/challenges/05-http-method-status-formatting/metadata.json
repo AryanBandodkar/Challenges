@@ -1,0 +1,19 @@
+{
+  "challengeId": "05-http-method-status-formatting",
+  "challengeName": "HTTP Method Status Formatting",
+  "moduleId": "m2-rest-api-design-implementation",
+  "moduleName": "REST API Design & Implementation",
+  "difficulty": "intermediate",
+  "estimatedTime": "3 hours",
+  "filesToCheck": [
+    "src/challenges/05-http-method-status-formatting/index.js"
+  ],
+  "skills": [
+    "HTTP methods",
+    "status codes",
+    "response formatting"
+  ],
+  "patternsRequired": [
+    "httpStatusUsage"
+  ]
+}

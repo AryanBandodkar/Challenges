@@ -1,0 +1,18 @@
+{
+  "challengeId": "04-tsconfig-node-setup",
+  "challengeName": "TSConfig Node Setup",
+  "moduleId": "m2-typescript-node-express",
+  "moduleName": "TypeScript with Node.js & Express",
+  "difficulty": "beginner",
+  "estimatedTime": "2 hours",
+  "filesToCheck": [
+    "src/challenges/04-tsconfig-node-setup/index.ts"
+  ],
+  "skills": [
+    "tsconfig",
+    "Node TypeScript setup"
+  ],
+  "patternsRequired": [
+    "tsConfigPresent"
+  ]
+}

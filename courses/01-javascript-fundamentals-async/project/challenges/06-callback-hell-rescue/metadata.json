@@ -1,0 +1,18 @@
+{
+  "challengeId": "06-callback-hell-rescue",
+  "challengeName": "Callback Hell Rescue",
+  "moduleId": "m2-asynchronous-javascript-mastery",
+  "moduleName": "Asynchronous JavaScript Mastery",
+  "difficulty": "intermediate",
+  "estimatedTime": "3 hours",
+  "filesToCheck": [
+    "src/challenges/06-callback-hell-rescue/index.js"
+  ],
+  "skills": [
+    "callbacks",
+    "control flow"
+  ],
+  "patternsRequired": [
+    "callbackFunction"
+  ]
+}

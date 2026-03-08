@@ -1,0 +1,20 @@
+{
+  "challengeId": "15-openapi-contract-documentation",
+  "challengeName": "OpenAPI Contract Documentation",
+  "moduleId": "m5-api-documentation-testing",
+  "moduleName": "API Documentation & Testing",
+  "difficulty": "beginner",
+  "estimatedTime": "3 hours",
+  "filesToCheck": [
+    "src/challenges/15-openapi-contract-documentation/index.js"
+  ],
+  "skills": [
+    "Swagger",
+    "OpenAPI",
+    "documentation",
+    "Postman/Insomnia validation"
+  ],
+  "patternsRequired": [
+    "openApiDoc"
+  ]
+}

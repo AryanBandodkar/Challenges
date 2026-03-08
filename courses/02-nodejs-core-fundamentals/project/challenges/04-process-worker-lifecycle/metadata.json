@@ -1,0 +1,22 @@
+{
+  "challengeId": "04-process-worker-lifecycle",
+  "challengeName": "Process Worker Lifecycle",
+  "moduleId": "m1-node-architecture-core-apis",
+  "moduleName": "Node.js Architecture & Core APIs",
+  "difficulty": "intermediate",
+  "estimatedTime": "4 hours",
+  "filesToCheck": [
+    "src/challenges/04-process-worker-lifecycle/index.js"
+  ],
+  "skills": [
+    "process.env",
+    "argv",
+    "exit codes",
+    "worker threads",
+    "child processes"
+  ],
+  "patternsRequired": [
+    "processUsage",
+    "childProcessUsage"
+  ]
+}

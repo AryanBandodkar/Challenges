@@ -1,0 +1,18 @@
+{
+  "challengeId": "10-refresh-token-api-key-auth",
+  "challengeName": "Refresh Token API Key Auth",
+  "moduleId": "m3-authentication-authorization",
+  "moduleName": "Authentication & Authorization",
+  "difficulty": "advanced",
+  "estimatedTime": "4 hours",
+  "filesToCheck": [
+    "src/challenges/10-refresh-token-api-key-auth/index.ts"
+  ],
+  "skills": [
+    "refresh token rotation",
+    "API key auth"
+  ],
+  "patternsRequired": [
+    "jwtSignVerify"
+  ]
+}

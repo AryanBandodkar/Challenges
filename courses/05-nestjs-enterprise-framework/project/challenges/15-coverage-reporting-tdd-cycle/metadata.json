@@ -1,0 +1,18 @@
+{
+  "challengeId": "15-coverage-reporting-tdd-cycle",
+  "challengeName": "Coverage Reporting TDD Cycle",
+  "moduleId": "m5-testing-in-nestjs",
+  "moduleName": "Testing in NestJS",
+  "difficulty": "advanced",
+  "estimatedTime": "4 hours",
+  "filesToCheck": [
+    "src/challenges/15-coverage-reporting-tdd-cycle/index.ts"
+  ],
+  "skills": [
+    "coverage reporting",
+    "TDD workflow"
+  ],
+  "patternsRequired": [
+    "jestDescribeIt"
+  ]
+}

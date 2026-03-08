@@ -1,0 +1,220 @@
+{
+  "courseId": "04-typescript-backend-development",
+  "courseName": "TypeScript for Backend Development",
+  "duration": "2-3 weeks",
+  "sourceExtension": "ts",
+  "modules": [
+    {
+      "id": "m1-typescript-essentials",
+      "name": "TypeScript Essentials",
+      "concepts": [
+        "Type annotations: primitives, arrays, objects, functions",
+        "Interfaces vs Types and when to use each",
+        "Enums, tuples, and union/intersection types",
+        "Generics for reusable type-safe code",
+        "Type guards and type narrowing",
+        "Utility types: Partial, Pick, Omit, Record"
+      ]
+    },
+    {
+      "id": "m2-typescript-node-express",
+      "name": "TypeScript with Node.js & Express",
+      "concepts": [
+        "tsconfig.json configuration for Node projects",
+        "Converting Express.js projects to TypeScript",
+        "Typing request, response, and middleware",
+        "Custom type definitions for libraries",
+        "Module resolution and path mapping",
+        "Development workflow with ts-node and nodemon"
+      ]
+    }
+  ],
+  "challenges": [
+    {
+      "id": "01-typed-primitives-functions",
+      "name": "Typed Primitives and Functions",
+      "moduleId": "m1-typescript-essentials",
+      "moduleName": "TypeScript Essentials",
+      "difficulty": "beginner",
+      "estimatedTime": "2 hours",
+      "skills": [
+        "type annotations",
+        "typed functions"
+      ],
+      "patternsRequired": [
+        "typeAnnotation"
+      ],
+      "filesToCheck": [
+        "src/challenges/01-typed-primitives-functions/index.ts"
+      ]
+    },
+    {
+      "id": "02-interfaces-types-unions",
+      "name": "Interfaces Types Unions",
+      "moduleId": "m1-typescript-essentials",
+      "moduleName": "TypeScript Essentials",
+      "difficulty": "beginner",
+      "estimatedTime": "3 hours",
+      "skills": [
+        "interfaces",
+        "types",
+        "unions",
+        "intersections",
+        "enums",
+        "tuples"
+      ],
+      "patternsRequired": [
+        "interfaceDeclaration",
+        "typeAlias",
+        "enumDeclaration",
+        "tupleType"
+      ],
+      "filesToCheck": [
+        "src/challenges/02-interfaces-types-unions/index.ts"
+      ]
+    },
+    {
+      "id": "03-generics-guards-utility-types",
+      "name": "Generics Guards Utility Types",
+      "moduleId": "m1-typescript-essentials",
+      "moduleName": "TypeScript Essentials",
+      "difficulty": "intermediate",
+      "estimatedTime": "3 hours",
+      "skills": [
+        "generics",
+        "type guards",
+        "utility types"
+      ],
+      "patternsRequired": [
+        "genericType",
+        "typeGuard"
+      ],
+      "filesToCheck": [
+        "src/challenges/03-generics-guards-utility-types/index.ts"
+      ]
+    },
+    {
+      "id": "04-tsconfig-node-setup",
+      "name": "TSConfig Node Setup",
+      "moduleId": "m2-typescript-node-express",
+      "moduleName": "TypeScript with Node.js & Express",
+      "difficulty": "beginner",
+      "estimatedTime": "2 hours",
+      "skills": [
+        "tsconfig",
+        "Node TypeScript setup"
+      ],
+      "patternsRequired": [
+        "tsConfigPresent"
+      ],
+      "filesToCheck": [
+        "src/challenges/04-tsconfig-node-setup/index.ts"
+      ]
+    },
+    {
+      "id": "05-typed-express-request-response",
+      "name": "Typed Express Request Response",
+      "moduleId": "m2-typescript-node-express",
+      "moduleName": "TypeScript with Node.js & Express",
+      "difficulty": "intermediate",
+      "estimatedTime": "3 hours",
+      "skills": [
+        "Request typing",
+        "Response typing",
+        "middleware typing"
+      ],
+      "patternsRequired": [
+        "expressTypeImport",
+        "typeAnnotation"
+      ],
+      "filesToCheck": [
+        "src/challenges/05-typed-express-request-response/index.ts"
+      ]
+    },
+    {
+      "id": "06-path-mapping-custom-types",
+      "name": "Path Mapping Custom Types",
+      "moduleId": "m2-typescript-node-express",
+      "moduleName": "TypeScript with Node.js & Express",
+      "difficulty": "intermediate",
+      "estimatedTime": "3 hours",
+      "skills": [
+        "custom type definitions",
+        "module resolution",
+        "path mapping"
+      ],
+      "patternsRequired": [
+        "pathAliasImport"
+      ],
+      "filesToCheck": [
+        "src/challenges/06-path-mapping-custom-types/index.ts"
+      ]
+    },
+    {
+      "id": "07-express-ts-migration-workflow",
+      "name": "Express TS Migration Workflow",
+      "moduleId": "m2-typescript-node-express",
+      "moduleName": "TypeScript with Node.js & Express",
+      "difficulty": "intermediate",
+      "estimatedTime": "4 hours",
+      "skills": [
+        "Express to TypeScript migration",
+        "ts-node",
+        "nodemon workflow"
+      ],
+      "patternsRequired": [
+        "tsNodeScript",
+        "nodemonScript"
+      ],
+      "filesToCheck": [
+        "src/challenges/07-express-ts-migration-workflow/index.ts",
+        "package.json"
+      ]
+    },
+    {
+      "id": "08-environment-schema-validation",
+      "name": "Environment Schema Validation",
+      "moduleId": "m2-typescript-node-express",
+      "moduleName": "TypeScript with Node.js & Express",
+      "difficulty": "intermediate",
+      "estimatedTime": "2 hours",
+      "skills": [
+        "runtime env validation",
+        "zod/joi schema",
+        "fail-fast configuration"
+      ],
+      "patternsRequired": [
+        "envSchemaValidation"
+      ],
+      "filesToCheck": [
+        "src/challenges/08-environment-schema-validation/index.ts"
+      ]
+    }
+  ],
+  "scoring": {
+    "functionalTests": 0.35,
+    "codeQuality": 0.15,
+    "architecture": 0.1,
+    "bestPractices": 0.1,
+    "e2eTests": 0.15,
+    "aiReview": 0.15
+  },
+  "requirements": {
+    "minScore": 80,
+    "minCompletion": 100
+  },
+  "badgeLevels": {
+    "gold": {
+      "minScore": 90,
+      "minCompletion": 100
+    },
+    "silver": {
+      "minScore": 75,
+      "minCompletion": 75
+    },
+    "bronze": {
+      "minScore": 60,
+      "minCompletion": 50
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "challengeId": "03-middleware-request-lifecycle",
+  "challengeName": "Middleware Request Lifecycle",
+  "moduleId": "m1-express-fundamentals",
+  "moduleName": "Express.js Fundamentals",
+  "difficulty": "intermediate",
+  "estimatedTime": "3 hours",
+  "filesToCheck": [
+    "src/challenges/03-middleware-request-lifecycle/index.js"
+  ],
+  "skills": [
+    "middleware",
+    "request/response cycle"
+  ],
+  "patternsRequired": [
+    "middlewareNext"
+  ]
+}

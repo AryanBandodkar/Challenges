@@ -1,0 +1,20 @@
+{
+  "challengeId": "05-module-system-conversion",
+  "challengeName": "Module System Conversion",
+  "moduleId": "m1-modern-javascript-essentials",
+  "moduleName": "Modern JavaScript Essentials",
+  "difficulty": "intermediate",
+  "estimatedTime": "2 hours",
+  "filesToCheck": [
+    "src/challenges/05-module-system-conversion/index.js"
+  ],
+  "skills": [
+    "import/export",
+    "CommonJS",
+    "ES modules"
+  ],
+  "patternsRequired": [
+    "importStatement",
+    "exportStatement"
+  ]
+}

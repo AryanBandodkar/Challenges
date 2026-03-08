@@ -1,0 +1,20 @@
+{
+  "challengeId": "05-package-json-governance",
+  "challengeName": "Package JSON Governance",
+  "moduleId": "m2-npm-package-management",
+  "moduleName": "NPM & Package Management",
+  "difficulty": "beginner",
+  "estimatedTime": "2 hours",
+  "filesToCheck": [
+    "src/challenges/05-package-json-governance/index.js"
+  ],
+  "skills": [
+    "package.json",
+    "dependencies",
+    "devDependencies",
+    "npm/yarn fundamentals"
+  ],
+  "patternsRequired": [
+    "npmScript"
+  ]
+}

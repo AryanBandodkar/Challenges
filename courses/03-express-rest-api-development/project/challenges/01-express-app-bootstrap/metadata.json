@@ -1,0 +1,18 @@
+{
+  "challengeId": "01-express-app-bootstrap",
+  "challengeName": "Express App Bootstrap",
+  "moduleId": "m1-express-fundamentals",
+  "moduleName": "Express.js Fundamentals",
+  "difficulty": "beginner",
+  "estimatedTime": "2 hours",
+  "filesToCheck": [
+    "src/challenges/01-express-app-bootstrap/index.js"
+  ],
+  "skills": [
+    "Express setup",
+    "app configuration"
+  ],
+  "patternsRequired": [
+    "expressApp"
+  ]
+}

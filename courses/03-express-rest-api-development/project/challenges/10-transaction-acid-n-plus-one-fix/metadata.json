@@ -1,0 +1,20 @@
+{
+  "challengeId": "10-transaction-acid-n-plus-one-fix",
+  "challengeName": "Transaction ACID N Plus One Fix",
+  "moduleId": "m3-database-integration",
+  "moduleName": "Database Integration",
+  "difficulty": "advanced",
+  "estimatedTime": "5 hours",
+  "filesToCheck": [
+    "src/challenges/10-transaction-acid-n-plus-one-fix/index.js"
+  ],
+  "skills": [
+    "transactions",
+    "ACID",
+    "query optimization",
+    "N+1 mitigation"
+  ],
+  "patternsRequired": [
+    "transactionUsage"
+  ]
+}

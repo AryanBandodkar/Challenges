@@ -1,0 +1,492 @@
+{
+  "courseId": "03-express-rest-api-development",
+  "courseName": "Express.js & RESTful API Development",
+  "duration": "5-6 weeks",
+  "sourceExtension": "js",
+  "modules": [
+    {
+      "id": "m1-express-fundamentals",
+      "name": "Express.js Fundamentals",
+      "concepts": [
+        "Express application setup and configuration",
+        "Routing: route parameters, query strings, route handlers",
+        "Middleware concepts: built-in, third-party, custom",
+        "Request/response cycle and middleware chain",
+        "Static file serving and template engines basics"
+      ]
+    },
+    {
+      "id": "m2-rest-api-design-implementation",
+      "name": "REST API Design & Implementation",
+      "concepts": [
+        "RESTful principles and resource design",
+        "HTTP methods: GET, POST, PUT, PATCH, DELETE",
+        "Status codes and proper response formatting",
+        "API versioning strategies",
+        "CORS configuration and handling",
+        "Content negotiation and Accept headers"
+      ]
+    },
+    {
+      "id": "m3-database-integration",
+      "name": "Database Integration",
+      "concepts": [
+        "PostgreSQL with pg or node-postgres: connection pooling, parameterized queries",
+        "MongoDB with Mongoose: schemas, models, validation, middleware",
+        "SQL vs NoSQL decision framework",
+        "Database design patterns: normalization, indexing strategies",
+        "Query optimization and N+1 problem solutions",
+        "Transactions and ACID compliance"
+      ]
+    },
+    {
+      "id": "m4-authentication-security",
+      "name": "Authentication & Security",
+      "concepts": [
+        "JWT (JSON Web Tokens): creation, verification, refresh tokens",
+        "Password hashing with bcrypt",
+        "Session management and cookies",
+        "OAuth 2.0 integration basics",
+        "HTTPS and SSL/TLS fundamentals",
+        "Input validation with Joi or Zod",
+        "SQL injection and XSS prevention",
+        "Rate limiting and DDoS protection"
+      ]
+    },
+    {
+      "id": "m5-api-documentation-testing",
+      "name": "API Documentation & Testing",
+      "concepts": [
+        "Postman/Insomnia for API testing",
+        "Swagger/OpenAPI specification",
+        "Writing unit tests with Jest",
+        "Integration testing for routes and database operations",
+        "Test coverage and mocking strategies",
+        "API versioning documentation"
+      ]
+    }
+  ],
+  "challenges": [
+    {
+      "id": "01-express-app-bootstrap",
+      "name": "Express App Bootstrap",
+      "moduleId": "m1-express-fundamentals",
+      "moduleName": "Express.js Fundamentals",
+      "difficulty": "beginner",
+      "estimatedTime": "2 hours",
+      "skills": [
+        "Express setup",
+        "app configuration"
+      ],
+      "patternsRequired": [
+        "expressApp"
+      ],
+      "filesToCheck": [
+        "src/challenges/01-express-app-bootstrap/index.js"
+      ]
+    },
+    {
+      "id": "02-routing-params-query-handlers",
+      "name": "Routing Params Query Handlers",
+      "moduleId": "m1-express-fundamentals",
+      "moduleName": "Express.js Fundamentals",
+      "difficulty": "beginner",
+      "estimatedTime": "3 hours",
+      "skills": [
+        "route params",
+        "query strings",
+        "route handlers"
+      ],
+      "patternsRequired": [
+        "expressRouter",
+        "routeParamUsage"
+      ],
+      "filesToCheck": [
+        "src/challenges/02-routing-params-query-handlers/index.js"
+      ]
+    },
+    {
+      "id": "03-middleware-request-lifecycle",
+      "name": "Middleware Request Lifecycle",
+      "moduleId": "m1-express-fundamentals",
+      "moduleName": "Express.js Fundamentals",
+      "difficulty": "intermediate",
+      "estimatedTime": "3 hours",
+      "skills": [
+        "middleware",
+        "request/response cycle"
+      ],
+      "patternsRequired": [
+        "middlewareNext"
+      ],
+      "filesToCheck": [
+        "src/challenges/03-middleware-request-lifecycle/index.js"
+      ]
+    },
+    {
+      "id": "04-rest-resource-design",
+      "name": "REST Resource Design",
+      "moduleId": "m2-rest-api-design-implementation",
+      "moduleName": "REST API Design & Implementation",
+      "difficulty": "intermediate",
+      "estimatedTime": "3 hours",
+      "skills": [
+        "RESTful design",
+        "resource modeling"
+      ],
+      "patternsRequired": [
+        "expressRouter"
+      ],
+      "filesToCheck": [
+        "src/challenges/04-rest-resource-design/index.js"
+      ]
+    },
+    {
+      "id": "05-http-method-status-formatting",
+      "name": "HTTP Method Status Formatting",
+      "moduleId": "m2-rest-api-design-implementation",
+      "moduleName": "REST API Design & Implementation",
+      "difficulty": "intermediate",
+      "estimatedTime": "3 hours",
+      "skills": [
+        "HTTP methods",
+        "status codes",
+        "response formatting"
+      ],
+      "patternsRequired": [
+        "httpStatusUsage"
+      ],
+      "filesToCheck": [
+        "src/challenges/05-http-method-status-formatting/index.js"
+      ]
+    },
+    {
+      "id": "06-versioning-cors-content-negotiation",
+      "name": "Versioning CORS Content Negotiation",
+      "moduleId": "m2-rest-api-design-implementation",
+      "moduleName": "REST API Design & Implementation",
+      "difficulty": "intermediate",
+      "estimatedTime": "4 hours",
+      "skills": [
+        "API versioning",
+        "CORS",
+        "content negotiation"
+      ],
+      "patternsRequired": [
+        "corsMiddleware"
+      ],
+      "filesToCheck": [
+        "src/challenges/06-versioning-cors-content-negotiation/index.js"
+      ]
+    },
+    {
+      "id": "07-postgres-pool-parameterized-queries",
+      "name": "Postgres Pool Parameterized Queries",
+      "moduleId": "m3-database-integration",
+      "moduleName": "Database Integration",
+      "difficulty": "intermediate",
+      "estimatedTime": "4 hours",
+      "skills": [
+        "pg pool",
+        "parameterized queries"
+      ],
+      "patternsRequired": [
+        "parameterizedQuery"
+      ],
+      "filesToCheck": [
+        "src/challenges/07-postgres-pool-parameterized-queries/index.js"
+      ]
+    },
+    {
+      "id": "08-mongoose-schema-model-validation",
+      "name": "Mongoose Schema Model Validation",
+      "moduleId": "m3-database-integration",
+      "moduleName": "Database Integration",
+      "difficulty": "intermediate",
+      "estimatedTime": "4 hours",
+      "skills": [
+        "Mongoose schema",
+        "validation",
+        "middleware"
+      ],
+      "patternsRequired": [
+        "mongooseSchema"
+      ],
+      "filesToCheck": [
+        "src/challenges/08-mongoose-schema-model-validation/index.js"
+      ]
+    },
+    {
+      "id": "09-sql-vs-nosql-design-review",
+      "name": "SQL vs NoSQL Design Review",
+      "moduleId": "m3-database-integration",
+      "moduleName": "Database Integration",
+      "difficulty": "intermediate",
+      "estimatedTime": "3 hours",
+      "skills": [
+        "SQL vs NoSQL",
+        "normalization",
+        "indexing"
+      ],
+      "patternsRequired": [],
+      "filesToCheck": [
+        "src/challenges/09-sql-vs-nosql-design-review/index.js"
+      ]
+    },
+    {
+      "id": "10-transaction-acid-n-plus-one-fix",
+      "name": "Transaction ACID N Plus One Fix",
+      "moduleId": "m3-database-integration",
+      "moduleName": "Database Integration",
+      "difficulty": "advanced",
+      "estimatedTime": "5 hours",
+      "skills": [
+        "transactions",
+        "ACID",
+        "query optimization",
+        "N+1 mitigation"
+      ],
+      "patternsRequired": [
+        "transactionUsage"
+      ],
+      "filesToCheck": [
+        "src/challenges/10-transaction-acid-n-plus-one-fix/index.js"
+      ]
+    },
+    {
+      "id": "11-jwt-refresh-token-auth",
+      "name": "JWT Refresh Token Auth",
+      "moduleId": "m4-authentication-security",
+      "moduleName": "Authentication & Security",
+      "difficulty": "intermediate",
+      "estimatedTime": "4 hours",
+      "skills": [
+        "JWT",
+        "refresh tokens",
+        "token verification"
+      ],
+      "patternsRequired": [
+        "jwtSignVerify"
+      ],
+      "filesToCheck": [
+        "src/challenges/11-jwt-refresh-token-auth/index.js"
+      ]
+    },
+    {
+      "id": "12-bcrypt-session-cookie-security",
+      "name": "Bcrypt Session Cookie Security",
+      "moduleId": "m4-authentication-security",
+      "moduleName": "Authentication & Security",
+      "difficulty": "intermediate",
+      "estimatedTime": "4 hours",
+      "skills": [
+        "bcrypt",
+        "sessions",
+        "cookies"
+      ],
+      "patternsRequired": [
+        "bcryptUsage"
+      ],
+      "filesToCheck": [
+        "src/challenges/12-bcrypt-session-cookie-security/index.js"
+      ]
+    },
+    {
+      "id": "13-oauth-validation-sanitization",
+      "name": "OAuth Validation Sanitization",
+      "moduleId": "m4-authentication-security",
+      "moduleName": "Authentication & Security",
+      "difficulty": "advanced",
+      "estimatedTime": "4 hours",
+      "skills": [
+        "OAuth2 basics",
+        "Joi/Zod validation",
+        "SQLi/XSS prevention"
+      ],
+      "patternsRequired": [
+        "inputValidation"
+      ],
+      "filesToCheck": [
+        "src/challenges/13-oauth-validation-sanitization/index.js"
+      ]
+    },
+    {
+      "id": "14-rate-limiting-ddos-protection",
+      "name": "Rate Limiting DDoS Protection",
+      "moduleId": "m4-authentication-security",
+      "moduleName": "Authentication & Security",
+      "difficulty": "advanced",
+      "estimatedTime": "3 hours",
+      "skills": [
+        "rate limiting",
+        "DDoS protection"
+      ],
+      "patternsRequired": [
+        "rateLimitMiddleware"
+      ],
+      "filesToCheck": [
+        "src/challenges/14-rate-limiting-ddos-protection/index.js"
+      ]
+    },
+    {
+      "id": "15-openapi-contract-documentation",
+      "name": "OpenAPI Contract Documentation",
+      "moduleId": "m5-api-documentation-testing",
+      "moduleName": "API Documentation & Testing",
+      "difficulty": "beginner",
+      "estimatedTime": "3 hours",
+      "skills": [
+        "Swagger",
+        "OpenAPI",
+        "documentation",
+        "Postman/Insomnia validation"
+      ],
+      "patternsRequired": [
+        "openApiDoc"
+      ],
+      "filesToCheck": [
+        "src/challenges/15-openapi-contract-documentation/index.js"
+      ]
+    },
+    {
+      "id": "16-jest-unit-integration-tests",
+      "name": "Jest Unit Integration Tests",
+      "moduleId": "m5-api-documentation-testing",
+      "moduleName": "API Documentation & Testing",
+      "difficulty": "intermediate",
+      "estimatedTime": "4 hours",
+      "skills": [
+        "Jest",
+        "unit tests",
+        "integration tests"
+      ],
+      "patternsRequired": [
+        "jestDescribeIt"
+      ],
+      "filesToCheck": [
+        "src/challenges/16-jest-unit-integration-tests/index.js"
+      ]
+    },
+    {
+      "id": "17-coverage-mocking-versioned-api-tests",
+      "name": "Coverage Mocking Versioned API Tests",
+      "moduleId": "m5-api-documentation-testing",
+      "moduleName": "API Documentation & Testing",
+      "difficulty": "advanced",
+      "estimatedTime": "4 hours",
+      "skills": [
+        "coverage",
+        "mocking",
+        "API version test documentation"
+      ],
+      "patternsRequired": [
+        "supertestRequest"
+      ],
+      "filesToCheck": [
+        "src/challenges/17-coverage-mocking-versioned-api-tests/index.js"
+      ]
+    },
+    {
+      "id": "18-static-files-template-engines",
+      "name": "Static Files and Template Engines",
+      "moduleId": "m1-express-fundamentals",
+      "moduleName": "Express.js Fundamentals",
+      "difficulty": "intermediate",
+      "estimatedTime": "3 hours",
+      "skills": [
+        "static file serving",
+        "template engine setup"
+      ],
+      "patternsRequired": [
+        "expressStaticServing",
+        "templateEngineSetup"
+      ],
+      "filesToCheck": [
+        "src/challenges/18-static-files-template-engines/index.js"
+      ]
+    },
+    {
+      "id": "19-https-tls-api-hardening",
+      "name": "HTTPS TLS API Hardening",
+      "moduleId": "m4-authentication-security",
+      "moduleName": "Authentication & Security",
+      "difficulty": "advanced",
+      "estimatedTime": "4 hours",
+      "skills": [
+        "HTTPS",
+        "SSL/TLS fundamentals"
+      ],
+      "patternsRequired": [
+        "httpsServer"
+      ],
+      "filesToCheck": [
+        "src/challenges/19-https-tls-api-hardening/index.js"
+      ]
+    },
+    {
+      "id": "20-health-readiness-endpoints",
+      "name": "Health and Readiness Endpoints",
+      "moduleId": "m1-express-fundamentals",
+      "moduleName": "Express.js Fundamentals",
+      "difficulty": "beginner",
+      "estimatedTime": "2 hours",
+      "skills": [
+        "health checks",
+        "readiness probes",
+        "operational endpoints"
+      ],
+      "patternsRequired": [
+        "healthEndpoint"
+      ],
+      "filesToCheck": [
+        "src/challenges/20-health-readiness-endpoints/index.js"
+      ]
+    },
+    {
+      "id": "21-pagination-sorting-filter-contract",
+      "name": "Pagination Sorting Filter Contract",
+      "moduleId": "m2-rest-api-design-implementation",
+      "moduleName": "REST API Design & Implementation",
+      "difficulty": "intermediate",
+      "estimatedTime": "3 hours",
+      "skills": [
+        "pagination",
+        "sorting",
+        "filter query contracts",
+        "response metadata"
+      ],
+      "patternsRequired": [
+        "paginationQueryHandling"
+      ],
+      "filesToCheck": [
+        "src/challenges/21-pagination-sorting-filter-contract/index.js"
+      ]
+    }
+  ],
+  "scoring": {
+    "functionalTests": 0.35,
+    "codeQuality": 0.15,
+    "architecture": 0.1,
+    "bestPractices": 0.1,
+    "e2eTests": 0.15,
+    "aiReview": 0.15
+  },
+  "requirements": {
+    "minScore": 80,
+    "minCompletion": 100
+  },
+  "badgeLevels": {
+    "gold": {
+      "minScore": 90,
+      "minCompletion": 100
+    },
+    "silver": {
+      "minScore": 75,
+      "minCompletion": 75
+    },
+    "bronze": {
+      "minScore": 60,
+      "minCompletion": 50
+    }
+  }
+}

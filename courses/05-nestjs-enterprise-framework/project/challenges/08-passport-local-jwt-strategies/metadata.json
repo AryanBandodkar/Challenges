@@ -1,0 +1,19 @@
+{
+  "challengeId": "08-passport-local-jwt-strategies",
+  "challengeName": "Passport Local JWT Strategies",
+  "moduleId": "m3-authentication-authorization",
+  "moduleName": "Authentication & Authorization",
+  "difficulty": "intermediate",
+  "estimatedTime": "4 hours",
+  "filesToCheck": [
+    "src/challenges/08-passport-local-jwt-strategies/index.ts"
+  ],
+  "skills": [
+    "Passport",
+    "local strategy",
+    "JWT strategy"
+  ],
+  "patternsRequired": [
+    "passportStrategy"
+  ]
+}

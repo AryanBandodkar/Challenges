@@ -1,0 +1,21 @@
+{
+  "challengeId": "01-nest-modules-controllers-services",
+  "challengeName": "Nest Modules Controllers Services",
+  "moduleId": "m1-nestjs-architecture-core-concepts",
+  "moduleName": "NestJS Architecture & Core Concepts",
+  "difficulty": "beginner",
+  "estimatedTime": "3 hours",
+  "filesToCheck": [
+    "src/challenges/01-nest-modules-controllers-services/index.ts"
+  ],
+  "skills": [
+    "modules",
+    "controllers",
+    "services"
+  ],
+  "patternsRequired": [
+    "nestjsModule",
+    "nestjsController",
+    "nestjsInjectable"
+  ]
+}

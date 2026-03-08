@@ -1,0 +1,18 @@
+{
+  "challengeId": "12-debug-and-log-observability",
+  "challengeName": "Debug and Log Observability",
+  "moduleId": "m4-error-handling-debugging",
+  "moduleName": "Error Handling & Debugging",
+  "difficulty": "intermediate",
+  "estimatedTime": "3 hours",
+  "filesToCheck": [
+    "src/challenges/12-debug-and-log-observability/index.js"
+  ],
+  "skills": [
+    "debugger workflow",
+    "logging best practices"
+  ],
+  "patternsRequired": [
+    "loggerPattern"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "challengeId": "05-custom-decorators-metadata-reflection",
+  "challengeName": "Custom Decorators Metadata Reflection",
+  "moduleId": "m2-advanced-nestjs-features",
+  "moduleName": "Advanced NestJS Features",
+  "difficulty": "intermediate",
+  "estimatedTime": "4 hours",
+  "filesToCheck": [
+    "src/challenges/05-custom-decorators-metadata-reflection/index.ts"
+  ],
+  "skills": [
+    "custom decorators",
+    "metadata reflection"
+  ],
+  "patternsRequired": [
+    "nestjsDecorator"
+  ]
+}

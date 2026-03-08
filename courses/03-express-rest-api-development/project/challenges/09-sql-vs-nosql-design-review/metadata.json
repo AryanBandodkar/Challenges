@@ -1,0 +1,17 @@
+{
+  "challengeId": "09-sql-vs-nosql-design-review",
+  "challengeName": "SQL vs NoSQL Design Review",
+  "moduleId": "m3-database-integration",
+  "moduleName": "Database Integration",
+  "difficulty": "intermediate",
+  "estimatedTime": "3 hours",
+  "filesToCheck": [
+    "src/challenges/09-sql-vs-nosql-design-review/index.js"
+  ],
+  "skills": [
+    "SQL vs NoSQL",
+    "normalization",
+    "indexing"
+  ],
+  "patternsRequired": []
+}

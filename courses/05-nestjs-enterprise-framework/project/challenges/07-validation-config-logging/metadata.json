@@ -1,0 +1,19 @@
+{
+  "challengeId": "07-validation-config-logging",
+  "challengeName": "Validation Config Logging",
+  "moduleId": "m2-advanced-nestjs-features",
+  "moduleName": "Advanced NestJS Features",
+  "difficulty": "intermediate",
+  "estimatedTime": "4 hours",
+  "filesToCheck": [
+    "src/challenges/07-validation-config-logging/index.ts"
+  ],
+  "skills": [
+    "class-validator",
+    "@nestjs/config",
+    "logging"
+  ],
+  "patternsRequired": [
+    "classValidatorUsage"
+  ]
+}

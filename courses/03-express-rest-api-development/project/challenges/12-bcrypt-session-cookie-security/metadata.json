@@ -1,0 +1,19 @@
+{
+  "challengeId": "12-bcrypt-session-cookie-security",
+  "challengeName": "Bcrypt Session Cookie Security",
+  "moduleId": "m4-authentication-security",
+  "moduleName": "Authentication & Security",
+  "difficulty": "intermediate",
+  "estimatedTime": "4 hours",
+  "filesToCheck": [
+    "src/challenges/12-bcrypt-session-cookie-security/index.js"
+  ],
+  "skills": [
+    "bcrypt",
+    "sessions",
+    "cookies"
+  ],
+  "patternsRequired": [
+    "bcryptUsage"
+  ]
+}

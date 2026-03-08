@@ -1,0 +1,18 @@
+{
+  "challengeId": "16-service-discovery-basics",
+  "challengeName": "Service Discovery Basics",
+  "moduleId": "m4-microservices-communication",
+  "moduleName": "Microservices & Communication",
+  "difficulty": "advanced",
+  "estimatedTime": "4 hours",
+  "filesToCheck": [
+    "src/challenges/16-service-discovery-basics/index.ts"
+  ],
+  "skills": [
+    "service discovery basics",
+    "service registry patterns"
+  ],
+  "patternsRequired": [
+    "serviceDiscoveryPattern"
+  ]
+}

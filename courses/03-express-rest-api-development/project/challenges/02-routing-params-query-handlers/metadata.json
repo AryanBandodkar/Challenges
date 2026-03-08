@@ -1,0 +1,20 @@
+{
+  "challengeId": "02-routing-params-query-handlers",
+  "challengeName": "Routing Params Query Handlers",
+  "moduleId": "m1-express-fundamentals",
+  "moduleName": "Express.js Fundamentals",
+  "difficulty": "beginner",
+  "estimatedTime": "3 hours",
+  "filesToCheck": [
+    "src/challenges/02-routing-params-query-handlers/index.js"
+  ],
+  "skills": [
+    "route params",
+    "query strings",
+    "route handlers"
+  ],
+  "patternsRequired": [
+    "expressRouter",
+    "routeParamUsage"
+  ]
+}

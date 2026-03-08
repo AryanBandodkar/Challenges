@@ -1,0 +1,25 @@
+{
+  "challengeId": "02-interfaces-types-unions",
+  "challengeName": "Interfaces Types Unions",
+  "moduleId": "m1-typescript-essentials",
+  "moduleName": "TypeScript Essentials",
+  "difficulty": "beginner",
+  "estimatedTime": "3 hours",
+  "filesToCheck": [
+    "src/challenges/02-interfaces-types-unions/index.ts"
+  ],
+  "skills": [
+    "interfaces",
+    "types",
+    "unions",
+    "intersections",
+    "enums",
+    "tuples"
+  ],
+  "patternsRequired": [
+    "interfaceDeclaration",
+    "typeAlias",
+    "enumDeclaration",
+    "tupleType"
+  ]
+}

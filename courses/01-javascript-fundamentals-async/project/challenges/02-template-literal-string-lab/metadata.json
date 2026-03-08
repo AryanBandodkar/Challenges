@@ -1,0 +1,18 @@
+{
+  "challengeId": "02-template-literal-string-lab",
+  "challengeName": "Template Literal String Lab",
+  "moduleId": "m1-modern-javascript-essentials",
+  "moduleName": "Modern JavaScript Essentials",
+  "difficulty": "beginner",
+  "estimatedTime": "2 hours",
+  "filesToCheck": [
+    "src/challenges/02-template-literal-string-lab/index.js"
+  ],
+  "skills": [
+    "template literals",
+    "string manipulation"
+  ],
+  "patternsRequired": [
+    "templateLiteral"
+  ]
+}

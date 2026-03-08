@@ -1,0 +1,62 @@
+{
+  "pathwayName": "Node.js Backend Engineer",
+  "pathwayVersion": "1.0.0",
+  "overallScore": 41.6,
+  "completionPercentage": 0,
+  "badgeLevel": "none",
+  "totalChallenges": 69,
+  "completedChallenges": 0,
+  "courses": [
+    {
+      "id": "01-javascript-fundamentals-async",
+      "name": "JavaScript Fundamentals & Async Programming",
+      "weight": 0.15,
+      "averageScore": 40.63,
+      "completionPercentage": 0,
+      "totalChallenges": 8,
+      "completedChallenges": 0,
+      "badgeLevel": "none"
+    },
+    {
+      "id": "02-nodejs-core-fundamentals",
+      "name": "Node.js Core Fundamentals",
+      "weight": 0.2,
+      "averageScore": 41,
+      "completionPercentage": 0,
+      "totalChallenges": 15,
+      "completedChallenges": 0,
+      "badgeLevel": "none"
+    },
+    {
+      "id": "03-express-rest-api-development",
+      "name": "Express.js & RESTful API Development",
+      "weight": 0.25,
+      "averageScore": 41.43,
+      "completionPercentage": 0,
+      "totalChallenges": 21,
+      "completedChallenges": 0,
+      "badgeLevel": "none"
+    },
+    {
+      "id": "04-typescript-backend-development",
+      "name": "TypeScript for Backend Development",
+      "weight": 0.1,
+      "averageScore": 45.94,
+      "completionPercentage": 0,
+      "totalChallenges": 8,
+      "completedChallenges": 0,
+      "badgeLevel": "none"
+    },
+    {
+      "id": "05-nestjs-enterprise-framework",
+      "name": "NestJS Enterprise Framework",
+      "weight": 0.3,
+      "averageScore": 41.18,
+      "completionPercentage": 0,
+      "totalChallenges": 17,
+      "completedChallenges": 0,
+      "badgeLevel": "none"
+    }
+  ],
+  "generatedAt": "2026-03-08T07:45:57.346Z"
+}

@@ -1,0 +1,18 @@
+{
+  "challengeId": "11-operational-vs-programmer-errors",
+  "challengeName": "Operational vs Programmer Errors",
+  "moduleId": "m4-error-handling-debugging",
+  "moduleName": "Error Handling & Debugging",
+  "difficulty": "intermediate",
+  "estimatedTime": "3 hours",
+  "filesToCheck": [
+    "src/challenges/11-operational-vs-programmer-errors/index.js"
+  ],
+  "skills": [
+    "error classification",
+    "global handlers"
+  ],
+  "patternsRequired": [
+    "tryCatch"
+  ]
+}

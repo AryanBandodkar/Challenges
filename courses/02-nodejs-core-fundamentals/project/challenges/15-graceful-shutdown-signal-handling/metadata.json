@@ -1,0 +1,20 @@
+{
+  "challengeId": "15-graceful-shutdown-signal-handling",
+  "challengeName": "Graceful Shutdown Signal Handling",
+  "moduleId": "m4-error-handling-debugging",
+  "moduleName": "Error Handling & Debugging",
+  "difficulty": "intermediate",
+  "estimatedTime": "3 hours",
+  "filesToCheck": [
+    "src/challenges/15-graceful-shutdown-signal-handling/index.js"
+  ],
+  "skills": [
+    "SIGTERM/SIGINT handling",
+    "graceful shutdown",
+    "resource cleanup"
+  ],
+  "patternsRequired": [
+    "signalHandler",
+    "gracefulShutdown"
+  ]
+}

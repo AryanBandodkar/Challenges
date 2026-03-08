@@ -1,0 +1,960 @@
+[
+  {
+    "challengeId": "01-runtime-event-loop-visualizer",
+    "challengeName": "Runtime Event Loop Visualizer",
+    "moduleId": "m1-node-architecture-core-apis",
+    "moduleName": "Node.js Architecture & Core APIs",
+    "score": 40,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 0,
+        "totalChecks": 1,
+        "passedChecks": 0,
+        "failedFiles": [
+          "src/challenges/01-runtime-event-loop-visualizer/index.js"
+        ]
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 0,
+        "required": [
+          "promiseUsage",
+          "setTimeoutUsage"
+        ],
+        "found": [],
+        "missing": [
+          "promiseUsage",
+          "setTimeoutUsage"
+        ]
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "not_configured",
+        "hasUnit": false,
+        "hasE2E": false,
+        "unitCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-01-runtime-event-loop-visualizer.test.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-01-runtime-event-loop-visualizer.test.ts"
+        ],
+        "e2eCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-01-runtime-event-loop-visualizer.spec.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-01-runtime-event-loop-visualizer.spec.ts"
+        ],
+        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "skipped",
+        "strengths": [],
+        "improvements": [
+          "Code appears incomplete. AI review skipped until substantial implementation exists."
+        ]
+      }
+    },
+    "reviewedAt": "2026-03-08T07:45:56.246Z"
+  },
+  {
+    "challengeId": "02-fs-stream-buffer-operations",
+    "challengeName": "FS Stream Buffer Operations",
+    "moduleId": "m1-node-architecture-core-apis",
+    "moduleName": "Node.js Architecture & Core APIs",
+    "score": 40,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 0,
+        "totalChecks": 1,
+        "passedChecks": 0,
+        "failedFiles": [
+          "src/challenges/02-fs-stream-buffer-operations/index.js"
+        ]
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 0,
+        "required": [
+          "fsModuleImport",
+          "streamPipeline"
+        ],
+        "found": [],
+        "missing": [
+          "fsModuleImport",
+          "streamPipeline"
+        ]
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "not_configured",
+        "hasUnit": false,
+        "hasE2E": false,
+        "unitCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-02-fs-stream-buffer-operations.test.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-02-fs-stream-buffer-operations.test.ts"
+        ],
+        "e2eCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-02-fs-stream-buffer-operations.spec.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-02-fs-stream-buffer-operations.spec.ts"
+        ],
+        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "skipped",
+        "strengths": [],
+        "improvements": [
+          "Code appears incomplete. AI review skipped until substantial implementation exists."
+        ]
+      }
+    },
+    "reviewedAt": "2026-03-08T07:45:56.248Z"
+  },
+  {
+    "challengeId": "03-path-os-cross-platform-cli",
+    "challengeName": "Path OS Cross Platform CLI",
+    "moduleId": "m1-node-architecture-core-apis",
+    "moduleName": "Node.js Architecture & Core APIs",
+    "score": 40,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 0,
+        "totalChecks": 1,
+        "passedChecks": 0,
+        "failedFiles": [
+          "src/challenges/03-path-os-cross-platform-cli/index.js"
+        ]
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 0,
+        "required": [
+          "pathModuleImport",
+          "osModuleImport"
+        ],
+        "found": [],
+        "missing": [
+          "pathModuleImport",
+          "osModuleImport"
+        ]
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "not_configured",
+        "hasUnit": false,
+        "hasE2E": false,
+        "unitCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-03-path-os-cross-platform-cli.test.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-03-path-os-cross-platform-cli.test.ts"
+        ],
+        "e2eCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-03-path-os-cross-platform-cli.spec.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-03-path-os-cross-platform-cli.spec.ts"
+        ],
+        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "skipped",
+        "strengths": [],
+        "improvements": [
+          "Code appears incomplete. AI review skipped until substantial implementation exists."
+        ]
+      }
+    },
+    "reviewedAt": "2026-03-08T07:45:56.249Z"
+  },
+  {
+    "challengeId": "04-process-worker-lifecycle",
+    "challengeName": "Process Worker Lifecycle",
+    "moduleId": "m1-node-architecture-core-apis",
+    "moduleName": "Node.js Architecture & Core APIs",
+    "score": 40,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 0,
+        "totalChecks": 1,
+        "passedChecks": 0,
+        "failedFiles": [
+          "src/challenges/04-process-worker-lifecycle/index.js"
+        ]
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 0,
+        "required": [
+          "processUsage",
+          "childProcessUsage"
+        ],
+        "found": [],
+        "missing": [
+          "processUsage",
+          "childProcessUsage"
+        ]
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "not_configured",
+        "hasUnit": false,
+        "hasE2E": false,
+        "unitCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-04-process-worker-lifecycle.test.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-04-process-worker-lifecycle.test.ts"
+        ],
+        "e2eCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-04-process-worker-lifecycle.spec.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-04-process-worker-lifecycle.spec.ts"
+        ],
+        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "skipped",
+        "strengths": [],
+        "improvements": [
+          "Code appears incomplete. AI review skipped until substantial implementation exists."
+        ]
+      }
+    },
+    "reviewedAt": "2026-03-08T07:45:56.250Z"
+  },
+  {
+    "challengeId": "05-package-json-governance",
+    "challengeName": "Package JSON Governance",
+    "moduleId": "m2-npm-package-management",
+    "moduleName": "NPM & Package Management",
+    "score": 40,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 0,
+        "totalChecks": 1,
+        "passedChecks": 0,
+        "failedFiles": [
+          "src/challenges/05-package-json-governance/index.js"
+        ]
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 0,
+        "required": [
+          "npmScript"
+        ],
+        "found": [],
+        "missing": [
+          "npmScript"
+        ]
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "not_configured",
+        "hasUnit": false,
+        "hasE2E": false,
+        "unitCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-05-package-json-governance.test.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-05-package-json-governance.test.ts"
+        ],
+        "e2eCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-05-package-json-governance.spec.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-05-package-json-governance.spec.ts"
+        ],
+        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "skipped",
+        "strengths": [],
+        "improvements": [
+          "Code appears incomplete. AI review skipped until substantial implementation exists."
+        ]
+      }
+    },
+    "reviewedAt": "2026-03-08T07:45:56.252Z"
+  },
+  {
+    "challengeId": "06-semver-lockfile-policy",
+    "challengeName": "Semver Lockfile Policy",
+    "moduleId": "m2-npm-package-management",
+    "moduleName": "NPM & Package Management",
+    "score": 50,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 0,
+        "totalChecks": 1,
+        "passedChecks": 0,
+        "failedFiles": [
+          "src/challenges/06-semver-lockfile-policy/index.js"
+        ]
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 100,
+        "required": [],
+        "found": [],
+        "missing": []
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "not_configured",
+        "hasUnit": false,
+        "hasE2E": false,
+        "unitCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-06-semver-lockfile-policy.test.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-06-semver-lockfile-policy.test.ts"
+        ],
+        "e2eCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-06-semver-lockfile-policy.spec.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-06-semver-lockfile-policy.spec.ts"
+        ],
+        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "skipped",
+        "strengths": [],
+        "improvements": [
+          "Code appears incomplete. AI review skipped until substantial implementation exists."
+        ]
+      }
+    },
+    "reviewedAt": "2026-03-08T07:45:56.254Z"
+  },
+  {
+    "challengeId": "07-dotenv-script-automation",
+    "challengeName": "Dotenv Script Automation",
+    "moduleId": "m2-npm-package-management",
+    "moduleName": "NPM & Package Management",
+    "score": 40,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 0,
+        "totalChecks": 1,
+        "passedChecks": 0,
+        "failedFiles": [
+          "src/challenges/07-dotenv-script-automation/index.js"
+        ]
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 0,
+        "required": [
+          "dotenvConfig",
+          "processUsage"
+        ],
+        "found": [],
+        "missing": [
+          "dotenvConfig",
+          "processUsage"
+        ]
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "not_configured",
+        "hasUnit": false,
+        "hasE2E": false,
+        "unitCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-07-dotenv-script-automation.test.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-07-dotenv-script-automation.test.ts"
+        ],
+        "e2eCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-07-dotenv-script-automation.spec.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-07-dotenv-script-automation.spec.ts"
+        ],
+        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "skipped",
+        "strengths": [],
+        "improvements": [
+          "Code appears incomplete. AI review skipped until substantial implementation exists."
+        ]
+      }
+    },
+    "reviewedAt": "2026-03-08T07:45:56.255Z"
+  },
+  {
+    "challengeId": "08-native-http-routing-core",
+    "challengeName": "Native HTTP Routing Core",
+    "moduleId": "m3-http-network-programming",
+    "moduleName": "HTTP & Network Programming",
+    "score": 40,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 0,
+        "totalChecks": 1,
+        "passedChecks": 0,
+        "failedFiles": [
+          "src/challenges/08-native-http-routing-core/index.js"
+        ]
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 0,
+        "required": [
+          "httpCreateServer"
+        ],
+        "found": [],
+        "missing": [
+          "httpCreateServer"
+        ]
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "not_configured",
+        "hasUnit": false,
+        "hasE2E": false,
+        "unitCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-08-native-http-routing-core.test.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-08-native-http-routing-core.test.ts"
+        ],
+        "e2eCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-08-native-http-routing-core.spec.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-08-native-http-routing-core.spec.ts"
+        ],
+        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "skipped",
+        "strengths": [],
+        "improvements": [
+          "Code appears incomplete. AI review skipped until substantial implementation exists."
+        ]
+      }
+    },
+    "reviewedAt": "2026-03-08T07:45:56.256Z"
+  },
+  {
+    "challengeId": "09-query-headers-status-contract",
+    "challengeName": "Query Headers Status Contract",
+    "moduleId": "m3-http-network-programming",
+    "moduleName": "HTTP & Network Programming",
+    "score": 40,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 0,
+        "totalChecks": 1,
+        "passedChecks": 0,
+        "failedFiles": [
+          "src/challenges/09-query-headers-status-contract/index.js"
+        ]
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 0,
+        "required": [
+          "urlClassUsage",
+          "httpStatusUsage"
+        ],
+        "found": [],
+        "missing": [
+          "urlClassUsage",
+          "httpStatusUsage"
+        ]
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "not_configured",
+        "hasUnit": false,
+        "hasE2E": false,
+        "unitCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-09-query-headers-status-contract.test.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-09-query-headers-status-contract.test.ts"
+        ],
+        "e2eCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-09-query-headers-status-contract.spec.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-09-query-headers-status-contract.spec.ts"
+        ],
+        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "skipped",
+        "strengths": [],
+        "improvements": [
+          "Code appears incomplete. AI review skipped until substantial implementation exists."
+        ]
+      }
+    },
+    "reviewedAt": "2026-03-08T07:45:56.258Z"
+  },
+  {
+    "challengeId": "10-stream-based-transfer-service",
+    "challengeName": "Stream Based Transfer Service",
+    "moduleId": "m3-http-network-programming",
+    "moduleName": "HTTP & Network Programming",
+    "score": 40,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 0,
+        "totalChecks": 1,
+        "passedChecks": 0,
+        "failedFiles": [
+          "src/challenges/10-stream-based-transfer-service/index.js"
+        ]
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 0,
+        "required": [
+          "streamPipeline"
+        ],
+        "found": [],
+        "missing": [
+          "streamPipeline"
+        ]
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "not_configured",
+        "hasUnit": false,
+        "hasE2E": false,
+        "unitCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-10-stream-based-transfer-service.test.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-10-stream-based-transfer-service.test.ts"
+        ],
+        "e2eCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-10-stream-based-transfer-service.spec.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-10-stream-based-transfer-service.spec.ts"
+        ],
+        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "skipped",
+        "strengths": [],
+        "improvements": [
+          "Code appears incomplete. AI review skipped until substantial implementation exists."
+        ]
+      }
+    },
+    "reviewedAt": "2026-03-08T07:45:56.260Z"
+  },
+  {
+    "challengeId": "11-operational-vs-programmer-errors",
+    "challengeName": "Operational vs Programmer Errors",
+    "moduleId": "m4-error-handling-debugging",
+    "moduleName": "Error Handling & Debugging",
+    "score": 40,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 0,
+        "totalChecks": 1,
+        "passedChecks": 0,
+        "failedFiles": [
+          "src/challenges/11-operational-vs-programmer-errors/index.js"
+        ]
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 0,
+        "required": [
+          "tryCatch"
+        ],
+        "found": [],
+        "missing": [
+          "tryCatch"
+        ]
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "not_configured",
+        "hasUnit": false,
+        "hasE2E": false,
+        "unitCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-11-operational-vs-programmer-errors.test.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-11-operational-vs-programmer-errors.test.ts"
+        ],
+        "e2eCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-11-operational-vs-programmer-errors.spec.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-11-operational-vs-programmer-errors.spec.ts"
+        ],
+        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "skipped",
+        "strengths": [],
+        "improvements": [
+          "Code appears incomplete. AI review skipped until substantial implementation exists."
+        ]
+      }
+    },
+    "reviewedAt": "2026-03-08T07:45:56.261Z"
+  },
+  {
+    "challengeId": "12-debug-and-log-observability",
+    "challengeName": "Debug and Log Observability",
+    "moduleId": "m4-error-handling-debugging",
+    "moduleName": "Error Handling & Debugging",
+    "score": 40,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 0,
+        "totalChecks": 1,
+        "passedChecks": 0,
+        "failedFiles": [
+          "src/challenges/12-debug-and-log-observability/index.js"
+        ]
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 0,
+        "required": [
+          "loggerPattern"
+        ],
+        "found": [],
+        "missing": [
+          "loggerPattern"
+        ]
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "not_configured",
+        "hasUnit": false,
+        "hasE2E": false,
+        "unitCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-12-debug-and-log-observability.test.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-12-debug-and-log-observability.test.ts"
+        ],
+        "e2eCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-12-debug-and-log-observability.spec.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-12-debug-and-log-observability.spec.ts"
+        ],
+        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "skipped",
+        "strengths": [],
+        "improvements": [
+          "Code appears incomplete. AI review skipped until substantial implementation exists."
+        ]
+      }
+    },
+    "reviewedAt": "2026-03-08T07:45:56.262Z"
+  },
+  {
+    "challengeId": "13-environment-specific-configuration",
+    "challengeName": "Environment Specific Configuration",
+    "moduleId": "m4-error-handling-debugging",
+    "moduleName": "Error Handling & Debugging",
+    "score": 40,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 0,
+        "totalChecks": 1,
+        "passedChecks": 0,
+        "failedFiles": [
+          "src/challenges/13-environment-specific-configuration/index.js"
+        ]
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 0,
+        "required": [
+          "dotenvConfig",
+          "processUsage"
+        ],
+        "found": [],
+        "missing": [
+          "dotenvConfig",
+          "processUsage"
+        ]
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "not_configured",
+        "hasUnit": false,
+        "hasE2E": false,
+        "unitCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-13-environment-specific-configuration.test.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-13-environment-specific-configuration.test.ts"
+        ],
+        "e2eCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-13-environment-specific-configuration.spec.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-13-environment-specific-configuration.spec.ts"
+        ],
+        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "skipped",
+        "strengths": [],
+        "improvements": [
+          "Code appears incomplete. AI review skipped until substantial implementation exists."
+        ]
+      }
+    },
+    "reviewedAt": "2026-03-08T07:45:56.263Z"
+  },
+  {
+    "challengeId": "14-utility-libraries-and-package-publishing",
+    "challengeName": "Utility Libraries and Package Publishing",
+    "moduleId": "m2-npm-package-management",
+    "moduleName": "NPM & Package Management",
+    "score": 40,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 0,
+        "totalChecks": 1,
+        "passedChecks": 0,
+        "failedFiles": [
+          "src/challenges/14-utility-libraries-and-package-publishing/index.js"
+        ]
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 0,
+        "required": [
+          "npmScript"
+        ],
+        "found": [],
+        "missing": [
+          "npmScript"
+        ]
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "not_configured",
+        "hasUnit": false,
+        "hasE2E": false,
+        "unitCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-14-utility-libraries-and-package-publishing.test.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-14-utility-libraries-and-package-publishing.test.ts"
+        ],
+        "e2eCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-14-utility-libraries-and-package-publishing.spec.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-14-utility-libraries-and-package-publishing.spec.ts"
+        ],
+        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "skipped",
+        "strengths": [],
+        "improvements": [
+          "Code appears incomplete. AI review skipped until substantial implementation exists."
+        ]
+      }
+    },
+    "reviewedAt": "2026-03-08T07:45:56.264Z"
+  },
+  {
+    "challengeId": "15-graceful-shutdown-signal-handling",
+    "challengeName": "Graceful Shutdown Signal Handling",
+    "moduleId": "m4-error-handling-debugging",
+    "moduleName": "Error Handling & Debugging",
+    "score": 45,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 0,
+        "totalChecks": 1,
+        "passedChecks": 0,
+        "failedFiles": [
+          "src/challenges/15-graceful-shutdown-signal-handling/index.js"
+        ]
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 50,
+        "required": [
+          "signalHandler",
+          "gracefulShutdown"
+        ],
+        "found": [
+          "gracefulShutdown"
+        ],
+        "missing": [
+          "signalHandler"
+        ]
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "not_configured",
+        "hasUnit": false,
+        "hasE2E": false,
+        "unitCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-15-graceful-shutdown-signal-handling.test.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-15-graceful-shutdown-signal-handling.test.ts"
+        ],
+        "e2eCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-15-graceful-shutdown-signal-handling.spec.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-15-graceful-shutdown-signal-handling.spec.ts"
+        ],
+        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "skipped",
+        "strengths": [],
+        "improvements": [
+          "Code appears incomplete. AI review skipped until substantial implementation exists."
+        ]
+      }
+    },
+    "reviewedAt": "2026-03-08T07:45:56.265Z"
+  }
+]

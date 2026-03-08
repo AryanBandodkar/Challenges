@@ -1,0 +1,19 @@
+{
+  "challengeId": "17-request-id-logging-interceptor",
+  "challengeName": "Request ID Logging Interceptor",
+  "moduleId": "m2-advanced-nestjs-features",
+  "moduleName": "Advanced NestJS Features",
+  "difficulty": "intermediate",
+  "estimatedTime": "3 hours",
+  "filesToCheck": [
+    "src/challenges/17-request-id-logging-interceptor/index.ts"
+  ],
+  "skills": [
+    "request correlation id",
+    "structured logging context",
+    "interceptors"
+  ],
+  "patternsRequired": [
+    "requestIdInterceptor"
+  ]
+}

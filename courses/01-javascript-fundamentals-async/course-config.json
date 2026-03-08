@@ -1,0 +1,137 @@
+﻿{
+  "courseId": "01-javascript-fundamentals-async",
+  "courseName": "JavaScript Fundamentals & Async Programming",
+  "duration": "3-4 weeks",
+  "sourceExtension": "js",
+  "modules": [
+    {
+      "id": "m1-modern-javascript-essentials",
+      "name": "Modern JavaScript Essentials",
+      "concepts": [
+        "ES6+ syntax: let/const, arrow functions, destructuring, spread/rest operators",
+        "Template literals and string manipulation",
+        "Array methods: map, filter, reduce, forEach, find",
+        "Object-oriented programming: classes, inheritance, prototypes",
+        "Modules: import/export, CommonJS vs ES6 modules"
+      ]
+    },
+    {
+      "id": "m2-asynchronous-javascript-mastery",
+      "name": "Asynchronous JavaScript Mastery",
+      "concepts": [
+        "Understanding callbacks and callback hell",
+        "Promises: creation, chaining, error handling",
+        "Async/await syntax and best practices",
+        "Error handling patterns: try/catch, promise rejection",
+        "Event loop mechanics and non-blocking I/O concepts"
+      ]
+    }
+  ],
+  "challenges": [
+    {
+      "id": "01-es6-syntax-foundations",
+      "name": "ES6 Syntax Foundations",
+      "moduleId": "m1-modern-javascript-essentials",
+      "moduleName": "Modern JavaScript Essentials",
+      "difficulty": "beginner",
+      "estimatedTime": "2 hours",
+      "skills": ["let/const", "arrow functions", "destructuring", "spread/rest"],
+      "patternsRequired": ["arrowFunction", "destructuring", "spreadOperator"],
+      "filesToCheck": ["src/challenges/01-es6-syntax-foundations/index.js"]
+    },
+    {
+      "id": "02-template-literal-string-lab",
+      "name": "Template Literal String Lab",
+      "moduleId": "m1-modern-javascript-essentials",
+      "moduleName": "Modern JavaScript Essentials",
+      "difficulty": "beginner",
+      "estimatedTime": "2 hours",
+      "skills": ["template literals", "string manipulation"],
+      "patternsRequired": ["templateLiteral"],
+      "filesToCheck": ["src/challenges/02-template-literal-string-lab/index.js"]
+    },
+    {
+      "id": "03-array-methods-data-pipeline",
+      "name": "Array Methods Data Pipeline",
+      "moduleId": "m1-modern-javascript-essentials",
+      "moduleName": "Modern JavaScript Essentials",
+      "difficulty": "beginner",
+      "estimatedTime": "3 hours",
+      "skills": ["map", "filter", "reduce", "forEach", "find"],
+      "patternsRequired": ["arrayMap", "arrayFilter", "arrayReduce"],
+      "filesToCheck": ["src/challenges/03-array-methods-data-pipeline/index.js"]
+    },
+    {
+      "id": "04-oop-inheritance-refactor",
+      "name": "OOP Inheritance Refactor",
+      "moduleId": "m1-modern-javascript-essentials",
+      "moduleName": "Modern JavaScript Essentials",
+      "difficulty": "intermediate",
+      "estimatedTime": "3 hours",
+      "skills": ["classes", "inheritance", "prototypes"],
+      "patternsRequired": ["classSyntax", "extendsKeyword"],
+      "filesToCheck": ["src/challenges/04-oop-inheritance-refactor/index.js"]
+    },
+    {
+      "id": "05-module-system-conversion",
+      "name": "Module System Conversion",
+      "moduleId": "m1-modern-javascript-essentials",
+      "moduleName": "Modern JavaScript Essentials",
+      "difficulty": "intermediate",
+      "estimatedTime": "2 hours",
+      "skills": ["import/export", "CommonJS", "ES modules"],
+      "patternsRequired": ["importStatement", "exportStatement"],
+      "filesToCheck": ["src/challenges/05-module-system-conversion/index.js"]
+    },
+    {
+      "id": "06-callback-hell-rescue",
+      "name": "Callback Hell Rescue",
+      "moduleId": "m2-asynchronous-javascript-mastery",
+      "moduleName": "Asynchronous JavaScript Mastery",
+      "difficulty": "intermediate",
+      "estimatedTime": "3 hours",
+      "skills": ["callbacks", "control flow"],
+      "patternsRequired": ["callbackFunction"],
+      "filesToCheck": ["src/challenges/06-callback-hell-rescue/index.js"]
+    },
+    {
+      "id": "07-promises-chain-rejection-handling",
+      "name": "Promises Chain Rejection Handling",
+      "moduleId": "m2-asynchronous-javascript-mastery",
+      "moduleName": "Asynchronous JavaScript Mastery",
+      "difficulty": "intermediate",
+      "estimatedTime": "3 hours",
+      "skills": ["Promises", "chaining", "error handling"],
+      "patternsRequired": ["promiseUsage", "promiseCatch"],
+      "filesToCheck": ["src/challenges/07-promises-chain-rejection-handling/index.js"]
+    },
+    {
+      "id": "08-async-await-event-loop-diagnostics",
+      "name": "Async Await Event Loop Diagnostics",
+      "moduleId": "m2-asynchronous-javascript-mastery",
+      "moduleName": "Asynchronous JavaScript Mastery",
+      "difficulty": "intermediate",
+      "estimatedTime": "4 hours",
+      "skills": ["async/await", "try/catch", "event loop", "non-blocking I/O"],
+      "patternsRequired": ["asyncFunction", "awaitExpression", "tryCatch", "setTimeoutUsage"],
+      "filesToCheck": ["src/challenges/08-async-await-event-loop-diagnostics/index.js"]
+    }
+  ],
+  "scoring": {
+    "functionalTests": 0.35,
+    "codeQuality": 0.15,
+    "architecture": 0.1,
+    "bestPractices": 0.1,
+    "e2eTests": 0.15,
+    "aiReview": 0.15
+  },
+  "requirements": {
+    "minScore": 80,
+    "minCompletion": 100
+  },
+  "badgeLevels": {
+    "gold": { "minScore": 90, "minCompletion": 100 },
+    "silver": { "minScore": 75, "minCompletion": 75 },
+    "bronze": { "minScore": 60, "minCompletion": 50 }
+  }
+}

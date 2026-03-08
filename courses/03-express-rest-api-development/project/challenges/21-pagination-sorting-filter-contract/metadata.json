@@ -1,0 +1,20 @@
+{
+  "challengeId": "21-pagination-sorting-filter-contract",
+  "challengeName": "Pagination Sorting Filter Contract",
+  "moduleId": "m2-rest-api-design-implementation",
+  "moduleName": "REST API Design & Implementation",
+  "difficulty": "intermediate",
+  "estimatedTime": "3 hours",
+  "filesToCheck": [
+    "src/challenges/21-pagination-sorting-filter-contract/index.js"
+  ],
+  "skills": [
+    "pagination",
+    "sorting",
+    "filter query contracts",
+    "response metadata"
+  ],
+  "patternsRequired": [
+    "paginationQueryHandling"
+  ]
+}

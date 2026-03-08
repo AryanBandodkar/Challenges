@@ -1,0 +1,19 @@
+{
+  "challengeId": "11-jwt-refresh-token-auth",
+  "challengeName": "JWT Refresh Token Auth",
+  "moduleId": "m4-authentication-security",
+  "moduleName": "Authentication & Security",
+  "difficulty": "intermediate",
+  "estimatedTime": "4 hours",
+  "filesToCheck": [
+    "src/challenges/11-jwt-refresh-token-auth/index.js"
+  ],
+  "skills": [
+    "JWT",
+    "refresh tokens",
+    "token verification"
+  ],
+  "patternsRequired": [
+    "jwtSignVerify"
+  ]
+}

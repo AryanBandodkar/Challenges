@@ -1,0 +1,2484 @@
+{
+  "pathwayName": "Node.js Backend Engineer",
+  "pathwayVersion": "1.0.0",
+  "totals": {
+    "trackedSkills": 187,
+    "skillAppearances": 195,
+    "reviewedSkillAppearances": 195,
+    "passedSkillAppearances": 0
+  },
+  "topStrengths": [
+    "middleware",
+    "dotenv",
+    "guards",
+    "interceptors",
+    "mocking",
+    "status codes",
+    "unit tests",
+    "@nestjs/config",
+    "ACID",
+    "API key auth",
+    "API version test documentation",
+    "API versioning"
+  ],
+  "improvementAreas": [
+    "middleware",
+    "dotenv",
+    "guards",
+    "interceptors",
+    "mocking",
+    "status codes",
+    "unit tests",
+    "@nestjs/config",
+    "ACID",
+    "API key auth",
+    "API version test documentation",
+    "API versioning"
+  ],
+  "skills": [
+    {
+      "skill": "middleware",
+      "appearances": 3,
+      "reviewedChallenges": 3,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development",
+        "05-nestjs-enterprise-framework"
+      ],
+      "challengeIds": [
+        "03-middleware-guards-interceptors-pipes",
+        "03-middleware-request-lifecycle",
+        "08-mongoose-schema-model-validation"
+      ]
+    },
+    {
+      "skill": "dotenv",
+      "appearances": 2,
+      "reviewedChallenges": 2,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "02-nodejs-core-fundamentals"
+      ],
+      "challengeIds": [
+        "07-dotenv-script-automation",
+        "13-environment-specific-configuration"
+      ]
+    },
+    {
+      "skill": "guards",
+      "appearances": 2,
+      "reviewedChallenges": 2,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "05-nestjs-enterprise-framework"
+      ],
+      "challengeIds": [
+        "03-middleware-guards-interceptors-pipes",
+        "09-rbac-guards-route-protection"
+      ]
+    },
+    {
+      "skill": "interceptors",
+      "appearances": 2,
+      "reviewedChallenges": 2,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "05-nestjs-enterprise-framework"
+      ],
+      "challengeIds": [
+        "03-middleware-guards-interceptors-pipes",
+        "17-request-id-logging-interceptor"
+      ]
+    },
+    {
+      "skill": "mocking",
+      "appearances": 2,
+      "reviewedChallenges": 2,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development",
+        "05-nestjs-enterprise-framework"
+      ],
+      "challengeIds": [
+        "14-unit-e2e-mocking-strategy",
+        "17-coverage-mocking-versioned-api-tests"
+      ]
+    },
+    {
+      "skill": "status codes",
+      "appearances": 2,
+      "reviewedChallenges": 2,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "02-nodejs-core-fundamentals",
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "05-http-method-status-formatting",
+        "09-query-headers-status-contract"
+      ]
+    },
+    {
+      "skill": "unit tests",
+      "appearances": 2,
+      "reviewedChallenges": 2,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development",
+        "05-nestjs-enterprise-framework"
+      ],
+      "challengeIds": [
+        "14-unit-e2e-mocking-strategy",
+        "16-jest-unit-integration-tests"
+      ]
+    },
+    {
+      "skill": "@nestjs/config",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "05-nestjs-enterprise-framework"
+      ],
+      "challengeIds": [
+        "07-validation-config-logging"
+      ]
+    },
+    {
+      "skill": "ACID",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "10-transaction-acid-n-plus-one-fix"
+      ]
+    },
+    {
+      "skill": "API key auth",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "05-nestjs-enterprise-framework"
+      ],
+      "challengeIds": [
+        "10-refresh-token-api-key-auth"
+      ]
+    },
+    {
+      "skill": "API version test documentation",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "17-coverage-mocking-versioned-api-tests"
+      ]
+    },
+    {
+      "skill": "API versioning",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "06-versioning-cors-content-negotiation"
+      ]
+    },
+    {
+      "skill": "app configuration",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "01-express-app-bootstrap"
+      ]
+    },
+    {
+      "skill": "argv",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "02-nodejs-core-fundamentals"
+      ],
+      "challengeIds": [
+        "04-process-worker-lifecycle"
+      ]
+    },
+    {
+      "skill": "arrow functions",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "01-javascript-fundamentals-async"
+      ],
+      "challengeIds": [
+        "01-es6-syntax-foundations"
+      ]
+    },
+    {
+      "skill": "async/await",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "01-javascript-fundamentals-async"
+      ],
+      "challengeIds": [
+        "08-async-await-event-loop-diagnostics"
+      ]
+    },
+    {
+      "skill": "authorization",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "05-nestjs-enterprise-framework"
+      ],
+      "challengeIds": [
+        "09-rbac-guards-route-protection"
+      ]
+    },
+    {
+      "skill": "bcrypt",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "12-bcrypt-session-cookie-security"
+      ]
+    },
+    {
+      "skill": "buffers",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "02-nodejs-core-fundamentals"
+      ],
+      "challengeIds": [
+        "02-fs-stream-buffer-operations"
+      ]
+    },
+    {
+      "skill": "callbacks",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "01-javascript-fundamentals-async"
+      ],
+      "challengeIds": [
+        "06-callback-hell-rescue"
+      ]
+    },
+    {
+      "skill": "chaining",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "01-javascript-fundamentals-async"
+      ],
+      "challengeIds": [
+        "07-promises-chain-rejection-handling"
+      ]
+    },
+    {
+      "skill": "child processes",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "02-nodejs-core-fundamentals"
+      ],
+      "challengeIds": [
+        "04-process-worker-lifecycle"
+      ]
+    },
+    {
+      "skill": "class-validator",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "05-nestjs-enterprise-framework"
+      ],
+      "challengeIds": [
+        "07-validation-config-logging"
+      ]
+    },
+    {
+      "skill": "classes",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "01-javascript-fundamentals-async"
+      ],
+      "challengeIds": [
+        "04-oop-inheritance-refactor"
+      ]
+    },
+    {
+      "skill": "CommonJS",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "01-javascript-fundamentals-async"
+      ],
+      "challengeIds": [
+        "05-module-system-conversion"
+      ]
+    },
+    {
+      "skill": "content negotiation",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "06-versioning-cors-content-negotiation"
+      ]
+    },
+    {
+      "skill": "control flow",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "01-javascript-fundamentals-async"
+      ],
+      "challengeIds": [
+        "06-callback-hell-rescue"
+      ]
+    },
+    {
+      "skill": "controllers",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "05-nestjs-enterprise-framework"
+      ],
+      "challengeIds": [
+        "01-nest-modules-controllers-services"
+      ]
+    },
+    {
+      "skill": "cookies",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "12-bcrypt-session-cookie-security"
+      ]
+    },
+    {
+      "skill": "CORS",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "06-versioning-cors-content-negotiation"
+      ]
+    },
+    {
+      "skill": "coverage",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "17-coverage-mocking-versioned-api-tests"
+      ]
+    },
+    {
+      "skill": "coverage reporting",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "05-nestjs-enterprise-framework"
+      ],
+      "challengeIds": [
+        "15-coverage-reporting-tdd-cycle"
+      ]
+    },
+    {
+      "skill": "cross-platform compatibility",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "02-nodejs-core-fundamentals"
+      ],
+      "challengeIds": [
+        "03-path-os-cross-platform-cli"
+      ]
+    },
+    {
+      "skill": "custom decorators",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "05-nestjs-enterprise-framework"
+      ],
+      "challengeIds": [
+        "05-custom-decorators-metadata-reflection"
+      ]
+    },
+    {
+      "skill": "custom type definitions",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "04-typescript-backend-development"
+      ],
+      "challengeIds": [
+        "06-path-mapping-custom-types"
+      ]
+    },
+    {
+      "skill": "DDoS protection",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "14-rate-limiting-ddos-protection"
+      ]
+    },
+    {
+      "skill": "debugger workflow",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "02-nodejs-core-fundamentals"
+      ],
+      "challengeIds": [
+        "12-debug-and-log-observability"
+      ]
+    },
+    {
+      "skill": "dependencies",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "02-nodejs-core-fundamentals"
+      ],
+      "challengeIds": [
+        "05-package-json-governance"
+      ]
+    },
+    {
+      "skill": "dependency injection",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "05-nestjs-enterprise-framework"
+      ],
+      "challengeIds": [
+        "02-dependency-injection-providers"
+      ]
+    },
+    {
+      "skill": "destructuring",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "01-javascript-fundamentals-async"
+      ],
+      "challengeIds": [
+        "01-es6-syntax-foundations"
+      ]
+    },
+    {
+      "skill": "devDependencies",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "02-nodejs-core-fundamentals"
+      ],
+      "challengeIds": [
+        "05-package-json-governance"
+      ]
+    },
+    {
+      "skill": "documentation",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "15-openapi-contract-documentation"
+      ]
+    },
+    {
+      "skill": "e2e tests",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "05-nestjs-enterprise-framework"
+      ],
+      "challengeIds": [
+        "14-unit-e2e-mocking-strategy"
+      ]
+    },
+    {
+      "skill": "enums",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "04-typescript-backend-development"
+      ],
+      "challengeIds": [
+        "02-interfaces-types-unions"
+      ]
+    },
+    {
+      "skill": "environment-based behavior",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "02-nodejs-core-fundamentals"
+      ],
+      "challengeIds": [
+        "13-environment-specific-configuration"
+      ]
+    },
+    {
+      "skill": "error classification",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "02-nodejs-core-fundamentals"
+      ],
+      "challengeIds": [
+        "11-operational-vs-programmer-errors"
+      ]
+    },
+    {
+      "skill": "error flow",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "05-nestjs-enterprise-framework"
+      ],
+      "challengeIds": [
+        "04-exception-filter-error-handling"
+      ]
+    },
+    {
+      "skill": "error handling",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "01-javascript-fundamentals-async"
+      ],
+      "challengeIds": [
+        "07-promises-chain-rejection-handling"
+      ]
+    },
+    {
+      "skill": "ES modules",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "01-javascript-fundamentals-async"
+      ],
+      "challengeIds": [
+        "05-module-system-conversion"
+      ]
+    },
+    {
+      "skill": "event loop",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "01-javascript-fundamentals-async"
+      ],
+      "challengeIds": [
+        "08-async-await-event-loop-diagnostics"
+      ]
+    },
+    {
+      "skill": "event loop phases",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "02-nodejs-core-fundamentals"
+      ],
+      "challengeIds": [
+        "01-runtime-event-loop-visualizer"
+      ]
+    },
+    {
+      "skill": "event-driven architecture",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "05-nestjs-enterprise-framework"
+      ],
+      "challengeIds": [
+        "12-rabbitmq-redis-event-driven-flow"
+      ]
+    },
+    {
+      "skill": "exception filters",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "05-nestjs-enterprise-framework"
+      ],
+      "challengeIds": [
+        "04-exception-filter-error-handling"
+      ]
+    },
+    {
+      "skill": "exit codes",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "02-nodejs-core-fundamentals"
+      ],
+      "challengeIds": [
+        "04-process-worker-lifecycle"
+      ]
+    },
+    {
+      "skill": "Express setup",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "01-express-app-bootstrap"
+      ]
+    },
+    {
+      "skill": "Express to TypeScript migration",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "04-typescript-backend-development"
+      ],
+      "challengeIds": [
+        "07-express-ts-migration-workflow"
+      ]
+    },
+    {
+      "skill": "fail-fast configuration",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "04-typescript-backend-development"
+      ],
+      "challengeIds": [
+        "08-environment-schema-validation"
+      ]
+    },
+    {
+      "skill": "filter",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "01-javascript-fundamentals-async"
+      ],
+      "challengeIds": [
+        "03-array-methods-data-pipeline"
+      ]
+    },
+    {
+      "skill": "filter query contracts",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "21-pagination-sorting-filter-contract"
+      ]
+    },
+    {
+      "skill": "find",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "01-javascript-fundamentals-async"
+      ],
+      "challengeIds": [
+        "03-array-methods-data-pipeline"
+      ]
+    },
+    {
+      "skill": "forEach",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "01-javascript-fundamentals-async"
+      ],
+      "challengeIds": [
+        "03-array-methods-data-pipeline"
+      ]
+    },
+    {
+      "skill": "fs",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "02-nodejs-core-fundamentals"
+      ],
+      "challengeIds": [
+        "02-fs-stream-buffer-operations"
+      ]
+    },
+    {
+      "skill": "generics",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "04-typescript-backend-development"
+      ],
+      "challengeIds": [
+        "03-generics-guards-utility-types"
+      ]
+    },
+    {
+      "skill": "global handlers",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "02-nodejs-core-fundamentals"
+      ],
+      "challengeIds": [
+        "11-operational-vs-programmer-errors"
+      ]
+    },
+    {
+      "skill": "graceful shutdown",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "02-nodejs-core-fundamentals"
+      ],
+      "challengeIds": [
+        "15-graceful-shutdown-signal-handling"
+      ]
+    },
+    {
+      "skill": "gRPC",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "05-nestjs-enterprise-framework"
+      ],
+      "challengeIds": [
+        "13-grpc-rest-interservice-bridge"
+      ]
+    },
+    {
+      "skill": "headers",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "02-nodejs-core-fundamentals"
+      ],
+      "challengeIds": [
+        "09-query-headers-status-contract"
+      ]
+    },
+    {
+      "skill": "health checks",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "20-health-readiness-endpoints"
+      ]
+    },
+    {
+      "skill": "HTTP methods",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "05-http-method-status-formatting"
+      ]
+    },
+    {
+      "skill": "http server",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "02-nodejs-core-fundamentals"
+      ],
+      "challengeIds": [
+        "08-native-http-routing-core"
+      ]
+    },
+    {
+      "skill": "HTTPS",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "19-https-tls-api-hardening"
+      ]
+    },
+    {
+      "skill": "import/export",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "01-javascript-fundamentals-async"
+      ],
+      "challengeIds": [
+        "05-module-system-conversion"
+      ]
+    },
+    {
+      "skill": "indexing",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "09-sql-vs-nosql-design-review"
+      ]
+    },
+    {
+      "skill": "inheritance",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "01-javascript-fundamentals-async"
+      ],
+      "challengeIds": [
+        "04-oop-inheritance-refactor"
+      ]
+    },
+    {
+      "skill": "integration tests",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "16-jest-unit-integration-tests"
+      ]
+    },
+    {
+      "skill": "interfaces",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "04-typescript-backend-development"
+      ],
+      "challengeIds": [
+        "02-interfaces-types-unions"
+      ]
+    },
+    {
+      "skill": "intersections",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "04-typescript-backend-development"
+      ],
+      "challengeIds": [
+        "02-interfaces-types-unions"
+      ]
+    },
+    {
+      "skill": "Jest",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "16-jest-unit-integration-tests"
+      ]
+    },
+    {
+      "skill": "Joi/Zod validation",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "13-oauth-validation-sanitization"
+      ]
+    },
+    {
+      "skill": "JWT",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "11-jwt-refresh-token-auth"
+      ]
+    },
+    {
+      "skill": "JWT strategy",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "05-nestjs-enterprise-framework"
+      ],
+      "challengeIds": [
+        "08-passport-local-jwt-strategies"
+      ]
+    },
+    {
+      "skill": "large transfer handling",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "02-nodejs-core-fundamentals"
+      ],
+      "challengeIds": [
+        "10-stream-based-transfer-service"
+      ]
+    },
+    {
+      "skill": "let/const",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "01-javascript-fundamentals-async"
+      ],
+      "challengeIds": [
+        "01-es6-syntax-foundations"
+      ]
+    },
+    {
+      "skill": "local strategy",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "05-nestjs-enterprise-framework"
+      ],
+      "challengeIds": [
+        "08-passport-local-jwt-strategies"
+      ]
+    },
+    {
+      "skill": "lodash/dayjs usage",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "02-nodejs-core-fundamentals"
+      ],
+      "challengeIds": [
+        "14-utility-libraries-and-package-publishing"
+      ]
+    },
+    {
+      "skill": "logging",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "05-nestjs-enterprise-framework"
+      ],
+      "challengeIds": [
+        "07-validation-config-logging"
+      ]
+    },
+    {
+      "skill": "logging best practices",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "02-nodejs-core-fundamentals"
+      ],
+      "challengeIds": [
+        "12-debug-and-log-observability"
+      ]
+    },
+    {
+      "skill": "map",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "01-javascript-fundamentals-async"
+      ],
+      "challengeIds": [
+        "03-array-methods-data-pipeline"
+      ]
+    },
+    {
+      "skill": "message queues",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "05-nestjs-enterprise-framework"
+      ],
+      "challengeIds": [
+        "12-rabbitmq-redis-event-driven-flow"
+      ]
+    },
+    {
+      "skill": "metadata reflection",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "05-nestjs-enterprise-framework"
+      ],
+      "challengeIds": [
+        "05-custom-decorators-metadata-reflection"
+      ]
+    },
+    {
+      "skill": "microservices architecture",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "05-nestjs-enterprise-framework"
+      ],
+      "challengeIds": [
+        "11-microservices-architecture-patterns"
+      ]
+    },
+    {
+      "skill": "microtasks/macrotasks",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "02-nodejs-core-fundamentals"
+      ],
+      "challengeIds": [
+        "01-runtime-event-loop-visualizer"
+      ]
+    },
+    {
+      "skill": "middleware typing",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "04-typescript-backend-development"
+      ],
+      "challengeIds": [
+        "05-typed-express-request-response"
+      ]
+    },
+    {
+      "skill": "module resolution",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "04-typescript-backend-development"
+      ],
+      "challengeIds": [
+        "06-path-mapping-custom-types"
+      ]
+    },
+    {
+      "skill": "modules",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "05-nestjs-enterprise-framework"
+      ],
+      "challengeIds": [
+        "01-nest-modules-controllers-services"
+      ]
+    },
+    {
+      "skill": "Mongoose schema",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "08-mongoose-schema-model-validation"
+      ]
+    },
+    {
+      "skill": "N+1 mitigation",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "10-transaction-acid-n-plus-one-fix"
+      ]
+    },
+    {
+      "skill": "Node TypeScript setup",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "04-typescript-backend-development"
+      ],
+      "challengeIds": [
+        "04-tsconfig-node-setup"
+      ]
+    },
+    {
+      "skill": "nodemon workflow",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "04-typescript-backend-development"
+      ],
+      "challengeIds": [
+        "07-express-ts-migration-workflow"
+      ]
+    },
+    {
+      "skill": "non-blocking I/O",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "01-javascript-fundamentals-async"
+      ],
+      "challengeIds": [
+        "08-async-await-event-loop-diagnostics"
+      ]
+    },
+    {
+      "skill": "normalization",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "09-sql-vs-nosql-design-review"
+      ]
+    },
+    {
+      "skill": "npm publish workflow",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "02-nodejs-core-fundamentals"
+      ],
+      "challengeIds": [
+        "14-utility-libraries-and-package-publishing"
+      ]
+    },
+    {
+      "skill": "npm scripts",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "02-nodejs-core-fundamentals"
+      ],
+      "challengeIds": [
+        "07-dotenv-script-automation"
+      ]
+    },
+    {
+      "skill": "npm/yarn fundamentals",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "02-nodejs-core-fundamentals"
+      ],
+      "challengeIds": [
+        "05-package-json-governance"
+      ]
+    },
+    {
+      "skill": "OAuth2 basics",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "13-oauth-validation-sanitization"
+      ]
+    },
+    {
+      "skill": "OpenAPI",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "15-openapi-contract-documentation"
+      ]
+    },
+    {
+      "skill": "operational endpoints",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "20-health-readiness-endpoints"
+      ]
+    },
+    {
+      "skill": "os",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "02-nodejs-core-fundamentals"
+      ],
+      "challengeIds": [
+        "03-path-os-cross-platform-cli"
+      ]
+    },
+    {
+      "skill": "package exports",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "02-nodejs-core-fundamentals"
+      ],
+      "challengeIds": [
+        "14-utility-libraries-and-package-publishing"
+      ]
+    },
+    {
+      "skill": "package-lock",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "02-nodejs-core-fundamentals"
+      ],
+      "challengeIds": [
+        "06-semver-lockfile-policy"
+      ]
+    },
+    {
+      "skill": "package.json",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "02-nodejs-core-fundamentals"
+      ],
+      "challengeIds": [
+        "05-package-json-governance"
+      ]
+    },
+    {
+      "skill": "pagination",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "21-pagination-sorting-filter-contract"
+      ]
+    },
+    {
+      "skill": "parameterized queries",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "07-postgres-pool-parameterized-queries"
+      ]
+    },
+    {
+      "skill": "Passport",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "05-nestjs-enterprise-framework"
+      ],
+      "challengeIds": [
+        "08-passport-local-jwt-strategies"
+      ]
+    },
+    {
+      "skill": "path",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "02-nodejs-core-fundamentals"
+      ],
+      "challengeIds": [
+        "03-path-os-cross-platform-cli"
+      ]
+    },
+    {
+      "skill": "path mapping",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "04-typescript-backend-development"
+      ],
+      "challengeIds": [
+        "06-path-mapping-custom-types"
+      ]
+    },
+    {
+      "skill": "pg pool",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "07-postgres-pool-parameterized-queries"
+      ]
+    },
+    {
+      "skill": "pipes",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "05-nestjs-enterprise-framework"
+      ],
+      "challengeIds": [
+        "03-middleware-guards-interceptors-pipes"
+      ]
+    },
+    {
+      "skill": "Postman/Insomnia validation",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "15-openapi-contract-documentation"
+      ]
+    },
+    {
+      "skill": "process.env",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "02-nodejs-core-fundamentals"
+      ],
+      "challengeIds": [
+        "04-process-worker-lifecycle"
+      ]
+    },
+    {
+      "skill": "Promises",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "01-javascript-fundamentals-async"
+      ],
+      "challengeIds": [
+        "07-promises-chain-rejection-handling"
+      ]
+    },
+    {
+      "skill": "prototypes",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "01-javascript-fundamentals-async"
+      ],
+      "challengeIds": [
+        "04-oop-inheritance-refactor"
+      ]
+    },
+    {
+      "skill": "providers",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "05-nestjs-enterprise-framework"
+      ],
+      "challengeIds": [
+        "02-dependency-injection-providers"
+      ]
+    },
+    {
+      "skill": "query optimization",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "10-transaction-acid-n-plus-one-fix"
+      ]
+    },
+    {
+      "skill": "query parameters",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "02-nodejs-core-fundamentals"
+      ],
+      "challengeIds": [
+        "09-query-headers-status-contract"
+      ]
+    },
+    {
+      "skill": "query strings",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "02-routing-params-query-handlers"
+      ]
+    },
+    {
+      "skill": "rate limiting",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "14-rate-limiting-ddos-protection"
+      ]
+    },
+    {
+      "skill": "RBAC",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "05-nestjs-enterprise-framework"
+      ],
+      "challengeIds": [
+        "09-rbac-guards-route-protection"
+      ]
+    },
+    {
+      "skill": "readiness probes",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "20-health-readiness-endpoints"
+      ]
+    },
+    {
+      "skill": "reduce",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "01-javascript-fundamentals-async"
+      ],
+      "challengeIds": [
+        "03-array-methods-data-pipeline"
+      ]
+    },
+    {
+      "skill": "refresh token rotation",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "05-nestjs-enterprise-framework"
+      ],
+      "challengeIds": [
+        "10-refresh-token-api-key-auth"
+      ]
+    },
+    {
+      "skill": "refresh tokens",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "11-jwt-refresh-token-auth"
+      ]
+    },
+    {
+      "skill": "repository pattern",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "05-nestjs-enterprise-framework"
+      ],
+      "challengeIds": [
+        "06-typeorm-prisma-repository-pattern"
+      ]
+    },
+    {
+      "skill": "request correlation id",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "05-nestjs-enterprise-framework"
+      ],
+      "challengeIds": [
+        "17-request-id-logging-interceptor"
+      ]
+    },
+    {
+      "skill": "Request typing",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "04-typescript-backend-development"
+      ],
+      "challengeIds": [
+        "05-typed-express-request-response"
+      ]
+    },
+    {
+      "skill": "request/response",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "02-nodejs-core-fundamentals"
+      ],
+      "challengeIds": [
+        "08-native-http-routing-core"
+      ]
+    },
+    {
+      "skill": "request/response cycle",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "03-middleware-request-lifecycle"
+      ]
+    },
+    {
+      "skill": "resource cleanup",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "02-nodejs-core-fundamentals"
+      ],
+      "challengeIds": [
+        "15-graceful-shutdown-signal-handling"
+      ]
+    },
+    {
+      "skill": "resource modeling",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "04-rest-resource-design"
+      ]
+    },
+    {
+      "skill": "response formatting",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "05-http-method-status-formatting"
+      ]
+    },
+    {
+      "skill": "response metadata",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "21-pagination-sorting-filter-contract"
+      ]
+    },
+    {
+      "skill": "Response typing",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "04-typescript-backend-development"
+      ],
+      "challengeIds": [
+        "05-typed-express-request-response"
+      ]
+    },
+    {
+      "skill": "REST bridge",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "05-nestjs-enterprise-framework"
+      ],
+      "challengeIds": [
+        "13-grpc-rest-interservice-bridge"
+      ]
+    },
+    {
+      "skill": "RESTful design",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "04-rest-resource-design"
+      ]
+    },
+    {
+      "skill": "route handlers",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "02-routing-params-query-handlers"
+      ]
+    },
+    {
+      "skill": "route params",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "02-routing-params-query-handlers"
+      ]
+    },
+    {
+      "skill": "routing",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "02-nodejs-core-fundamentals"
+      ],
+      "challengeIds": [
+        "08-native-http-routing-core"
+      ]
+    },
+    {
+      "skill": "runtime env validation",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "04-typescript-backend-development"
+      ],
+      "challengeIds": [
+        "08-environment-schema-validation"
+      ]
+    },
+    {
+      "skill": "semver",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "02-nodejs-core-fundamentals"
+      ],
+      "challengeIds": [
+        "06-semver-lockfile-policy"
+      ]
+    },
+    {
+      "skill": "service boundaries",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "05-nestjs-enterprise-framework"
+      ],
+      "challengeIds": [
+        "11-microservices-architecture-patterns"
+      ]
+    },
+    {
+      "skill": "service communication",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "05-nestjs-enterprise-framework"
+      ],
+      "challengeIds": [
+        "13-grpc-rest-interservice-bridge"
+      ]
+    },
+    {
+      "skill": "service discovery basics",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "05-nestjs-enterprise-framework"
+      ],
+      "challengeIds": [
+        "16-service-discovery-basics"
+      ]
+    },
+    {
+      "skill": "service registry patterns",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "05-nestjs-enterprise-framework"
+      ],
+      "challengeIds": [
+        "16-service-discovery-basics"
+      ]
+    },
+    {
+      "skill": "services",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "05-nestjs-enterprise-framework"
+      ],
+      "challengeIds": [
+        "01-nest-modules-controllers-services"
+      ]
+    },
+    {
+      "skill": "sessions",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "12-bcrypt-session-cookie-security"
+      ]
+    },
+    {
+      "skill": "SIGTERM/SIGINT handling",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "02-nodejs-core-fundamentals"
+      ],
+      "challengeIds": [
+        "15-graceful-shutdown-signal-handling"
+      ]
+    },
+    {
+      "skill": "sorting",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "21-pagination-sorting-filter-contract"
+      ]
+    },
+    {
+      "skill": "spread/rest",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "01-javascript-fundamentals-async"
+      ],
+      "challengeIds": [
+        "01-es6-syntax-foundations"
+      ]
+    },
+    {
+      "skill": "SQL vs NoSQL",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "09-sql-vs-nosql-design-review"
+      ]
+    },
+    {
+      "skill": "SQLi/XSS prevention",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "13-oauth-validation-sanitization"
+      ]
+    },
+    {
+      "skill": "SSL/TLS fundamentals",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "19-https-tls-api-hardening"
+      ]
+    },
+    {
+      "skill": "static file serving",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "18-static-files-template-engines"
+      ]
+    },
+    {
+      "skill": "streaming",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "02-nodejs-core-fundamentals"
+      ],
+      "challengeIds": [
+        "10-stream-based-transfer-service"
+      ]
+    },
+    {
+      "skill": "streams",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "02-nodejs-core-fundamentals"
+      ],
+      "challengeIds": [
+        "02-fs-stream-buffer-operations"
+      ]
+    },
+    {
+      "skill": "string manipulation",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "01-javascript-fundamentals-async"
+      ],
+      "challengeIds": [
+        "02-template-literal-string-lab"
+      ]
+    },
+    {
+      "skill": "structured logging context",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "05-nestjs-enterprise-framework"
+      ],
+      "challengeIds": [
+        "17-request-id-logging-interceptor"
+      ]
+    },
+    {
+      "skill": "Swagger",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "15-openapi-contract-documentation"
+      ]
+    },
+    {
+      "skill": "TDD workflow",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "05-nestjs-enterprise-framework"
+      ],
+      "challengeIds": [
+        "15-coverage-reporting-tdd-cycle"
+      ]
+    },
+    {
+      "skill": "template engine setup",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "18-static-files-template-engines"
+      ]
+    },
+    {
+      "skill": "template literals",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "01-javascript-fundamentals-async"
+      ],
+      "challengeIds": [
+        "02-template-literal-string-lab"
+      ]
+    },
+    {
+      "skill": "token verification",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "11-jwt-refresh-token-auth"
+      ]
+    },
+    {
+      "skill": "transactions",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "10-transaction-acid-n-plus-one-fix"
+      ]
+    },
+    {
+      "skill": "try/catch",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "01-javascript-fundamentals-async"
+      ],
+      "challengeIds": [
+        "08-async-await-event-loop-diagnostics"
+      ]
+    },
+    {
+      "skill": "ts-node",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "04-typescript-backend-development"
+      ],
+      "challengeIds": [
+        "07-express-ts-migration-workflow"
+      ]
+    },
+    {
+      "skill": "tsconfig",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "04-typescript-backend-development"
+      ],
+      "challengeIds": [
+        "04-tsconfig-node-setup"
+      ]
+    },
+    {
+      "skill": "tuples",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "04-typescript-backend-development"
+      ],
+      "challengeIds": [
+        "02-interfaces-types-unions"
+      ]
+    },
+    {
+      "skill": "type annotations",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "04-typescript-backend-development"
+      ],
+      "challengeIds": [
+        "01-typed-primitives-functions"
+      ]
+    },
+    {
+      "skill": "type guards",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "04-typescript-backend-development"
+      ],
+      "challengeIds": [
+        "03-generics-guards-utility-types"
+      ]
+    },
+    {
+      "skill": "typed functions",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "04-typescript-backend-development"
+      ],
+      "challengeIds": [
+        "01-typed-primitives-functions"
+      ]
+    },
+    {
+      "skill": "TypeORM/Prisma",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "05-nestjs-enterprise-framework"
+      ],
+      "challengeIds": [
+        "06-typeorm-prisma-repository-pattern"
+      ]
+    },
+    {
+      "skill": "types",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "04-typescript-backend-development"
+      ],
+      "challengeIds": [
+        "02-interfaces-types-unions"
+      ]
+    },
+    {
+      "skill": "unions",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "04-typescript-backend-development"
+      ],
+      "challengeIds": [
+        "02-interfaces-types-unions"
+      ]
+    },
+    {
+      "skill": "utility types",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "04-typescript-backend-development"
+      ],
+      "challengeIds": [
+        "03-generics-guards-utility-types"
+      ]
+    },
+    {
+      "skill": "V8 runtime",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "02-nodejs-core-fundamentals"
+      ],
+      "challengeIds": [
+        "01-runtime-event-loop-visualizer"
+      ]
+    },
+    {
+      "skill": "validation",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "03-express-rest-api-development"
+      ],
+      "challengeIds": [
+        "08-mongoose-schema-model-validation"
+      ]
+    },
+    {
+      "skill": "worker threads",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "02-nodejs-core-fundamentals"
+      ],
+      "challengeIds": [
+        "04-process-worker-lifecycle"
+      ]
+    },
+    {
+      "skill": "zod/joi schema",
+      "appearances": 1,
+      "reviewedChallenges": 1,
+      "passedChallenges": 0,
+      "passRate": 0,
+      "courseIds": [
+        "04-typescript-backend-development"
+      ],
+      "challengeIds": [
+        "08-environment-schema-validation"
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-08T07:45:57.372Z"
+}

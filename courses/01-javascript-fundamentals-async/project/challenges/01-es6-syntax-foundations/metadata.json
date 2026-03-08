@@ -1,0 +1,22 @@
+{
+  "challengeId": "01-es6-syntax-foundations",
+  "challengeName": "ES6 Syntax Foundations",
+  "moduleId": "m1-modern-javascript-essentials",
+  "moduleName": "Modern JavaScript Essentials",
+  "difficulty": "beginner",
+  "estimatedTime": "2 hours",
+  "filesToCheck": [
+    "src/challenges/01-es6-syntax-foundations/index.js"
+  ],
+  "skills": [
+    "let/const",
+    "arrow functions",
+    "destructuring",
+    "spread/rest"
+  ],
+  "patternsRequired": [
+    "arrowFunction",
+    "destructuring",
+    "spreadOperator"
+  ]
+}

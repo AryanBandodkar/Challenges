@@ -1,0 +1,20 @@
+{
+  "challengeId": "09-rbac-guards-route-protection",
+  "challengeName": "RBAC Guards Route Protection",
+  "moduleId": "m3-authentication-authorization",
+  "moduleName": "Authentication & Authorization",
+  "difficulty": "intermediate",
+  "estimatedTime": "4 hours",
+  "filesToCheck": [
+    "src/challenges/09-rbac-guards-route-protection/index.ts"
+  ],
+  "skills": [
+    "RBAC",
+    "guards",
+    "authorization"
+  ],
+  "patternsRequired": [
+    "nestjsGuard",
+    "rolesDecorator"
+  ]
+}

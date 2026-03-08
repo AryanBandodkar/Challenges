@@ -1,0 +1,19 @@
+{
+  "challengeId": "13-environment-specific-configuration",
+  "challengeName": "Environment Specific Configuration",
+  "moduleId": "m4-error-handling-debugging",
+  "moduleName": "Error Handling & Debugging",
+  "difficulty": "intermediate",
+  "estimatedTime": "3 hours",
+  "filesToCheck": [
+    "src/challenges/13-environment-specific-configuration/index.js"
+  ],
+  "skills": [
+    "dotenv",
+    "environment-based behavior"
+  ],
+  "patternsRequired": [
+    "dotenvConfig",
+    "processUsage"
+  ]
+}

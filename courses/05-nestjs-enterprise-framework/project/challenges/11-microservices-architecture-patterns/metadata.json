@@ -1,0 +1,18 @@
+{
+  "challengeId": "11-microservices-architecture-patterns",
+  "challengeName": "Microservices Architecture Patterns",
+  "moduleId": "m4-microservices-communication",
+  "moduleName": "Microservices & Communication",
+  "difficulty": "intermediate",
+  "estimatedTime": "4 hours",
+  "filesToCheck": [
+    "src/challenges/11-microservices-architecture-patterns/index.ts"
+  ],
+  "skills": [
+    "microservices architecture",
+    "service boundaries"
+  ],
+  "patternsRequired": [
+    "nestjsModule"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "challengeId": "06-path-mapping-custom-types",
+  "challengeName": "Path Mapping Custom Types",
+  "moduleId": "m2-typescript-node-express",
+  "moduleName": "TypeScript with Node.js & Express",
+  "difficulty": "intermediate",
+  "estimatedTime": "3 hours",
+  "filesToCheck": [
+    "src/challenges/06-path-mapping-custom-types/index.ts"
+  ],
+  "skills": [
+    "custom type definitions",
+    "module resolution",
+    "path mapping"
+  ],
+  "patternsRequired": [
+    "pathAliasImport"
+  ]
+}

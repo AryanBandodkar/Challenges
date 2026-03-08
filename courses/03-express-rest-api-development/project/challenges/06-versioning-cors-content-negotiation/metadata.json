@@ -1,0 +1,19 @@
+{
+  "challengeId": "06-versioning-cors-content-negotiation",
+  "challengeName": "Versioning CORS Content Negotiation",
+  "moduleId": "m2-rest-api-design-implementation",
+  "moduleName": "REST API Design & Implementation",
+  "difficulty": "intermediate",
+  "estimatedTime": "4 hours",
+  "filesToCheck": [
+    "src/challenges/06-versioning-cors-content-negotiation/index.js"
+  ],
+  "skills": [
+    "API versioning",
+    "CORS",
+    "content negotiation"
+  ],
+  "patternsRequired": [
+    "corsMiddleware"
+  ]
+}

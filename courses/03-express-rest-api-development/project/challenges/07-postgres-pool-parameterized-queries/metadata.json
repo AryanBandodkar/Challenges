@@ -1,0 +1,18 @@
+{
+  "challengeId": "07-postgres-pool-parameterized-queries",
+  "challengeName": "Postgres Pool Parameterized Queries",
+  "moduleId": "m3-database-integration",
+  "moduleName": "Database Integration",
+  "difficulty": "intermediate",
+  "estimatedTime": "4 hours",
+  "filesToCheck": [
+    "src/challenges/07-postgres-pool-parameterized-queries/index.js"
+  ],
+  "skills": [
+    "pg pool",
+    "parameterized queries"
+  ],
+  "patternsRequired": [
+    "parameterizedQuery"
+  ]
+}

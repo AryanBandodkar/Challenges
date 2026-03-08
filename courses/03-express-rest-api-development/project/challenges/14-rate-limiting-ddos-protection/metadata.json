@@ -1,0 +1,18 @@
+{
+  "challengeId": "14-rate-limiting-ddos-protection",
+  "challengeName": "Rate Limiting DDoS Protection",
+  "moduleId": "m4-authentication-security",
+  "moduleName": "Authentication & Security",
+  "difficulty": "advanced",
+  "estimatedTime": "3 hours",
+  "filesToCheck": [
+    "src/challenges/14-rate-limiting-ddos-protection/index.js"
+  ],
+  "skills": [
+    "rate limiting",
+    "DDoS protection"
+  ],
+  "patternsRequired": [
+    "rateLimitMiddleware"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "challengeId": "08-native-http-routing-core",
+  "challengeName": "Native HTTP Routing Core",
+  "moduleId": "m3-http-network-programming",
+  "moduleName": "HTTP & Network Programming",
+  "difficulty": "intermediate",
+  "estimatedTime": "4 hours",
+  "filesToCheck": [
+    "src/challenges/08-native-http-routing-core/index.js"
+  ],
+  "skills": [
+    "http server",
+    "request/response",
+    "routing"
+  ],
+  "patternsRequired": [
+    "httpCreateServer"
+  ]
+}

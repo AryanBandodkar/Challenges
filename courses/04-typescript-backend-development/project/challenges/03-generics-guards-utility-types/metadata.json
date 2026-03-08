@@ -1,0 +1,20 @@
+{
+  "challengeId": "03-generics-guards-utility-types",
+  "challengeName": "Generics Guards Utility Types",
+  "moduleId": "m1-typescript-essentials",
+  "moduleName": "TypeScript Essentials",
+  "difficulty": "intermediate",
+  "estimatedTime": "3 hours",
+  "filesToCheck": [
+    "src/challenges/03-generics-guards-utility-types/index.ts"
+  ],
+  "skills": [
+    "generics",
+    "type guards",
+    "utility types"
+  ],
+  "patternsRequired": [
+    "genericType",
+    "typeGuard"
+  ]
+}

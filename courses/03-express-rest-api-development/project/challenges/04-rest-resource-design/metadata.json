@@ -1,0 +1,18 @@
+{
+  "challengeId": "04-rest-resource-design",
+  "challengeName": "REST Resource Design",
+  "moduleId": "m2-rest-api-design-implementation",
+  "moduleName": "REST API Design & Implementation",
+  "difficulty": "intermediate",
+  "estimatedTime": "3 hours",
+  "filesToCheck": [
+    "src/challenges/04-rest-resource-design/index.js"
+  ],
+  "skills": [
+    "RESTful design",
+    "resource modeling"
+  ],
+  "patternsRequired": [
+    "expressRouter"
+  ]
+}

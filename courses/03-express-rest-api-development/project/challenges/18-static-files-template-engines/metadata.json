@@ -1,0 +1,19 @@
+{
+  "challengeId": "18-static-files-template-engines",
+  "challengeName": "Static Files and Template Engines",
+  "moduleId": "m1-express-fundamentals",
+  "moduleName": "Express.js Fundamentals",
+  "difficulty": "intermediate",
+  "estimatedTime": "3 hours",
+  "filesToCheck": [
+    "src/challenges/18-static-files-template-engines/index.js"
+  ],
+  "skills": [
+    "static file serving",
+    "template engine setup"
+  ],
+  "patternsRequired": [
+    "expressStaticServing",
+    "templateEngineSetup"
+  ]
+}

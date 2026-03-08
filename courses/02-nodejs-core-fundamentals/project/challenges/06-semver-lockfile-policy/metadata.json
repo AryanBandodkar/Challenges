@@ -1,0 +1,16 @@
+{
+  "challengeId": "06-semver-lockfile-policy",
+  "challengeName": "Semver Lockfile Policy",
+  "moduleId": "m2-npm-package-management",
+  "moduleName": "NPM & Package Management",
+  "difficulty": "beginner",
+  "estimatedTime": "2 hours",
+  "filesToCheck": [
+    "src/challenges/06-semver-lockfile-policy/index.js"
+  ],
+  "skills": [
+    "semver",
+    "package-lock"
+  ],
+  "patternsRequired": []
+}

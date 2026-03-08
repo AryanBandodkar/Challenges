@@ -1,0 +1,20 @@
+{
+  "challengeId": "09-query-headers-status-contract",
+  "challengeName": "Query Headers Status Contract",
+  "moduleId": "m3-http-network-programming",
+  "moduleName": "HTTP & Network Programming",
+  "difficulty": "intermediate",
+  "estimatedTime": "3 hours",
+  "filesToCheck": [
+    "src/challenges/09-query-headers-status-contract/index.js"
+  ],
+  "skills": [
+    "query parameters",
+    "headers",
+    "status codes"
+  ],
+  "patternsRequired": [
+    "urlClassUsage",
+    "httpStatusUsage"
+  ]
+}

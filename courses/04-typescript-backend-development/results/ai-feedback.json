@@ -1,0 +1,90 @@
+[
+  {
+    "challengeId": "01-typed-primitives-functions",
+    "challengeName": "Typed Primitives and Functions",
+    "score": 0,
+    "mode": "skipped",
+    "strengths": [],
+    "improvements": [
+      "Code appears incomplete. AI review skipped until substantial implementation exists."
+    ],
+    "reviewedAt": "2026-03-08T07:45:56.295Z"
+  },
+  {
+    "challengeId": "02-interfaces-types-unions",
+    "challengeName": "Interfaces Types Unions",
+    "score": 0,
+    "mode": "skipped",
+    "strengths": [],
+    "improvements": [
+      "Code appears incomplete. AI review skipped until substantial implementation exists."
+    ],
+    "reviewedAt": "2026-03-08T07:45:56.296Z"
+  },
+  {
+    "challengeId": "03-generics-guards-utility-types",
+    "challengeName": "Generics Guards Utility Types",
+    "score": 0,
+    "mode": "skipped",
+    "strengths": [],
+    "improvements": [
+      "Code appears incomplete. AI review skipped until substantial implementation exists."
+    ],
+    "reviewedAt": "2026-03-08T07:45:56.297Z"
+  },
+  {
+    "challengeId": "04-tsconfig-node-setup",
+    "challengeName": "TSConfig Node Setup",
+    "score": 0,
+    "mode": "skipped",
+    "strengths": [],
+    "improvements": [
+      "Code appears incomplete. AI review skipped until substantial implementation exists."
+    ],
+    "reviewedAt": "2026-03-08T07:45:56.298Z"
+  },
+  {
+    "challengeId": "05-typed-express-request-response",
+    "challengeName": "Typed Express Request Response",
+    "score": 0,
+    "mode": "skipped",
+    "strengths": [],
+    "improvements": [
+      "Code appears incomplete. AI review skipped until substantial implementation exists."
+    ],
+    "reviewedAt": "2026-03-08T07:45:56.299Z"
+  },
+  {
+    "challengeId": "06-path-mapping-custom-types",
+    "challengeName": "Path Mapping Custom Types",
+    "score": 0,
+    "mode": "skipped",
+    "strengths": [],
+    "improvements": [
+      "Code appears incomplete. AI review skipped until substantial implementation exists."
+    ],
+    "reviewedAt": "2026-03-08T07:45:56.300Z"
+  },
+  {
+    "challengeId": "07-express-ts-migration-workflow",
+    "challengeName": "Express TS Migration Workflow",
+    "score": 0,
+    "mode": "parse_error",
+    "strengths": [],
+    "improvements": [
+      "AI response was not valid JSON."
+    ],
+    "reviewedAt": "2026-03-08T07:45:57.313Z"
+  },
+  {
+    "challengeId": "08-environment-schema-validation",
+    "challengeName": "Environment Schema Validation",
+    "score": 0,
+    "mode": "skipped",
+    "strengths": [],
+    "improvements": [
+      "Code appears incomplete. AI review skipped until substantial implementation exists."
+    ],
+    "reviewedAt": "2026-03-08T07:45:57.314Z"
+  }
+]

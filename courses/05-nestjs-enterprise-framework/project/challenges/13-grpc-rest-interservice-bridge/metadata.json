@@ -1,0 +1,19 @@
+{
+  "challengeId": "13-grpc-rest-interservice-bridge",
+  "challengeName": "gRPC REST Interservice Bridge",
+  "moduleId": "m4-microservices-communication",
+  "moduleName": "Microservices & Communication",
+  "difficulty": "advanced",
+  "estimatedTime": "5 hours",
+  "filesToCheck": [
+    "src/challenges/13-grpc-rest-interservice-bridge/index.ts"
+  ],
+  "skills": [
+    "gRPC",
+    "REST bridge",
+    "service communication"
+  ],
+  "patternsRequired": [
+    "grpcClient"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "challengeId": "12-rabbitmq-redis-event-driven-flow",
+  "challengeName": "RabbitMQ Redis Event Driven Flow",
+  "moduleId": "m4-microservices-communication",
+  "moduleName": "Microservices & Communication",
+  "difficulty": "advanced",
+  "estimatedTime": "5 hours",
+  "filesToCheck": [
+    "src/challenges/12-rabbitmq-redis-event-driven-flow/index.ts"
+  ],
+  "skills": [
+    "message queues",
+    "event-driven architecture"
+  ],
+  "patternsRequired": [
+    "eventHandler"
+  ]
+}

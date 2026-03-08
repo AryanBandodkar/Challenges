@@ -1,0 +1,13 @@
+﻿{
+  "challengeId": "{{challengeId}}",
+  "challengeName": "{{challengeName}}",
+  "moduleId": "{{moduleId}}",
+  "moduleName": "{{moduleName}}",
+  "difficulty": "{{difficulty}}",
+  "estimatedTime": "{{estimatedTime}}",
+  "filesToCheck": [
+    "{{sourceFile}}"
+  ],
+  "skills": {{skillsJson}},
+  "patternsRequired": {{patternsJson}}
+}

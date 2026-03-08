@@ -1,0 +1,19 @@
+{
+  "challengeId": "20-health-readiness-endpoints",
+  "challengeName": "Health and Readiness Endpoints",
+  "moduleId": "m1-express-fundamentals",
+  "moduleName": "Express.js Fundamentals",
+  "difficulty": "beginner",
+  "estimatedTime": "2 hours",
+  "filesToCheck": [
+    "src/challenges/20-health-readiness-endpoints/index.js"
+  ],
+  "skills": [
+    "health checks",
+    "readiness probes",
+    "operational endpoints"
+  ],
+  "patternsRequired": [
+    "healthEndpoint"
+  ]
+}

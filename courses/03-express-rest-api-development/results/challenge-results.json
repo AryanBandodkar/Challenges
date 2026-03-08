@@ -1,0 +1,1325 @@
+[
+  {
+    "challengeId": "01-express-app-bootstrap",
+    "challengeName": "Express App Bootstrap",
+    "moduleId": "m1-express-fundamentals",
+    "moduleName": "Express.js Fundamentals",
+    "score": 40,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 0,
+        "totalChecks": 1,
+        "passedChecks": 0,
+        "failedFiles": [
+          "src/challenges/01-express-app-bootstrap/index.js"
+        ]
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 0,
+        "required": [
+          "expressApp"
+        ],
+        "found": [],
+        "missing": [
+          "expressApp"
+        ]
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "not_configured",
+        "hasUnit": false,
+        "hasE2E": false,
+        "unitCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-01-express-app-bootstrap.test.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-01-express-app-bootstrap.test.ts"
+        ],
+        "e2eCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-01-express-app-bootstrap.spec.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-01-express-app-bootstrap.spec.ts"
+        ],
+        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "skipped",
+        "strengths": [],
+        "improvements": [
+          "Code appears incomplete. AI review skipped until substantial implementation exists."
+        ]
+      }
+    },
+    "reviewedAt": "2026-03-08T07:45:56.273Z"
+  },
+  {
+    "challengeId": "02-routing-params-query-handlers",
+    "challengeName": "Routing Params Query Handlers",
+    "moduleId": "m1-express-fundamentals",
+    "moduleName": "Express.js Fundamentals",
+    "score": 40,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 0,
+        "totalChecks": 1,
+        "passedChecks": 0,
+        "failedFiles": [
+          "src/challenges/02-routing-params-query-handlers/index.js"
+        ]
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 0,
+        "required": [
+          "expressRouter",
+          "routeParamUsage"
+        ],
+        "found": [],
+        "missing": [
+          "expressRouter",
+          "routeParamUsage"
+        ]
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "not_configured",
+        "hasUnit": false,
+        "hasE2E": false,
+        "unitCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-02-routing-params-query-handlers.test.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-02-routing-params-query-handlers.test.ts"
+        ],
+        "e2eCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-02-routing-params-query-handlers.spec.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-02-routing-params-query-handlers.spec.ts"
+        ],
+        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "skipped",
+        "strengths": [],
+        "improvements": [
+          "Code appears incomplete. AI review skipped until substantial implementation exists."
+        ]
+      }
+    },
+    "reviewedAt": "2026-03-08T07:45:56.273Z"
+  },
+  {
+    "challengeId": "03-middleware-request-lifecycle",
+    "challengeName": "Middleware Request Lifecycle",
+    "moduleId": "m1-express-fundamentals",
+    "moduleName": "Express.js Fundamentals",
+    "score": 40,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 0,
+        "totalChecks": 1,
+        "passedChecks": 0,
+        "failedFiles": [
+          "src/challenges/03-middleware-request-lifecycle/index.js"
+        ]
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 0,
+        "required": [
+          "middlewareNext"
+        ],
+        "found": [],
+        "missing": [
+          "middlewareNext"
+        ]
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "not_configured",
+        "hasUnit": false,
+        "hasE2E": false,
+        "unitCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-03-middleware-request-lifecycle.test.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-03-middleware-request-lifecycle.test.ts"
+        ],
+        "e2eCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-03-middleware-request-lifecycle.spec.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-03-middleware-request-lifecycle.spec.ts"
+        ],
+        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "skipped",
+        "strengths": [],
+        "improvements": [
+          "Code appears incomplete. AI review skipped until substantial implementation exists."
+        ]
+      }
+    },
+    "reviewedAt": "2026-03-08T07:45:56.274Z"
+  },
+  {
+    "challengeId": "04-rest-resource-design",
+    "challengeName": "REST Resource Design",
+    "moduleId": "m2-rest-api-design-implementation",
+    "moduleName": "REST API Design & Implementation",
+    "score": 40,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 0,
+        "totalChecks": 1,
+        "passedChecks": 0,
+        "failedFiles": [
+          "src/challenges/04-rest-resource-design/index.js"
+        ]
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 0,
+        "required": [
+          "expressRouter"
+        ],
+        "found": [],
+        "missing": [
+          "expressRouter"
+        ]
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "not_configured",
+        "hasUnit": false,
+        "hasE2E": false,
+        "unitCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-04-rest-resource-design.test.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-04-rest-resource-design.test.ts"
+        ],
+        "e2eCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-04-rest-resource-design.spec.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-04-rest-resource-design.spec.ts"
+        ],
+        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "skipped",
+        "strengths": [],
+        "improvements": [
+          "Code appears incomplete. AI review skipped until substantial implementation exists."
+        ]
+      }
+    },
+    "reviewedAt": "2026-03-08T07:45:56.275Z"
+  },
+  {
+    "challengeId": "05-http-method-status-formatting",
+    "challengeName": "HTTP Method Status Formatting",
+    "moduleId": "m2-rest-api-design-implementation",
+    "moduleName": "REST API Design & Implementation",
+    "score": 40,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 0,
+        "totalChecks": 1,
+        "passedChecks": 0,
+        "failedFiles": [
+          "src/challenges/05-http-method-status-formatting/index.js"
+        ]
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 0,
+        "required": [
+          "httpStatusUsage"
+        ],
+        "found": [],
+        "missing": [
+          "httpStatusUsage"
+        ]
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "not_configured",
+        "hasUnit": false,
+        "hasE2E": false,
+        "unitCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-05-http-method-status-formatting.test.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-05-http-method-status-formatting.test.ts"
+        ],
+        "e2eCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-05-http-method-status-formatting.spec.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-05-http-method-status-formatting.spec.ts"
+        ],
+        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "skipped",
+        "strengths": [],
+        "improvements": [
+          "Code appears incomplete. AI review skipped until substantial implementation exists."
+        ]
+      }
+    },
+    "reviewedAt": "2026-03-08T07:45:56.276Z"
+  },
+  {
+    "challengeId": "06-versioning-cors-content-negotiation",
+    "challengeName": "Versioning CORS Content Negotiation",
+    "moduleId": "m2-rest-api-design-implementation",
+    "moduleName": "REST API Design & Implementation",
+    "score": 40,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 0,
+        "totalChecks": 1,
+        "passedChecks": 0,
+        "failedFiles": [
+          "src/challenges/06-versioning-cors-content-negotiation/index.js"
+        ]
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 0,
+        "required": [
+          "corsMiddleware"
+        ],
+        "found": [],
+        "missing": [
+          "corsMiddleware"
+        ]
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "not_configured",
+        "hasUnit": false,
+        "hasE2E": false,
+        "unitCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-06-versioning-cors-content-negotiation.test.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-06-versioning-cors-content-negotiation.test.ts"
+        ],
+        "e2eCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-06-versioning-cors-content-negotiation.spec.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-06-versioning-cors-content-negotiation.spec.ts"
+        ],
+        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "skipped",
+        "strengths": [],
+        "improvements": [
+          "Code appears incomplete. AI review skipped until substantial implementation exists."
+        ]
+      }
+    },
+    "reviewedAt": "2026-03-08T07:45:56.277Z"
+  },
+  {
+    "challengeId": "07-postgres-pool-parameterized-queries",
+    "challengeName": "Postgres Pool Parameterized Queries",
+    "moduleId": "m3-database-integration",
+    "moduleName": "Database Integration",
+    "score": 40,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 0,
+        "totalChecks": 1,
+        "passedChecks": 0,
+        "failedFiles": [
+          "src/challenges/07-postgres-pool-parameterized-queries/index.js"
+        ]
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 0,
+        "required": [
+          "parameterizedQuery"
+        ],
+        "found": [],
+        "missing": [
+          "parameterizedQuery"
+        ]
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "not_configured",
+        "hasUnit": false,
+        "hasE2E": false,
+        "unitCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-07-postgres-pool-parameterized-queries.test.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-07-postgres-pool-parameterized-queries.test.ts"
+        ],
+        "e2eCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-07-postgres-pool-parameterized-queries.spec.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-07-postgres-pool-parameterized-queries.spec.ts"
+        ],
+        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "skipped",
+        "strengths": [],
+        "improvements": [
+          "Code appears incomplete. AI review skipped until substantial implementation exists."
+        ]
+      }
+    },
+    "reviewedAt": "2026-03-08T07:45:56.277Z"
+  },
+  {
+    "challengeId": "08-mongoose-schema-model-validation",
+    "challengeName": "Mongoose Schema Model Validation",
+    "moduleId": "m3-database-integration",
+    "moduleName": "Database Integration",
+    "score": 40,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 0,
+        "totalChecks": 1,
+        "passedChecks": 0,
+        "failedFiles": [
+          "src/challenges/08-mongoose-schema-model-validation/index.js"
+        ]
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 0,
+        "required": [
+          "mongooseSchema"
+        ],
+        "found": [],
+        "missing": [
+          "mongooseSchema"
+        ]
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "not_configured",
+        "hasUnit": false,
+        "hasE2E": false,
+        "unitCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-08-mongoose-schema-model-validation.test.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-08-mongoose-schema-model-validation.test.ts"
+        ],
+        "e2eCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-08-mongoose-schema-model-validation.spec.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-08-mongoose-schema-model-validation.spec.ts"
+        ],
+        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "skipped",
+        "strengths": [],
+        "improvements": [
+          "Code appears incomplete. AI review skipped until substantial implementation exists."
+        ]
+      }
+    },
+    "reviewedAt": "2026-03-08T07:45:56.279Z"
+  },
+  {
+    "challengeId": "09-sql-vs-nosql-design-review",
+    "challengeName": "SQL vs NoSQL Design Review",
+    "moduleId": "m3-database-integration",
+    "moduleName": "Database Integration",
+    "score": 50,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 0,
+        "totalChecks": 1,
+        "passedChecks": 0,
+        "failedFiles": [
+          "src/challenges/09-sql-vs-nosql-design-review/index.js"
+        ]
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 100,
+        "required": [],
+        "found": [],
+        "missing": []
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "not_configured",
+        "hasUnit": false,
+        "hasE2E": false,
+        "unitCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-09-sql-vs-nosql-design-review.test.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-09-sql-vs-nosql-design-review.test.ts"
+        ],
+        "e2eCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-09-sql-vs-nosql-design-review.spec.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-09-sql-vs-nosql-design-review.spec.ts"
+        ],
+        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "skipped",
+        "strengths": [],
+        "improvements": [
+          "Code appears incomplete. AI review skipped until substantial implementation exists."
+        ]
+      }
+    },
+    "reviewedAt": "2026-03-08T07:45:56.280Z"
+  },
+  {
+    "challengeId": "10-transaction-acid-n-plus-one-fix",
+    "challengeName": "Transaction ACID N Plus One Fix",
+    "moduleId": "m3-database-integration",
+    "moduleName": "Database Integration",
+    "score": 50,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 0,
+        "totalChecks": 1,
+        "passedChecks": 0,
+        "failedFiles": [
+          "src/challenges/10-transaction-acid-n-plus-one-fix/index.js"
+        ]
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 100,
+        "required": [
+          "transactionUsage"
+        ],
+        "found": [
+          "transactionUsage"
+        ],
+        "missing": []
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "not_configured",
+        "hasUnit": false,
+        "hasE2E": false,
+        "unitCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-10-transaction-acid-n-plus-one-fix.test.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-10-transaction-acid-n-plus-one-fix.test.ts"
+        ],
+        "e2eCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-10-transaction-acid-n-plus-one-fix.spec.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-10-transaction-acid-n-plus-one-fix.spec.ts"
+        ],
+        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "skipped",
+        "strengths": [],
+        "improvements": [
+          "Code appears incomplete. AI review skipped until substantial implementation exists."
+        ]
+      }
+    },
+    "reviewedAt": "2026-03-08T07:45:56.280Z"
+  },
+  {
+    "challengeId": "11-jwt-refresh-token-auth",
+    "challengeName": "JWT Refresh Token Auth",
+    "moduleId": "m4-authentication-security",
+    "moduleName": "Authentication & Security",
+    "score": 40,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 0,
+        "totalChecks": 1,
+        "passedChecks": 0,
+        "failedFiles": [
+          "src/challenges/11-jwt-refresh-token-auth/index.js"
+        ]
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 0,
+        "required": [
+          "jwtSignVerify"
+        ],
+        "found": [],
+        "missing": [
+          "jwtSignVerify"
+        ]
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "not_configured",
+        "hasUnit": false,
+        "hasE2E": false,
+        "unitCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-11-jwt-refresh-token-auth.test.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-11-jwt-refresh-token-auth.test.ts"
+        ],
+        "e2eCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-11-jwt-refresh-token-auth.spec.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-11-jwt-refresh-token-auth.spec.ts"
+        ],
+        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "skipped",
+        "strengths": [],
+        "improvements": [
+          "Code appears incomplete. AI review skipped until substantial implementation exists."
+        ]
+      }
+    },
+    "reviewedAt": "2026-03-08T07:45:56.281Z"
+  },
+  {
+    "challengeId": "12-bcrypt-session-cookie-security",
+    "challengeName": "Bcrypt Session Cookie Security",
+    "moduleId": "m4-authentication-security",
+    "moduleName": "Authentication & Security",
+    "score": 40,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 0,
+        "totalChecks": 1,
+        "passedChecks": 0,
+        "failedFiles": [
+          "src/challenges/12-bcrypt-session-cookie-security/index.js"
+        ]
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 0,
+        "required": [
+          "bcryptUsage"
+        ],
+        "found": [],
+        "missing": [
+          "bcryptUsage"
+        ]
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "not_configured",
+        "hasUnit": false,
+        "hasE2E": false,
+        "unitCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-12-bcrypt-session-cookie-security.test.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-12-bcrypt-session-cookie-security.test.ts"
+        ],
+        "e2eCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-12-bcrypt-session-cookie-security.spec.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-12-bcrypt-session-cookie-security.spec.ts"
+        ],
+        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "skipped",
+        "strengths": [],
+        "improvements": [
+          "Code appears incomplete. AI review skipped until substantial implementation exists."
+        ]
+      }
+    },
+    "reviewedAt": "2026-03-08T07:45:56.281Z"
+  },
+  {
+    "challengeId": "13-oauth-validation-sanitization",
+    "challengeName": "OAuth Validation Sanitization",
+    "moduleId": "m4-authentication-security",
+    "moduleName": "Authentication & Security",
+    "score": 40,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 0,
+        "totalChecks": 1,
+        "passedChecks": 0,
+        "failedFiles": [
+          "src/challenges/13-oauth-validation-sanitization/index.js"
+        ]
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 0,
+        "required": [
+          "inputValidation"
+        ],
+        "found": [],
+        "missing": [
+          "inputValidation"
+        ]
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "not_configured",
+        "hasUnit": false,
+        "hasE2E": false,
+        "unitCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-13-oauth-validation-sanitization.test.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-13-oauth-validation-sanitization.test.ts"
+        ],
+        "e2eCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-13-oauth-validation-sanitization.spec.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-13-oauth-validation-sanitization.spec.ts"
+        ],
+        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "skipped",
+        "strengths": [],
+        "improvements": [
+          "Code appears incomplete. AI review skipped until substantial implementation exists."
+        ]
+      }
+    },
+    "reviewedAt": "2026-03-08T07:45:56.282Z"
+  },
+  {
+    "challengeId": "14-rate-limiting-ddos-protection",
+    "challengeName": "Rate Limiting DDoS Protection",
+    "moduleId": "m4-authentication-security",
+    "moduleName": "Authentication & Security",
+    "score": 40,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 0,
+        "totalChecks": 1,
+        "passedChecks": 0,
+        "failedFiles": [
+          "src/challenges/14-rate-limiting-ddos-protection/index.js"
+        ]
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 0,
+        "required": [
+          "rateLimitMiddleware"
+        ],
+        "found": [],
+        "missing": [
+          "rateLimitMiddleware"
+        ]
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "not_configured",
+        "hasUnit": false,
+        "hasE2E": false,
+        "unitCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-14-rate-limiting-ddos-protection.test.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-14-rate-limiting-ddos-protection.test.ts"
+        ],
+        "e2eCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-14-rate-limiting-ddos-protection.spec.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-14-rate-limiting-ddos-protection.spec.ts"
+        ],
+        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "skipped",
+        "strengths": [],
+        "improvements": [
+          "Code appears incomplete. AI review skipped until substantial implementation exists."
+        ]
+      }
+    },
+    "reviewedAt": "2026-03-08T07:45:56.284Z"
+  },
+  {
+    "challengeId": "15-openapi-contract-documentation",
+    "challengeName": "OpenAPI Contract Documentation",
+    "moduleId": "m5-api-documentation-testing",
+    "moduleName": "API Documentation & Testing",
+    "score": 50,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 0,
+        "totalChecks": 1,
+        "passedChecks": 0,
+        "failedFiles": [
+          "src/challenges/15-openapi-contract-documentation/index.js"
+        ]
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 100,
+        "required": [
+          "openApiDoc"
+        ],
+        "found": [
+          "openApiDoc"
+        ],
+        "missing": []
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "not_configured",
+        "hasUnit": false,
+        "hasE2E": false,
+        "unitCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-15-openapi-contract-documentation.test.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-15-openapi-contract-documentation.test.ts"
+        ],
+        "e2eCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-15-openapi-contract-documentation.spec.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-15-openapi-contract-documentation.spec.ts"
+        ],
+        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "skipped",
+        "strengths": [],
+        "improvements": [
+          "Code appears incomplete. AI review skipped until substantial implementation exists."
+        ]
+      }
+    },
+    "reviewedAt": "2026-03-08T07:45:56.284Z"
+  },
+  {
+    "challengeId": "16-jest-unit-integration-tests",
+    "challengeName": "Jest Unit Integration Tests",
+    "moduleId": "m5-api-documentation-testing",
+    "moduleName": "API Documentation & Testing",
+    "score": 40,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 0,
+        "totalChecks": 1,
+        "passedChecks": 0,
+        "failedFiles": [
+          "src/challenges/16-jest-unit-integration-tests/index.js"
+        ]
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 0,
+        "required": [
+          "jestDescribeIt"
+        ],
+        "found": [],
+        "missing": [
+          "jestDescribeIt"
+        ]
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "not_configured",
+        "hasUnit": false,
+        "hasE2E": false,
+        "unitCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-16-jest-unit-integration-tests.test.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-16-jest-unit-integration-tests.test.ts"
+        ],
+        "e2eCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-16-jest-unit-integration-tests.spec.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-16-jest-unit-integration-tests.spec.ts"
+        ],
+        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "skipped",
+        "strengths": [],
+        "improvements": [
+          "Code appears incomplete. AI review skipped until substantial implementation exists."
+        ]
+      }
+    },
+    "reviewedAt": "2026-03-08T07:45:56.285Z"
+  },
+  {
+    "challengeId": "17-coverage-mocking-versioned-api-tests",
+    "challengeName": "Coverage Mocking Versioned API Tests",
+    "moduleId": "m5-api-documentation-testing",
+    "moduleName": "API Documentation & Testing",
+    "score": 40,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 0,
+        "totalChecks": 1,
+        "passedChecks": 0,
+        "failedFiles": [
+          "src/challenges/17-coverage-mocking-versioned-api-tests/index.js"
+        ]
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 0,
+        "required": [
+          "supertestRequest"
+        ],
+        "found": [],
+        "missing": [
+          "supertestRequest"
+        ]
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "not_configured",
+        "hasUnit": false,
+        "hasE2E": false,
+        "unitCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-17-coverage-mocking-versioned-api-tests.test.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-17-coverage-mocking-versioned-api-tests.test.ts"
+        ],
+        "e2eCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-17-coverage-mocking-versioned-api-tests.spec.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-17-coverage-mocking-versioned-api-tests.spec.ts"
+        ],
+        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "skipped",
+        "strengths": [],
+        "improvements": [
+          "Code appears incomplete. AI review skipped until substantial implementation exists."
+        ]
+      }
+    },
+    "reviewedAt": "2026-03-08T07:45:56.285Z"
+  },
+  {
+    "challengeId": "18-static-files-template-engines",
+    "challengeName": "Static Files and Template Engines",
+    "moduleId": "m1-express-fundamentals",
+    "moduleName": "Express.js Fundamentals",
+    "score": 40,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 0,
+        "totalChecks": 1,
+        "passedChecks": 0,
+        "failedFiles": [
+          "src/challenges/18-static-files-template-engines/index.js"
+        ]
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 0,
+        "required": [
+          "expressStaticServing",
+          "templateEngineSetup"
+        ],
+        "found": [],
+        "missing": [
+          "expressStaticServing",
+          "templateEngineSetup"
+        ]
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "not_configured",
+        "hasUnit": false,
+        "hasE2E": false,
+        "unitCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-18-static-files-template-engines.test.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-18-static-files-template-engines.test.ts"
+        ],
+        "e2eCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-18-static-files-template-engines.spec.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-18-static-files-template-engines.spec.ts"
+        ],
+        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "skipped",
+        "strengths": [],
+        "improvements": [
+          "Code appears incomplete. AI review skipped until substantial implementation exists."
+        ]
+      }
+    },
+    "reviewedAt": "2026-03-08T07:45:56.286Z"
+  },
+  {
+    "challengeId": "19-https-tls-api-hardening",
+    "challengeName": "HTTPS TLS API Hardening",
+    "moduleId": "m4-authentication-security",
+    "moduleName": "Authentication & Security",
+    "score": 40,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 0,
+        "totalChecks": 1,
+        "passedChecks": 0,
+        "failedFiles": [
+          "src/challenges/19-https-tls-api-hardening/index.js"
+        ]
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 0,
+        "required": [
+          "httpsServer"
+        ],
+        "found": [],
+        "missing": [
+          "httpsServer"
+        ]
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "not_configured",
+        "hasUnit": false,
+        "hasE2E": false,
+        "unitCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-19-https-tls-api-hardening.test.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-19-https-tls-api-hardening.test.ts"
+        ],
+        "e2eCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-19-https-tls-api-hardening.spec.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-19-https-tls-api-hardening.spec.ts"
+        ],
+        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "skipped",
+        "strengths": [],
+        "improvements": [
+          "Code appears incomplete. AI review skipped until substantial implementation exists."
+        ]
+      }
+    },
+    "reviewedAt": "2026-03-08T07:45:56.287Z"
+  },
+  {
+    "challengeId": "20-health-readiness-endpoints",
+    "challengeName": "Health and Readiness Endpoints",
+    "moduleId": "m1-express-fundamentals",
+    "moduleName": "Express.js Fundamentals",
+    "score": 40,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 0,
+        "totalChecks": 1,
+        "passedChecks": 0,
+        "failedFiles": [
+          "src/challenges/20-health-readiness-endpoints/index.js"
+        ]
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 0,
+        "required": [
+          "healthEndpoint"
+        ],
+        "found": [],
+        "missing": [
+          "healthEndpoint"
+        ]
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "not_configured",
+        "hasUnit": false,
+        "hasE2E": false,
+        "unitCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-20-health-readiness-endpoints.test.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-20-health-readiness-endpoints.test.ts"
+        ],
+        "e2eCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-20-health-readiness-endpoints.spec.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-20-health-readiness-endpoints.spec.ts"
+        ],
+        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "skipped",
+        "strengths": [],
+        "improvements": [
+          "Code appears incomplete. AI review skipped until substantial implementation exists."
+        ]
+      }
+    },
+    "reviewedAt": "2026-03-08T07:45:56.288Z"
+  },
+  {
+    "challengeId": "21-pagination-sorting-filter-contract",
+    "challengeName": "Pagination Sorting Filter Contract",
+    "moduleId": "m2-rest-api-design-implementation",
+    "moduleName": "REST API Design & Implementation",
+    "score": 40,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 0,
+        "totalChecks": 1,
+        "passedChecks": 0,
+        "failedFiles": [
+          "src/challenges/21-pagination-sorting-filter-contract/index.js"
+        ]
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 0,
+        "required": [
+          "paginationQueryHandling"
+        ],
+        "found": [],
+        "missing": [
+          "paginationQueryHandling"
+        ]
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "not_configured",
+        "hasUnit": false,
+        "hasE2E": false,
+        "unitCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-21-pagination-sorting-filter-contract.test.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-21-pagination-sorting-filter-contract.test.ts"
+        ],
+        "e2eCandidates": [
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-21-pagination-sorting-filter-contract.spec.js",
+          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-21-pagination-sorting-filter-contract.spec.ts"
+        ],
+        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "skipped",
+        "strengths": [],
+        "improvements": [
+          "Code appears incomplete. AI review skipped until substantial implementation exists."
+        ]
+      }
+    },
+    "reviewedAt": "2026-03-08T07:45:56.289Z"
+  }
+]

@@ -1,0 +1,22 @@
+﻿{
+  "name": "challenge-engine-nodejs",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "setup": "node scripts/scaffold-challenges.js",
+    "readmes:refresh": "node scripts/refresh-challenge-readmes.js",
+    "progress:update": "node scripts/update-progress.js",
+    "readme:evidence": "node scripts/update-readme-evidence.js",
+    "review:course": "node scripts/run-review-course.js",
+    "review:challenge": "node scripts/run-review-challenge.js",
+    "review:changed": "node scripts/run-review-changed.js",
+    "review:all": "node scripts/run-review-all.js",
+    "test": "node --test tests",
+    "validate:structure": "node scripts/validate-structure.js",
+    "health:check": "node scripts/health-check.js",
+    "audit:topics": "node scripts/audit-topic-alignment.js",
+    "ci:validate": "node scripts/ci-validate.js",
+    "release:check": "npm run readmes:refresh && npm run health:check"
+  }
+}

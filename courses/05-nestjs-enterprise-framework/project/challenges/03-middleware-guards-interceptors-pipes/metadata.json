@@ -1,0 +1,21 @@
+{
+  "challengeId": "03-middleware-guards-interceptors-pipes",
+  "challengeName": "Middleware Guards Interceptors Pipes",
+  "moduleId": "m1-nestjs-architecture-core-concepts",
+  "moduleName": "NestJS Architecture & Core Concepts",
+  "difficulty": "intermediate",
+  "estimatedTime": "4 hours",
+  "filesToCheck": [
+    "src/challenges/03-middleware-guards-interceptors-pipes/index.ts"
+  ],
+  "skills": [
+    "middleware",
+    "guards",
+    "interceptors",
+    "pipes"
+  ],
+  "patternsRequired": [
+    "nestjsGuard",
+    "nestjsPipe"
+  ]
+}

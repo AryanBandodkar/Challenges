@@ -1,0 +1,413 @@
+{
+  "courseId": "05-nestjs-enterprise-framework",
+  "courseName": "NestJS Enterprise Framework",
+  "duration": "6-7 weeks",
+  "sourceExtension": "ts",
+  "modules": [
+    {
+      "id": "m1-nestjs-architecture-core-concepts",
+      "name": "NestJS Architecture & Core Concepts",
+      "concepts": [
+        "Modules: organizing application structure",
+        "Controllers: handling HTTP requests, decorators",
+        "Providers and Dependency Injection",
+        "Services: business logic separation",
+        "Middleware, guards, interceptors, pipes",
+        "Exception filters for error handling"
+      ]
+    },
+    {
+      "id": "m2-advanced-nestjs-features",
+      "name": "Advanced NestJS Features",
+      "concepts": [
+        "Custom decorators and metadata reflection",
+        "Database integration with TypeORM/Prisma",
+        "Repository pattern implementation",
+        "Validation with class-validator and class-transformer",
+        "Configuration management with @nestjs/config",
+        "Logging with built-in logger or Winston"
+      ]
+    },
+    {
+      "id": "m3-authentication-authorization",
+      "name": "Authentication & Authorization",
+      "concepts": [
+        "Passport.js integration: local, JWT strategies",
+        "Role-based access control (RBAC)",
+        "Guards for route protection",
+        "Refresh token rotation",
+        "API key authentication"
+      ]
+    },
+    {
+      "id": "m4-microservices-communication",
+      "name": "Microservices & Communication",
+      "concepts": [
+        "Microservices architecture patterns",
+        "Message queues with RabbitMQ or Redis",
+        "Event-driven architecture",
+        "gRPC vs REST for inter-service communication",
+        "Service discovery basics"
+      ]
+    },
+    {
+      "id": "m5-testing-in-nestjs",
+      "name": "Testing in NestJS",
+      "concepts": [
+        "Unit testing with Jest: services, controllers",
+        "E2E testing with Supertest",
+        "Mocking dependencies and database",
+        "Test coverage reporting",
+        "TDD workflow"
+      ]
+    }
+  ],
+  "challenges": [
+    {
+      "id": "01-nest-modules-controllers-services",
+      "name": "Nest Modules Controllers Services",
+      "moduleId": "m1-nestjs-architecture-core-concepts",
+      "moduleName": "NestJS Architecture & Core Concepts",
+      "difficulty": "beginner",
+      "estimatedTime": "3 hours",
+      "skills": [
+        "modules",
+        "controllers",
+        "services"
+      ],
+      "patternsRequired": [
+        "nestjsModule",
+        "nestjsController",
+        "nestjsInjectable"
+      ],
+      "filesToCheck": [
+        "src/challenges/01-nest-modules-controllers-services/index.ts"
+      ]
+    },
+    {
+      "id": "02-dependency-injection-providers",
+      "name": "Dependency Injection Providers",
+      "moduleId": "m1-nestjs-architecture-core-concepts",
+      "moduleName": "NestJS Architecture & Core Concepts",
+      "difficulty": "beginner",
+      "estimatedTime": "3 hours",
+      "skills": [
+        "providers",
+        "dependency injection"
+      ],
+      "patternsRequired": [
+        "nestjsInjectable"
+      ],
+      "filesToCheck": [
+        "src/challenges/02-dependency-injection-providers/index.ts"
+      ]
+    },
+    {
+      "id": "03-middleware-guards-interceptors-pipes",
+      "name": "Middleware Guards Interceptors Pipes",
+      "moduleId": "m1-nestjs-architecture-core-concepts",
+      "moduleName": "NestJS Architecture & Core Concepts",
+      "difficulty": "intermediate",
+      "estimatedTime": "4 hours",
+      "skills": [
+        "middleware",
+        "guards",
+        "interceptors",
+        "pipes"
+      ],
+      "patternsRequired": [
+        "nestjsGuard",
+        "nestjsPipe"
+      ],
+      "filesToCheck": [
+        "src/challenges/03-middleware-guards-interceptors-pipes/index.ts"
+      ]
+    },
+    {
+      "id": "04-exception-filter-error-handling",
+      "name": "Exception Filter Error Handling",
+      "moduleId": "m1-nestjs-architecture-core-concepts",
+      "moduleName": "NestJS Architecture & Core Concepts",
+      "difficulty": "intermediate",
+      "estimatedTime": "3 hours",
+      "skills": [
+        "exception filters",
+        "error flow"
+      ],
+      "patternsRequired": [
+        "nestjsExceptionFilter"
+      ],
+      "filesToCheck": [
+        "src/challenges/04-exception-filter-error-handling/index.ts"
+      ]
+    },
+    {
+      "id": "05-custom-decorators-metadata-reflection",
+      "name": "Custom Decorators Metadata Reflection",
+      "moduleId": "m2-advanced-nestjs-features",
+      "moduleName": "Advanced NestJS Features",
+      "difficulty": "intermediate",
+      "estimatedTime": "4 hours",
+      "skills": [
+        "custom decorators",
+        "metadata reflection"
+      ],
+      "patternsRequired": [
+        "nestjsDecorator"
+      ],
+      "filesToCheck": [
+        "src/challenges/05-custom-decorators-metadata-reflection/index.ts"
+      ]
+    },
+    {
+      "id": "06-typeorm-prisma-repository-pattern",
+      "name": "TypeORM Prisma Repository Pattern",
+      "moduleId": "m2-advanced-nestjs-features",
+      "moduleName": "Advanced NestJS Features",
+      "difficulty": "advanced",
+      "estimatedTime": "5 hours",
+      "skills": [
+        "TypeORM/Prisma",
+        "repository pattern"
+      ],
+      "patternsRequired": [
+        "repositoryPattern"
+      ],
+      "filesToCheck": [
+        "src/challenges/06-typeorm-prisma-repository-pattern/index.ts"
+      ]
+    },
+    {
+      "id": "07-validation-config-logging",
+      "name": "Validation Config Logging",
+      "moduleId": "m2-advanced-nestjs-features",
+      "moduleName": "Advanced NestJS Features",
+      "difficulty": "intermediate",
+      "estimatedTime": "4 hours",
+      "skills": [
+        "class-validator",
+        "@nestjs/config",
+        "logging"
+      ],
+      "patternsRequired": [
+        "classValidatorUsage"
+      ],
+      "filesToCheck": [
+        "src/challenges/07-validation-config-logging/index.ts"
+      ]
+    },
+    {
+      "id": "08-passport-local-jwt-strategies",
+      "name": "Passport Local JWT Strategies",
+      "moduleId": "m3-authentication-authorization",
+      "moduleName": "Authentication & Authorization",
+      "difficulty": "intermediate",
+      "estimatedTime": "4 hours",
+      "skills": [
+        "Passport",
+        "local strategy",
+        "JWT strategy"
+      ],
+      "patternsRequired": [
+        "passportStrategy"
+      ],
+      "filesToCheck": [
+        "src/challenges/08-passport-local-jwt-strategies/index.ts"
+      ]
+    },
+    {
+      "id": "09-rbac-guards-route-protection",
+      "name": "RBAC Guards Route Protection",
+      "moduleId": "m3-authentication-authorization",
+      "moduleName": "Authentication & Authorization",
+      "difficulty": "intermediate",
+      "estimatedTime": "4 hours",
+      "skills": [
+        "RBAC",
+        "guards",
+        "authorization"
+      ],
+      "patternsRequired": [
+        "nestjsGuard",
+        "rolesDecorator"
+      ],
+      "filesToCheck": [
+        "src/challenges/09-rbac-guards-route-protection/index.ts"
+      ]
+    },
+    {
+      "id": "10-refresh-token-api-key-auth",
+      "name": "Refresh Token API Key Auth",
+      "moduleId": "m3-authentication-authorization",
+      "moduleName": "Authentication & Authorization",
+      "difficulty": "advanced",
+      "estimatedTime": "4 hours",
+      "skills": [
+        "refresh token rotation",
+        "API key auth"
+      ],
+      "patternsRequired": [
+        "jwtSignVerify"
+      ],
+      "filesToCheck": [
+        "src/challenges/10-refresh-token-api-key-auth/index.ts"
+      ]
+    },
+    {
+      "id": "11-microservices-architecture-patterns",
+      "name": "Microservices Architecture Patterns",
+      "moduleId": "m4-microservices-communication",
+      "moduleName": "Microservices & Communication",
+      "difficulty": "intermediate",
+      "estimatedTime": "4 hours",
+      "skills": [
+        "microservices architecture",
+        "service boundaries"
+      ],
+      "patternsRequired": [
+        "nestjsModule"
+      ],
+      "filesToCheck": [
+        "src/challenges/11-microservices-architecture-patterns/index.ts"
+      ]
+    },
+    {
+      "id": "12-rabbitmq-redis-event-driven-flow",
+      "name": "RabbitMQ Redis Event Driven Flow",
+      "moduleId": "m4-microservices-communication",
+      "moduleName": "Microservices & Communication",
+      "difficulty": "advanced",
+      "estimatedTime": "5 hours",
+      "skills": [
+        "message queues",
+        "event-driven architecture"
+      ],
+      "patternsRequired": [
+        "eventHandler"
+      ],
+      "filesToCheck": [
+        "src/challenges/12-rabbitmq-redis-event-driven-flow/index.ts"
+      ]
+    },
+    {
+      "id": "13-grpc-rest-interservice-bridge",
+      "name": "gRPC REST Interservice Bridge",
+      "moduleId": "m4-microservices-communication",
+      "moduleName": "Microservices & Communication",
+      "difficulty": "advanced",
+      "estimatedTime": "5 hours",
+      "skills": [
+        "gRPC",
+        "REST bridge",
+        "service communication"
+      ],
+      "patternsRequired": [
+        "grpcClient"
+      ],
+      "filesToCheck": [
+        "src/challenges/13-grpc-rest-interservice-bridge/index.ts"
+      ]
+    },
+    {
+      "id": "14-unit-e2e-mocking-strategy",
+      "name": "Unit E2E Mocking Strategy",
+      "moduleId": "m5-testing-in-nestjs",
+      "moduleName": "Testing in NestJS",
+      "difficulty": "intermediate",
+      "estimatedTime": "4 hours",
+      "skills": [
+        "unit tests",
+        "e2e tests",
+        "mocking"
+      ],
+      "patternsRequired": [
+        "jestDescribeIt",
+        "supertestRequest"
+      ],
+      "filesToCheck": [
+        "src/challenges/14-unit-e2e-mocking-strategy/index.ts"
+      ]
+    },
+    {
+      "id": "15-coverage-reporting-tdd-cycle",
+      "name": "Coverage Reporting TDD Cycle",
+      "moduleId": "m5-testing-in-nestjs",
+      "moduleName": "Testing in NestJS",
+      "difficulty": "advanced",
+      "estimatedTime": "4 hours",
+      "skills": [
+        "coverage reporting",
+        "TDD workflow"
+      ],
+      "patternsRequired": [
+        "jestDescribeIt"
+      ],
+      "filesToCheck": [
+        "src/challenges/15-coverage-reporting-tdd-cycle/index.ts"
+      ]
+    },
+    {
+      "id": "16-service-discovery-basics",
+      "name": "Service Discovery Basics",
+      "moduleId": "m4-microservices-communication",
+      "moduleName": "Microservices & Communication",
+      "difficulty": "advanced",
+      "estimatedTime": "4 hours",
+      "skills": [
+        "service discovery basics",
+        "service registry patterns"
+      ],
+      "patternsRequired": [
+        "serviceDiscoveryPattern"
+      ],
+      "filesToCheck": [
+        "src/challenges/16-service-discovery-basics/index.ts"
+      ]
+    },
+    {
+      "id": "17-request-id-logging-interceptor",
+      "name": "Request ID Logging Interceptor",
+      "moduleId": "m2-advanced-nestjs-features",
+      "moduleName": "Advanced NestJS Features",
+      "difficulty": "intermediate",
+      "estimatedTime": "3 hours",
+      "skills": [
+        "request correlation id",
+        "structured logging context",
+        "interceptors"
+      ],
+      "patternsRequired": [
+        "requestIdInterceptor"
+      ],
+      "filesToCheck": [
+        "src/challenges/17-request-id-logging-interceptor/index.ts"
+      ]
+    }
+  ],
+  "scoring": {
+    "functionalTests": 0.35,
+    "codeQuality": 0.15,
+    "architecture": 0.1,
+    "bestPractices": 0.1,
+    "e2eTests": 0.15,
+    "aiReview": 0.15
+  },
+  "requirements": {
+    "minScore": 80,
+    "minCompletion": 100
+  },
+  "badgeLevels": {
+    "gold": {
+      "minScore": 90,
+      "minCompletion": 100
+    },
+    "silver": {
+      "minScore": 75,
+      "minCompletion": 75
+    },
+    "bronze": {
+      "minScore": 60,
+      "minCompletion": 50
+    }
+  }
+}
