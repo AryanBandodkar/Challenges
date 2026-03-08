@@ -4,7 +4,7 @@
     "challengeName": "Express App Bootstrap",
     "moduleId": "m1-express-fundamentals",
     "moduleName": "Express.js Fundamentals",
-    "score": 40,
+    "score": 0,
     "passed": false,
     "layers": {
       "functionalTests": {
@@ -60,14 +60,14 @@
         ]
       }
     },
-    "reviewedAt": "2026-03-08T07:45:56.273Z"
+    "reviewedAt": "2026-03-08T10:14:08.126Z"
   },
   {
     "challengeId": "02-routing-params-query-handlers",
     "challengeName": "Routing Params Query Handlers",
     "moduleId": "m1-express-fundamentals",
     "moduleName": "Express.js Fundamentals",
-    "score": 40,
+    "score": 0,
     "passed": false,
     "layers": {
       "functionalTests": {
@@ -125,14 +125,14 @@
         ]
       }
     },
-    "reviewedAt": "2026-03-08T07:45:56.273Z"
+    "reviewedAt": "2026-03-08T10:14:08.137Z"
   },
   {
     "challengeId": "03-middleware-request-lifecycle",
     "challengeName": "Middleware Request Lifecycle",
     "moduleId": "m1-express-fundamentals",
     "moduleName": "Express.js Fundamentals",
-    "score": 40,
+    "score": 0,
     "passed": false,
     "layers": {
       "functionalTests": {
@@ -188,14 +188,14 @@
         ]
       }
     },
-    "reviewedAt": "2026-03-08T07:45:56.274Z"
+    "reviewedAt": "2026-03-08T10:14:08.147Z"
   },
   {
     "challengeId": "04-rest-resource-design",
     "challengeName": "REST Resource Design",
     "moduleId": "m2-rest-api-design-implementation",
     "moduleName": "REST API Design & Implementation",
-    "score": 40,
+    "score": 0,
     "passed": false,
     "layers": {
       "functionalTests": {
@@ -251,14 +251,14 @@
         ]
       }
     },
-    "reviewedAt": "2026-03-08T07:45:56.275Z"
+    "reviewedAt": "2026-03-08T10:14:08.161Z"
   },
   {
     "challengeId": "05-http-method-status-formatting",
     "challengeName": "HTTP Method Status Formatting",
     "moduleId": "m2-rest-api-design-implementation",
     "moduleName": "REST API Design & Implementation",
-    "score": 40,
+    "score": 0,
     "passed": false,
     "layers": {
       "functionalTests": {
@@ -314,14 +314,14 @@
         ]
       }
     },
-    "reviewedAt": "2026-03-08T07:45:56.276Z"
+    "reviewedAt": "2026-03-08T10:14:08.176Z"
   },
   {
     "challengeId": "06-versioning-cors-content-negotiation",
     "challengeName": "Versioning CORS Content Negotiation",
     "moduleId": "m2-rest-api-design-implementation",
     "moduleName": "REST API Design & Implementation",
-    "score": 40,
+    "score": 0,
     "passed": false,
     "layers": {
       "functionalTests": {
@@ -377,14 +377,14 @@
         ]
       }
     },
-    "reviewedAt": "2026-03-08T07:45:56.277Z"
+    "reviewedAt": "2026-03-08T10:14:08.196Z"
   },
   {
     "challengeId": "07-postgres-pool-parameterized-queries",
     "challengeName": "Postgres Pool Parameterized Queries",
     "moduleId": "m3-database-integration",
     "moduleName": "Database Integration",
-    "score": 40,
+    "score": 0,
     "passed": false,
     "layers": {
       "functionalTests": {
@@ -440,14 +440,14 @@
         ]
       }
     },
-    "reviewedAt": "2026-03-08T07:45:56.277Z"
+    "reviewedAt": "2026-03-08T10:14:08.212Z"
   },
   {
     "challengeId": "08-mongoose-schema-model-validation",
     "challengeName": "Mongoose Schema Model Validation",
     "moduleId": "m3-database-integration",
     "moduleName": "Database Integration",
-    "score": 40,
+    "score": 0,
     "passed": false,
     "layers": {
       "functionalTests": {
@@ -503,14 +503,14 @@
         ]
       }
     },
-    "reviewedAt": "2026-03-08T07:45:56.279Z"
+    "reviewedAt": "2026-03-08T10:14:08.230Z"
   },
   {
     "challengeId": "09-sql-vs-nosql-design-review",
     "challengeName": "SQL vs NoSQL Design Review",
     "moduleId": "m3-database-integration",
     "moduleName": "Database Integration",
-    "score": 50,
+    "score": 0,
     "passed": false,
     "layers": {
       "functionalTests": {
@@ -562,14 +562,14 @@
         ]
       }
     },
-    "reviewedAt": "2026-03-08T07:45:56.280Z"
+    "reviewedAt": "2026-03-08T10:14:08.242Z"
   },
   {
     "challengeId": "10-transaction-acid-n-plus-one-fix",
     "challengeName": "Transaction ACID N Plus One Fix",
     "moduleId": "m3-database-integration",
     "moduleName": "Database Integration",
-    "score": 50,
+    "score": 0,
     "passed": false,
     "layers": {
       "functionalTests": {
@@ -625,14 +625,14 @@
         ]
       }
     },
-    "reviewedAt": "2026-03-08T07:45:56.280Z"
+    "reviewedAt": "2026-03-08T10:14:08.263Z"
   },
   {
     "challengeId": "11-jwt-refresh-token-auth",
     "challengeName": "JWT Refresh Token Auth",
     "moduleId": "m4-authentication-security",
     "moduleName": "Authentication & Security",
-    "score": 40,
+    "score": 0,
     "passed": false,
     "layers": {
       "functionalTests": {
@@ -688,14 +688,14 @@
         ]
       }
     },
-    "reviewedAt": "2026-03-08T07:45:56.281Z"
+    "reviewedAt": "2026-03-08T10:14:08.275Z"
   },
   {
     "challengeId": "12-bcrypt-session-cookie-security",
     "challengeName": "Bcrypt Session Cookie Security",
     "moduleId": "m4-authentication-security",
     "moduleName": "Authentication & Security",
-    "score": 40,
+    "score": 0,
     "passed": false,
     "layers": {
       "functionalTests": {
@@ -751,14 +751,14 @@
         ]
       }
     },
-    "reviewedAt": "2026-03-08T07:45:56.281Z"
+    "reviewedAt": "2026-03-08T10:14:08.307Z"
   },
   {
     "challengeId": "13-oauth-validation-sanitization",
     "challengeName": "OAuth Validation Sanitization",
     "moduleId": "m4-authentication-security",
     "moduleName": "Authentication & Security",
-    "score": 40,
+    "score": 0,
     "passed": false,
     "layers": {
       "functionalTests": {
@@ -814,14 +814,14 @@
         ]
       }
     },
-    "reviewedAt": "2026-03-08T07:45:56.282Z"
+    "reviewedAt": "2026-03-08T10:14:08.318Z"
   },
   {
     "challengeId": "14-rate-limiting-ddos-protection",
     "challengeName": "Rate Limiting DDoS Protection",
     "moduleId": "m4-authentication-security",
     "moduleName": "Authentication & Security",
-    "score": 40,
+    "score": 0,
     "passed": false,
     "layers": {
       "functionalTests": {
@@ -877,14 +877,14 @@
         ]
       }
     },
-    "reviewedAt": "2026-03-08T07:45:56.284Z"
+    "reviewedAt": "2026-03-08T10:14:08.329Z"
   },
   {
     "challengeId": "15-openapi-contract-documentation",
     "challengeName": "OpenAPI Contract Documentation",
     "moduleId": "m5-api-documentation-testing",
     "moduleName": "API Documentation & Testing",
-    "score": 50,
+    "score": 0,
     "passed": false,
     "layers": {
       "functionalTests": {
@@ -940,14 +940,14 @@
         ]
       }
     },
-    "reviewedAt": "2026-03-08T07:45:56.284Z"
+    "reviewedAt": "2026-03-08T10:14:08.340Z"
   },
   {
     "challengeId": "16-jest-unit-integration-tests",
     "challengeName": "Jest Unit Integration Tests",
     "moduleId": "m5-api-documentation-testing",
     "moduleName": "API Documentation & Testing",
-    "score": 40,
+    "score": 0,
     "passed": false,
     "layers": {
       "functionalTests": {
@@ -1003,14 +1003,14 @@
         ]
       }
     },
-    "reviewedAt": "2026-03-08T07:45:56.285Z"
+    "reviewedAt": "2026-03-08T10:14:08.350Z"
   },
   {
     "challengeId": "17-coverage-mocking-versioned-api-tests",
     "challengeName": "Coverage Mocking Versioned API Tests",
     "moduleId": "m5-api-documentation-testing",
     "moduleName": "API Documentation & Testing",
-    "score": 40,
+    "score": 0,
     "passed": false,
     "layers": {
       "functionalTests": {
@@ -1066,14 +1066,14 @@
         ]
       }
     },
-    "reviewedAt": "2026-03-08T07:45:56.285Z"
+    "reviewedAt": "2026-03-08T10:14:08.362Z"
   },
   {
     "challengeId": "18-static-files-template-engines",
     "challengeName": "Static Files and Template Engines",
     "moduleId": "m1-express-fundamentals",
     "moduleName": "Express.js Fundamentals",
-    "score": 40,
+    "score": 0,
     "passed": false,
     "layers": {
       "functionalTests": {
@@ -1131,14 +1131,14 @@
         ]
       }
     },
-    "reviewedAt": "2026-03-08T07:45:56.286Z"
+    "reviewedAt": "2026-03-08T10:14:08.376Z"
   },
   {
     "challengeId": "19-https-tls-api-hardening",
     "challengeName": "HTTPS TLS API Hardening",
     "moduleId": "m4-authentication-security",
     "moduleName": "Authentication & Security",
-    "score": 40,
+    "score": 0,
     "passed": false,
     "layers": {
       "functionalTests": {
@@ -1194,14 +1194,14 @@
         ]
       }
     },
-    "reviewedAt": "2026-03-08T07:45:56.287Z"
+    "reviewedAt": "2026-03-08T10:14:08.392Z"
   },
   {
     "challengeId": "20-health-readiness-endpoints",
     "challengeName": "Health and Readiness Endpoints",
     "moduleId": "m1-express-fundamentals",
     "moduleName": "Express.js Fundamentals",
-    "score": 40,
+    "score": 0,
     "passed": false,
     "layers": {
       "functionalTests": {
@@ -1257,14 +1257,14 @@
         ]
       }
     },
-    "reviewedAt": "2026-03-08T07:45:56.288Z"
+    "reviewedAt": "2026-03-08T10:14:08.442Z"
   },
   {
     "challengeId": "21-pagination-sorting-filter-contract",
     "challengeName": "Pagination Sorting Filter Contract",
     "moduleId": "m2-rest-api-design-implementation",
     "moduleName": "REST API Design & Implementation",
-    "score": 40,
+    "score": 0,
     "passed": false,
     "layers": {
       "functionalTests": {
@@ -1320,6 +1320,6 @@
         ]
       }
     },
-    "reviewedAt": "2026-03-08T07:45:56.289Z"
+    "reviewedAt": "2026-03-08T10:14:08.509Z"
   }
 ]

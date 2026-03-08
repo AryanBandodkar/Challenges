@@ -31,7 +31,8 @@ Demonstrate practical understanding of **Express.js Fundamentals** concepts thro
   - `tests/challenge-18-static-files-template-engines.test.js` or `tests/challenge-18-static-files-template-engines.test.ts`
   - `tests/e2e/challenge-18-static-files-template-engines.spec.js` or `tests/e2e/challenge-18-static-files-template-engines.spec.ts`
 - If no challenge-specific test files are provided by course maintainers, the test layer is treated as neutral (not a penalty).
-- Challenge score combines implementation, architecture, quality, best-practices, test evidence, and AI review layers.
+- If any scoped file is placeholder/missing, overall challenge score is forced to `0%`.
+- Otherwise, challenge score combines implementation, architecture, quality, best-practices, test evidence, and AI review layers.
 
 ## Done Definition (Learner Self-Check)
 

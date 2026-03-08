@@ -33,25 +33,25 @@ This project uses challenge stubs only. Learners implement each challenge in `sr
 ## Challenge Progress
 
 <!-- COURSE_PROGRESS_START -->
-- Average Score: **41%**
+- Average Score: **0%**
 - Completion: **0%** (0/15)
 - Badge Level: **none**
 
 | Challenge | Module | Status | Score |
 |---|---|---|---:|
-| Runtime Event Loop Visualizer | Node.js Architecture & Core APIs | Not passed | 40% |
-| FS Stream Buffer Operations | Node.js Architecture & Core APIs | Not passed | 40% |
-| Path OS Cross Platform CLI | Node.js Architecture & Core APIs | Not passed | 40% |
-| Process Worker Lifecycle | Node.js Architecture & Core APIs | Not passed | 40% |
-| Package JSON Governance | NPM & Package Management | Not passed | 40% |
-| Semver Lockfile Policy | NPM & Package Management | Not passed | 50% |
-| Dotenv Script Automation | NPM & Package Management | Not passed | 40% |
-| Native HTTP Routing Core | HTTP & Network Programming | Not passed | 40% |
-| Query Headers Status Contract | HTTP & Network Programming | Not passed | 40% |
-| Stream Based Transfer Service | HTTP & Network Programming | Not passed | 40% |
-| Operational vs Programmer Errors | Error Handling & Debugging | Not passed | 40% |
-| Debug and Log Observability | Error Handling & Debugging | Not passed | 40% |
-| Environment Specific Configuration | Error Handling & Debugging | Not passed | 40% |
-| Utility Libraries and Package Publishing | NPM & Package Management | Not passed | 40% |
-| Graceful Shutdown Signal Handling | Error Handling & Debugging | Not passed | 45% |
+| Runtime Event Loop Visualizer | Node.js Architecture & Core APIs | Not passed | 0% |
+| FS Stream Buffer Operations | Node.js Architecture & Core APIs | Not passed | 0% |
+| Path OS Cross Platform CLI | Node.js Architecture & Core APIs | Not passed | 0% |
+| Process Worker Lifecycle | Node.js Architecture & Core APIs | Not passed | 0% |
+| Package JSON Governance | NPM & Package Management | Not passed | 0% |
+| Semver Lockfile Policy | NPM & Package Management | Not passed | 0% |
+| Dotenv Script Automation | NPM & Package Management | Not passed | 0% |
+| Native HTTP Routing Core | HTTP & Network Programming | Not passed | 0% |
+| Query Headers Status Contract | HTTP & Network Programming | Not passed | 0% |
+| Stream Based Transfer Service | HTTP & Network Programming | Not passed | 0% |
+| Operational vs Programmer Errors | Error Handling & Debugging | Not passed | 0% |
+| Debug and Log Observability | Error Handling & Debugging | Not passed | 0% |
+| Environment Specific Configuration | Error Handling & Debugging | Not passed | 0% |
+| Utility Libraries and Package Publishing | NPM & Package Management | Not passed | 0% |
+| Graceful Shutdown Signal Handling | Error Handling & Debugging | Not passed | 0% |
 <!-- COURSE_PROGRESS_END -->

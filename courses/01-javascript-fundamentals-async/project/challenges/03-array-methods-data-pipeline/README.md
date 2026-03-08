@@ -35,7 +35,8 @@ Demonstrate practical understanding of **Modern JavaScript Essentials** concepts
   - `tests/challenge-03-array-methods-data-pipeline.test.js` or `tests/challenge-03-array-methods-data-pipeline.test.ts`
   - `tests/e2e/challenge-03-array-methods-data-pipeline.spec.js` or `tests/e2e/challenge-03-array-methods-data-pipeline.spec.ts`
 - If no challenge-specific test files are provided by course maintainers, the test layer is treated as neutral (not a penalty).
-- Challenge score combines implementation, architecture, quality, best-practices, test evidence, and AI review layers.
+- If any scoped file is placeholder/missing, overall challenge score is forced to `0%`.
+- Otherwise, challenge score combines implementation, architecture, quality, best-practices, test evidence, and AI review layers.
 
 ## Done Definition (Learner Self-Check)
 

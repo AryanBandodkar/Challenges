@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "challenge-engine-nodejs",
   "version": "1.0.0",
   "private": true,
@@ -17,6 +17,15 @@
     "health:check": "node scripts/health-check.js",
     "audit:topics": "node scripts/audit-topic-alignment.js",
     "ci:validate": "node scripts/ci-validate.js",
-    "release:check": "npm run readmes:refresh && npm run health:check"
+    "release:check": "npm run readmes:refresh && npm run health:check",
+    "dashboard:setup": "npm --prefix dashboard install && npm --prefix dashboard/app install",
+    "dashboard:api": "npm --prefix dashboard run dev",
+    "dashboard:ui:dev": "npm --prefix dashboard/app run dev",
+    "dashboard:build": "npm --prefix dashboard/app run build",
+    "dashboard:dev": "concurrently -n api,ui -c cyan,magenta \"npm run dashboard:api\" \"npm run dashboard:ui:dev\"",
+    "dashboard": "npm --prefix dashboard run start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
   }
 }

@@ -1,7 +1,7 @@
 {
   "courseId": "05-nestjs-enterprise-framework",
   "courseName": "NestJS Enterprise Framework",
-  "averageScore": 41.18,
+  "averageScore": 0,
   "completionPercentage": 0,
   "totalChallenges": 17,
   "completedChallenges": 0,
@@ -10,121 +10,121 @@
     {
       "challengeId": "01-nest-modules-controllers-services",
       "challengeName": "Nest Modules Controllers Services",
-      "score": 40,
+      "score": 0,
       "passed": false,
-      "reviewedAt": "2026-03-08T07:45:57.323Z"
+      "reviewedAt": "2026-03-08T10:14:09.619Z"
     },
     {
       "challengeId": "02-dependency-injection-providers",
       "challengeName": "Dependency Injection Providers",
-      "score": 40,
+      "score": 0,
       "passed": false,
-      "reviewedAt": "2026-03-08T07:45:57.324Z"
+      "reviewedAt": "2026-03-08T10:14:09.629Z"
     },
     {
       "challengeId": "03-middleware-guards-interceptors-pipes",
       "challengeName": "Middleware Guards Interceptors Pipes",
-      "score": 40,
+      "score": 0,
       "passed": false,
-      "reviewedAt": "2026-03-08T07:45:57.325Z"
+      "reviewedAt": "2026-03-08T10:14:09.639Z"
     },
     {
       "challengeId": "04-exception-filter-error-handling",
       "challengeName": "Exception Filter Error Handling",
-      "score": 40,
+      "score": 0,
       "passed": false,
-      "reviewedAt": "2026-03-08T07:45:57.326Z"
+      "reviewedAt": "2026-03-08T10:14:09.648Z"
     },
     {
       "challengeId": "05-custom-decorators-metadata-reflection",
       "challengeName": "Custom Decorators Metadata Reflection",
-      "score": 40,
+      "score": 0,
       "passed": false,
-      "reviewedAt": "2026-03-08T07:45:57.327Z"
+      "reviewedAt": "2026-03-08T10:14:09.660Z"
     },
     {
       "challengeId": "06-typeorm-prisma-repository-pattern",
       "challengeName": "TypeORM Prisma Repository Pattern",
-      "score": 50,
+      "score": 0,
       "passed": false,
-      "reviewedAt": "2026-03-08T07:45:57.328Z"
+      "reviewedAt": "2026-03-08T10:14:09.662Z"
     },
     {
       "challengeId": "07-validation-config-logging",
       "challengeName": "Validation Config Logging",
-      "score": 40,
+      "score": 0,
       "passed": false,
-      "reviewedAt": "2026-03-08T07:45:57.329Z"
+      "reviewedAt": "2026-03-08T10:14:09.673Z"
     },
     {
       "challengeId": "08-passport-local-jwt-strategies",
       "challengeName": "Passport Local JWT Strategies",
-      "score": 40,
+      "score": 0,
       "passed": false,
-      "reviewedAt": "2026-03-08T07:45:57.331Z"
+      "reviewedAt": "2026-03-08T10:14:09.684Z"
     },
     {
       "challengeId": "09-rbac-guards-route-protection",
       "challengeName": "RBAC Guards Route Protection",
-      "score": 40,
+      "score": 0,
       "passed": false,
-      "reviewedAt": "2026-03-08T07:45:57.332Z"
+      "reviewedAt": "2026-03-08T10:14:09.695Z"
     },
     {
       "challengeId": "10-refresh-token-api-key-auth",
       "challengeName": "Refresh Token API Key Auth",
-      "score": 40,
+      "score": 0,
       "passed": false,
-      "reviewedAt": "2026-03-08T07:45:57.332Z"
+      "reviewedAt": "2026-03-08T10:14:09.705Z"
     },
     {
       "challengeId": "11-microservices-architecture-patterns",
       "challengeName": "Microservices Architecture Patterns",
-      "score": 40,
+      "score": 0,
       "passed": false,
-      "reviewedAt": "2026-03-08T07:45:57.333Z"
+      "reviewedAt": "2026-03-08T10:14:09.715Z"
     },
     {
       "challengeId": "12-rabbitmq-redis-event-driven-flow",
       "challengeName": "RabbitMQ Redis Event Driven Flow",
-      "score": 40,
+      "score": 0,
       "passed": false,
-      "reviewedAt": "2026-03-08T07:45:57.334Z"
+      "reviewedAt": "2026-03-08T10:14:09.725Z"
     },
     {
       "challengeId": "13-grpc-rest-interservice-bridge",
       "challengeName": "gRPC REST Interservice Bridge",
-      "score": 40,
+      "score": 0,
       "passed": false,
-      "reviewedAt": "2026-03-08T07:45:57.335Z"
+      "reviewedAt": "2026-03-08T10:14:09.736Z"
     },
     {
       "challengeId": "14-unit-e2e-mocking-strategy",
       "challengeName": "Unit E2E Mocking Strategy",
-      "score": 40,
+      "score": 0,
       "passed": false,
-      "reviewedAt": "2026-03-08T07:45:57.336Z"
+      "reviewedAt": "2026-03-08T10:14:09.749Z"
     },
     {
       "challengeId": "15-coverage-reporting-tdd-cycle",
       "challengeName": "Coverage Reporting TDD Cycle",
-      "score": 40,
+      "score": 0,
       "passed": false,
-      "reviewedAt": "2026-03-08T07:45:57.337Z"
+      "reviewedAt": "2026-03-08T10:14:09.759Z"
     },
     {
       "challengeId": "16-service-discovery-basics",
       "challengeName": "Service Discovery Basics",
-      "score": 50,
+      "score": 0,
       "passed": false,
-      "reviewedAt": "2026-03-08T07:45:57.339Z"
+      "reviewedAt": "2026-03-08T10:14:09.770Z"
     },
     {
       "challengeId": "17-request-id-logging-interceptor",
       "challengeName": "Request ID Logging Interceptor",
-      "score": 40,
+      "score": 0,
       "passed": false,
-      "reviewedAt": "2026-03-08T07:45:57.340Z"
+      "reviewedAt": "2026-03-08T10:14:09.780Z"
     }
   ],
   "skillStrengths": [],
@@ -146,5 +146,5 @@
   "aiImprovements": [
     "Code appears incomplete. AI review skipped until substantial implementation exists."
   ],
-  "generatedAt": "2026-03-08T07:45:57.342Z"
+  "generatedAt": "2026-03-08T10:14:09.783Z"
 }

@@ -533,6 +533,14 @@ async function runAiReview({ rootDir, courseConfig, challenge, challengeReadme, 
 }
 
 function calculateTotalScore(layers, scoring) {
+  // Keep challenges at 0% until all scoped files are implemented (no placeholder/missing files).
+  if (
+    layers.functionalTests.score <= 0 ||
+    layers.functionalTests.passedChecks < layers.functionalTests.totalChecks
+  ) {
+    return 0;
+  }
+
   const safeScoring = normalizeScoring(scoring);
   const total =
     layers.functionalTests.score * safeScoring.functionalTests +

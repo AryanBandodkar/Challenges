@@ -44,31 +44,31 @@ This project uses challenge stubs only. Learners implement each challenge in `sr
 ## Challenge Progress
 
 <!-- COURSE_PROGRESS_START -->
-- Average Score: **41.43%**
+- Average Score: **0%**
 - Completion: **0%** (0/21)
 - Badge Level: **none**
 
 | Challenge | Module | Status | Score |
 |---|---|---|---:|
-| Express App Bootstrap | Express.js Fundamentals | Not passed | 40% |
-| Routing Params Query Handlers | Express.js Fundamentals | Not passed | 40% |
-| Middleware Request Lifecycle | Express.js Fundamentals | Not passed | 40% |
-| REST Resource Design | REST API Design & Implementation | Not passed | 40% |
-| HTTP Method Status Formatting | REST API Design & Implementation | Not passed | 40% |
-| Versioning CORS Content Negotiation | REST API Design & Implementation | Not passed | 40% |
-| Postgres Pool Parameterized Queries | Database Integration | Not passed | 40% |
-| Mongoose Schema Model Validation | Database Integration | Not passed | 40% |
-| SQL vs NoSQL Design Review | Database Integration | Not passed | 50% |
-| Transaction ACID N Plus One Fix | Database Integration | Not passed | 50% |
-| JWT Refresh Token Auth | Authentication & Security | Not passed | 40% |
-| Bcrypt Session Cookie Security | Authentication & Security | Not passed | 40% |
-| OAuth Validation Sanitization | Authentication & Security | Not passed | 40% |
-| Rate Limiting DDoS Protection | Authentication & Security | Not passed | 40% |
-| OpenAPI Contract Documentation | API Documentation & Testing | Not passed | 50% |
-| Jest Unit Integration Tests | API Documentation & Testing | Not passed | 40% |
-| Coverage Mocking Versioned API Tests | API Documentation & Testing | Not passed | 40% |
-| Static Files and Template Engines | Express.js Fundamentals | Not passed | 40% |
-| HTTPS TLS API Hardening | Authentication & Security | Not passed | 40% |
-| Health and Readiness Endpoints | Express.js Fundamentals | Not passed | 40% |
-| Pagination Sorting Filter Contract | REST API Design & Implementation | Not passed | 40% |
+| Express App Bootstrap | Express.js Fundamentals | Not passed | 0% |
+| Routing Params Query Handlers | Express.js Fundamentals | Not passed | 0% |
+| Middleware Request Lifecycle | Express.js Fundamentals | Not passed | 0% |
+| REST Resource Design | REST API Design & Implementation | Not passed | 0% |
+| HTTP Method Status Formatting | REST API Design & Implementation | Not passed | 0% |
+| Versioning CORS Content Negotiation | REST API Design & Implementation | Not passed | 0% |
+| Postgres Pool Parameterized Queries | Database Integration | Not passed | 0% |
+| Mongoose Schema Model Validation | Database Integration | Not passed | 0% |
+| SQL vs NoSQL Design Review | Database Integration | Not passed | 0% |
+| Transaction ACID N Plus One Fix | Database Integration | Not passed | 0% |
+| JWT Refresh Token Auth | Authentication & Security | Not passed | 0% |
+| Bcrypt Session Cookie Security | Authentication & Security | Not passed | 0% |
+| OAuth Validation Sanitization | Authentication & Security | Not passed | 0% |
+| Rate Limiting DDoS Protection | Authentication & Security | Not passed | 0% |
+| OpenAPI Contract Documentation | API Documentation & Testing | Not passed | 0% |
+| Jest Unit Integration Tests | API Documentation & Testing | Not passed | 0% |
+| Coverage Mocking Versioned API Tests | API Documentation & Testing | Not passed | 0% |
+| Static Files and Template Engines | Express.js Fundamentals | Not passed | 0% |
+| HTTPS TLS API Hardening | Authentication & Security | Not passed | 0% |
+| Health and Readiness Endpoints | Express.js Fundamentals | Not passed | 0% |
+| Pagination Sorting Filter Contract | REST API Design & Implementation | Not passed | 0% |
 <!-- COURSE_PROGRESS_END -->

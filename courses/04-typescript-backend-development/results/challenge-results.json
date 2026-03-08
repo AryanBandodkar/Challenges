@@ -4,7 +4,7 @@
     "challengeName": "Typed Primitives and Functions",
     "moduleId": "m1-typescript-essentials",
     "moduleName": "TypeScript Essentials",
-    "score": 50,
+    "score": 0,
     "passed": false,
     "layers": {
       "functionalTests": {
@@ -60,14 +60,14 @@
         ]
       }
     },
-    "reviewedAt": "2026-03-08T07:45:56.295Z"
+    "reviewedAt": "2026-03-08T10:14:08.557Z"
   },
   {
     "challengeId": "02-interfaces-types-unions",
     "challengeName": "Interfaces Types Unions",
     "moduleId": "m1-typescript-essentials",
     "moduleName": "TypeScript Essentials",
-    "score": 40,
+    "score": 0,
     "passed": false,
     "layers": {
       "functionalTests": {
@@ -129,14 +129,14 @@
         ]
       }
     },
-    "reviewedAt": "2026-03-08T07:45:56.296Z"
+    "reviewedAt": "2026-03-08T10:14:08.567Z"
   },
   {
     "challengeId": "03-generics-guards-utility-types",
     "challengeName": "Generics Guards Utility Types",
     "moduleId": "m1-typescript-essentials",
     "moduleName": "TypeScript Essentials",
-    "score": 40,
+    "score": 0,
     "passed": false,
     "layers": {
       "functionalTests": {
@@ -194,14 +194,14 @@
         ]
       }
     },
-    "reviewedAt": "2026-03-08T07:45:56.297Z"
+    "reviewedAt": "2026-03-08T10:14:08.578Z"
   },
   {
     "challengeId": "04-tsconfig-node-setup",
     "challengeName": "TSConfig Node Setup",
     "moduleId": "m2-typescript-node-express",
     "moduleName": "TypeScript with Node.js & Express",
-    "score": 40,
+    "score": 0,
     "passed": false,
     "layers": {
       "functionalTests": {
@@ -257,14 +257,14 @@
         ]
       }
     },
-    "reviewedAt": "2026-03-08T07:45:56.298Z"
+    "reviewedAt": "2026-03-08T10:14:08.591Z"
   },
   {
     "challengeId": "05-typed-express-request-response",
     "challengeName": "Typed Express Request Response",
     "moduleId": "m2-typescript-node-express",
     "moduleName": "TypeScript with Node.js & Express",
-    "score": 50,
+    "score": 0,
     "passed": false,
     "layers": {
       "functionalTests": {
@@ -322,14 +322,14 @@
         ]
       }
     },
-    "reviewedAt": "2026-03-08T07:45:56.299Z"
+    "reviewedAt": "2026-03-08T10:14:08.604Z"
   },
   {
     "challengeId": "06-path-mapping-custom-types",
     "challengeName": "Path Mapping Custom Types",
     "moduleId": "m2-typescript-node-express",
     "moduleName": "TypeScript with Node.js & Express",
-    "score": 40,
+    "score": 0,
     "passed": false,
     "layers": {
       "functionalTests": {
@@ -385,14 +385,14 @@
         ]
       }
     },
-    "reviewedAt": "2026-03-08T07:45:56.300Z"
+    "reviewedAt": "2026-03-08T10:14:08.615Z"
   },
   {
     "challengeId": "07-express-ts-migration-workflow",
     "challengeName": "Express TS Migration Workflow",
     "moduleId": "m2-typescript-node-express",
     "moduleName": "TypeScript with Node.js & Express",
-    "score": 67.5,
+    "score": 0,
     "passed": false,
     "layers": {
       "functionalTests": {
@@ -450,14 +450,14 @@
         ]
       }
     },
-    "reviewedAt": "2026-03-08T07:45:57.313Z"
+    "reviewedAt": "2026-03-08T10:14:09.587Z"
   },
   {
     "challengeId": "08-environment-schema-validation",
     "challengeName": "Environment Schema Validation",
     "moduleId": "m2-typescript-node-express",
     "moduleName": "TypeScript with Node.js & Express",
-    "score": 40,
+    "score": 0,
     "passed": false,
     "layers": {
       "functionalTests": {
@@ -513,6 +513,6 @@
         ]
       }
     },
-    "reviewedAt": "2026-03-08T07:45:57.314Z"
+    "reviewedAt": "2026-03-08T10:14:09.597Z"
   }
 ]

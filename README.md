@@ -51,6 +51,15 @@ Reference alignment note: `docs/original-system-alignment.md` documents parity a
 - `npm run release:check`
 - `npm run ci:validate`
 
+## Dashboard Commands
+
+- `npm run dashboard:setup`
+- `npm run dashboard:dev` (API on `http://localhost:7700`, UI with HMR on `http://localhost:5174`)
+- `npm run dashboard:build`
+- `npm run dashboard` (serves built UI + API from port `7700`)
+
+Dashboard docs: `dashboard/README.md`
+
 ## AI Review Notes
 
 - Copy `.env.example` to `.env` only in internal maintainer environments.
@@ -68,15 +77,15 @@ Reference alignment note: `docs/original-system-alignment.md` documents parity a
 ## Progress Summary
 
 <!-- PROGRESS_SUMMARY_START -->
-- Overall Score: **41.6%**
+- Overall Score: **0%**
 - Completion: **0%** (0/69)
 - Badge Level: **none**
 
 | Course | Score | Completion | Badge |
 |---|---:|---:|---|
-| JavaScript Fundamentals & Async Programming | 40.63% | 0% | none |
-| Node.js Core Fundamentals | 41% | 0% | none |
-| Express.js & RESTful API Development | 41.43% | 0% | none |
-| TypeScript for Backend Development | 45.94% | 0% | none |
-| NestJS Enterprise Framework | 41.18% | 0% | none |
+| JavaScript Fundamentals & Async Programming | 0% | 0% | none |
+| Node.js Core Fundamentals | 0% | 0% | none |
+| Express.js & RESTful API Development | 0% | 0% | none |
+| TypeScript for Backend Development | 0% | 0% | none |
+| NestJS Enterprise Framework | 0% | 0% | none |
 <!-- PROGRESS_SUMMARY_END -->

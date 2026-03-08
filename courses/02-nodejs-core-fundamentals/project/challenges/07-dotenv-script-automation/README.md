@@ -31,7 +31,8 @@ Demonstrate practical understanding of **NPM & Package Management** concepts thr
   - `tests/challenge-07-dotenv-script-automation.test.js` or `tests/challenge-07-dotenv-script-automation.test.ts`
   - `tests/e2e/challenge-07-dotenv-script-automation.spec.js` or `tests/e2e/challenge-07-dotenv-script-automation.spec.ts`
 - If no challenge-specific test files are provided by course maintainers, the test layer is treated as neutral (not a penalty).
-- Challenge score combines implementation, architecture, quality, best-practices, test evidence, and AI review layers.
+- If any scoped file is placeholder/missing, overall challenge score is forced to `0%`.
+- Otherwise, challenge score combines implementation, architecture, quality, best-practices, test evidence, and AI review layers.
 
 ## Done Definition (Learner Self-Check)
 

@@ -3,12 +3,12 @@
     "challengeId": "01-es6-syntax-foundations",
     "challengeName": "ES6 Syntax Foundations",
     "score": 0,
-    "mode": "skipped",
+    "mode": "disabled",
     "strengths": [],
     "improvements": [
-      "Code appears incomplete. AI review skipped until substantial implementation exists."
+      "Set GROQ_API_KEY to enable AI review."
     ],
-    "reviewedAt": "2026-03-08T07:45:56.227Z"
+    "reviewedAt": "2026-03-08T10:44:01.863Z"
   },
   {
     "challengeId": "02-template-literal-string-lab",
@@ -19,7 +19,7 @@
     "improvements": [
       "Code appears incomplete. AI review skipped until substantial implementation exists."
     ],
-    "reviewedAt": "2026-03-08T07:45:56.230Z"
+    "reviewedAt": "2026-03-08T10:14:07.855Z"
   },
   {
     "challengeId": "03-array-methods-data-pipeline",
@@ -30,7 +30,7 @@
     "improvements": [
       "Code appears incomplete. AI review skipped until substantial implementation exists."
     ],
-    "reviewedAt": "2026-03-08T07:45:56.231Z"
+    "reviewedAt": "2026-03-08T10:14:07.865Z"
   },
   {
     "challengeId": "04-oop-inheritance-refactor",
@@ -41,7 +41,7 @@
     "improvements": [
       "Code appears incomplete. AI review skipped until substantial implementation exists."
     ],
-    "reviewedAt": "2026-03-08T07:45:56.233Z"
+    "reviewedAt": "2026-03-08T10:14:07.875Z"
   },
   {
     "challengeId": "05-module-system-conversion",
@@ -52,7 +52,7 @@
     "improvements": [
       "Code appears incomplete. AI review skipped until substantial implementation exists."
     ],
-    "reviewedAt": "2026-03-08T07:45:56.234Z"
+    "reviewedAt": "2026-03-08T10:14:07.886Z"
   },
   {
     "challengeId": "06-callback-hell-rescue",
@@ -63,7 +63,7 @@
     "improvements": [
       "Code appears incomplete. AI review skipped until substantial implementation exists."
     ],
-    "reviewedAt": "2026-03-08T07:45:56.235Z"
+    "reviewedAt": "2026-03-08T10:14:07.897Z"
   },
   {
     "challengeId": "07-promises-chain-rejection-handling",
@@ -74,7 +74,7 @@
     "improvements": [
       "Code appears incomplete. AI review skipped until substantial implementation exists."
     ],
-    "reviewedAt": "2026-03-08T07:45:56.237Z"
+    "reviewedAt": "2026-03-08T10:14:07.908Z"
   },
   {
     "challengeId": "08-async-await-event-loop-diagnostics",
@@ -85,6 +85,6 @@
     "improvements": [
       "Code appears incomplete. AI review skipped until substantial implementation exists."
     ],
-    "reviewedAt": "2026-03-08T07:45:56.238Z"
+    "reviewedAt": "2026-03-08T10:14:07.922Z"
   }
 ]

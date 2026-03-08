@@ -1,7 +1,7 @@
 {
   "courseId": "01-javascript-fundamentals-async",
   "courseName": "JavaScript Fundamentals & Async Programming",
-  "averageScore": 40.63,
+  "averageScore": 0,
   "completionPercentage": 0,
   "totalChallenges": 8,
   "completedChallenges": 0,
@@ -10,58 +10,58 @@
     {
       "challengeId": "01-es6-syntax-foundations",
       "challengeName": "ES6 Syntax Foundations",
-      "score": 40,
+      "score": 0,
       "passed": false,
-      "reviewedAt": "2026-03-08T07:45:56.227Z"
+      "reviewedAt": "2026-03-08T10:44:01.862Z"
     },
     {
       "challengeId": "02-template-literal-string-lab",
       "challengeName": "Template Literal String Lab",
-      "score": 40,
+      "score": 0,
       "passed": false,
-      "reviewedAt": "2026-03-08T07:45:56.230Z"
+      "reviewedAt": "2026-03-08T10:14:07.855Z"
     },
     {
       "challengeId": "03-array-methods-data-pipeline",
       "challengeName": "Array Methods Data Pipeline",
-      "score": 40,
+      "score": 0,
       "passed": false,
-      "reviewedAt": "2026-03-08T07:45:56.231Z"
+      "reviewedAt": "2026-03-08T10:14:07.865Z"
     },
     {
       "challengeId": "04-oop-inheritance-refactor",
       "challengeName": "OOP Inheritance Refactor",
-      "score": 40,
+      "score": 0,
       "passed": false,
-      "reviewedAt": "2026-03-08T07:45:56.233Z"
+      "reviewedAt": "2026-03-08T10:14:07.875Z"
     },
     {
       "challengeId": "05-module-system-conversion",
       "challengeName": "Module System Conversion",
-      "score": 45,
+      "score": 0,
       "passed": false,
-      "reviewedAt": "2026-03-08T07:45:56.234Z"
+      "reviewedAt": "2026-03-08T10:14:07.886Z"
     },
     {
       "challengeId": "06-callback-hell-rescue",
       "challengeName": "Callback Hell Rescue",
-      "score": 40,
+      "score": 0,
       "passed": false,
-      "reviewedAt": "2026-03-08T07:45:56.235Z"
+      "reviewedAt": "2026-03-08T10:14:07.897Z"
     },
     {
       "challengeId": "07-promises-chain-rejection-handling",
       "challengeName": "Promises Chain Rejection Handling",
-      "score": 40,
+      "score": 0,
       "passed": false,
-      "reviewedAt": "2026-03-08T07:45:56.237Z"
+      "reviewedAt": "2026-03-08T10:14:07.908Z"
     },
     {
       "challengeId": "08-async-await-event-loop-diagnostics",
       "challengeName": "Async Await Event Loop Diagnostics",
-      "score": 40,
+      "score": 0,
       "passed": false,
-      "reviewedAt": "2026-03-08T07:45:56.238Z"
+      "reviewedAt": "2026-03-08T10:14:07.922Z"
     }
   ],
   "skillStrengths": [],
@@ -81,7 +81,8 @@
   ],
   "aiStrengths": [],
   "aiImprovements": [
+    "Set GROQ_API_KEY to enable AI review.",
     "Code appears incomplete. AI review skipped until substantial implementation exists."
   ],
-  "generatedAt": "2026-03-08T07:45:56.241Z"
+  "generatedAt": "2026-03-08T10:44:01.866Z"
 }

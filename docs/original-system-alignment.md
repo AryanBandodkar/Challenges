@@ -20,6 +20,9 @@ This file tracks alignment with the original challenge-engine system documentati
   - `.github/workflows/solo-skill-review.yml`
 - Skill-level aggregation output:
   - `pathway-review/skill-breakdown.json`
+- Dashboard app/server for learner progress and review orchestration:
+  - `dashboard/server.js`
+  - `dashboard/app/*`
 
 ## Hardening Added
 
@@ -38,8 +41,6 @@ This file tracks alignment with the original challenge-engine system documentati
 
 - No standalone `global-review/` directory:
   - equivalent functionality is in `scripts/run-review-all.js` + `scripts/update-progress.js`.
-- No dashboard app/server in this repo:
-  - current distribution is CLI-first for learner evaluation.
 - No per-course split runners (`test-runner.js`, `e2e-runner.js`, `linter.js`, etc.):
   - current architecture centralizes logic in `shared/review-engine/index.js`.
 

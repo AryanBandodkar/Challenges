@@ -20,18 +20,18 @@ This project uses challenge stubs only. Learners implement each challenge in `sr
 ## Challenge Progress
 
 <!-- COURSE_PROGRESS_START -->
-- Average Score: **40.63%**
+- Average Score: **0%**
 - Completion: **0%** (0/8)
 - Badge Level: **none**
 
 | Challenge | Module | Status | Score |
 |---|---|---|---:|
-| ES6 Syntax Foundations | Modern JavaScript Essentials | Not passed | 40% |
-| Template Literal String Lab | Modern JavaScript Essentials | Not passed | 40% |
-| Array Methods Data Pipeline | Modern JavaScript Essentials | Not passed | 40% |
-| OOP Inheritance Refactor | Modern JavaScript Essentials | Not passed | 40% |
-| Module System Conversion | Modern JavaScript Essentials | Not passed | 45% |
-| Callback Hell Rescue | Asynchronous JavaScript Mastery | Not passed | 40% |
-| Promises Chain Rejection Handling | Asynchronous JavaScript Mastery | Not passed | 40% |
-| Async Await Event Loop Diagnostics | Asynchronous JavaScript Mastery | Not passed | 40% |
+| ES6 Syntax Foundations | Modern JavaScript Essentials | Not passed | 0% |
+| Template Literal String Lab | Modern JavaScript Essentials | Not passed | 0% |
+| Array Methods Data Pipeline | Modern JavaScript Essentials | Not passed | 0% |
+| OOP Inheritance Refactor | Modern JavaScript Essentials | Not passed | 0% |
+| Module System Conversion | Modern JavaScript Essentials | Not passed | 0% |
+| Callback Hell Rescue | Asynchronous JavaScript Mastery | Not passed | 0% |
+| Promises Chain Rejection Handling | Asynchronous JavaScript Mastery | Not passed | 0% |
+| Async Await Event Loop Diagnostics | Asynchronous JavaScript Mastery | Not passed | 0% |
 <!-- COURSE_PROGRESS_END -->
