@@ -46,12 +46,12 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\challenge-01-es6-syntax-foundations.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\challenge-01-es6-syntax-foundations.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/challenge-01-es6-syntax-foundations.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/challenge-01-es6-syntax-foundations.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\e2e\\challenge-01-es6-syntax-foundations.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\e2e\\challenge-01-es6-syntax-foundations.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/e2e/challenge-01-es6-syntax-foundations.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/e2e/challenge-01-es6-syntax-foundations.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
@@ -64,7 +64,7 @@
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:44:01.862Z"
+    "reviewedAt": "2026-03-09T10:16:22.911Z"
   },
   {
     "challengeId": "02-template-literal-string-lab",
@@ -109,25 +109,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\challenge-02-template-literal-string-lab.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\challenge-02-template-literal-string-lab.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/challenge-02-template-literal-string-lab.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/challenge-02-template-literal-string-lab.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\e2e\\challenge-02-template-literal-string-lab.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\e2e\\challenge-02-template-literal-string-lab.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/e2e/challenge-02-template-literal-string-lab.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/e2e/challenge-02-template-literal-string-lab.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:07.855Z"
+    "reviewedAt": "2026-03-09T09:27:03.099Z"
   },
   {
     "challengeId": "03-array-methods-data-pipeline",
@@ -176,25 +176,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\challenge-03-array-methods-data-pipeline.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\challenge-03-array-methods-data-pipeline.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/challenge-03-array-methods-data-pipeline.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/challenge-03-array-methods-data-pipeline.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\e2e\\challenge-03-array-methods-data-pipeline.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\e2e\\challenge-03-array-methods-data-pipeline.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/e2e/challenge-03-array-methods-data-pipeline.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/e2e/challenge-03-array-methods-data-pipeline.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:07.865Z"
+    "reviewedAt": "2026-03-09T09:27:03.100Z"
   },
   {
     "challengeId": "04-oop-inheritance-refactor",
@@ -241,25 +241,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\challenge-04-oop-inheritance-refactor.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\challenge-04-oop-inheritance-refactor.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/challenge-04-oop-inheritance-refactor.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/challenge-04-oop-inheritance-refactor.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\e2e\\challenge-04-oop-inheritance-refactor.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\e2e\\challenge-04-oop-inheritance-refactor.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/e2e/challenge-04-oop-inheritance-refactor.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/e2e/challenge-04-oop-inheritance-refactor.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:07.875Z"
+    "reviewedAt": "2026-03-09T09:27:03.101Z"
   },
   {
     "challengeId": "05-module-system-conversion",
@@ -307,25 +307,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\challenge-05-module-system-conversion.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\challenge-05-module-system-conversion.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/challenge-05-module-system-conversion.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/challenge-05-module-system-conversion.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\e2e\\challenge-05-module-system-conversion.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\e2e\\challenge-05-module-system-conversion.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/e2e/challenge-05-module-system-conversion.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/e2e/challenge-05-module-system-conversion.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:07.886Z"
+    "reviewedAt": "2026-03-09T09:27:03.102Z"
   },
   {
     "challengeId": "06-callback-hell-rescue",
@@ -370,25 +370,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\challenge-06-callback-hell-rescue.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\challenge-06-callback-hell-rescue.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/challenge-06-callback-hell-rescue.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/challenge-06-callback-hell-rescue.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\e2e\\challenge-06-callback-hell-rescue.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\e2e\\challenge-06-callback-hell-rescue.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/e2e/challenge-06-callback-hell-rescue.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/e2e/challenge-06-callback-hell-rescue.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:07.897Z"
+    "reviewedAt": "2026-03-09T09:27:03.103Z"
   },
   {
     "challengeId": "07-promises-chain-rejection-handling",
@@ -435,25 +435,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\challenge-07-promises-chain-rejection-handling.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\challenge-07-promises-chain-rejection-handling.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/challenge-07-promises-chain-rejection-handling.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/challenge-07-promises-chain-rejection-handling.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\e2e\\challenge-07-promises-chain-rejection-handling.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\e2e\\challenge-07-promises-chain-rejection-handling.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/e2e/challenge-07-promises-chain-rejection-handling.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/e2e/challenge-07-promises-chain-rejection-handling.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:07.908Z"
+    "reviewedAt": "2026-03-09T09:27:03.104Z"
   },
   {
     "challengeId": "08-async-await-event-loop-diagnostics",
@@ -504,24 +504,24 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\challenge-08-async-await-event-loop-diagnostics.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\challenge-08-async-await-event-loop-diagnostics.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/challenge-08-async-await-event-loop-diagnostics.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/challenge-08-async-await-event-loop-diagnostics.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\e2e\\challenge-08-async-await-event-loop-diagnostics.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\e2e\\challenge-08-async-await-event-loop-diagnostics.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/e2e/challenge-08-async-await-event-loop-diagnostics.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/e2e/challenge-08-async-await-event-loop-diagnostics.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:07.922Z"
+    "reviewedAt": "2026-03-09T09:27:03.105Z"
   }
 ]

@@ -44,25 +44,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-01-runtime-event-loop-visualizer.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-01-runtime-event-loop-visualizer.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/challenge-01-runtime-event-loop-visualizer.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/challenge-01-runtime-event-loop-visualizer.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-01-runtime-event-loop-visualizer.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-01-runtime-event-loop-visualizer.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/e2e/challenge-01-runtime-event-loop-visualizer.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/e2e/challenge-01-runtime-event-loop-visualizer.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:07.947Z"
+    "reviewedAt": "2026-03-09T09:27:03.106Z"
   },
   {
     "challengeId": "02-fs-stream-buffer-operations",
@@ -109,25 +109,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-02-fs-stream-buffer-operations.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-02-fs-stream-buffer-operations.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/challenge-02-fs-stream-buffer-operations.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/challenge-02-fs-stream-buffer-operations.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-02-fs-stream-buffer-operations.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-02-fs-stream-buffer-operations.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/e2e/challenge-02-fs-stream-buffer-operations.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/e2e/challenge-02-fs-stream-buffer-operations.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:07.958Z"
+    "reviewedAt": "2026-03-09T09:27:03.108Z"
   },
   {
     "challengeId": "03-path-os-cross-platform-cli",
@@ -174,25 +174,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-03-path-os-cross-platform-cli.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-03-path-os-cross-platform-cli.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/challenge-03-path-os-cross-platform-cli.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/challenge-03-path-os-cross-platform-cli.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-03-path-os-cross-platform-cli.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-03-path-os-cross-platform-cli.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/e2e/challenge-03-path-os-cross-platform-cli.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/e2e/challenge-03-path-os-cross-platform-cli.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:07.969Z"
+    "reviewedAt": "2026-03-09T09:27:03.109Z"
   },
   {
     "challengeId": "04-process-worker-lifecycle",
@@ -239,25 +239,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-04-process-worker-lifecycle.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-04-process-worker-lifecycle.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/challenge-04-process-worker-lifecycle.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/challenge-04-process-worker-lifecycle.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-04-process-worker-lifecycle.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-04-process-worker-lifecycle.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/e2e/challenge-04-process-worker-lifecycle.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/e2e/challenge-04-process-worker-lifecycle.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:07.981Z"
+    "reviewedAt": "2026-03-09T09:27:03.109Z"
   },
   {
     "challengeId": "05-package-json-governance",
@@ -302,25 +302,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-05-package-json-governance.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-05-package-json-governance.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/challenge-05-package-json-governance.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/challenge-05-package-json-governance.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-05-package-json-governance.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-05-package-json-governance.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/e2e/challenge-05-package-json-governance.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/e2e/challenge-05-package-json-governance.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:07.990Z"
+    "reviewedAt": "2026-03-09T09:27:03.110Z"
   },
   {
     "challengeId": "06-semver-lockfile-policy",
@@ -361,25 +361,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-06-semver-lockfile-policy.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-06-semver-lockfile-policy.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/challenge-06-semver-lockfile-policy.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/challenge-06-semver-lockfile-policy.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-06-semver-lockfile-policy.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-06-semver-lockfile-policy.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/e2e/challenge-06-semver-lockfile-policy.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/e2e/challenge-06-semver-lockfile-policy.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:08.000Z"
+    "reviewedAt": "2026-03-09T09:27:03.111Z"
   },
   {
     "challengeId": "07-dotenv-script-automation",
@@ -426,25 +426,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-07-dotenv-script-automation.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-07-dotenv-script-automation.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/challenge-07-dotenv-script-automation.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/challenge-07-dotenv-script-automation.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-07-dotenv-script-automation.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-07-dotenv-script-automation.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/e2e/challenge-07-dotenv-script-automation.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/e2e/challenge-07-dotenv-script-automation.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:08.013Z"
+    "reviewedAt": "2026-03-09T09:27:03.112Z"
   },
   {
     "challengeId": "08-native-http-routing-core",
@@ -489,25 +489,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-08-native-http-routing-core.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-08-native-http-routing-core.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/challenge-08-native-http-routing-core.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/challenge-08-native-http-routing-core.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-08-native-http-routing-core.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-08-native-http-routing-core.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/e2e/challenge-08-native-http-routing-core.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/e2e/challenge-08-native-http-routing-core.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:08.023Z"
+    "reviewedAt": "2026-03-09T09:27:03.112Z"
   },
   {
     "challengeId": "09-query-headers-status-contract",
@@ -554,25 +554,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-09-query-headers-status-contract.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-09-query-headers-status-contract.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/challenge-09-query-headers-status-contract.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/challenge-09-query-headers-status-contract.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-09-query-headers-status-contract.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-09-query-headers-status-contract.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/e2e/challenge-09-query-headers-status-contract.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/e2e/challenge-09-query-headers-status-contract.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:08.033Z"
+    "reviewedAt": "2026-03-09T09:27:03.113Z"
   },
   {
     "challengeId": "10-stream-based-transfer-service",
@@ -617,25 +617,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-10-stream-based-transfer-service.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-10-stream-based-transfer-service.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/challenge-10-stream-based-transfer-service.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/challenge-10-stream-based-transfer-service.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-10-stream-based-transfer-service.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-10-stream-based-transfer-service.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/e2e/challenge-10-stream-based-transfer-service.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/e2e/challenge-10-stream-based-transfer-service.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:08.043Z"
+    "reviewedAt": "2026-03-09T09:27:03.114Z"
   },
   {
     "challengeId": "11-operational-vs-programmer-errors",
@@ -680,25 +680,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-11-operational-vs-programmer-errors.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-11-operational-vs-programmer-errors.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/challenge-11-operational-vs-programmer-errors.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/challenge-11-operational-vs-programmer-errors.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-11-operational-vs-programmer-errors.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-11-operational-vs-programmer-errors.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/e2e/challenge-11-operational-vs-programmer-errors.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/e2e/challenge-11-operational-vs-programmer-errors.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:08.057Z"
+    "reviewedAt": "2026-03-09T09:27:03.115Z"
   },
   {
     "challengeId": "12-debug-and-log-observability",
@@ -743,25 +743,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-12-debug-and-log-observability.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-12-debug-and-log-observability.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/challenge-12-debug-and-log-observability.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/challenge-12-debug-and-log-observability.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-12-debug-and-log-observability.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-12-debug-and-log-observability.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/e2e/challenge-12-debug-and-log-observability.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/e2e/challenge-12-debug-and-log-observability.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:08.069Z"
+    "reviewedAt": "2026-03-09T09:27:03.115Z"
   },
   {
     "challengeId": "13-environment-specific-configuration",
@@ -808,25 +808,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-13-environment-specific-configuration.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-13-environment-specific-configuration.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/challenge-13-environment-specific-configuration.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/challenge-13-environment-specific-configuration.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-13-environment-specific-configuration.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-13-environment-specific-configuration.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/e2e/challenge-13-environment-specific-configuration.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/e2e/challenge-13-environment-specific-configuration.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:08.080Z"
+    "reviewedAt": "2026-03-09T09:27:03.116Z"
   },
   {
     "challengeId": "14-utility-libraries-and-package-publishing",
@@ -871,25 +871,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-14-utility-libraries-and-package-publishing.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-14-utility-libraries-and-package-publishing.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/challenge-14-utility-libraries-and-package-publishing.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/challenge-14-utility-libraries-and-package-publishing.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-14-utility-libraries-and-package-publishing.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-14-utility-libraries-and-package-publishing.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/e2e/challenge-14-utility-libraries-and-package-publishing.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/e2e/challenge-14-utility-libraries-and-package-publishing.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:08.093Z"
+    "reviewedAt": "2026-03-09T09:27:03.117Z"
   },
   {
     "challengeId": "15-graceful-shutdown-signal-handling",
@@ -937,24 +937,24 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-15-graceful-shutdown-signal-handling.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-15-graceful-shutdown-signal-handling.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/challenge-15-graceful-shutdown-signal-handling.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/challenge-15-graceful-shutdown-signal-handling.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-15-graceful-shutdown-signal-handling.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-15-graceful-shutdown-signal-handling.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/e2e/challenge-15-graceful-shutdown-signal-handling.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/02-nodejs-core-fundamentals/project/tests/e2e/challenge-15-graceful-shutdown-signal-handling.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:08.104Z"
+    "reviewedAt": "2026-03-09T09:27:03.117Z"
   }
 ]

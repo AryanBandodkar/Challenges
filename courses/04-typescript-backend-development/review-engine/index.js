@@ -1,4 +1,4 @@
-﻿import { runCourseReview } from '../../../shared/review-engine/index.js';
+import { runCourseReview } from '../../../shared/review-engine/index.js';
 import { resolveRepoRoot } from '../../../shared/utils/root.js';
 
 const ROOT = resolveRepoRoot(import.meta.url);

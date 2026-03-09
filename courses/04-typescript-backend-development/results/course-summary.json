@@ -12,56 +12,56 @@
       "challengeName": "Typed Primitives and Functions",
       "score": 0,
       "passed": false,
-      "reviewedAt": "2026-03-08T10:14:08.557Z"
+      "reviewedAt": "2026-03-09T09:27:03.138Z"
     },
     {
       "challengeId": "02-interfaces-types-unions",
       "challengeName": "Interfaces Types Unions",
       "score": 0,
       "passed": false,
-      "reviewedAt": "2026-03-08T10:14:08.567Z"
+      "reviewedAt": "2026-03-09T09:27:03.139Z"
     },
     {
       "challengeId": "03-generics-guards-utility-types",
       "challengeName": "Generics Guards Utility Types",
       "score": 0,
       "passed": false,
-      "reviewedAt": "2026-03-08T10:14:08.578Z"
+      "reviewedAt": "2026-03-09T09:27:03.139Z"
     },
     {
       "challengeId": "04-tsconfig-node-setup",
       "challengeName": "TSConfig Node Setup",
       "score": 0,
       "passed": false,
-      "reviewedAt": "2026-03-08T10:14:08.591Z"
+      "reviewedAt": "2026-03-09T09:27:03.140Z"
     },
     {
       "challengeId": "05-typed-express-request-response",
       "challengeName": "Typed Express Request Response",
       "score": 0,
       "passed": false,
-      "reviewedAt": "2026-03-08T10:14:08.604Z"
+      "reviewedAt": "2026-03-09T09:27:03.141Z"
     },
     {
       "challengeId": "06-path-mapping-custom-types",
       "challengeName": "Path Mapping Custom Types",
       "score": 0,
       "passed": false,
-      "reviewedAt": "2026-03-08T10:14:08.615Z"
+      "reviewedAt": "2026-03-09T09:27:03.141Z"
     },
     {
       "challengeId": "07-express-ts-migration-workflow",
       "challengeName": "Express TS Migration Workflow",
       "score": 0,
       "passed": false,
-      "reviewedAt": "2026-03-08T10:14:09.587Z"
+      "reviewedAt": "2026-03-09T09:27:03.142Z"
     },
     {
       "challengeId": "08-environment-schema-validation",
       "challengeName": "Environment Schema Validation",
       "score": 0,
       "passed": false,
-      "reviewedAt": "2026-03-08T10:14:09.597Z"
+      "reviewedAt": "2026-03-09T09:27:03.142Z"
     }
   ],
   "skillStrengths": [],
@@ -81,8 +81,7 @@
   ],
   "aiStrengths": [],
   "aiImprovements": [
-    "Code appears incomplete. AI review skipped until substantial implementation exists.",
-    "AI response was not valid JSON."
+    "Set GROQ_API_KEY to enable AI review."
   ],
-  "generatedAt": "2026-03-08T10:14:09.600Z"
+  "generatedAt": "2026-03-09T09:27:03.142Z"
 }
