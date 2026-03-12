@@ -10,58 +10,76 @@
     {
       "challengeId": "01-es6-syntax-foundations",
       "challengeName": "ES6 Syntax Foundations",
+<<<<<<< HEAD
       "score": 97.75,
       "passed": true,
       "reviewedAt": "2026-03-11T10:22:14.116Z"
+=======
+      "score": 0,
+      "passed": false,
+      "reviewedAt": "2026-03-09T10:16:22.911Z"
+>>>>>>> a9f138ceabd25a94d92f18df502dc70acb8c1304
     },
     {
       "challengeId": "02-template-literal-string-lab",
       "challengeName": "Template Literal String Lab",
+<<<<<<< HEAD
       "score": 85,
       "passed": true,
       "reviewedAt": "2026-03-10T16:10:57.696Z"
+=======
+      "score": 0,
+      "passed": false,
+      "reviewedAt": "2026-03-09T09:27:03.099Z"
+>>>>>>> a9f138ceabd25a94d92f18df502dc70acb8c1304
     },
     {
       "challengeId": "03-array-methods-data-pipeline",
       "challengeName": "Array Methods Data Pipeline",
+<<<<<<< HEAD
       "score": 85,
       "passed": true,
       "reviewedAt": "2026-03-11T08:57:29.278Z"
+=======
+      "score": 0,
+      "passed": false,
+      "reviewedAt": "2026-03-09T09:27:03.100Z"
+>>>>>>> a9f138ceabd25a94d92f18df502dc70acb8c1304
     },
     {
       "challengeId": "04-oop-inheritance-refactor",
       "challengeName": "OOP Inheritance Refactor",
       "score": 0,
       "passed": false,
-      "reviewedAt": "2026-03-08T10:14:07.875Z"
+      "reviewedAt": "2026-03-09T09:27:03.101Z"
     },
     {
       "challengeId": "05-module-system-conversion",
       "challengeName": "Module System Conversion",
       "score": 0,
       "passed": false,
-      "reviewedAt": "2026-03-08T10:14:07.886Z"
+      "reviewedAt": "2026-03-09T09:27:03.102Z"
     },
     {
       "challengeId": "06-callback-hell-rescue",
       "challengeName": "Callback Hell Rescue",
       "score": 0,
       "passed": false,
-      "reviewedAt": "2026-03-08T10:14:07.897Z"
+      "reviewedAt": "2026-03-09T09:27:03.103Z"
     },
     {
       "challengeId": "07-promises-chain-rejection-handling",
       "challengeName": "Promises Chain Rejection Handling",
       "score": 0,
       "passed": false,
-      "reviewedAt": "2026-03-08T10:14:07.908Z"
+      "reviewedAt": "2026-03-09T09:27:03.104Z"
     },
     {
       "challengeId": "08-async-await-event-loop-diagnostics",
       "challengeName": "Async Await Event Loop Diagnostics",
       "score": 0,
       "passed": false,
-      "reviewedAt": "2026-03-08T10:14:07.922Z"
+      "reviewedAt": "2026-03-09T09:27:03.105Z"
     }
   ],
   "skillStrengths": [
@@ -98,6 +116,7 @@
     "Follows most best-practices"
   ],
   "aiImprovements": [
+<<<<<<< HEAD
     "Shorten function name",
     "Improve variable names",
     "Add error handling and input validation",
@@ -106,4 +125,9 @@
     "Code appears incomplete. AI review skipped until substantial implementation exists."
   ],
   "generatedAt": "2026-03-11T10:22:14.131Z"
+=======
+    "Set GROQ_API_KEY to enable AI review."
+  ],
+  "generatedAt": "2026-03-09T10:16:22.914Z"
+>>>>>>> a9f138ceabd25a94d92f18df502dc70acb8c1304
 }

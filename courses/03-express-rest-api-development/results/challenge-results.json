@@ -42,25 +42,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-01-express-app-bootstrap.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-01-express-app-bootstrap.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/challenge-01-express-app-bootstrap.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/challenge-01-express-app-bootstrap.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-01-express-app-bootstrap.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-01-express-app-bootstrap.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/e2e/challenge-01-express-app-bootstrap.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/e2e/challenge-01-express-app-bootstrap.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:08.126Z"
+    "reviewedAt": "2026-03-09T09:27:03.119Z"
   },
   {
     "challengeId": "02-routing-params-query-handlers",
@@ -107,25 +107,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-02-routing-params-query-handlers.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-02-routing-params-query-handlers.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/challenge-02-routing-params-query-handlers.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/challenge-02-routing-params-query-handlers.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-02-routing-params-query-handlers.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-02-routing-params-query-handlers.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/e2e/challenge-02-routing-params-query-handlers.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/e2e/challenge-02-routing-params-query-handlers.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:08.137Z"
+    "reviewedAt": "2026-03-09T09:27:03.120Z"
   },
   {
     "challengeId": "03-middleware-request-lifecycle",
@@ -170,25 +170,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-03-middleware-request-lifecycle.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-03-middleware-request-lifecycle.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/challenge-03-middleware-request-lifecycle.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/challenge-03-middleware-request-lifecycle.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-03-middleware-request-lifecycle.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-03-middleware-request-lifecycle.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/e2e/challenge-03-middleware-request-lifecycle.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/e2e/challenge-03-middleware-request-lifecycle.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:08.147Z"
+    "reviewedAt": "2026-03-09T09:27:03.121Z"
   },
   {
     "challengeId": "04-rest-resource-design",
@@ -233,25 +233,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-04-rest-resource-design.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-04-rest-resource-design.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/challenge-04-rest-resource-design.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/challenge-04-rest-resource-design.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-04-rest-resource-design.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-04-rest-resource-design.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/e2e/challenge-04-rest-resource-design.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/e2e/challenge-04-rest-resource-design.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:08.161Z"
+    "reviewedAt": "2026-03-09T09:27:03.122Z"
   },
   {
     "challengeId": "05-http-method-status-formatting",
@@ -296,25 +296,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-05-http-method-status-formatting.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-05-http-method-status-formatting.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/challenge-05-http-method-status-formatting.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/challenge-05-http-method-status-formatting.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-05-http-method-status-formatting.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-05-http-method-status-formatting.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/e2e/challenge-05-http-method-status-formatting.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/e2e/challenge-05-http-method-status-formatting.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:08.176Z"
+    "reviewedAt": "2026-03-09T09:27:03.123Z"
   },
   {
     "challengeId": "06-versioning-cors-content-negotiation",
@@ -359,25 +359,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-06-versioning-cors-content-negotiation.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-06-versioning-cors-content-negotiation.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/challenge-06-versioning-cors-content-negotiation.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/challenge-06-versioning-cors-content-negotiation.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-06-versioning-cors-content-negotiation.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-06-versioning-cors-content-negotiation.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/e2e/challenge-06-versioning-cors-content-negotiation.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/e2e/challenge-06-versioning-cors-content-negotiation.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:08.196Z"
+    "reviewedAt": "2026-03-09T09:27:03.123Z"
   },
   {
     "challengeId": "07-postgres-pool-parameterized-queries",
@@ -422,25 +422,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-07-postgres-pool-parameterized-queries.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-07-postgres-pool-parameterized-queries.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/challenge-07-postgres-pool-parameterized-queries.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/challenge-07-postgres-pool-parameterized-queries.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-07-postgres-pool-parameterized-queries.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-07-postgres-pool-parameterized-queries.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/e2e/challenge-07-postgres-pool-parameterized-queries.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/e2e/challenge-07-postgres-pool-parameterized-queries.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:08.212Z"
+    "reviewedAt": "2026-03-09T09:27:03.126Z"
   },
   {
     "challengeId": "08-mongoose-schema-model-validation",
@@ -485,25 +485,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-08-mongoose-schema-model-validation.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-08-mongoose-schema-model-validation.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/challenge-08-mongoose-schema-model-validation.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/challenge-08-mongoose-schema-model-validation.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-08-mongoose-schema-model-validation.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-08-mongoose-schema-model-validation.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/e2e/challenge-08-mongoose-schema-model-validation.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/e2e/challenge-08-mongoose-schema-model-validation.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:08.230Z"
+    "reviewedAt": "2026-03-09T09:27:03.126Z"
   },
   {
     "challengeId": "09-sql-vs-nosql-design-review",
@@ -544,25 +544,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-09-sql-vs-nosql-design-review.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-09-sql-vs-nosql-design-review.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/challenge-09-sql-vs-nosql-design-review.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/challenge-09-sql-vs-nosql-design-review.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-09-sql-vs-nosql-design-review.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-09-sql-vs-nosql-design-review.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/e2e/challenge-09-sql-vs-nosql-design-review.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/e2e/challenge-09-sql-vs-nosql-design-review.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:08.242Z"
+    "reviewedAt": "2026-03-09T09:27:03.127Z"
   },
   {
     "challengeId": "10-transaction-acid-n-plus-one-fix",
@@ -607,25 +607,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-10-transaction-acid-n-plus-one-fix.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-10-transaction-acid-n-plus-one-fix.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/challenge-10-transaction-acid-n-plus-one-fix.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/challenge-10-transaction-acid-n-plus-one-fix.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-10-transaction-acid-n-plus-one-fix.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-10-transaction-acid-n-plus-one-fix.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/e2e/challenge-10-transaction-acid-n-plus-one-fix.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/e2e/challenge-10-transaction-acid-n-plus-one-fix.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:08.263Z"
+    "reviewedAt": "2026-03-09T09:27:03.128Z"
   },
   {
     "challengeId": "11-jwt-refresh-token-auth",
@@ -670,25 +670,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-11-jwt-refresh-token-auth.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-11-jwt-refresh-token-auth.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/challenge-11-jwt-refresh-token-auth.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/challenge-11-jwt-refresh-token-auth.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-11-jwt-refresh-token-auth.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-11-jwt-refresh-token-auth.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/e2e/challenge-11-jwt-refresh-token-auth.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/e2e/challenge-11-jwt-refresh-token-auth.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:08.275Z"
+    "reviewedAt": "2026-03-09T09:27:03.128Z"
   },
   {
     "challengeId": "12-bcrypt-session-cookie-security",
@@ -733,25 +733,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-12-bcrypt-session-cookie-security.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-12-bcrypt-session-cookie-security.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/challenge-12-bcrypt-session-cookie-security.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/challenge-12-bcrypt-session-cookie-security.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-12-bcrypt-session-cookie-security.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-12-bcrypt-session-cookie-security.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/e2e/challenge-12-bcrypt-session-cookie-security.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/e2e/challenge-12-bcrypt-session-cookie-security.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:08.307Z"
+    "reviewedAt": "2026-03-09T09:27:03.129Z"
   },
   {
     "challengeId": "13-oauth-validation-sanitization",
@@ -796,25 +796,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-13-oauth-validation-sanitization.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-13-oauth-validation-sanitization.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/challenge-13-oauth-validation-sanitization.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/challenge-13-oauth-validation-sanitization.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-13-oauth-validation-sanitization.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-13-oauth-validation-sanitization.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/e2e/challenge-13-oauth-validation-sanitization.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/e2e/challenge-13-oauth-validation-sanitization.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:08.318Z"
+    "reviewedAt": "2026-03-09T09:27:03.130Z"
   },
   {
     "challengeId": "14-rate-limiting-ddos-protection",
@@ -859,25 +859,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-14-rate-limiting-ddos-protection.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-14-rate-limiting-ddos-protection.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/challenge-14-rate-limiting-ddos-protection.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/challenge-14-rate-limiting-ddos-protection.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-14-rate-limiting-ddos-protection.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-14-rate-limiting-ddos-protection.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/e2e/challenge-14-rate-limiting-ddos-protection.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/e2e/challenge-14-rate-limiting-ddos-protection.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:08.329Z"
+    "reviewedAt": "2026-03-09T09:27:03.131Z"
   },
   {
     "challengeId": "15-openapi-contract-documentation",
@@ -922,25 +922,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-15-openapi-contract-documentation.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-15-openapi-contract-documentation.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/challenge-15-openapi-contract-documentation.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/challenge-15-openapi-contract-documentation.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-15-openapi-contract-documentation.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-15-openapi-contract-documentation.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/e2e/challenge-15-openapi-contract-documentation.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/e2e/challenge-15-openapi-contract-documentation.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:08.340Z"
+    "reviewedAt": "2026-03-09T09:27:03.131Z"
   },
   {
     "challengeId": "16-jest-unit-integration-tests",
@@ -985,25 +985,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-16-jest-unit-integration-tests.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-16-jest-unit-integration-tests.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/challenge-16-jest-unit-integration-tests.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/challenge-16-jest-unit-integration-tests.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-16-jest-unit-integration-tests.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-16-jest-unit-integration-tests.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/e2e/challenge-16-jest-unit-integration-tests.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/e2e/challenge-16-jest-unit-integration-tests.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:08.350Z"
+    "reviewedAt": "2026-03-09T09:27:03.132Z"
   },
   {
     "challengeId": "17-coverage-mocking-versioned-api-tests",
@@ -1048,25 +1048,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-17-coverage-mocking-versioned-api-tests.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-17-coverage-mocking-versioned-api-tests.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/challenge-17-coverage-mocking-versioned-api-tests.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/challenge-17-coverage-mocking-versioned-api-tests.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-17-coverage-mocking-versioned-api-tests.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-17-coverage-mocking-versioned-api-tests.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/e2e/challenge-17-coverage-mocking-versioned-api-tests.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/e2e/challenge-17-coverage-mocking-versioned-api-tests.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:08.362Z"
+    "reviewedAt": "2026-03-09T09:27:03.133Z"
   },
   {
     "challengeId": "18-static-files-template-engines",
@@ -1113,25 +1113,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-18-static-files-template-engines.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-18-static-files-template-engines.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/challenge-18-static-files-template-engines.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/challenge-18-static-files-template-engines.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-18-static-files-template-engines.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-18-static-files-template-engines.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/e2e/challenge-18-static-files-template-engines.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/e2e/challenge-18-static-files-template-engines.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:08.376Z"
+    "reviewedAt": "2026-03-09T09:27:03.133Z"
   },
   {
     "challengeId": "19-https-tls-api-hardening",
@@ -1176,25 +1176,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-19-https-tls-api-hardening.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-19-https-tls-api-hardening.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/challenge-19-https-tls-api-hardening.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/challenge-19-https-tls-api-hardening.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-19-https-tls-api-hardening.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-19-https-tls-api-hardening.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/e2e/challenge-19-https-tls-api-hardening.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/e2e/challenge-19-https-tls-api-hardening.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:08.392Z"
+    "reviewedAt": "2026-03-09T09:27:03.134Z"
   },
   {
     "challengeId": "20-health-readiness-endpoints",
@@ -1239,25 +1239,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-20-health-readiness-endpoints.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-20-health-readiness-endpoints.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/challenge-20-health-readiness-endpoints.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/challenge-20-health-readiness-endpoints.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-20-health-readiness-endpoints.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-20-health-readiness-endpoints.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/e2e/challenge-20-health-readiness-endpoints.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/e2e/challenge-20-health-readiness-endpoints.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:08.442Z"
+    "reviewedAt": "2026-03-09T09:27:03.135Z"
   },
   {
     "challengeId": "21-pagination-sorting-filter-contract",
@@ -1302,24 +1302,24 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-21-pagination-sorting-filter-contract.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-21-pagination-sorting-filter-contract.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/challenge-21-pagination-sorting-filter-contract.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/challenge-21-pagination-sorting-filter-contract.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-21-pagination-sorting-filter-contract.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-21-pagination-sorting-filter-contract.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/e2e/challenge-21-pagination-sorting-filter-contract.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/03-express-rest-api-development/project/tests/e2e/challenge-21-pagination-sorting-filter-contract.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:08.509Z"
+    "reviewedAt": "2026-03-09T09:27:03.136Z"
   }
 ]

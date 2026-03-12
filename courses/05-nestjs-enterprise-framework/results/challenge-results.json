@@ -46,25 +46,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-01-nest-modules-controllers-services.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-01-nest-modules-controllers-services.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/challenge-01-nest-modules-controllers-services.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/challenge-01-nest-modules-controllers-services.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-01-nest-modules-controllers-services.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-01-nest-modules-controllers-services.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/e2e/challenge-01-nest-modules-controllers-services.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/e2e/challenge-01-nest-modules-controllers-services.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:09.619Z"
+    "reviewedAt": "2026-03-09T09:27:03.143Z"
   },
   {
     "challengeId": "02-dependency-injection-providers",
@@ -109,25 +109,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-02-dependency-injection-providers.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-02-dependency-injection-providers.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/challenge-02-dependency-injection-providers.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/challenge-02-dependency-injection-providers.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-02-dependency-injection-providers.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-02-dependency-injection-providers.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/e2e/challenge-02-dependency-injection-providers.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/e2e/challenge-02-dependency-injection-providers.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:09.629Z"
+    "reviewedAt": "2026-03-09T09:27:03.145Z"
   },
   {
     "challengeId": "03-middleware-guards-interceptors-pipes",
@@ -174,25 +174,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-03-middleware-guards-interceptors-pipes.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-03-middleware-guards-interceptors-pipes.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/challenge-03-middleware-guards-interceptors-pipes.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/challenge-03-middleware-guards-interceptors-pipes.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-03-middleware-guards-interceptors-pipes.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-03-middleware-guards-interceptors-pipes.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/e2e/challenge-03-middleware-guards-interceptors-pipes.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/e2e/challenge-03-middleware-guards-interceptors-pipes.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:09.639Z"
+    "reviewedAt": "2026-03-09T09:27:03.145Z"
   },
   {
     "challengeId": "04-exception-filter-error-handling",
@@ -237,25 +237,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-04-exception-filter-error-handling.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-04-exception-filter-error-handling.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/challenge-04-exception-filter-error-handling.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/challenge-04-exception-filter-error-handling.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-04-exception-filter-error-handling.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-04-exception-filter-error-handling.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/e2e/challenge-04-exception-filter-error-handling.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/e2e/challenge-04-exception-filter-error-handling.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:09.648Z"
+    "reviewedAt": "2026-03-09T09:27:03.146Z"
   },
   {
     "challengeId": "05-custom-decorators-metadata-reflection",
@@ -300,25 +300,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-05-custom-decorators-metadata-reflection.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-05-custom-decorators-metadata-reflection.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/challenge-05-custom-decorators-metadata-reflection.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/challenge-05-custom-decorators-metadata-reflection.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-05-custom-decorators-metadata-reflection.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-05-custom-decorators-metadata-reflection.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/e2e/challenge-05-custom-decorators-metadata-reflection.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/e2e/challenge-05-custom-decorators-metadata-reflection.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:09.660Z"
+    "reviewedAt": "2026-03-09T09:27:03.146Z"
   },
   {
     "challengeId": "06-typeorm-prisma-repository-pattern",
@@ -363,25 +363,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-06-typeorm-prisma-repository-pattern.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-06-typeorm-prisma-repository-pattern.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/challenge-06-typeorm-prisma-repository-pattern.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/challenge-06-typeorm-prisma-repository-pattern.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-06-typeorm-prisma-repository-pattern.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-06-typeorm-prisma-repository-pattern.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/e2e/challenge-06-typeorm-prisma-repository-pattern.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/e2e/challenge-06-typeorm-prisma-repository-pattern.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:09.662Z"
+    "reviewedAt": "2026-03-09T09:27:03.147Z"
   },
   {
     "challengeId": "07-validation-config-logging",
@@ -426,25 +426,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-07-validation-config-logging.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-07-validation-config-logging.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/challenge-07-validation-config-logging.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/challenge-07-validation-config-logging.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-07-validation-config-logging.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-07-validation-config-logging.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/e2e/challenge-07-validation-config-logging.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/e2e/challenge-07-validation-config-logging.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:09.673Z"
+    "reviewedAt": "2026-03-09T09:27:03.148Z"
   },
   {
     "challengeId": "08-passport-local-jwt-strategies",
@@ -489,25 +489,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-08-passport-local-jwt-strategies.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-08-passport-local-jwt-strategies.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/challenge-08-passport-local-jwt-strategies.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/challenge-08-passport-local-jwt-strategies.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-08-passport-local-jwt-strategies.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-08-passport-local-jwt-strategies.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/e2e/challenge-08-passport-local-jwt-strategies.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/e2e/challenge-08-passport-local-jwt-strategies.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:09.684Z"
+    "reviewedAt": "2026-03-09T09:27:03.148Z"
   },
   {
     "challengeId": "09-rbac-guards-route-protection",
@@ -554,25 +554,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-09-rbac-guards-route-protection.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-09-rbac-guards-route-protection.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/challenge-09-rbac-guards-route-protection.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/challenge-09-rbac-guards-route-protection.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-09-rbac-guards-route-protection.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-09-rbac-guards-route-protection.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/e2e/challenge-09-rbac-guards-route-protection.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/e2e/challenge-09-rbac-guards-route-protection.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:09.695Z"
+    "reviewedAt": "2026-03-09T09:27:03.149Z"
   },
   {
     "challengeId": "10-refresh-token-api-key-auth",
@@ -617,25 +617,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-10-refresh-token-api-key-auth.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-10-refresh-token-api-key-auth.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/challenge-10-refresh-token-api-key-auth.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/challenge-10-refresh-token-api-key-auth.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-10-refresh-token-api-key-auth.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-10-refresh-token-api-key-auth.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/e2e/challenge-10-refresh-token-api-key-auth.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/e2e/challenge-10-refresh-token-api-key-auth.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:09.705Z"
+    "reviewedAt": "2026-03-09T09:27:03.150Z"
   },
   {
     "challengeId": "11-microservices-architecture-patterns",
@@ -680,25 +680,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-11-microservices-architecture-patterns.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-11-microservices-architecture-patterns.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/challenge-11-microservices-architecture-patterns.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/challenge-11-microservices-architecture-patterns.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-11-microservices-architecture-patterns.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-11-microservices-architecture-patterns.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/e2e/challenge-11-microservices-architecture-patterns.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/e2e/challenge-11-microservices-architecture-patterns.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:09.715Z"
+    "reviewedAt": "2026-03-09T09:27:03.151Z"
   },
   {
     "challengeId": "12-rabbitmq-redis-event-driven-flow",
@@ -743,25 +743,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-12-rabbitmq-redis-event-driven-flow.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-12-rabbitmq-redis-event-driven-flow.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/challenge-12-rabbitmq-redis-event-driven-flow.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/challenge-12-rabbitmq-redis-event-driven-flow.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-12-rabbitmq-redis-event-driven-flow.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-12-rabbitmq-redis-event-driven-flow.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/e2e/challenge-12-rabbitmq-redis-event-driven-flow.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/e2e/challenge-12-rabbitmq-redis-event-driven-flow.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:09.725Z"
+    "reviewedAt": "2026-03-09T09:27:03.152Z"
   },
   {
     "challengeId": "13-grpc-rest-interservice-bridge",
@@ -806,25 +806,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-13-grpc-rest-interservice-bridge.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-13-grpc-rest-interservice-bridge.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/challenge-13-grpc-rest-interservice-bridge.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/challenge-13-grpc-rest-interservice-bridge.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-13-grpc-rest-interservice-bridge.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-13-grpc-rest-interservice-bridge.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/e2e/challenge-13-grpc-rest-interservice-bridge.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/e2e/challenge-13-grpc-rest-interservice-bridge.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:09.736Z"
+    "reviewedAt": "2026-03-09T09:27:03.153Z"
   },
   {
     "challengeId": "14-unit-e2e-mocking-strategy",
@@ -871,25 +871,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-14-unit-e2e-mocking-strategy.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-14-unit-e2e-mocking-strategy.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/challenge-14-unit-e2e-mocking-strategy.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/challenge-14-unit-e2e-mocking-strategy.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-14-unit-e2e-mocking-strategy.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-14-unit-e2e-mocking-strategy.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/e2e/challenge-14-unit-e2e-mocking-strategy.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/e2e/challenge-14-unit-e2e-mocking-strategy.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:09.749Z"
+    "reviewedAt": "2026-03-09T09:27:03.153Z"
   },
   {
     "challengeId": "15-coverage-reporting-tdd-cycle",
@@ -934,25 +934,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-15-coverage-reporting-tdd-cycle.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-15-coverage-reporting-tdd-cycle.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/challenge-15-coverage-reporting-tdd-cycle.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/challenge-15-coverage-reporting-tdd-cycle.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-15-coverage-reporting-tdd-cycle.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-15-coverage-reporting-tdd-cycle.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/e2e/challenge-15-coverage-reporting-tdd-cycle.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/e2e/challenge-15-coverage-reporting-tdd-cycle.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:09.759Z"
+    "reviewedAt": "2026-03-09T09:27:03.154Z"
   },
   {
     "challengeId": "16-service-discovery-basics",
@@ -997,25 +997,25 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-16-service-discovery-basics.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-16-service-discovery-basics.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/challenge-16-service-discovery-basics.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/challenge-16-service-discovery-basics.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-16-service-discovery-basics.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-16-service-discovery-basics.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/e2e/challenge-16-service-discovery-basics.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/e2e/challenge-16-service-discovery-basics.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:09.770Z"
+    "reviewedAt": "2026-03-09T09:27:03.155Z"
   },
   {
     "challengeId": "17-request-id-logging-interceptor",
@@ -1060,24 +1060,24 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-17-request-id-logging-interceptor.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-17-request-id-logging-interceptor.test.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/challenge-17-request-id-logging-interceptor.test.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/challenge-17-request-id-logging-interceptor.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-17-request-id-logging-interceptor.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-17-request-id-logging-interceptor.spec.ts"
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/e2e/challenge-17-request-id-logging-interceptor.spec.js",
+          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/05-nestjs-enterprise-framework/project/tests/e2e/challenge-17-request-id-logging-interceptor.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
       "aiReview": {
         "score": 0,
-        "mode": "skipped",
+        "mode": "disabled",
         "strengths": [],
         "improvements": [
-          "Code appears incomplete. AI review skipped until substantial implementation exists."
+          "Set GROQ_API_KEY to enable AI review."
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:09.780Z"
+    "reviewedAt": "2026-03-09T09:27:03.155Z"
   }
 ]
