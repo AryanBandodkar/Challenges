@@ -568,7 +568,9 @@ export default function App() {
                     Passed: {course.completedChallenges || 0}/{course.totalChallenges || 0}
                   </span>
                 </div>
-                <ScoreBar score={course.completionPercentage || 0} />
+                <div className="scorebar-wrapper">
+                  <ScoreBar score={course.completionPercentage || 0} />
+                </div>
                 <button type="button" onClick={() => openCourse(course.id)}>
                   View Challenges
                 </button>
@@ -663,7 +665,9 @@ export default function App() {
                   <span>Score: {toPercent(challenge.score)}</span>
                   <span>Last run: {formatDate(challenge.lastRun)}</span>
                 </div>
-                <ScoreBar score={challenge.score || 0} />
+                <div className="scorebar-wrapper">
+                  <ScoreBar score={challenge.score || 0} />
+                </div>
                 <button type="button" onClick={() => openChallenge(challenge.id)}>
                   Details
                 </button>

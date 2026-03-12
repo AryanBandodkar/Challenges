@@ -1,20 +1,20 @@
 {
   "pathwayName": "Node.js Backend Engineer",
   "pathwayVersion": "1.0.0",
-  "overallScore": 0,
-  "completionPercentage": 0,
+  "overallScore": 5.02,
+  "completionPercentage": 4.35,
   "badgeLevel": "none",
   "totalChallenges": 69,
-  "completedChallenges": 0,
+  "completedChallenges": 3,
   "courses": [
     {
       "id": "01-javascript-fundamentals-async",
       "name": "JavaScript Fundamentals & Async Programming",
       "weight": 0.15,
-      "averageScore": 0,
-      "completionPercentage": 0,
+      "averageScore": 33.47,
+      "completionPercentage": 37.5,
       "totalChallenges": 8,
-      "completedChallenges": 0,
+      "completedChallenges": 3,
       "badgeLevel": "none"
     },
     {
@@ -58,5 +58,5 @@
       "badgeLevel": "none"
     }
   ],
-  "generatedAt": "2026-03-08T10:44:02.565Z"
+  "generatedAt": "2026-03-11T10:22:14.173Z"
 }

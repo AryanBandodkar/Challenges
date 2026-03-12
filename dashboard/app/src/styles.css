@@ -203,6 +203,9 @@ body {
   padding: 0.85rem;
   box-shadow: var(--shadow);
   animation: rise-in 300ms ease-out both;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .card h3 {
@@ -235,6 +238,8 @@ body {
   background: #173f2f;
   color: #f4fff7;
   padding: 0.55rem 0.8rem;
+  margin-top: auto;
+  align-self: flex-start;
 }
 
 .card button:hover {
@@ -248,6 +253,10 @@ body {
   border-radius: 99px;
   overflow: hidden;
   background: #e3e9dd;
+}
+
+.scorebar-wrapper {
+  margin-bottom: 1rem;
 }
 
 .score-fill {
@@ -321,7 +330,7 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 1rem;
-  align-items: flex-start;
+  align-items: center;
   flex-wrap: wrap;
 }
 

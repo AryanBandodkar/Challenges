@@ -5,21 +5,21 @@
     "trackedSkills": 187,
     "skillAppearances": 195,
     "reviewedSkillAppearances": 195,
-    "passedSkillAppearances": 0
+    "passedSkillAppearances": 11
   },
   "topStrengths": [
-    "middleware",
-    "dotenv",
-    "guards",
-    "interceptors",
-    "mocking",
-    "status codes",
-    "unit tests",
-    "@nestjs/config",
-    "ACID",
-    "API key auth",
-    "API version test documentation",
-    "API versioning"
+    "arrow functions",
+    "destructuring",
+    "filter",
+    "find",
+    "forEach",
+    "let/const",
+    "map",
+    "reduce",
+    "spread/rest",
+    "string manipulation",
+    "template literals",
+    "middleware"
   ],
   "improvementAreas": [
     "middleware",
@@ -234,8 +234,8 @@
       "skill": "arrow functions",
       "appearances": 1,
       "reviewedChallenges": 1,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "01-javascript-fundamentals-async"
       ],
@@ -559,8 +559,8 @@
       "skill": "destructuring",
       "appearances": 1,
       "reviewedChallenges": 1,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "01-javascript-fundamentals-async"
       ],
@@ -793,8 +793,8 @@
       "skill": "filter",
       "appearances": 1,
       "reviewedChallenges": 1,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "01-javascript-fundamentals-async"
       ],
@@ -819,8 +819,8 @@
       "skill": "find",
       "appearances": 1,
       "reviewedChallenges": 1,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "01-javascript-fundamentals-async"
       ],
@@ -832,8 +832,8 @@
       "skill": "forEach",
       "appearances": 1,
       "reviewedChallenges": 1,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "01-javascript-fundamentals-async"
       ],
@@ -1118,8 +1118,8 @@
       "skill": "let/const",
       "appearances": 1,
       "reviewedChallenges": 1,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "01-javascript-fundamentals-async"
       ],
@@ -1183,8 +1183,8 @@
       "skill": "map",
       "appearances": 1,
       "reviewedChallenges": 1,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "01-javascript-fundamentals-async"
       ],
@@ -1729,8 +1729,8 @@
       "skill": "reduce",
       "appearances": 1,
       "reviewedChallenges": 1,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "01-javascript-fundamentals-async"
       ],
@@ -2093,8 +2093,8 @@
       "skill": "spread/rest",
       "appearances": 1,
       "reviewedChallenges": 1,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "01-javascript-fundamentals-async"
       ],
@@ -2184,8 +2184,8 @@
       "skill": "string manipulation",
       "appearances": 1,
       "reviewedChallenges": 1,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "01-javascript-fundamentals-async"
       ],
@@ -2249,8 +2249,8 @@
       "skill": "template literals",
       "appearances": 1,
       "reviewedChallenges": 1,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "01-javascript-fundamentals-async"
       ],
@@ -2480,5 +2480,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-03-08T10:44:02.579Z"
+  "generatedAt": "2026-03-11T10:22:14.227Z"
 }

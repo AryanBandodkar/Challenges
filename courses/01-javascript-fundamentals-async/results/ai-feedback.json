@@ -2,35 +2,43 @@
   {
     "challengeId": "01-es6-syntax-foundations",
     "challengeName": "ES6 Syntax Foundations",
-    "score": 0,
-    "mode": "disabled",
-    "strengths": [],
-    "improvements": [
-      "Set GROQ_API_KEY to enable AI review."
+    "score": 85,
+    "mode": "live",
+    "strengths": [
+      "Well-structured and modular code",
+      "Correctly exported function",
+      "Use of destructuring, spread operator, and arrow functions",
+      "Follows most best-practices"
     ],
-    "reviewedAt": "2026-03-08T10:44:01.863Z"
+    "improvements": [
+      "Shorten function name",
+      "Improve variable names",
+      "Add error handling and input validation",
+      "Use a more robust way to handle input data"
+    ],
+    "reviewedAt": "2026-03-11T10:22:14.119Z"
   },
   {
     "challengeId": "02-template-literal-string-lab",
     "challengeName": "Template Literal String Lab",
     "score": 0,
-    "mode": "skipped",
+    "mode": "parse_error",
     "strengths": [],
     "improvements": [
-      "Code appears incomplete. AI review skipped until substantial implementation exists."
+      "AI response was not valid JSON."
     ],
-    "reviewedAt": "2026-03-08T10:14:07.855Z"
+    "reviewedAt": "2026-03-10T16:10:57.699Z"
   },
   {
     "challengeId": "03-array-methods-data-pipeline",
     "challengeName": "Array Methods Data Pipeline",
     "score": 0,
-    "mode": "skipped",
+    "mode": "parse_error",
     "strengths": [],
     "improvements": [
-      "Code appears incomplete. AI review skipped until substantial implementation exists."
+      "AI response was not valid JSON."
     ],
-    "reviewedAt": "2026-03-08T10:14:07.865Z"
+    "reviewedAt": "2026-03-11T08:57:29.282Z"
   },
   {
     "challengeId": "04-oop-inheritance-refactor",

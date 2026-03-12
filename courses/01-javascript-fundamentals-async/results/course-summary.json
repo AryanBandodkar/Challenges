@@ -1,32 +1,32 @@
 {
   "courseId": "01-javascript-fundamentals-async",
   "courseName": "JavaScript Fundamentals & Async Programming",
-  "averageScore": 0,
-  "completionPercentage": 0,
+  "averageScore": 33.47,
+  "completionPercentage": 37.5,
   "totalChallenges": 8,
-  "completedChallenges": 0,
+  "completedChallenges": 3,
   "badgeLevel": "none",
   "challengeResults": [
     {
       "challengeId": "01-es6-syntax-foundations",
       "challengeName": "ES6 Syntax Foundations",
-      "score": 0,
-      "passed": false,
-      "reviewedAt": "2026-03-08T10:44:01.862Z"
+      "score": 97.75,
+      "passed": true,
+      "reviewedAt": "2026-03-11T10:22:14.116Z"
     },
     {
       "challengeId": "02-template-literal-string-lab",
       "challengeName": "Template Literal String Lab",
-      "score": 0,
-      "passed": false,
-      "reviewedAt": "2026-03-08T10:14:07.855Z"
+      "score": 85,
+      "passed": true,
+      "reviewedAt": "2026-03-10T16:10:57.696Z"
     },
     {
       "challengeId": "03-array-methods-data-pipeline",
       "challengeName": "Array Methods Data Pipeline",
-      "score": 0,
-      "passed": false,
-      "reviewedAt": "2026-03-08T10:14:07.865Z"
+      "score": 85,
+      "passed": true,
+      "reviewedAt": "2026-03-11T08:57:29.278Z"
     },
     {
       "challengeId": "04-oop-inheritance-refactor",
@@ -64,8 +64,7 @@
       "reviewedAt": "2026-03-08T10:14:07.922Z"
     }
   ],
-  "skillStrengths": [],
-  "improvementAreas": [
+  "skillStrengths": [
     "let/const",
     "arrow functions",
     "destructuring",
@@ -76,13 +75,35 @@
     "filter",
     "reduce",
     "forEach",
-    "find",
-    "classes"
+    "find"
   ],
-  "aiStrengths": [],
+  "improvementAreas": [
+    "classes",
+    "inheritance",
+    "prototypes",
+    "import/export",
+    "CommonJS",
+    "ES modules",
+    "callbacks",
+    "control flow",
+    "Promises",
+    "chaining",
+    "error handling",
+    "async/await"
+  ],
+  "aiStrengths": [
+    "Well-structured and modular code",
+    "Correctly exported function",
+    "Use of destructuring, spread operator, and arrow functions",
+    "Follows most best-practices"
+  ],
   "aiImprovements": [
-    "Set GROQ_API_KEY to enable AI review.",
+    "Shorten function name",
+    "Improve variable names",
+    "Add error handling and input validation",
+    "Use a more robust way to handle input data",
+    "AI response was not valid JSON.",
     "Code appears incomplete. AI review skipped until substantial implementation exists."
   ],
-  "generatedAt": "2026-03-08T10:44:01.866Z"
+  "generatedAt": "2026-03-11T10:22:14.131Z"
 }

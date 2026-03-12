@@ -44,12 +44,12 @@
         "hasUnit": false,
         "hasE2E": false,
         "unitCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-01-runtime-event-loop-visualizer.test.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-01-runtime-event-loop-visualizer.test.ts"
+          "C:\\Users\\SPARKPLUS\\Sakshi\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-01-runtime-event-loop-visualizer.test.js",
+          "C:\\Users\\SPARKPLUS\\Sakshi\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-01-runtime-event-loop-visualizer.test.ts"
         ],
         "e2eCandidates": [
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-01-runtime-event-loop-visualizer.spec.js",
-          "D:\\Workspace\\Projects\\SOLO\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-01-runtime-event-loop-visualizer.spec.ts"
+          "C:\\Users\\SPARKPLUS\\Sakshi\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-01-runtime-event-loop-visualizer.spec.js",
+          "C:\\Users\\SPARKPLUS\\Sakshi\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\e2e\\challenge-01-runtime-event-loop-visualizer.spec.ts"
         ],
         "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
       },
@@ -62,7 +62,7 @@
         ]
       }
     },
-    "reviewedAt": "2026-03-08T10:14:07.947Z"
+    "reviewedAt": "2026-03-11T08:36:00.093Z"
   },
   {
     "challengeId": "02-fs-stream-buffer-operations",

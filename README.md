@@ -35,12 +35,16 @@ Reference alignment note: `docs/original-system-alignment.md` documents parity a
 ## Learner Quick Start
 
 1. Run `npm run setup` once to scaffold local challenge workspace.
-2. Pick one challenge README under `courses/<course-id>/project/challenges/<challenge-id>/README.md`.
-3. Implement only the scoped file(s) listed in that README.
-4. Run `npm run review:challenge -- --course=<courseId> --challenge=<challengeId>`.
-5. Iterate until the challenge passes.
+2. In each course folder you work in, install `nodemon` with `npm install --save-dev nodemon`.
+3. Pick one challenge README under `courses/<course-id>/project/challenges/<challenge-id>/README.md`.
+4. Implement only the scoped file(s) listed in that README.
+5. If you want to see the project working before review, update that course project's `main.js` and run `npm run dev` from `courses/<course-id>/project`.
+6. Run `npm run review:challenge -- --course=<courseId> --challenge=<challengeId>`.
+7. Iterate until the challenge passes.
 
 ## Review Commands
+
+Run these commands from the challenge-engine root folder (this repository root).
 
 - `npm run readmes:refresh`
 - `npm run review:challenge -- --course=<courseId> --challenge=<challengeId>`
@@ -77,13 +81,13 @@ Dashboard docs: `dashboard/README.md`
 ## Progress Summary
 
 <!-- PROGRESS_SUMMARY_START -->
-- Overall Score: **0%**
-- Completion: **0%** (0/69)
+- Overall Score: **5.02%**
+- Completion: **4.35%** (3/69)
 - Badge Level: **none**
 
 | Course | Score | Completion | Badge |
 |---|---:|---:|---|
-| JavaScript Fundamentals & Async Programming | 0% | 0% | none |
+| JavaScript Fundamentals & Async Programming | 33.47% | 37.5% | none |
 | Node.js Core Fundamentals | 0% | 0% | none |
 | Express.js & RESTful API Development | 0% | 0% | none |
 | TypeScript for Backend Development | 0% | 0% | none |
