@@ -10,41 +10,23 @@
     {
       "challengeId": "01-es6-syntax-foundations",
       "challengeName": "ES6 Syntax Foundations",
-<<<<<<< HEAD
-      "score": 97.75,
-      "passed": true,
-      "reviewedAt": "2026-03-11T10:22:14.116Z"
-=======
       "score": 0,
       "passed": false,
       "reviewedAt": "2026-03-09T10:16:22.911Z"
->>>>>>> a9f138ceabd25a94d92f18df502dc70acb8c1304
     },
     {
       "challengeId": "02-template-literal-string-lab",
       "challengeName": "Template Literal String Lab",
-<<<<<<< HEAD
-      "score": 85,
-      "passed": true,
-      "reviewedAt": "2026-03-10T16:10:57.696Z"
-=======
       "score": 0,
       "passed": false,
       "reviewedAt": "2026-03-09T09:27:03.099Z"
->>>>>>> a9f138ceabd25a94d92f18df502dc70acb8c1304
     },
     {
       "challengeId": "03-array-methods-data-pipeline",
       "challengeName": "Array Methods Data Pipeline",
-<<<<<<< HEAD
-      "score": 85,
-      "passed": true,
-      "reviewedAt": "2026-03-11T08:57:29.278Z"
-=======
       "score": 0,
       "passed": false,
       "reviewedAt": "2026-03-09T09:27:03.100Z"
->>>>>>> a9f138ceabd25a94d92f18df502dc70acb8c1304
     },
     {
       "challengeId": "04-oop-inheritance-refactor",
@@ -116,18 +98,7 @@
     "Follows most best-practices"
   ],
   "aiImprovements": [
-<<<<<<< HEAD
-    "Shorten function name",
-    "Improve variable names",
-    "Add error handling and input validation",
-    "Use a more robust way to handle input data",
-    "AI response was not valid JSON.",
-    "Code appears incomplete. AI review skipped until substantial implementation exists."
-  ],
-  "generatedAt": "2026-03-11T10:22:14.131Z"
-=======
     "Set GROQ_API_KEY to enable AI review."
   ],
   "generatedAt": "2026-03-09T10:16:22.914Z"
->>>>>>> a9f138ceabd25a94d92f18df502dc70acb8c1304
 }

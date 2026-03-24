@@ -10,7 +10,12 @@ function readJson(filePath, fallback = null) {
     return fallback;
   }
   const raw = readFileSync(filePath, 'utf-8').replace(/^\uFEFF/, '');
-  return JSON.parse(raw);
+  try {
+    return JSON.parse(raw);
+  } catch (error) {
+    // Keep progress updates resilient when a results file is temporarily malformed.
+    return fallback;
+  }
 }
 
 function writeJson(filePath, data) {
@@ -108,7 +113,13 @@ function updateReadmes(pathwaySummary, rootDir) {
   for (const course of pathwaySummary.courses) {
     const courseDir = join(rootDir, 'courses', course.id);
     const courseConfig = readJson(join(courseDir, 'course-config.json'));
-    const courseSummary = readJson(join(courseDir, 'results', 'course-summary.json'));
+    const courseSummary = readJson(join(courseDir, 'results', 'course-summary.json'), {
+      averageScore: 0,
+      completionPercentage: 0,
+      totalChallenges: Array.isArray(courseConfig?.challenges) ? courseConfig.challenges.length : 0,
+      completedChallenges: 0,
+      badgeLevel: 'none'
+    });
     const challengeResults = readJson(join(courseDir, 'results', 'challenge-results.json'), []);
     const resultMap = new Map(challengeResults.map((item) => [item.challengeId, item]));
 

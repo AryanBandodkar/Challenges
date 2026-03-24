@@ -20,13 +20,13 @@ This project uses challenge stubs only. Learners implement each challenge in `sr
 ## Challenge Progress
 
 <!-- COURSE_PROGRESS_START -->
-- Average Score: **33.47%**
+- Average Score: **31.88%**
 - Completion: **37.5%** (3/8)
 - Badge Level: **none**
 
 | Challenge | Module | Status | Score |
 |---|---|---|---:|
-| ES6 Syntax Foundations | Modern JavaScript Essentials | Passed | 97.75% |
+| ES6 Syntax Foundations | Modern JavaScript Essentials | Passed | 85% |
 | Template Literal String Lab | Modern JavaScript Essentials | Passed | 85% |
 | Array Methods Data Pipeline | Modern JavaScript Essentials | Passed | 85% |
 | OOP Inheritance Refactor | Modern JavaScript Essentials | Not passed | 0% |

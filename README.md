@@ -81,13 +81,13 @@ Dashboard docs: `dashboard/README.md`
 ## Progress Summary
 
 <!-- PROGRESS_SUMMARY_START -->
-- Overall Score: **5.02%**
+- Overall Score: **4.78%**
 - Completion: **4.35%** (3/69)
 - Badge Level: **none**
 
 | Course | Score | Completion | Badge |
 |---|---:|---:|---|
-| JavaScript Fundamentals & Async Programming | 33.47% | 37.5% | none |
+| JavaScript Fundamentals & Async Programming | 31.88% | 37.5% | none |
 | Node.js Core Fundamentals | 0% | 0% | none |
 | Express.js & RESTful API Development | 0% | 0% | none |
 | TypeScript for Backend Development | 0% | 0% | none |

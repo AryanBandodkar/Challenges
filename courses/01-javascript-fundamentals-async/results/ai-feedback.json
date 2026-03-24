@@ -2,43 +2,29 @@
   {
     "challengeId": "01-es6-syntax-foundations",
     "challengeName": "ES6 Syntax Foundations",
-    "score": 85,
-    "mode": "live",
-    "strengths": [
-      "Well-structured and modular code",
-      "Correctly exported function",
-      "Use of destructuring, spread operator, and arrow functions",
-      "Follows most best-practices"
-    ],
-    "improvements": [
-      "Shorten function name",
-      "Improve variable names",
-      "Add error handling and input validation",
-      "Use a more robust way to handle input data"
-    ],
-    "reviewedAt": "2026-03-11T10:22:14.119Z"
+    "score": 0,
+    "mode": "disabled",
+    "strengths": [],
+    "improvements": [],
+    "reviewedAt": null
   },
   {
     "challengeId": "02-template-literal-string-lab",
     "challengeName": "Template Literal String Lab",
     "score": 0,
-    "mode": "parse_error",
+    "mode": "disabled",
     "strengths": [],
-    "improvements": [
-      "AI response was not valid JSON."
-    ],
-    "reviewedAt": "2026-03-10T16:10:57.699Z"
+    "improvements": [],
+    "reviewedAt": null
   },
   {
     "challengeId": "03-array-methods-data-pipeline",
     "challengeName": "Array Methods Data Pipeline",
     "score": 0,
-    "mode": "parse_error",
+    "mode": "disabled",
     "strengths": [],
-    "improvements": [
-      "AI response was not valid JSON."
-    ],
-    "reviewedAt": "2026-03-11T08:57:29.282Z"
+    "improvements": [],
+    "reviewedAt": null
   },
   {
     "challengeId": "04-oop-inheritance-refactor",
@@ -46,10 +32,8 @@
     "score": 0,
     "mode": "disabled",
     "strengths": [],
-    "improvements": [
-      "Set GROQ_API_KEY to enable AI review."
-    ],
-    "reviewedAt": "2026-03-09T09:27:03.101Z"
+    "improvements": [],
+    "reviewedAt": null
   },
   {
     "challengeId": "05-module-system-conversion",
@@ -57,10 +41,8 @@
     "score": 0,
     "mode": "disabled",
     "strengths": [],
-    "improvements": [
-      "Set GROQ_API_KEY to enable AI review."
-    ],
-    "reviewedAt": "2026-03-09T09:27:03.102Z"
+    "improvements": [],
+    "reviewedAt": null
   },
   {
     "challengeId": "06-callback-hell-rescue",
@@ -68,10 +50,8 @@
     "score": 0,
     "mode": "disabled",
     "strengths": [],
-    "improvements": [
-      "Set GROQ_API_KEY to enable AI review."
-    ],
-    "reviewedAt": "2026-03-09T09:27:03.103Z"
+    "improvements": [],
+    "reviewedAt": null
   },
   {
     "challengeId": "07-promises-chain-rejection-handling",
@@ -79,10 +59,8 @@
     "score": 0,
     "mode": "disabled",
     "strengths": [],
-    "improvements": [
-      "Set GROQ_API_KEY to enable AI review."
-    ],
-    "reviewedAt": "2026-03-09T09:27:03.104Z"
+    "improvements": [],
+    "reviewedAt": null
   },
   {
     "challengeId": "08-async-await-event-loop-diagnostics",
@@ -90,9 +68,7 @@
     "score": 0,
     "mode": "disabled",
     "strengths": [],
-    "improvements": [
-      "Set GROQ_API_KEY to enable AI review."
-    ],
-    "reviewedAt": "2026-03-09T09:27:03.105Z"
+    "improvements": [],
+    "reviewedAt": null
   }
 ]

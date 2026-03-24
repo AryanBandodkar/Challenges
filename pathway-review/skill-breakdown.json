@@ -4,7 +4,7 @@
   "totals": {
     "trackedSkills": 187,
     "skillAppearances": 195,
-    "reviewedSkillAppearances": 195,
+    "reviewedSkillAppearances": 153,
     "passedSkillAppearances": 11
   },
   "topStrengths": [
@@ -23,17 +23,17 @@
   ],
   "improvementAreas": [
     "middleware",
-    "dotenv",
     "guards",
     "interceptors",
     "mocking",
-    "status codes",
     "unit tests",
     "@nestjs/config",
     "ACID",
     "API key auth",
     "API version test documentation",
-    "API versioning"
+    "API versioning",
+    "app configuration",
+    "async/await"
   ],
   "skills": [
     {
@@ -55,7 +55,7 @@
     {
       "skill": "dotenv",
       "appearances": 2,
-      "reviewedChallenges": 2,
+      "reviewedChallenges": 0,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -112,7 +112,7 @@
     {
       "skill": "status codes",
       "appearances": 2,
-      "reviewedChallenges": 2,
+      "reviewedChallenges": 1,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -220,7 +220,7 @@
     {
       "skill": "argv",
       "appearances": 1,
-      "reviewedChallenges": 1,
+      "reviewedChallenges": 0,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -285,7 +285,7 @@
     {
       "skill": "buffers",
       "appearances": 1,
-      "reviewedChallenges": 1,
+      "reviewedChallenges": 0,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -324,7 +324,7 @@
     {
       "skill": "child processes",
       "appearances": 1,
-      "reviewedChallenges": 1,
+      "reviewedChallenges": 0,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -467,7 +467,7 @@
     {
       "skill": "cross-platform compatibility",
       "appearances": 1,
-      "reviewedChallenges": 1,
+      "reviewedChallenges": 0,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -519,7 +519,7 @@
     {
       "skill": "debugger workflow",
       "appearances": 1,
-      "reviewedChallenges": 1,
+      "reviewedChallenges": 0,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -532,7 +532,7 @@
     {
       "skill": "dependencies",
       "appearances": 1,
-      "reviewedChallenges": 1,
+      "reviewedChallenges": 0,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -571,7 +571,7 @@
     {
       "skill": "devDependencies",
       "appearances": 1,
-      "reviewedChallenges": 1,
+      "reviewedChallenges": 0,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -623,7 +623,7 @@
     {
       "skill": "environment-based behavior",
       "appearances": 1,
-      "reviewedChallenges": 1,
+      "reviewedChallenges": 0,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -636,7 +636,7 @@
     {
       "skill": "error classification",
       "appearances": 1,
-      "reviewedChallenges": 1,
+      "reviewedChallenges": 0,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -701,7 +701,7 @@
     {
       "skill": "event loop phases",
       "appearances": 1,
-      "reviewedChallenges": 1,
+      "reviewedChallenges": 0,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -740,7 +740,7 @@
     {
       "skill": "exit codes",
       "appearances": 1,
-      "reviewedChallenges": 1,
+      "reviewedChallenges": 0,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -844,7 +844,7 @@
     {
       "skill": "fs",
       "appearances": 1,
-      "reviewedChallenges": 1,
+      "reviewedChallenges": 0,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -870,7 +870,7 @@
     {
       "skill": "global handlers",
       "appearances": 1,
-      "reviewedChallenges": 1,
+      "reviewedChallenges": 0,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -883,7 +883,7 @@
     {
       "skill": "graceful shutdown",
       "appearances": 1,
-      "reviewedChallenges": 1,
+      "reviewedChallenges": 0,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -909,7 +909,7 @@
     {
       "skill": "headers",
       "appearances": 1,
-      "reviewedChallenges": 1,
+      "reviewedChallenges": 0,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -948,7 +948,7 @@
     {
       "skill": "http server",
       "appearances": 1,
-      "reviewedChallenges": 1,
+      "reviewedChallenges": 0,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -1104,7 +1104,7 @@
     {
       "skill": "large transfer handling",
       "appearances": 1,
-      "reviewedChallenges": 1,
+      "reviewedChallenges": 0,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -1143,7 +1143,7 @@
     {
       "skill": "lodash/dayjs usage",
       "appearances": 1,
-      "reviewedChallenges": 1,
+      "reviewedChallenges": 0,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -1169,7 +1169,7 @@
     {
       "skill": "logging best practices",
       "appearances": 1,
-      "reviewedChallenges": 1,
+      "reviewedChallenges": 0,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -1234,7 +1234,7 @@
     {
       "skill": "microtasks/macrotasks",
       "appearances": 1,
-      "reviewedChallenges": 1,
+      "reviewedChallenges": 0,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -1364,7 +1364,7 @@
     {
       "skill": "npm publish workflow",
       "appearances": 1,
-      "reviewedChallenges": 1,
+      "reviewedChallenges": 0,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -1377,7 +1377,7 @@
     {
       "skill": "npm scripts",
       "appearances": 1,
-      "reviewedChallenges": 1,
+      "reviewedChallenges": 0,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -1390,7 +1390,7 @@
     {
       "skill": "npm/yarn fundamentals",
       "appearances": 1,
-      "reviewedChallenges": 1,
+      "reviewedChallenges": 0,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -1442,7 +1442,7 @@
     {
       "skill": "os",
       "appearances": 1,
-      "reviewedChallenges": 1,
+      "reviewedChallenges": 0,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -1455,7 +1455,7 @@
     {
       "skill": "package exports",
       "appearances": 1,
-      "reviewedChallenges": 1,
+      "reviewedChallenges": 0,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -1468,7 +1468,7 @@
     {
       "skill": "package-lock",
       "appearances": 1,
-      "reviewedChallenges": 1,
+      "reviewedChallenges": 0,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -1481,7 +1481,7 @@
     {
       "skill": "package.json",
       "appearances": 1,
-      "reviewedChallenges": 1,
+      "reviewedChallenges": 0,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -1533,7 +1533,7 @@
     {
       "skill": "path",
       "appearances": 1,
-      "reviewedChallenges": 1,
+      "reviewedChallenges": 0,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -1598,7 +1598,7 @@
     {
       "skill": "process.env",
       "appearances": 1,
-      "reviewedChallenges": 1,
+      "reviewedChallenges": 0,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -1663,7 +1663,7 @@
     {
       "skill": "query parameters",
       "appearances": 1,
-      "reviewedChallenges": 1,
+      "reviewedChallenges": 0,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -1806,7 +1806,7 @@
     {
       "skill": "request/response",
       "appearances": 1,
-      "reviewedChallenges": 1,
+      "reviewedChallenges": 0,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -1832,7 +1832,7 @@
     {
       "skill": "resource cleanup",
       "appearances": 1,
-      "reviewedChallenges": 1,
+      "reviewedChallenges": 0,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -1949,7 +1949,7 @@
     {
       "skill": "routing",
       "appearances": 1,
-      "reviewedChallenges": 1,
+      "reviewedChallenges": 0,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -1975,7 +1975,7 @@
     {
       "skill": "semver",
       "appearances": 1,
-      "reviewedChallenges": 1,
+      "reviewedChallenges": 0,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -2066,7 +2066,7 @@
     {
       "skill": "SIGTERM/SIGINT handling",
       "appearances": 1,
-      "reviewedChallenges": 1,
+      "reviewedChallenges": 0,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -2157,7 +2157,7 @@
     {
       "skill": "streaming",
       "appearances": 1,
-      "reviewedChallenges": 1,
+      "reviewedChallenges": 0,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -2170,7 +2170,7 @@
     {
       "skill": "streams",
       "appearances": 1,
-      "reviewedChallenges": 1,
+      "reviewedChallenges": 0,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -2430,7 +2430,7 @@
     {
       "skill": "V8 runtime",
       "appearances": 1,
-      "reviewedChallenges": 1,
+      "reviewedChallenges": 0,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -2456,7 +2456,7 @@
     {
       "skill": "worker threads",
       "appearances": 1,
-      "reviewedChallenges": 1,
+      "reviewedChallenges": 0,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -2480,9 +2480,5 @@
       ]
     }
   ],
-<<<<<<< HEAD
-  "generatedAt": "2026-03-11T10:22:14.227Z"
-=======
-  "generatedAt": "2026-03-09T10:16:22.928Z"
->>>>>>> a9f138ceabd25a94d92f18df502dc70acb8c1304
+  "generatedAt": "2026-03-24T15:26:31.855Z"
 }

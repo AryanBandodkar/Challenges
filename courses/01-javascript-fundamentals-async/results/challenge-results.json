@@ -4,199 +4,51 @@
     "challengeName": "ES6 Syntax Foundations",
     "moduleId": "m1-modern-javascript-essentials",
     "moduleName": "Modern JavaScript Essentials",
-    "score": 97.75,
-    "passed": true,
+    "score": 0,
+    "passed": false,
     "layers": {
-      "functionalTests": {
-        "score": 100,
-        "totalChecks": 1,
-        "passedChecks": 1,
-        "failedFiles": []
-      },
-      "codeQuality": {
-        "score": 100,
-        "errors": 0,
-        "warnings": 0,
-        "details": []
-      },
-      "architecture": {
-        "score": 100,
-        "required": [
-          "arrowFunction",
-          "destructuring",
-          "spreadOperator"
-        ],
-        "found": [
-          "arrowFunction",
-          "destructuring",
-          "spreadOperator"
-        ],
-        "missing": []
-      },
-      "bestPractices": {
-        "score": 100,
-        "issueCount": 0,
-        "issues": []
-      },
-      "e2eTests": {
-        "score": 100,
-        "mode": "not_configured",
-        "hasUnit": false,
-        "hasE2E": false,
-        "unitCandidates": [
-          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/challenge-01-es6-syntax-foundations.test.js",
-          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/challenge-01-es6-syntax-foundations.test.ts"
-        ],
-        "e2eCandidates": [
-          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/e2e/challenge-01-es6-syntax-foundations.spec.js",
-          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/e2e/challenge-01-es6-syntax-foundations.spec.ts"
-        ],
-        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
-      },
-      "aiReview": {
-        "score": 85,
-        "mode": "live",
-        "strengths": [
-          "Well-structured and modular code",
-          "Correctly exported function",
-          "Use of destructuring, spread operator, and arrow functions",
-          "Follows most best-practices"
-        ],
-        "improvements": [
-          "Shorten function name",
-          "Improve variable names",
-          "Add error handling and input validation",
-          "Use a more robust way to handle input data"
-        ]
-      }
+      "functionalTests": { "score": 0, "totalChecks": 0, "passedChecks": 0, "failedFiles": [] },
+      "codeQuality": { "score": 0, "errors": 0, "warnings": 0, "details": [] },
+      "architecture": { "score": 0, "required": [], "found": [], "missing": [] },
+      "bestPractices": { "score": 0, "issueCount": 0, "issues": [] },
+      "e2eTests": { "score": 0, "mode": "pending", "hasUnit": false, "hasE2E": false, "unitCandidates": [], "e2eCandidates": [], "note": "" },
+      "aiReview": { "score": 0, "mode": "pending", "strengths": [], "improvements": [] }
     },
-    "reviewedAt": "2026-03-09T10:16:22.911Z"
+    "reviewedAt": null
   },
   {
     "challengeId": "02-template-literal-string-lab",
     "challengeName": "Template Literal String Lab",
     "moduleId": "m1-modern-javascript-essentials",
     "moduleName": "Modern JavaScript Essentials",
-    "score": 85,
-    "passed": true,
+    "score": 0,
+    "passed": false,
     "layers": {
-      "functionalTests": {
-        "score": 100,
-        "totalChecks": 1,
-        "passedChecks": 1,
-        "failedFiles": []
-      },
-      "codeQuality": {
-        "score": 100,
-        "errors": 0,
-        "warnings": 0,
-        "details": []
-      },
-      "architecture": {
-        "score": 100,
-        "required": [
-          "templateLiteral"
-        ],
-        "found": [
-          "templateLiteral"
-        ],
-        "missing": []
-      },
-      "bestPractices": {
-        "score": 100,
-        "issueCount": 0,
-        "issues": []
-      },
-      "e2eTests": {
-        "score": 100,
-        "mode": "not_configured",
-        "hasUnit": false,
-        "hasE2E": false,
-        "unitCandidates": [
-          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/challenge-02-template-literal-string-lab.test.js",
-          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/challenge-02-template-literal-string-lab.test.ts"
-        ],
-        "e2eCandidates": [
-          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/e2e/challenge-02-template-literal-string-lab.spec.js",
-          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/e2e/challenge-02-template-literal-string-lab.spec.ts"
-        ],
-        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
-      },
-      "aiReview": {
-        "score": 0,
-        "mode": "disabled",
-        "strengths": [],
-        "improvements": [
-          "Set GROQ_API_KEY to enable AI review."
-        ]
-      }
+      "functionalTests": { "score": 0, "totalChecks": 0, "passedChecks": 0, "failedFiles": [] },
+      "codeQuality": { "score": 0, "errors": 0, "warnings": 0, "details": [] },
+      "architecture": { "score": 0, "required": [], "found": [], "missing": [] },
+      "bestPractices": { "score": 0, "issueCount": 0, "issues": [] },
+      "e2eTests": { "score": 0, "mode": "pending", "hasUnit": false, "hasE2E": false, "unitCandidates": [], "e2eCandidates": [], "note": "" },
+      "aiReview": { "score": 0, "mode": "pending", "strengths": [], "improvements": [] }
     },
-    "reviewedAt": "2026-03-09T09:27:03.099Z"
+    "reviewedAt": null
   },
   {
     "challengeId": "03-array-methods-data-pipeline",
     "challengeName": "Array Methods Data Pipeline",
     "moduleId": "m1-modern-javascript-essentials",
     "moduleName": "Modern JavaScript Essentials",
-    "score": 85,
-    "passed": true,
+    "score": 0,
+    "passed": false,
     "layers": {
-      "functionalTests": {
-        "score": 100,
-        "totalChecks": 1,
-        "passedChecks": 1,
-        "failedFiles": []
-      },
-      "codeQuality": {
-        "score": 100,
-        "errors": 0,
-        "warnings": 0,
-        "details": []
-      },
-      "architecture": {
-        "score": 100,
-        "required": [
-          "arrayMap",
-          "arrayFilter",
-          "arrayReduce"
-        ],
-        "found": [
-          "arrayMap",
-          "arrayFilter",
-          "arrayReduce"
-        ],
-        "missing": []
-      },
-      "bestPractices": {
-        "score": 100,
-        "issueCount": 0,
-        "issues": []
-      },
-      "e2eTests": {
-        "score": 100,
-        "mode": "not_configured",
-        "hasUnit": false,
-        "hasE2E": false,
-        "unitCandidates": [
-          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/challenge-03-array-methods-data-pipeline.test.js",
-          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/challenge-03-array-methods-data-pipeline.test.ts"
-        ],
-        "e2eCandidates": [
-          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/e2e/challenge-03-array-methods-data-pipeline.spec.js",
-          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/e2e/challenge-03-array-methods-data-pipeline.spec.ts"
-        ],
-        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
-      },
-      "aiReview": {
-        "score": 0,
-        "mode": "disabled",
-        "strengths": [],
-        "improvements": [
-          "Set GROQ_API_KEY to enable AI review."
-        ]
-      }
+      "functionalTests": { "score": 0, "totalChecks": 0, "passedChecks": 0, "failedFiles": [] },
+      "codeQuality": { "score": 0, "errors": 0, "warnings": 0, "details": [] },
+      "architecture": { "score": 0, "required": [], "found": [], "missing": [] },
+      "bestPractices": { "score": 0, "issueCount": 0, "issues": [] },
+      "e2eTests": { "score": 0, "mode": "pending", "hasUnit": false, "hasE2E": false, "unitCandidates": [], "e2eCandidates": [], "note": "" },
+      "aiReview": { "score": 0, "mode": "pending", "strengths": [], "improvements": [] }
     },
-    "reviewedAt": "2026-03-09T09:27:03.100Z"
+    "reviewedAt": null
   },
   {
     "challengeId": "04-oop-inheritance-refactor",
@@ -206,62 +58,14 @@
     "score": 0,
     "passed": false,
     "layers": {
-      "functionalTests": {
-        "score": 0,
-        "totalChecks": 1,
-        "passedChecks": 0,
-        "failedFiles": [
-          "src/challenges/04-oop-inheritance-refactor/index.js"
-        ]
-      },
-      "codeQuality": {
-        "score": 100,
-        "errors": 0,
-        "warnings": 0,
-        "details": []
-      },
-      "architecture": {
-        "score": 0,
-        "required": [
-          "classSyntax",
-          "extendsKeyword"
-        ],
-        "found": [],
-        "missing": [
-          "classSyntax",
-          "extendsKeyword"
-        ]
-      },
-      "bestPractices": {
-        "score": 100,
-        "issueCount": 0,
-        "issues": []
-      },
-      "e2eTests": {
-        "score": 100,
-        "mode": "not_configured",
-        "hasUnit": false,
-        "hasE2E": false,
-        "unitCandidates": [
-          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/challenge-04-oop-inheritance-refactor.test.js",
-          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/challenge-04-oop-inheritance-refactor.test.ts"
-        ],
-        "e2eCandidates": [
-          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/e2e/challenge-04-oop-inheritance-refactor.spec.js",
-          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/e2e/challenge-04-oop-inheritance-refactor.spec.ts"
-        ],
-        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
-      },
-      "aiReview": {
-        "score": 0,
-        "mode": "disabled",
-        "strengths": [],
-        "improvements": [
-          "Set GROQ_API_KEY to enable AI review."
-        ]
-      }
+      "functionalTests": { "score": 0, "totalChecks": 0, "passedChecks": 0, "failedFiles": [] },
+      "codeQuality": { "score": 0, "errors": 0, "warnings": 0, "details": [] },
+      "architecture": { "score": 0, "required": [], "found": [], "missing": [] },
+      "bestPractices": { "score": 0, "issueCount": 0, "issues": [] },
+      "e2eTests": { "score": 0, "mode": "pending", "hasUnit": false, "hasE2E": false, "unitCandidates": [], "e2eCandidates": [], "note": "" },
+      "aiReview": { "score": 0, "mode": "pending", "strengths": [], "improvements": [] }
     },
-    "reviewedAt": "2026-03-09T09:27:03.101Z"
+    "reviewedAt": null
   },
   {
     "challengeId": "05-module-system-conversion",
@@ -271,63 +75,14 @@
     "score": 0,
     "passed": false,
     "layers": {
-      "functionalTests": {
-        "score": 0,
-        "totalChecks": 1,
-        "passedChecks": 0,
-        "failedFiles": [
-          "src/challenges/05-module-system-conversion/index.js"
-        ]
-      },
-      "codeQuality": {
-        "score": 100,
-        "errors": 0,
-        "warnings": 0,
-        "details": []
-      },
-      "architecture": {
-        "score": 50,
-        "required": [
-          "importStatement",
-          "exportStatement"
-        ],
-        "found": [
-          "exportStatement"
-        ],
-        "missing": [
-          "importStatement"
-        ]
-      },
-      "bestPractices": {
-        "score": 100,
-        "issueCount": 0,
-        "issues": []
-      },
-      "e2eTests": {
-        "score": 100,
-        "mode": "not_configured",
-        "hasUnit": false,
-        "hasE2E": false,
-        "unitCandidates": [
-          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/challenge-05-module-system-conversion.test.js",
-          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/challenge-05-module-system-conversion.test.ts"
-        ],
-        "e2eCandidates": [
-          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/e2e/challenge-05-module-system-conversion.spec.js",
-          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/e2e/challenge-05-module-system-conversion.spec.ts"
-        ],
-        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
-      },
-      "aiReview": {
-        "score": 0,
-        "mode": "disabled",
-        "strengths": [],
-        "improvements": [
-          "Set GROQ_API_KEY to enable AI review."
-        ]
-      }
+      "functionalTests": { "score": 0, "totalChecks": 0, "passedChecks": 0, "failedFiles": [] },
+      "codeQuality": { "score": 0, "errors": 0, "warnings": 0, "details": [] },
+      "architecture": { "score": 0, "required": [], "found": [], "missing": [] },
+      "bestPractices": { "score": 0, "issueCount": 0, "issues": [] },
+      "e2eTests": { "score": 0, "mode": "pending", "hasUnit": false, "hasE2E": false, "unitCandidates": [], "e2eCandidates": [], "note": "" },
+      "aiReview": { "score": 0, "mode": "pending", "strengths": [], "improvements": [] }
     },
-    "reviewedAt": "2026-03-09T09:27:03.102Z"
+    "reviewedAt": null
   },
   {
     "challengeId": "06-callback-hell-rescue",
@@ -337,60 +92,14 @@
     "score": 0,
     "passed": false,
     "layers": {
-      "functionalTests": {
-        "score": 0,
-        "totalChecks": 1,
-        "passedChecks": 0,
-        "failedFiles": [
-          "src/challenges/06-callback-hell-rescue/index.js"
-        ]
-      },
-      "codeQuality": {
-        "score": 100,
-        "errors": 0,
-        "warnings": 0,
-        "details": []
-      },
-      "architecture": {
-        "score": 0,
-        "required": [
-          "callbackFunction"
-        ],
-        "found": [],
-        "missing": [
-          "callbackFunction"
-        ]
-      },
-      "bestPractices": {
-        "score": 100,
-        "issueCount": 0,
-        "issues": []
-      },
-      "e2eTests": {
-        "score": 100,
-        "mode": "not_configured",
-        "hasUnit": false,
-        "hasE2E": false,
-        "unitCandidates": [
-          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/challenge-06-callback-hell-rescue.test.js",
-          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/challenge-06-callback-hell-rescue.test.ts"
-        ],
-        "e2eCandidates": [
-          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/e2e/challenge-06-callback-hell-rescue.spec.js",
-          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/e2e/challenge-06-callback-hell-rescue.spec.ts"
-        ],
-        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
-      },
-      "aiReview": {
-        "score": 0,
-        "mode": "disabled",
-        "strengths": [],
-        "improvements": [
-          "Set GROQ_API_KEY to enable AI review."
-        ]
-      }
+      "functionalTests": { "score": 0, "totalChecks": 0, "passedChecks": 0, "failedFiles": [] },
+      "codeQuality": { "score": 0, "errors": 0, "warnings": 0, "details": [] },
+      "architecture": { "score": 0, "required": [], "found": [], "missing": [] },
+      "bestPractices": { "score": 0, "issueCount": 0, "issues": [] },
+      "e2eTests": { "score": 0, "mode": "pending", "hasUnit": false, "hasE2E": false, "unitCandidates": [], "e2eCandidates": [], "note": "" },
+      "aiReview": { "score": 0, "mode": "pending", "strengths": [], "improvements": [] }
     },
-    "reviewedAt": "2026-03-09T09:27:03.103Z"
+    "reviewedAt": null
   },
   {
     "challengeId": "07-promises-chain-rejection-handling",
@@ -400,62 +109,14 @@
     "score": 0,
     "passed": false,
     "layers": {
-      "functionalTests": {
-        "score": 0,
-        "totalChecks": 1,
-        "passedChecks": 0,
-        "failedFiles": [
-          "src/challenges/07-promises-chain-rejection-handling/index.js"
-        ]
-      },
-      "codeQuality": {
-        "score": 100,
-        "errors": 0,
-        "warnings": 0,
-        "details": []
-      },
-      "architecture": {
-        "score": 0,
-        "required": [
-          "promiseUsage",
-          "promiseCatch"
-        ],
-        "found": [],
-        "missing": [
-          "promiseUsage",
-          "promiseCatch"
-        ]
-      },
-      "bestPractices": {
-        "score": 100,
-        "issueCount": 0,
-        "issues": []
-      },
-      "e2eTests": {
-        "score": 100,
-        "mode": "not_configured",
-        "hasUnit": false,
-        "hasE2E": false,
-        "unitCandidates": [
-          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/challenge-07-promises-chain-rejection-handling.test.js",
-          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/challenge-07-promises-chain-rejection-handling.test.ts"
-        ],
-        "e2eCandidates": [
-          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/e2e/challenge-07-promises-chain-rejection-handling.spec.js",
-          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/e2e/challenge-07-promises-chain-rejection-handling.spec.ts"
-        ],
-        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
-      },
-      "aiReview": {
-        "score": 0,
-        "mode": "disabled",
-        "strengths": [],
-        "improvements": [
-          "Set GROQ_API_KEY to enable AI review."
-        ]
-      }
+      "functionalTests": { "score": 0, "totalChecks": 0, "passedChecks": 0, "failedFiles": [] },
+      "codeQuality": { "score": 0, "errors": 0, "warnings": 0, "details": [] },
+      "architecture": { "score": 0, "required": [], "found": [], "missing": [] },
+      "bestPractices": { "score": 0, "issueCount": 0, "issues": [] },
+      "e2eTests": { "score": 0, "mode": "pending", "hasUnit": false, "hasE2E": false, "unitCandidates": [], "e2eCandidates": [], "note": "" },
+      "aiReview": { "score": 0, "mode": "pending", "strengths": [], "improvements": [] }
     },
-    "reviewedAt": "2026-03-09T09:27:03.104Z"
+    "reviewedAt": null
   },
   {
     "challengeId": "08-async-await-event-loop-diagnostics",
@@ -465,65 +126,13 @@
     "score": 0,
     "passed": false,
     "layers": {
-      "functionalTests": {
-        "score": 0,
-        "totalChecks": 1,
-        "passedChecks": 0,
-        "failedFiles": [
-          "src/challenges/08-async-await-event-loop-diagnostics/index.js"
-        ]
-      },
-      "codeQuality": {
-        "score": 100,
-        "errors": 0,
-        "warnings": 0,
-        "details": []
-      },
-      "architecture": {
-        "score": 0,
-        "required": [
-          "asyncFunction",
-          "awaitExpression",
-          "tryCatch",
-          "setTimeoutUsage"
-        ],
-        "found": [],
-        "missing": [
-          "asyncFunction",
-          "awaitExpression",
-          "tryCatch",
-          "setTimeoutUsage"
-        ]
-      },
-      "bestPractices": {
-        "score": 100,
-        "issueCount": 0,
-        "issues": []
-      },
-      "e2eTests": {
-        "score": 100,
-        "mode": "not_configured",
-        "hasUnit": false,
-        "hasE2E": false,
-        "unitCandidates": [
-          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/challenge-08-async-await-event-loop-diagnostics.test.js",
-          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/challenge-08-async-await-event-loop-diagnostics.test.ts"
-        ],
-        "e2eCandidates": [
-          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/e2e/challenge-08-async-await-event-loop-diagnostics.spec.js",
-          "/Users/ramakantsamant/Downloads/challenge-engine-nodejs/challenge-engine-nodejs/courses/01-javascript-fundamentals-async/project/tests/e2e/challenge-08-async-await-event-loop-diagnostics.spec.ts"
-        ],
-        "note": "No unit/e2e challenge tests were found; this layer is treated as neutral."
-      },
-      "aiReview": {
-        "score": 0,
-        "mode": "disabled",
-        "strengths": [],
-        "improvements": [
-          "Set GROQ_API_KEY to enable AI review."
-        ]
-      }
+      "functionalTests": { "score": 0, "totalChecks": 0, "passedChecks": 0, "failedFiles": [] },
+      "codeQuality": { "score": 0, "errors": 0, "warnings": 0, "details": [] },
+      "architecture": { "score": 0, "required": [], "found": [], "missing": [] },
+      "bestPractices": { "score": 0, "issueCount": 0, "issues": [] },
+      "e2eTests": { "score": 0, "mode": "pending", "hasUnit": false, "hasE2E": false, "unitCandidates": [], "e2eCandidates": [], "note": "" },
+      "aiReview": { "score": 0, "mode": "pending", "strengths": [], "improvements": [] }
     },
-    "reviewedAt": "2026-03-09T09:27:03.105Z"
+    "reviewedAt": null
   }
 ]
