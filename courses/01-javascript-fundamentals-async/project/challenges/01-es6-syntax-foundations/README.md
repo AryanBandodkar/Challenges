@@ -1,54 +1,93 @@
-# 01-es6-syntax-foundations: ES6 Syntax Foundations
+# Challenge 01: ES6 Syntax Foundations
+
+**Work on this challenge only.** After you finish and run the review, move on to the next challenge. You don't need to read other challenge READMEs yet.
+
+**Difficulty:** Beginner | **Estimated time:** 2 hours
 
 ## Goal
 
-Demonstrate practical understanding of **Modern JavaScript Essentials** concepts through implementation-level work.
+Practice modern JavaScript by implementing a function that transforms a list of numbers using ES6 features.
 
-## Concepts Covered
+## What to do
 
-- let/const
-- arrow functions
-- destructuring
-- spread/rest
+1. Open `src/challenges/01-es6-syntax-foundations/index.js`.
+2. Implement and export the function:
+   ```js
+   solve_01_es6_syntax_foundations
+   ```
+3. Inside the function:
+   - Create or work with a list of numbers.
+   - Use `const` and/or `let` for variable declarations.
+   - Use array destructuring to extract values from the list.
+   - Use an arrow function to transform the numbers.
+   - Use spread or rest syntax (`...`) in your implementation.
+4. Return a meaningful result object, for example:
 
-## Files In Scope
+   ```js
+   {
+     original: [1, 2, 3],
+     transformed: [2, 4, 6]
+   }
+   ```
 
-- `src/challenges/01-es6-syntax-foundations/index.js`
+5. Remove all placeholder code such as:
+   - `TODO`
+   - `throw new Error("Not implemented")`
 
-## Implementation Contract
+## Code
 
-1. Implement the solution in `src/challenges/01-es6-syntax-foundations/index.js`.
-2. Export function `solve_01_es6_syntax_foundations` from the primary source file.
-3. Keep code modular and production-oriented (no hard-coded secrets or unsafe patterns).
-4. Do not leave placeholder markers such as `TODO` or `throw new Error('Not implemented')` in scoped files.
+- Use JavaScript.
+- Edit only:
+  ```
+  src/challenges/01-es6-syntax-foundations/index.js
+  ```
+- Export `solve_01_es6_syntax_foundations`.
+- Avoid using `var`.
+- Avoid unnecessary `console.log()` statements.
+- Write clean, readable, and modular code.
 
-## Architecture Signals To Include
+## Review
 
-- Use at least one arrow function expression. (`arrowFunction`)
-- Use object or array destructuring assignment. (`destructuring`)
-- Use spread or rest syntax (`...`) in real logic. (`spreadOperator`)
+Your solution will be checked for:
 
-## Scoring Notes
+- Correct implementation of the exported function.
+- No remaining placeholder code.
+- Use of `const`/`let`.
+- Use of at least one arrow function.
+- Use of array or object destructuring.
+- Use of spread or rest syntax (`...`) in real logic.
+- Returning a meaningful result object.
+- Code quality and best practices.
+- Optional unit/E2E tests (if provided).
+- AI code review (if enabled).
 
-- If challenge test files are present, test evidence is detected from:
-  - `tests/challenge-01-es6-syntax-foundations.test.js` or `tests/challenge-01-es6-syntax-foundations.test.ts`
-  - `tests/e2e/challenge-01-es6-syntax-foundations.spec.js` or `tests/e2e/challenge-01-es6-syntax-foundations.spec.ts`
-- If no challenge-specific test files are provided by course maintainers, the test layer is treated as neutral (not a penalty).
-- If any scoped file is placeholder/missing, overall challenge score is forced to `0%`.
-- Otherwise, challenge score combines implementation, architecture, quality, best-practices, test evidence, and AI review layers.
+**Passing score:** **80% or higher**
 
-## Done Definition (Learner Self-Check)
+> **Note:** If the required file is missing or still contains placeholder code, the challenge will receive a **0% score**.
 
-1. The scoped file(s) are implemented and not placeholders.
-2. The export `solve_01_es6_syntax_foundations` exists and is callable.
-3. Required architecture signals above are visible in your code.
-4. Run review command: `npm run review:challenge -- --course=01-javascript-fundamentals-async --challenge=01-es6-syntax-foundations`.
+## Verify
 
-## Evaluation Layers
+Run either of the following:
 
-- Functional tests
-- Code quality
-- Architecture checks
-- Best-practices checks
-- E2E/API behavior checks
-- AI review
+```bash
+npm run review:challenge -- --course=01-javascript-fundamentals-async --challenge=01-es6-syntax-foundations
+```
+
+or
+
+```bash
+npm run dashboard:dev
+```
+
+Then open the dashboard and click **Run Review** for this challenge.
+
+### Optional
+
+To test your solution locally:
+
+1. Import `solve_01_es6_syntax_foundations` in `src/main.js`.
+2. From `courses/01-javascript-fundamentals-async/project`, run:
+
+```bash
+npm run dev
+```

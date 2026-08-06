@@ -83,7 +83,14 @@ test('challenge README files are aligned with generator contract', () => {
 
       const actual = normalizeText(readFileSync(readmePath, 'utf-8'));
       const expected = normalizeText(
-        buildChallengeReadme({ ...challenge, courseIdHint: course.id }, ext)
+        buildChallengeReadme(
+          {
+            ...challenge,
+            courseIdHint: course.id,
+            minPassScore: courseConfig.requirements?.minScore ?? 80
+          },
+          ext
+        )
       );
 
       assert.equal(
@@ -102,10 +109,27 @@ test('challenge README files are aligned with generator contract', () => {
         `${course.id}/${challenge.id} missing review command contract`
       );
 
-      for (const pattern of challenge.patternsRequired || []) {
+      assert.ok(
+        actual.includes('## Goal'),
+        `${course.id}/${challenge.id} missing Goal section`
+      );
+      assert.ok(
+        actual.includes('## What to do'),
+        `${course.id}/${challenge.id} missing What to do section`
+      );
+      assert.ok(
+        actual.includes('## Review'),
+        `${course.id}/${challenge.id} missing Review section`
+      );
+      assert.ok(
+        actual.includes('## Verify'),
+        `${course.id}/${challenge.id} missing Verify section`
+      );
+
+      if ((challenge.patternsRequired || []).length > 0) {
         assert.ok(
-          actual.includes(`\`${pattern}\``),
-          `${course.id}/${challenge.id} missing pattern contract ${pattern}`
+          actual.includes('Review checks'),
+          `${course.id}/${challenge.id} missing review criteria`
         );
       }
     }

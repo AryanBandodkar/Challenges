@@ -1,104 +1,11 @@
 {
   "courseId": "01-javascript-fundamentals-async",
   "courseName": "JavaScript Fundamentals & Async Programming",
-  "averageScore": 33.47,
-  "completionPercentage": 37.5,
+  "averageScore": 0,
+  "completionPercentage": 0,
   "totalChallenges": 8,
-  "completedChallenges": 3,
+  "completedChallenges": 0,
   "badgeLevel": "none",
-  "challengeResults": [
-    {
-      "challengeId": "01-es6-syntax-foundations",
-      "challengeName": "ES6 Syntax Foundations",
-      "score": 0,
-      "passed": false,
-      "reviewedAt": "2026-03-09T10:16:22.911Z"
-    },
-    {
-      "challengeId": "02-template-literal-string-lab",
-      "challengeName": "Template Literal String Lab",
-      "score": 0,
-      "passed": false,
-      "reviewedAt": "2026-03-09T09:27:03.099Z"
-    },
-    {
-      "challengeId": "03-array-methods-data-pipeline",
-      "challengeName": "Array Methods Data Pipeline",
-      "score": 0,
-      "passed": false,
-      "reviewedAt": "2026-03-09T09:27:03.100Z"
-    },
-    {
-      "challengeId": "04-oop-inheritance-refactor",
-      "challengeName": "OOP Inheritance Refactor",
-      "score": 0,
-      "passed": false,
-      "reviewedAt": "2026-03-09T09:27:03.101Z"
-    },
-    {
-      "challengeId": "05-module-system-conversion",
-      "challengeName": "Module System Conversion",
-      "score": 0,
-      "passed": false,
-      "reviewedAt": "2026-03-09T09:27:03.102Z"
-    },
-    {
-      "challengeId": "06-callback-hell-rescue",
-      "challengeName": "Callback Hell Rescue",
-      "score": 0,
-      "passed": false,
-      "reviewedAt": "2026-03-09T09:27:03.103Z"
-    },
-    {
-      "challengeId": "07-promises-chain-rejection-handling",
-      "challengeName": "Promises Chain Rejection Handling",
-      "score": 0,
-      "passed": false,
-      "reviewedAt": "2026-03-09T09:27:03.104Z"
-    },
-    {
-      "challengeId": "08-async-await-event-loop-diagnostics",
-      "challengeName": "Async Await Event Loop Diagnostics",
-      "score": 0,
-      "passed": false,
-      "reviewedAt": "2026-03-09T09:27:03.105Z"
-    }
-  ],
-  "skillStrengths": [
-    "let/const",
-    "arrow functions",
-    "destructuring",
-    "spread/rest",
-    "template literals",
-    "string manipulation",
-    "map",
-    "filter",
-    "reduce",
-    "forEach",
-    "find"
-  ],
-  "improvementAreas": [
-    "classes",
-    "inheritance",
-    "prototypes",
-    "import/export",
-    "CommonJS",
-    "ES modules",
-    "callbacks",
-    "control flow",
-    "Promises",
-    "chaining",
-    "error handling",
-    "async/await"
-  ],
-  "aiStrengths": [
-    "Well-structured and modular code",
-    "Correctly exported function",
-    "Use of destructuring, spread operator, and arrow functions",
-    "Follows most best-practices"
-  ],
-  "aiImprovements": [
-    "Set GROQ_API_KEY to enable AI review."
-  ],
-  "generatedAt": "2026-03-09T10:16:22.914Z"
+  "challengeResults": [],
+  "generatedAt": "2026-08-06T12:50:02.059Z"
 }

@@ -1,55 +1,116 @@
-# 08-async-await-event-loop-diagnostics: Async Await Event Loop Diagnostics
+# Challenge 08: Async Await Event Loop Diagnostics
+
+**Work on this challenge only.** After you finish and run the review, move on to the next challenge. You don't need to read other challenge READMEs yet.
+
+**Difficulty:** Intermediate | **Estimated time:** 4 hours
 
 ## Goal
 
-Demonstrate practical understanding of **Asynchronous JavaScript Mastery** concepts through implementation-level work.
+Practice asynchronous programming by using `async`/`await`, `try/catch`, and `setTimeout` to demonstrate how the JavaScript event loop executes synchronous code, microtasks, and macrotasks.
 
-## Concepts Covered
+## What to do
 
-- async/await
-- try/catch
-- event loop
-- non-blocking I/O
+1. Open `src/challenges/08-async-await-event-loop-diagnostics/index.js`.
+2. Implement and export the function:
+   ```js
+   solve_08_async_await_event_loop_diagnostics
+   ```
+3. Inside the function:
+   - Create at least one `async` function.
+   - Use `await` to wait for an asynchronous operation.
+   - Handle errors using `try/catch`.
+   - Use `setTimeout()` to simulate a macrotask.
+   - Demonstrate the execution order of synchronous code, microtasks (`await`/Promises), and macrotasks (`setTimeout`).
+4. Return diagnostics that clearly show the execution order.
 
-## Files In Scope
+   Example:
 
-- `src/challenges/08-async-await-event-loop-diagnostics/index.js`
+   ```js
+   async function demo() {
+     const steps = [];
 
-## Implementation Contract
+     try {
+       steps.push("Start");
 
-1. Implement the solution in `src/challenges/08-async-await-event-loop-diagnostics/index.js`.
-2. Export function `solve_08_async_await_event_loop_diagnostics` from the primary source file.
-3. Keep code modular and production-oriented (no hard-coded secrets or unsafe patterns).
-4. Do not leave placeholder markers such as `TODO` or `throw new Error('Not implemented')` in scoped files.
+       setTimeout(() => {
+         steps.push("Macrotask");
+       }, 0);
 
-## Architecture Signals To Include
+       await Promise.resolve();
 
-- Mark at least one function as `async`. (`asyncFunction`)
-- Use `await` with async work. (`awaitExpression`)
-- Handle runtime errors with `try/catch`. (`tryCatch`)
-- Use `setTimeout` to model async scheduling behavior. (`setTimeoutUsage`)
+       steps.push("Microtask");
+       steps.push("End");
 
-## Scoring Notes
+       return steps;
+     } catch (error) {
+       return [`Error: ${error.message}`];
+     }
+   }
 
-- If challenge test files are present, test evidence is detected from:
-  - `tests/challenge-08-async-await-event-loop-diagnostics.test.js` or `tests/challenge-08-async-await-event-loop-diagnostics.test.ts`
-  - `tests/e2e/challenge-08-async-await-event-loop-diagnostics.spec.js` or `tests/e2e/challenge-08-async-await-event-loop-diagnostics.spec.ts`
-- If no challenge-specific test files are provided by course maintainers, the test layer is treated as neutral (not a penalty).
-- If any scoped file is placeholder/missing, overall challenge score is forced to `0%`.
-- Otherwise, challenge score combines implementation, architecture, quality, best-practices, test evidence, and AI review layers.
+   return demo();
+   ```
 
-## Done Definition (Learner Self-Check)
+5. Remove all placeholder code such as:
+   - `TODO`
+   - `throw new Error("Not implemented")`
 
-1. The scoped file(s) are implemented and not placeholders.
-2. The export `solve_08_async_await_event_loop_diagnostics` exists and is callable.
-3. Required architecture signals above are visible in your code.
-4. Run review command: `npm run review:challenge -- --course=01-javascript-fundamentals-async --challenge=08-async-await-event-loop-diagnostics`.
+## Code
 
-## Evaluation Layers
+- Use JavaScript.
+- Edit only:
+  ```
+  src/challenges/08-async-await-event-loop-diagnostics/index.js
+  ```
+- Export `solve_08_async_await_event_loop_diagnostics`.
+- Use at least one `async` function.
+- Use `await` with asynchronous work.
+- Handle errors using `try/catch`.
+- Use `setTimeout()` to demonstrate event loop scheduling.
+- Avoid using `var`.
+- Avoid unnecessary `console.log()` statements.
+- Write clean, readable, and modular code.
 
-- Functional tests
-- Code quality
-- Architecture checks
-- Best-practices checks
-- E2E/API behavior checks
-- AI review
+## Review
+
+Your solution will be checked for:
+
+- Correct implementation of the exported function.
+- No remaining placeholder code.
+- Proper use of `async` and `await`.
+- Correct error handling using `try/catch`.
+- Proper use of `setTimeout()` to model asynchronous scheduling.
+- Returning diagnostics that demonstrate execution order.
+- Code quality and best practices.
+- Optional unit/E2E tests (if provided).
+- AI code review (if enabled).
+
+**Passing score:** **80% or higher**
+
+> **Note:** If the required file is missing or still contains placeholder code, the challenge will receive a **0% score**.
+
+## Verify
+
+Run either of the following:
+
+```bash
+npm run review:challenge -- --course=01-javascript-fundamentals-async --challenge=08-async-await-event-loop-diagnostics
+```
+
+or
+
+```bash
+npm run dashboard:dev
+```
+
+Then open the dashboard and click **Run Review** for this challenge.
+
+### Optional
+
+To test your solution locally:
+
+1. Import `solve_08_async_await_event_loop_diagnostics` in `src/main.js`.
+2. From `courses/01-javascript-fundamentals-async/project`, run:
+
+```bash
+npm run dev
+```

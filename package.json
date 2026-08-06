@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "setup": "node scripts/scaffold-challenges.js",
+    "reset:workspace": "node scripts/reset-course-workspace.js",
     "readmes:refresh": "node scripts/refresh-challenge-readmes.js",
     "progress:update": "node scripts/update-progress.js",
     "readme:evidence": "node scripts/update-readme-evidence.js",
@@ -12,7 +13,7 @@
     "review:challenge": "node scripts/run-review-challenge.js",
     "review:changed": "node scripts/run-review-changed.js",
     "review:all": "node scripts/run-review-all.js",
-    "test": "node --test tests",
+    "test": "node --test tests/*.test.js",
     "validate:structure": "node scripts/validate-structure.js",
     "health:check": "node scripts/health-check.js",
     "audit:topics": "node scripts/audit-topic-alignment.js",
@@ -23,7 +24,7 @@
     "dashboard:ui:dev": "npm --prefix dashboard/app run dev",
     "dashboard:build": "npm --prefix dashboard/app run build",
     "dashboard:dev": "concurrently -n api,ui -c cyan,magenta \"npm run dashboard:api\" \"npm run dashboard:ui:dev\"",
-    "dashboard": "npm --prefix dashboard run start"
+    "dashboard": "npm run dashboard:build && npm --prefix dashboard run start"
   },
   "devDependencies": {
     "concurrently": "^8.2.2"

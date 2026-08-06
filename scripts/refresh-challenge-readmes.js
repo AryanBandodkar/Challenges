@@ -22,7 +22,14 @@ export function refreshChallengeReadmes() {
 
     for (const challenge of courseConfig.challenges) {
       const readmePath = join(courseDir, 'project', 'challenges', challenge.id, 'README.md');
-      const content = buildChallengeReadme({ ...challenge, courseIdHint: course.id }, ext);
+      const content = buildChallengeReadme(
+        {
+          ...challenge,
+          courseIdHint: course.id,
+          minPassScore: courseConfig.requirements?.minScore ?? 80
+        },
+        ext
+      );
       writeFileSync(readmePath, content.endsWith('\n') ? content : `${content}\n`, 'utf-8');
       updated += 1;
     }

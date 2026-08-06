@@ -1,51 +1,32 @@
-# 09-sql-vs-nosql-design-review: SQL vs NoSQL Design Review
+# Challenge 09: SQL vs NoSQL Design Review
+
+**Work on this challenge only.** After you finish and run review, move on to the next challenge. You don't need to read other challenge READMEs yet.
+
+**Difficulty:** intermediate | **Estimated time:** 3 hours
 
 ## Goal
 
-Demonstrate practical understanding of **Database Integration** concepts through implementation-level work.
+Model SQL vs NoSQL trade-offs and return structured design recommendations.
 
-## Concepts Covered
+## What to do
 
-- SQL vs NoSQL
-- normalization
-- indexing
+1. **Implement the solver** — Open `src/challenges/09-sql-vs-nosql-design-review/index.js` and implement `solve_09_sql_vs_nosql_design_review`.
+2. Model a data design decision framework comparing SQL vs NoSQL trade-offs.
+3. Return structured criteria or recommendations from the exported function.
+4. **Clean up** — Remove all `TODO` and `throw new Error('Not implemented')` placeholders before review.
 
-## Files In Scope
+## Code
 
-- `src/challenges/09-sql-vs-nosql-design-review/index.js`
+Use JavaScript. Export `solve_09_sql_vs_nosql_design_review` from `src/challenges/09-sql-vs-nosql-design-review/index.js`. Edit only the scoped file(s) listed in the steps above. Remove placeholder stubs (`TODO`, `throw new Error('Not implemented')`). Avoid `var` and unnecessary `console.*` where possible.
 
-## Implementation Contract
+## Review
 
-1. Implement the solution in `src/challenges/09-sql-vs-nosql-design-review/index.js`.
-2. Export function `solve_09_sql_vs_nosql_design_review` from the primary source file.
-3. Keep code modular and production-oriented (no hard-coded secrets or unsafe patterns).
-4. Do not leave placeholder markers such as `TODO` or `throw new Error('Not implemented')` in scoped files.
+Review checks: scoped files exist and are not placeholder stubs; application of SQL vs NoSQL, normalization, indexing; code quality and best practices; optional challenge unit/E2E tests when present; AI code review when enabled. Pass threshold: **≥ 80%**.
 
-## Architecture Signals To Include
+> **Note:** Missing scoped files or placeholder code scores **0%** until replaced with real implementation.
 
-- No explicit architecture pattern key is required for this challenge.
+## Verify
 
-## Scoring Notes
-
-- If challenge test files are present, test evidence is detected from:
-  - `tests/challenge-09-sql-vs-nosql-design-review.test.js` or `tests/challenge-09-sql-vs-nosql-design-review.test.ts`
-  - `tests/e2e/challenge-09-sql-vs-nosql-design-review.spec.js` or `tests/e2e/challenge-09-sql-vs-nosql-design-review.spec.ts`
-- If no challenge-specific test files are provided by course maintainers, the test layer is treated as neutral (not a penalty).
-- If any scoped file is placeholder/missing, overall challenge score is forced to `0%`.
-- Otherwise, challenge score combines implementation, architecture, quality, best-practices, test evidence, and AI review layers.
-
-## Done Definition (Learner Self-Check)
-
-1. The scoped file(s) are implemented and not placeholders.
-2. The export `solve_09_sql_vs_nosql_design_review` exists and is callable.
-3. Required architecture signals above are visible in your code.
-4. Run review command: `npm run review:challenge -- --course=03-express-rest-api-development --challenge=09-sql-vs-nosql-design-review`.
-
-## Evaluation Layers
-
-- Functional tests
-- Code quality
-- Architecture checks
-- Best-practices checks
-- E2E/API behavior checks
-- AI review
+- `npm run review:challenge -- --course=03-express-rest-api-development --challenge=09-sql-vs-nosql-design-review`
+- `npm run dashboard:dev` → open the dashboard and click **Run Review** for this challenge
+- Optional live check: from `courses/03-express-rest-api-development/project`, run `npm run dev` after importing your exported function in `src/main.js`

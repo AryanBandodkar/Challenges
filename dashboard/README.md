@@ -23,7 +23,7 @@ Runs on port `7700` by default.
 - `GET /api/courses/:courseId/challenges/:challengeId`
 - `POST /api/review` with body `{ "courseId": "...", "challengeId": "..." }`
 
-`POST /api/review` starts review in a detached process and returns immediately.
+`POST /api/review` starts the same `review:challenge` workflow used by the CLI (from the repository root) and returns immediately while the review runs in the background.
 
 ## Local Run (from repository root)
 

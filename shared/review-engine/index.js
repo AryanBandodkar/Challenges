@@ -1,106 +1,15 @@
 import { join } from 'path';
+import { execFileSync } from 'node:child_process';
 import { readJson, readText, writeJson, exists, clampScore, roundScore } from '../utils/io.js';
 import { loadDotEnv } from '../utils/env.js';
 import { resolveRepoRoot } from '../utils/root.js';
+import {
+  AVAILABLE_PATTERN_KEYS,
+  PATTERN_MATCHERS,
+  isPlaceholder
+} from '../challenge-patterns.js';
 
-const PLACEHOLDER_PATTERNS = [
-  /TODO:\s*Implement/i,
-  /Not implemented/i,
-  /throw\s+new\s+Error\(\s*['\"]Not implemented['\"]\s*\)/i
-];
-
-const PATTERN_MATCHERS = {
-  arrowFunction: /=>/,
-  destructuring: /(const|let|var)\s*\{[^}]+\}\s*=|(const|let|var)\s*\[[^\]]+\]\s*=/,
-  spreadOperator: /\.\.\./,
-  templateLiteral: /`[^`]*\$\{[^}]+\}[^`]*`|`[^`]*`/,
-  arrayMap: /\.map\s*\(/,
-  arrayFilter: /\.filter\s*\(/,
-  arrayReduce: /\.reduce\s*\(/,
-  classSyntax: /class\s+[A-Za-z_][A-Za-z0-9_]*/,
-  extendsKeyword: /extends\s+[A-Za-z_][A-Za-z0-9_]*/,
-  importStatement: /import\s+.+\s+from\s+['\"]/,
-  exportStatement: /export\s+(default\s+)?(class|function|const|\{)/,
-  callbackFunction: /callback\s*\(|function\s*\([^)]*callback[^)]*\)/i,
-  promiseUsage: /new\s+Promise\s*\(|Promise\./,
-  promiseCatch: /\.catch\s*\(/,
-  asyncFunction: /async\s+function|async\s*\(/,
-  awaitExpression: /await\s+/,
-  tryCatch: /try\s*\{[\s\S]*\}\s*catch\s*\(/,
-  setTimeoutUsage: /setTimeout\s*\(/,
-  fsModuleImport: /from\s+['\"]node:fs['\"]|from\s+['\"]fs['\"]|require\(['\"]fs['\"]\)/,
-  streamPipeline: /pipeline\s*\(|createReadStream\s*\(|createWriteStream\s*\(/,
-  pathModuleImport: /from\s+['\"]node:path['\"]|from\s+['\"]path['\"]|require\(['\"]path['\"]\)/,
-  osModuleImport: /from\s+['\"]node:os['\"]|from\s+['\"]os['\"]|require\(['\"]os['\"]\)/,
-  processUsage: /process\.(env|argv|exit)/,
-  childProcessUsage: /from\s+['\"]node:child_process['\"]|from\s+['\"]child_process['\"]|spawn\s*\(|fork\s*\(|execFile\s*\(/,
-  signalHandler: /process\.on\s*\(\s*['\"]SIG(INT|TERM)['\"]/,
-  gracefulShutdown: /server\.close\s*\(|gracefulShutdown|shutdown/i,
-  npmScript: /"scripts"\s*:/,
-  dotenvConfig: /dotenv\.config\s*\(/,
-  httpCreateServer: /http\.createServer\s*\(/,
-  httpsServer: /from\s+['\"]node:https['\"]|from\s+['\"]https['\"]|https\.createServer\s*\(/,
-  urlClassUsage: /new\s+URL\s*\(/,
-  loggerPattern: /console\.(info|warn|error)\s*\(|logger\./,
-  expressApp: /express\s*\(\s*\)/,
-  expressRouter: /express\.Router\s*\(|router\.(get|post|put|patch|delete)\s*\(/,
-  expressStaticServing: /express\.static\s*\(/,
-  templateEngineSetup: /set\s*\(\s*['\"]view engine['\"]/,
-  healthEndpoint: /(app|router)\.get\s*\(\s*['\"]\/(health|ready|readiness)['\"]/,
-  paginationQueryHandling: /req\.query\.(page|limit|sort|filter)|(\bpage\b.*\blimit\b)|(\blimit\b.*\bpage\b)/i,
-  routeParamUsage: /:\w+|req\.params/,
-  middlewareNext: /next\s*\(\s*\)/,
-  httpStatusUsage: /res\.status\s*\(/,
-  corsMiddleware: /cors\s*\(|Access-Control-Allow-Origin/i,
-  parameterizedQuery: /\$\d+|query\s*\(\s*['\"][^'\"]*\$\d+/,
-  mongooseSchema: /new\s+Schema\s*\(|mongoose\.model\s*\(/,
-  transactionUsage: /BEGIN|COMMIT|ROLLBACK|transaction/i,
-  jwtSignVerify: /jwt\.(sign|verify)\s*\(/,
-  bcryptUsage: /bcrypt\.(hash|compare)\s*\(/,
-  inputValidation: /zod|joi|validate\s*\(/i,
-  rateLimitMiddleware: /rateLimit\s*\(/,
-  openApiDoc: /openapi|swagger/i,
-  jestDescribeIt: /describe\s*\(|it\s*\(/,
-  supertestRequest: /request\s*\(.*\)\.(get|post|put|patch|delete)\s*\(/,
-  typeAnnotation: /:\s*[A-Za-z_][A-Za-z0-9_<>,\[\] |]*/,
-  interfaceDeclaration: /interface\s+[A-Za-z_][A-Za-z0-9_]*/,
-  typeAlias: /type\s+[A-Za-z_][A-Za-z0-9_]*\s*=/,
-  enumDeclaration: /enum\s+[A-Za-z_][A-Za-z0-9_]*/,
-  tupleType: /\[[A-Za-z_][A-Za-z0-9_<>\[\]\s|,]*,\s*[A-Za-z_][A-Za-z0-9_<>\[\]\s|,]*\]/,
-  genericType: /<[A-Za-z_][A-Za-z0-9_,\s]*>/,
-  typeGuard: /\sis\s+[A-Za-z_][A-Za-z0-9_]*/,
-  tsNodeScript: /ts-node/,
-  nodemonScript: /nodemon/,
-  tsConfigPresent: /"compilerOptions"\s*:/,
-  expressTypeImport: /Request|Response|NextFunction/,
-  pathAliasImport: /from\s+['\"]@\//,
-  nestjsModule: /@Module\s*\(/,
-  nestjsController: /@Controller\s*\(/,
-  nestjsInjectable: /@Injectable\s*\(/,
-  nestjsGuard: /@UseGuards\s*\(|implements\s+CanActivate/,
-  nestjsPipe: /PipeTransform|@UsePipes\s*\(/,
-  nestjsExceptionFilter: /@Catch\s*\(|ExceptionFilter/,
-  nestjsDecorator: /SetMetadata|createParamDecorator|Reflector/,
-  repositoryPattern: /Repository|EntityRepository|PrismaService/,
-  classValidatorUsage: /class-validator|@Is[A-Z]/,
-  passportStrategy: /PassportStrategy|AuthGuard/,
-  rolesDecorator: /@Roles\s*\(|SetMetadata\s*\(\s*['\"]roles/,
-  eventHandler: /@EventPattern\s*\(|emit\s*\(/,
-  grpcClient: /@GrpcMethod\s*\(|ClientGrpc/,
-  serviceDiscoveryPattern: /service\s+registry|consul|etcd|discovery/i,
-  requestIdInterceptor: /x-request-id|requestId|correlationId|AsyncLocalStorage|ExecutionContext/i,
-  envSchemaValidation: /zod|joi|envalid|convict|schema.*process\.env/i
-};
-
-export const AVAILABLE_PATTERN_KEYS = Object.freeze(Object.keys(PATTERN_MATCHERS));
-
-function isPlaceholder(content) {
-  if (!content || !content.trim()) {
-    return true;
-  }
-
-  return PLACEHOLDER_PATTERNS.some((pattern) => pattern.test(content));
-}
+export { AVAILABLE_PATTERN_KEYS };
 
 function asNonNegativeNumber(value, fallback = 0) {
   const parsed = Number(value);
@@ -213,9 +122,9 @@ function readChallengeContext({ projectDir, challengeId, fallbackChallengeConfig
   };
 }
 
-function runFunctionalTests(files) {
-  const total = files.length;
-  if (total === 0) {
+function runFunctionalTests(files, projectDir, challengeId) {
+  const fileTotal = files.length;
+  if (fileTotal === 0) {
     return {
       score: 0,
       totalChecks: 0,
@@ -229,12 +138,43 @@ function runFunctionalTests(files) {
     .filter((file) => !file.exists || file.placeholder)
     .map((file) => file.relativePath);
 
-  const passedChecks = total - failedFiles.length;
+  const filePassedChecks = fileTotal - failedFiles.length;
+
+  const unitCandidates = [
+    join(projectDir, 'tests', `challenge-${challengeId}.test.js`),
+    join(projectDir, 'tests', `challenge-${challengeId}.test.ts`)
+  ];
+  const testFile = unitCandidates.find((candidate) => exists(candidate));
+  let testPassed = true;
+  let testError = null;
+
+  if (testFile && filePassedChecks === fileTotal) {
+    try {
+      execFileSync('node', ['--experimental-strip-types', '--test', testFile], {
+        cwd: projectDir,
+        encoding: 'utf-8',
+        stdio: 'pipe'
+      });
+    } catch (error) {
+      testPassed = false;
+      testError = String(error.stderr || error.stdout || error.message).trim().slice(0, 500);
+    }
+  }
+
+  const totalChecks = fileTotal + (testFile ? 1 : 0);
+  const passedChecks = filePassedChecks + (testFile && testPassed ? 1 : 0);
+
   return {
-    score: roundScore((passedChecks / total) * 100),
-    totalChecks: total,
+    score: totalChecks === 0 ? 0 : roundScore((passedChecks / totalChecks) * 100),
+    totalChecks,
     passedChecks,
-    failedFiles
+    failedFiles,
+    testFile: testFile || null,
+    testPassed: testFile ? testPassed : null,
+    testError,
+    note: testFile
+      ? 'Functional checks include scoped file validation and challenge unit tests.'
+      : 'Scoped file validation only; no challenge unit test file configured.'
   };
 }
 
@@ -392,16 +332,21 @@ function extractJsonObject(text) {
     return null;
   }
 
+  const normalized = String(text)
+    .replace(/```json\s*/gi, '')
+    .replace(/```/g, '')
+    .trim();
+
   try {
-    return JSON.parse(text);
+    return JSON.parse(normalized);
   } catch {
-    const start = text.indexOf('{');
-    const end = text.lastIndexOf('}');
+    const start = normalized.indexOf('{');
+    const end = normalized.lastIndexOf('}');
     if (start === -1 || end === -1 || end <= start) {
       return null;
     }
 
-    const candidate = text.slice(start, end + 1);
+    const candidate = normalized.slice(start, end + 1);
     try {
       return JSON.parse(candidate);
     } catch {
@@ -473,30 +418,47 @@ async function runAiReview({ rootDir, courseConfig, challenge, challengeReadme, 
   ].join('\n\n');
 
   try {
-    const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        Authorization: `Bearer ${apiKey}`
-      },
-      body: JSON.stringify({
-        model,
-        messages: [
-          { role: 'system', content: 'You are a strict backend code reviewer.' },
-          { role: 'user', content: prompt }
-        ],
-        temperature: 0.1
-      })
-    });
+    const maxAttempts = 3;
+    let response;
+    let body = '';
 
-    if (!response.ok) {
-      const body = await response.text();
-      return {
-        score: 0,
-        mode: 'error',
-        strengths: [],
-        improvements: [`AI review request failed (${response.status}).`, body.slice(0, 300)]
-      };
+    for (let attempt = 1; attempt <= maxAttempts; attempt += 1) {
+      response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: `Bearer ${apiKey}`
+        },
+        body: JSON.stringify({
+          model,
+          messages: [
+            {
+              role: 'system',
+              content: 'You are a strict backend code reviewer. Respond with valid JSON only.'
+            },
+            { role: 'user', content: prompt }
+          ],
+          temperature: 0.1,
+          response_format: { type: 'json_object' }
+        })
+      });
+
+      if (response.ok) {
+        break;
+      }
+
+      body = await response.text();
+      const retryable = response.status === 429 || response.status >= 500;
+      if (!retryable || attempt === maxAttempts) {
+        return {
+          score: 0,
+          mode: 'error',
+          strengths: [],
+          improvements: [`AI review request failed (${response.status}).`, body.slice(0, 300)]
+        };
+      }
+
+      await new Promise((resolve) => setTimeout(resolve, attempt * 1500));
     }
 
     const payload = await response.json();
@@ -571,13 +533,16 @@ function mergeByChallengeOrder(existing, incoming, challengeOrder) {
 
 function buildCourseSummary({ courseConfig, mergedResults, mergedAiFeedback }) {
   const challengeCount = courseConfig.challenges.length;
-  const fallbackWeight = challengeCount > 0 ? 1 / challengeCount : 0;
-  const rawWeights = courseConfig.challenges.map((challenge) =>
-    getChallengeWeight(challenge, fallbackWeight)
-  );
+  const challengeById = new Map(courseConfig.challenges.map((challenge) => [challenge.id, challenge]));
+  const reviewedChallenges = mergedResults
+    .map((result) => challengeById.get(result.challengeId))
+    .filter(Boolean);
+  const reviewedCount = reviewedChallenges.length;
+  const fallbackWeight = reviewedCount > 0 ? 1 / reviewedCount : 0;
+  const rawWeights = reviewedChallenges.map((challenge) => getChallengeWeight(challenge, fallbackWeight));
   const weightSum = rawWeights.reduce((sum, value) => sum + value, 0);
   const normalizedWeightMap = new Map(
-    courseConfig.challenges.map((challenge, index) => [
+    reviewedChallenges.map((challenge, index) => [
       challenge.id,
       weightSum > 0 ? rawWeights[index] / weightSum : fallbackWeight
     ])
@@ -585,7 +550,7 @@ function buildCourseSummary({ courseConfig, mergedResults, mergedAiFeedback }) {
 
   const scoreMap = new Map(mergedResults.map((item) => [item.challengeId, item.score]));
 
-  const weightedTotal = courseConfig.challenges.reduce((sum, challenge) => {
+  const weightedTotal = reviewedChallenges.reduce((sum, challenge) => {
     const score = scoreMap.get(challenge.id) ?? 0;
     const weight = normalizedWeightMap.get(challenge.id) ?? fallbackWeight;
     return sum + score * weight;
@@ -597,23 +562,21 @@ function buildCourseSummary({ courseConfig, mergedResults, mergedAiFeedback }) {
 
   const completedChallenges = passedSet.size;
   const completionPercentage = challengeCount === 0 ? 0 : roundScore((completedChallenges / challengeCount) * 100);
-  const averageScore = roundScore(weightedTotal);
+  const averageScore = reviewedCount === 0 ? 0 : roundScore(weightedTotal);
 
   const strengthSkills = [];
   const improvementSkills = [];
 
-  for (const challenge of courseConfig.challenges) {
-    if (passedSet.has(challenge.id)) {
-      for (const skill of challenge.skills || []) {
-        if (!strengthSkills.includes(skill)) {
-          strengthSkills.push(skill);
-        }
-      }
-    } else {
-      for (const skill of challenge.skills || []) {
-        if (!improvementSkills.includes(skill)) {
-          improvementSkills.push(skill);
-        }
+  for (const result of mergedResults) {
+    const challenge = challengeById.get(result.challengeId);
+    if (!challenge) {
+      continue;
+    }
+
+    const targetSkills = result.passed ? strengthSkills : improvementSkills;
+    for (const skill of challenge.skills || []) {
+      if (!targetSkills.includes(skill)) {
+        targetSkills.push(skill);
       }
     }
   }
@@ -640,6 +603,7 @@ function buildCourseSummary({ courseConfig, mergedResults, mergedAiFeedback }) {
     completionPercentage,
     totalChallenges: challengeCount,
     completedChallenges,
+    reviewedChallengesCount: reviewedCount,
     badgeLevel: determineBadge(averageScore, completionPercentage, courseConfig.badgeLevels),
     challengeResults: mergedResults.map((result) => ({
       challengeId: result.challengeId,
@@ -695,7 +659,7 @@ export async function runCourseReview({ rootDir = resolveRepoRoot(import.meta.ur
     });
 
     const layers = {
-      functionalTests: runFunctionalTests(files),
+      functionalTests: runFunctionalTests(files, projectDir, challenge.id),
       codeQuality: runCodeQuality(files),
       architecture: runArchitectureChecks(files, metadata.patternsRequired || []),
       bestPractices: runBestPractices(files),
@@ -760,6 +724,7 @@ export async function runCourseReview({ rootDir = resolveRepoRoot(import.meta.ur
     courseId,
     challengeId,
     reviewedChallenges: targets.map((challenge) => challenge.id),
+    reviewedResults: freshResults,
     summary
   };
 }

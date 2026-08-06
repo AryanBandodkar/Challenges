@@ -1,52 +1,104 @@
-# 04-oop-inheritance-refactor: OOP Inheritance Refactor
+# Challenge 04: OOP Inheritance Refactor
+
+**Work on this challenge only.** After you finish and run the review, move on to the next challenge. You don't need to read other challenge READMEs yet.
+
+**Difficulty:** Intermediate | **Estimated time:** 3 hours
 
 ## Goal
 
-Demonstrate practical understanding of **Modern JavaScript Essentials** concepts through implementation-level work.
+Practice Object-Oriented Programming (OOP) by creating a base class and a subclass using inheritance in JavaScript.
 
-## Concepts Covered
+## What to do
 
-- classes
-- inheritance
-- prototypes
+1. Open `src/challenges/04-oop-inheritance-refactor/index.js`.
+2. Implement and export the function:
+   ```js
+   solve_04_oop_inheritance_refactor
+   ```
+3. Inside the function:
+   - Create a base class using the `class` keyword.
+   - Create a subclass that extends the base class using `extends`.
+   - Override or extend at least one method or property in the subclass.
+   - Create an instance of the subclass and demonstrate how inheritance works.
+4. Return a meaningful result that shows the subclass behavior.
 
-## Files In Scope
+   Example:
 
-- `src/challenges/04-oop-inheritance-refactor/index.js`
+   ```js
+   class Animal {
+     speak() {
+       return "Animal sound";
+     }
+   }
 
-## Implementation Contract
+   class Dog extends Animal {
+     speak() {
+       return "Woof!";
+     }
+   }
 
-1. Implement the solution in `src/challenges/04-oop-inheritance-refactor/index.js`.
-2. Export function `solve_04_oop_inheritance_refactor` from the primary source file.
-3. Keep code modular and production-oriented (no hard-coded secrets or unsafe patterns).
-4. Do not leave placeholder markers such as `TODO` or `throw new Error('Not implemented')` in scoped files.
+   return new Dog().speak(); // "Woof!"
+   ```
 
-## Architecture Signals To Include
+5. Remove all placeholder code such as:
+   - `TODO`
+   - `throw new Error("Not implemented")`
 
-- Define at least one class. (`classSyntax`)
-- Use `extends` to model inheritance. (`extendsKeyword`)
+## Code
 
-## Scoring Notes
+- Use JavaScript.
+- Edit only:
+  ```
+  src/challenges/04-oop-inheritance-refactor/index.js
+  ```
+- Export `solve_04_oop_inheritance_refactor`.
+- Use `class` and `extends` to implement inheritance.
+- Override or extend behavior in the subclass.
+- Avoid using `var`.
+- Avoid unnecessary `console.log()` statements.
+- Write clean, readable, and modular code.
 
-- If challenge test files are present, test evidence is detected from:
-  - `tests/challenge-04-oop-inheritance-refactor.test.js` or `tests/challenge-04-oop-inheritance-refactor.test.ts`
-  - `tests/e2e/challenge-04-oop-inheritance-refactor.spec.js` or `tests/e2e/challenge-04-oop-inheritance-refactor.spec.ts`
-- If no challenge-specific test files are provided by course maintainers, the test layer is treated as neutral (not a penalty).
-- If any scoped file is placeholder/missing, overall challenge score is forced to `0%`.
-- Otherwise, challenge score combines implementation, architecture, quality, best-practices, test evidence, and AI review layers.
+## Review
 
-## Done Definition (Learner Self-Check)
+Your solution will be checked for:
 
-1. The scoped file(s) are implemented and not placeholders.
-2. The export `solve_04_oop_inheritance_refactor` exists and is callable.
-3. Required architecture signals above are visible in your code.
-4. Run review command: `npm run review:challenge -- --course=01-javascript-fundamentals-async --challenge=04-oop-inheritance-refactor`.
+- Correct implementation of the exported function.
+- No remaining placeholder code.
+- Definition of at least one base class.
+- Proper use of `extends` for inheritance.
+- Demonstration of subclass behavior by overriding or extending functionality.
+- Returning a meaningful result.
+- Code quality and best practices.
+- Optional unit/E2E tests (if provided).
+- AI code review (if enabled).
 
-## Evaluation Layers
+**Passing score:** **80% or higher**
 
-- Functional tests
-- Code quality
-- Architecture checks
-- Best-practices checks
-- E2E/API behavior checks
-- AI review
+> **Note:** If the required file is missing or still contains placeholder code, the challenge will receive a **0% score**.
+
+## Verify
+
+Run either of the following:
+
+```bash
+npm run review:challenge -- --course=01-javascript-fundamentals-async --challenge=04-oop-inheritance-refactor
+```
+
+or
+
+```bash
+npm run dashboard:dev
+```
+
+Then open the dashboard and click **Run Review** for this challenge.
+
+### Optional
+
+To test your solution locally:
+
+1. Import `solve_04_oop_inheritance_refactor` in `src/main.js`.
+2. From `courses/01-javascript-fundamentals-async/project`, run:
+
+```bash
+npm run dev
+```

@@ -1,50 +1,32 @@
-# 05-custom-decorators-metadata-reflection: Custom Decorators Metadata Reflection
+# Challenge 05: Custom Decorators Metadata Reflection
+
+**Work on this challenge only.** After you finish and run review, move on to the next challenge. You don't need to read other challenge READMEs yet.
+
+**Difficulty:** intermediate | **Estimated time:** 4 hours
 
 ## Goal
 
-Demonstrate practical understanding of **Advanced NestJS Features** concepts through implementation-level work.
+Create custom decorators and read metadata with reflection.
 
-## Concepts Covered
+## What to do
 
-- custom decorators
-- metadata reflection
+1. **Implement the solver** — Open `src/challenges/05-custom-decorators-metadata-reflection/index.ts` and implement `solve_05_custom_decorators_metadata_reflection`.
+2. Create a custom decorator using `SetMetadata`, `createParamDecorator`, or `Reflector`.
+3. Read metadata in a guard, interceptor, or handler.
+4. **Clean up** — Remove all `TODO` and `throw new Error('Not implemented')` placeholders before review.
 
-## Files In Scope
+## Code
 
-- `src/challenges/05-custom-decorators-metadata-reflection/index.ts`
+Use TypeScript. Export `solve_05_custom_decorators_metadata_reflection` from `src/challenges/05-custom-decorators-metadata-reflection/index.ts`. Edit only the scoped file(s) listed in the steps above. Remove placeholder stubs (`TODO`, `throw new Error('Not implemented')`). Avoid `var` and unnecessary `console.*` where possible.
 
-## Implementation Contract
+## Review
 
-1. Implement the solution in `src/challenges/05-custom-decorators-metadata-reflection/index.ts`.
-2. Export function `solve_05_custom_decorators_metadata_reflection` from the primary source file.
-3. Keep code modular and production-oriented (no hard-coded secrets or unsafe patterns).
-4. Do not leave placeholder markers such as `TODO` or `throw new Error('Not implemented')` in scoped files.
+Review checks: scoped files exist and are not placeholder stubs; implement custom decorators or metadata reflection usage; code quality and best practices; optional challenge unit/E2E tests when present; AI code review when enabled. Pass threshold: **≥ 80%**.
 
-## Architecture Signals To Include
+> **Note:** Missing scoped files or placeholder code scores **0%** until replaced with real implementation.
 
-- Implement custom decorators or metadata reflection usage. (`nestjsDecorator`)
+## Verify
 
-## Scoring Notes
-
-- If challenge test files are present, test evidence is detected from:
-  - `tests/challenge-05-custom-decorators-metadata-reflection.test.js` or `tests/challenge-05-custom-decorators-metadata-reflection.test.ts`
-  - `tests/e2e/challenge-05-custom-decorators-metadata-reflection.spec.js` or `tests/e2e/challenge-05-custom-decorators-metadata-reflection.spec.ts`
-- If no challenge-specific test files are provided by course maintainers, the test layer is treated as neutral (not a penalty).
-- If any scoped file is placeholder/missing, overall challenge score is forced to `0%`.
-- Otherwise, challenge score combines implementation, architecture, quality, best-practices, test evidence, and AI review layers.
-
-## Done Definition (Learner Self-Check)
-
-1. The scoped file(s) are implemented and not placeholders.
-2. The export `solve_05_custom_decorators_metadata_reflection` exists and is callable.
-3. Required architecture signals above are visible in your code.
-4. Run review command: `npm run review:challenge -- --course=05-nestjs-enterprise-framework --challenge=05-custom-decorators-metadata-reflection`.
-
-## Evaluation Layers
-
-- Functional tests
-- Code quality
-- Architecture checks
-- Best-practices checks
-- E2E/API behavior checks
-- AI review
+- `npm run review:challenge -- --course=05-nestjs-enterprise-framework --challenge=05-custom-decorators-metadata-reflection`
+- `npm run dashboard:dev` → open the dashboard and click **Run Review** for this challenge
+- Optional live check: from `courses/05-nestjs-enterprise-framework/project`, run `npm run dev` after importing your exported function in `src/main.ts`

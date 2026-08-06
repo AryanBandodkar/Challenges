@@ -27,6 +27,11 @@ test('single challenge review returns expected shape and preserves course result
 
   assert.equal(run.courseId, courseId);
   assert.equal(run.challengeId, challengeId);
+  assert.deepEqual(run.reviewedChallenges, [challengeId]);
+  assert.equal(run.reviewedResults.length, 1);
+  assert.equal(run.reviewedResults[0].challengeId, challengeId);
+  assert.equal(run.summary.reviewedChallengesCount, 1);
+  assert.equal(run.summary.challengeResults.length, 1);
   assert.ok(run.summary.totalChallenges > 0);
   assert.ok(run.summary.averageScore >= 0 && run.summary.averageScore <= 100);
 
@@ -51,6 +56,9 @@ test('single challenge review returns expected shape and preserves course result
     assert.ok(reviewedChallenge?.layers?.e2eTests?.score >= 30);
     assert.ok(reviewedChallenge?.layers?.e2eTests?.score <= 100);
   }
+
+  assert.ok(run.summary.improvementAreas.length <= 4);
+  assert.ok(!run.summary.improvementAreas.includes('classes'));
 });
 
 test('progress update produces consistent totals', () => {
@@ -75,7 +83,7 @@ test('review script works from nested course directory', () => {
 
   const output = execFileSync(
     'node',
-    ['../../scripts/run-review-course.js', '--course=01-javascript-fundamentals-async', '--challenge=01-es6-syntax-foundations'],
+    ['../../scripts/run-review-course.js', '--json', '--course=01-javascript-fundamentals-async', '--challenge=01-es6-syntax-foundations'],
     {
       cwd,
       encoding: 'utf-8'

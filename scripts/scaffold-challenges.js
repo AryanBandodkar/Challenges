@@ -2,6 +2,7 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'fs';
 import { join, dirname } from 'path';
 import { pathToFileURL } from 'url';
 import { resolveRepoRoot } from '../shared/utils/root.js';
+import { CHALLENGE_GOALS, CHALLENGE_TASK_STEPS } from './challenge-task-descriptions.js';
 
 const ROOT = resolveRepoRoot(import.meta.url);
 const force = process.argv.includes('--force');
@@ -128,35 +129,145 @@ function solveFunctionName(challengeId) {
   return `solve_${challengeId.replace(/-/g, '_')}`;
 }
 
-function buildPatternChecklist(patternsRequired = []) {
-  if (!Array.isArray(patternsRequired) || patternsRequired.length === 0) {
-    return '- No explicit architecture pattern key is required for this challenge.';
+function formatChallengeNumber(challengeId) {
+  const match = challengeId.match(/^(\d+)-/);
+  return match ? match[1] : challengeId;
+}
+
+function buildChallengeGoal(challenge) {
+  const customGoal = CHALLENGE_GOALS[challenge.id];
+  if (customGoal) {
+    return customGoal;
   }
 
-  return patternsRequired
-    .map((pattern) => `- ${PATTERN_GUIDANCE[pattern] || `Demonstrate implementation evidence for \`${pattern}\`.`} (\`${pattern}\`)`)
-    .join('\n');
+  const skillsText =
+    Array.isArray(challenge.skills) && challenge.skills.length > 0
+      ? challenge.skills.join(', ')
+      : 'core module topics';
+
+  return `Implement **${challenge.name}** in the scoped challenge file(s), applying **${challenge.moduleName}** concepts (${skillsText}).`;
+}
+
+function buildReviewSummary(challenge, minPassScore) {
+  const checks = ['scoped files exist and are not placeholder stubs'];
+
+  if (Array.isArray(challenge.patternsRequired) && challenge.patternsRequired.length > 0) {
+    for (const pattern of challenge.patternsRequired) {
+      const guidance = PATTERN_GUIDANCE[pattern];
+      checks.push(guidance ? guidance.replace(/\.$/, '').toLowerCase() : pattern);
+    }
+  } else if (Array.isArray(challenge.skills) && challenge.skills.length > 0) {
+    checks.push(`application of ${challenge.skills.join(', ')}`);
+  }
+
+  checks.push('code quality and best practices');
+  checks.push('optional challenge unit/E2E tests when present');
+  checks.push('AI code review when enabled');
+
+  return `Review checks: ${checks.join('; ')}. Pass threshold: **≥ ${minPassScore}%**.`;
+}
+
+function buildVerifySection(courseId, challengeId, ext) {
+  const mainFile = ext === 'ts' ? 'src/main.ts' : 'src/main.js';
+
+  return `- \`npm run review:challenge -- --course=${courseId} --challenge=${challengeId}\`
+- \`npm run dashboard:dev\` → open the dashboard and click **Run Review** for this challenge
+- Optional live check: from \`courses/${courseId}/project\`, run \`npm run dev\` after importing your exported function in \`${mainFile}\``;
+}
+
+function buildDefaultTaskSteps(challenge, filesToCheck, functionName, languageLabel) {
+  const steps = [];
+
+  if (filesToCheck.length === 1) {
+    steps.push(
+      `**Implement the solver** — Open \`${filesToCheck[0]}\` and implement \`${functionName}\` in ${languageLabel}.`
+    );
+  } else {
+    steps.push(`**Implement the solver** — Complete every scoped file below in ${languageLabel}.`);
+    for (const filePath of filesToCheck) {
+      steps.push(`Edit \`${filePath}\` and remove placeholder stubs.`);
+    }
+    steps.push(`Export \`${functionName}\` from the primary challenge file.`);
+  }
+
+  if (Array.isArray(challenge.patternsRequired) && challenge.patternsRequired.length > 0) {
+    steps.push('**Required patterns** — Your code must demonstrate:');
+    for (const pattern of challenge.patternsRequired) {
+      const guidance = PATTERN_GUIDANCE[pattern];
+      if (guidance) {
+        steps.push(guidance.replace(/\.$/, ''));
+      }
+    }
+  } else if (Array.isArray(challenge.skills) && challenge.skills.length > 0) {
+    steps.push(`**Apply module topics** — Use ${challenge.skills.join(', ')} in real logic.`);
+  }
+
+  steps.push(
+    '**Clean up** — Remove all `TODO` and `throw new Error(\'Not implemented\')` placeholders before review.'
+  );
+
+  return steps;
+}
+
+function buildTaskSteps(challenge, filesToCheck, functionName, languageLabel) {
+  const customSteps = CHALLENGE_TASK_STEPS[challenge.id];
+  if (customSteps?.length) {
+    return customSteps;
+  }
+
+  return buildDefaultTaskSteps(challenge, filesToCheck, functionName, languageLabel);
+}
+
+function formatTaskSteps(steps) {
+  return steps.map((step, index) => `${index + 1}. ${step}`).join('\n');
 }
 
 function buildChallengeReadme(challenge, ext) {
+  const courseId = challenge.courseIdHint || '<course-id>';
+  const minPassScore = challenge.minPassScore ?? 80;
   const filesToCheck = challenge.filesToCheck?.length
     ? challenge.filesToCheck
     : [`src/challenges/${challenge.id}/index.${ext}`];
-  const primarySourceFile = filesToCheck[0];
-  const sourceList = filesToCheck.map((file) => `- \`${file}\``).join('\n');
   const functionName = solveFunctionName(challenge.id);
-  const unitTestCandidates = [
-    `tests/challenge-${challenge.id}.test.js`,
-    `tests/challenge-${challenge.id}.test.ts`
-  ];
-  const e2eTestCandidates = [
-    `tests/e2e/challenge-${challenge.id}.spec.js`,
-    `tests/e2e/challenge-${challenge.id}.spec.ts`
-  ];
-  const skillsList = challenge.skills.map((skill) => `- ${skill}`).join('\n');
-  const patternChecklist = buildPatternChecklist(challenge.patternsRequired);
+  const challengeNumber = formatChallengeNumber(challenge.id);
+  const languageLabel = ext === 'ts' ? 'TypeScript' : 'JavaScript';
+  const goal = buildChallengeGoal(challenge);
+  const taskSteps = buildTaskSteps(challenge, filesToCheck, functionName, languageLabel);
+  const formattedTaskSteps = formatTaskSteps(taskSteps);
+  const reviewSummary = buildReviewSummary(challenge, minPassScore);
+  const verifySection = buildVerifySection(courseId, challenge.id, ext);
+  const difficulty = challenge.difficulty || 'not specified';
+  const estimatedTime = challenge.estimatedTime || 'not specified';
+  const primaryFile = filesToCheck[0];
 
-  return `# ${challenge.id}: ${challenge.name}\n\n## Goal\n\nDemonstrate practical understanding of **${challenge.moduleName}** concepts through implementation-level work.\n\n## Concepts Covered\n\n${skillsList}\n\n## Files In Scope\n\n${sourceList}\n\n## Implementation Contract\n\n1. Implement the solution in \`${primarySourceFile}\`.\n2. Export function \`${functionName}\` from the primary source file.\n3. Keep code modular and production-oriented (no hard-coded secrets or unsafe patterns).\n4. Do not leave placeholder markers such as \`TODO\` or \`throw new Error('Not implemented')\` in scoped files.\n\n## Architecture Signals To Include\n\n${patternChecklist}\n\n## Scoring Notes\n\n- If challenge test files are present, test evidence is detected from:\n  - \`${unitTestCandidates[0]}\` or \`${unitTestCandidates[1]}\`\n  - \`${e2eTestCandidates[0]}\` or \`${e2eTestCandidates[1]}\`\n- If no challenge-specific test files are provided by course maintainers, the test layer is treated as neutral (not a penalty).\n- If any scoped file is placeholder/missing, overall challenge score is forced to \`0%\`.\n- Otherwise, challenge score combines implementation, architecture, quality, best-practices, test evidence, and AI review layers.\n\n## Done Definition (Learner Self-Check)\n\n1. The scoped file(s) are implemented and not placeholders.\n2. The export \`${functionName}\` exists and is callable.\n3. Required architecture signals above are visible in your code.\n4. Run review command: \`npm run review:challenge -- --course=${challenge.courseIdHint || '<course-id>'} --challenge=${challenge.id}\`.\n\n## Evaluation Layers\n\n- Functional tests\n- Code quality\n- Architecture checks\n- Best-practices checks\n- E2E/API behavior checks\n- AI review\n`;
+  return `# Challenge ${challengeNumber}: ${challenge.name}
+
+**Work on this challenge only.** After you finish and run review, move on to the next challenge. You don't need to read other challenge READMEs yet.
+
+**Difficulty:** ${difficulty} | **Estimated time:** ${estimatedTime}
+
+## Goal
+
+${goal}
+
+## What to do
+
+${formattedTaskSteps}
+
+## Code
+
+Use ${languageLabel}. Export \`${functionName}\` from \`${primaryFile}\`. Edit only the scoped file(s) listed in the steps above. Remove placeholder stubs (\`TODO\`, \`throw new Error('Not implemented')\`). Avoid \`var\` and unnecessary \`console.*\` where possible.
+
+## Review
+
+${reviewSummary}
+
+> **Note:** Missing scoped files or placeholder code scores **0%** until replaced with real implementation.
+
+## Verify
+
+${verifySection}
+`;
 }
 
 function buildSourceStub(challenge, ext) {
@@ -274,7 +385,14 @@ function runScaffold() {
 
       if (writeText(
         join(challengeDir, 'README.md'),
-        buildChallengeReadme({ ...challenge, courseIdHint: course.id }, ext),
+        buildChallengeReadme(
+          {
+            ...challenge,
+            courseIdHint: course.id,
+            minPassScore: courseConfig.requirements?.minScore ?? 80
+          },
+          ext
+        ),
         force
       )) {
         createdCount += 1;
@@ -326,5 +444,5 @@ if (isMain) {
   }
 }
 
-export { runScaffold, buildChallengeReadme, solveFunctionName };
+export { runScaffold, buildChallengeReadme, solveFunctionName, buildSourceStub, buildCourseSummarySeed };
 

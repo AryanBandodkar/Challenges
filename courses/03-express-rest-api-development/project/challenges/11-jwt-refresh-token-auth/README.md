@@ -1,51 +1,32 @@
-# 11-jwt-refresh-token-auth: JWT Refresh Token Auth
+# Challenge 11: JWT Refresh Token Auth
+
+**Work on this challenge only.** After you finish and run review, move on to the next challenge. You don't need to read other challenge READMEs yet.
+
+**Difficulty:** intermediate | **Estimated time:** 4 hours
 
 ## Goal
 
-Demonstrate practical understanding of **Authentication & Security** concepts through implementation-level work.
+Implement JWT sign/verify flows with access and refresh token handling.
 
-## Concepts Covered
+## What to do
 
-- JWT
-- refresh tokens
-- token verification
+1. **Implement the solver** — Open `src/challenges/11-jwt-refresh-token-auth/index.js` and implement `solve_11_jwt_refresh_token_auth`.
+2. Sign and verify JWTs with `jwt.sign` and `jwt.verify`.
+3. Model access and refresh token issuance or rotation in your auth flow.
+4. **Clean up** — Remove all `TODO` and `throw new Error('Not implemented')` placeholders before review.
 
-## Files In Scope
+## Code
 
-- `src/challenges/11-jwt-refresh-token-auth/index.js`
+Use JavaScript. Export `solve_11_jwt_refresh_token_auth` from `src/challenges/11-jwt-refresh-token-auth/index.js`. Edit only the scoped file(s) listed in the steps above. Remove placeholder stubs (`TODO`, `throw new Error('Not implemented')`). Avoid `var` and unnecessary `console.*` where possible.
 
-## Implementation Contract
+## Review
 
-1. Implement the solution in `src/challenges/11-jwt-refresh-token-auth/index.js`.
-2. Export function `solve_11_jwt_refresh_token_auth` from the primary source file.
-3. Keep code modular and production-oriented (no hard-coded secrets or unsafe patterns).
-4. Do not leave placeholder markers such as `TODO` or `throw new Error('Not implemented')` in scoped files.
+Review checks: scoped files exist and are not placeholder stubs; use jwt sign/verify flows; code quality and best practices; optional challenge unit/E2E tests when present; AI code review when enabled. Pass threshold: **≥ 80%**.
 
-## Architecture Signals To Include
+> **Note:** Missing scoped files or placeholder code scores **0%** until replaced with real implementation.
 
-- Use JWT sign/verify flows. (`jwtSignVerify`)
+## Verify
 
-## Scoring Notes
-
-- If challenge test files are present, test evidence is detected from:
-  - `tests/challenge-11-jwt-refresh-token-auth.test.js` or `tests/challenge-11-jwt-refresh-token-auth.test.ts`
-  - `tests/e2e/challenge-11-jwt-refresh-token-auth.spec.js` or `tests/e2e/challenge-11-jwt-refresh-token-auth.spec.ts`
-- If no challenge-specific test files are provided by course maintainers, the test layer is treated as neutral (not a penalty).
-- If any scoped file is placeholder/missing, overall challenge score is forced to `0%`.
-- Otherwise, challenge score combines implementation, architecture, quality, best-practices, test evidence, and AI review layers.
-
-## Done Definition (Learner Self-Check)
-
-1. The scoped file(s) are implemented and not placeholders.
-2. The export `solve_11_jwt_refresh_token_auth` exists and is callable.
-3. Required architecture signals above are visible in your code.
-4. Run review command: `npm run review:challenge -- --course=03-express-rest-api-development --challenge=11-jwt-refresh-token-auth`.
-
-## Evaluation Layers
-
-- Functional tests
-- Code quality
-- Architecture checks
-- Best-practices checks
-- E2E/API behavior checks
-- AI review
+- `npm run review:challenge -- --course=03-express-rest-api-development --challenge=11-jwt-refresh-token-auth`
+- `npm run dashboard:dev` → open the dashboard and click **Run Review** for this challenge
+- Optional live check: from `courses/03-express-rest-api-development/project`, run `npm run dev` after importing your exported function in `src/main.js`

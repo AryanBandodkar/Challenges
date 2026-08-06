@@ -1,52 +1,95 @@
-# 05-module-system-conversion: Module System Conversion
+# Challenge 05: Module System Conversion
+
+**Work on this challenge only.** After you finish and run the review, move on to the next challenge. You don't need to read other challenge READMEs yet.
+
+**Difficulty:** Intermediate | **Estimated time:** 2 hours
 
 ## Goal
 
-Demonstrate practical understanding of **Modern JavaScript Essentials** concepts through implementation-level work.
+Practice using ES Modules by importing functionality from another module and exporting your solver function using modern JavaScript syntax.
 
-## Concepts Covered
+## What to do
 
-- import/export
-- CommonJS
-- ES modules
+1. Open `src/challenges/05-module-system-conversion/index.js`.
+2. Implement and export the function:
+   ```js
+   solve_05_module_system_conversion
+   ```
+3. Inside the challenge:
+   - Use the ES module `import` syntax to import a value, function, or module.
+   - Use the ES module `export` syntax to export your solver function.
+   - Do **not** use CommonJS syntax (`require` or `module.exports`).
+4. Return a meaningful result from your solver function to demonstrate that the imported value or function is being used.
 
-## Files In Scope
+   Example:
 
-- `src/challenges/05-module-system-conversion/index.js`
+   ```js
+   import { add } from "./math.js";
 
-## Implementation Contract
+   export function solve_05_module_system_conversion() {
+     return add(5, 3);
+   }
+   ```
 
-1. Implement the solution in `src/challenges/05-module-system-conversion/index.js`.
-2. Export function `solve_05_module_system_conversion` from the primary source file.
-3. Keep code modular and production-oriented (no hard-coded secrets or unsafe patterns).
-4. Do not leave placeholder markers such as `TODO` or `throw new Error('Not implemented')` in scoped files.
+5. Remove all placeholder code such as:
+   - `TODO`
+   - `throw new Error("Not implemented")`
 
-## Architecture Signals To Include
+## Code
 
-- Use ES module `import` syntax. (`importStatement`)
-- Use ES module `export` syntax. (`exportStatement`)
+- Use JavaScript.
+- Edit only:
+  ```
+  src/challenges/05-module-system-conversion/index.js
+  ```
+- Export `solve_05_module_system_conversion`.
+- Use ES module `import` and `export` syntax.
+- Do **not** use `require` or `module.exports`.
+- Avoid using `var`.
+- Avoid unnecessary `console.log()` statements.
+- Write clean, readable, and modular code.
 
-## Scoring Notes
+## Review
 
-- If challenge test files are present, test evidence is detected from:
-  - `tests/challenge-05-module-system-conversion.test.js` or `tests/challenge-05-module-system-conversion.test.ts`
-  - `tests/e2e/challenge-05-module-system-conversion.spec.js` or `tests/e2e/challenge-05-module-system-conversion.spec.ts`
-- If no challenge-specific test files are provided by course maintainers, the test layer is treated as neutral (not a penalty).
-- If any scoped file is placeholder/missing, overall challenge score is forced to `0%`.
-- Otherwise, challenge score combines implementation, architecture, quality, best-practices, test evidence, and AI review layers.
+Your solution will be checked for:
 
-## Done Definition (Learner Self-Check)
+- Correct implementation of the exported function.
+- No remaining placeholder code.
+- Proper use of ES module `import` syntax.
+- Proper use of ES module `export` syntax.
+- No use of CommonJS (`require` or `module.exports`).
+- Returning a meaningful result.
+- Code quality and best practices.
+- Optional unit/E2E tests (if provided).
+- AI code review (if enabled).
 
-1. The scoped file(s) are implemented and not placeholders.
-2. The export `solve_05_module_system_conversion` exists and is callable.
-3. Required architecture signals above are visible in your code.
-4. Run review command: `npm run review:challenge -- --course=01-javascript-fundamentals-async --challenge=05-module-system-conversion`.
+**Passing score:** **80% or higher**
 
-## Evaluation Layers
+> **Note:** If the required file is missing or still contains placeholder code, the challenge will receive a **0% score**.
 
-- Functional tests
-- Code quality
-- Architecture checks
-- Best-practices checks
-- E2E/API behavior checks
-- AI review
+## Verify
+
+Run either of the following:
+
+```bash
+npm run review:challenge -- --course=01-javascript-fundamentals-async --challenge=05-module-system-conversion
+```
+
+or
+
+```bash
+npm run dashboard:dev
+```
+
+Then open the dashboard and click **Run Review** for this challenge.
+
+### Optional
+
+To test your solution locally:
+
+1. Import `solve_05_module_system_conversion` in `src/main.js`.
+2. From `courses/01-javascript-fundamentals-async/project`, run:
+
+```bash
+npm run dev
+```

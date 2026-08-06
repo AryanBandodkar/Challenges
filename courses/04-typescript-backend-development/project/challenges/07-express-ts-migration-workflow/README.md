@@ -1,53 +1,32 @@
-# 07-express-ts-migration-workflow: Express TS Migration Workflow
+# Challenge 07: Express TS Migration Workflow
+
+**Work on this challenge only.** After you finish and run review, move on to the next challenge. You don't need to read other challenge READMEs yet.
+
+**Difficulty:** intermediate | **Estimated time:** 4 hours
 
 ## Goal
 
-Demonstrate practical understanding of **TypeScript with Node.js & Express** concepts through implementation-level work.
+Migrate Express workflow to TypeScript with `ts-node` and `nodemon` scripts in `package.json`.
 
-## Concepts Covered
+## What to do
 
-- Express to TypeScript migration
-- ts-node
-- nodemon workflow
+1. **Implement the solver** — Open `src/challenges/07-express-ts-migration-workflow/index.ts` and implement `solve_07_express_ts_migration_workflow`.
+2. Update `package.json` in the same challenge folder with `ts-node` and `nodemon` dev workflow scripts.
+3. Export typed Express migration helpers from the TypeScript entry file.
+4. **Clean up** — Remove all `TODO` and `throw new Error('Not implemented')` placeholders before review.
 
-## Files In Scope
+## Code
 
-- `src/challenges/07-express-ts-migration-workflow/index.ts`
-- `package.json`
+Use TypeScript. Export `solve_07_express_ts_migration_workflow` from `src/challenges/07-express-ts-migration-workflow/index.ts`. Edit only the scoped file(s) listed in the steps above. Remove placeholder stubs (`TODO`, `throw new Error('Not implemented')`). Avoid `var` and unnecessary `console.*` where possible.
 
-## Implementation Contract
+## Review
 
-1. Implement the solution in `src/challenges/07-express-ts-migration-workflow/index.ts`.
-2. Export function `solve_07_express_ts_migration_workflow` from the primary source file.
-3. Keep code modular and production-oriented (no hard-coded secrets or unsafe patterns).
-4. Do not leave placeholder markers such as `TODO` or `throw new Error('Not implemented')` in scoped files.
+Review checks: scoped files exist and are not placeholder stubs; configure or reference `ts-node` workflow commands; configure or reference `nodemon` workflow commands; code quality and best practices; optional challenge unit/E2E tests when present; AI code review when enabled. Pass threshold: **≥ 80%**.
 
-## Architecture Signals To Include
+> **Note:** Missing scoped files or placeholder code scores **0%** until replaced with real implementation.
 
-- Configure or reference `ts-node` workflow commands. (`tsNodeScript`)
-- Configure or reference `nodemon` workflow commands. (`nodemonScript`)
+## Verify
 
-## Scoring Notes
-
-- If challenge test files are present, test evidence is detected from:
-  - `tests/challenge-07-express-ts-migration-workflow.test.js` or `tests/challenge-07-express-ts-migration-workflow.test.ts`
-  - `tests/e2e/challenge-07-express-ts-migration-workflow.spec.js` or `tests/e2e/challenge-07-express-ts-migration-workflow.spec.ts`
-- If no challenge-specific test files are provided by course maintainers, the test layer is treated as neutral (not a penalty).
-- If any scoped file is placeholder/missing, overall challenge score is forced to `0%`.
-- Otherwise, challenge score combines implementation, architecture, quality, best-practices, test evidence, and AI review layers.
-
-## Done Definition (Learner Self-Check)
-
-1. The scoped file(s) are implemented and not placeholders.
-2. The export `solve_07_express_ts_migration_workflow` exists and is callable.
-3. Required architecture signals above are visible in your code.
-4. Run review command: `npm run review:challenge -- --course=04-typescript-backend-development --challenge=07-express-ts-migration-workflow`.
-
-## Evaluation Layers
-
-- Functional tests
-- Code quality
-- Architecture checks
-- Best-practices checks
-- E2E/API behavior checks
-- AI review
+- `npm run review:challenge -- --course=04-typescript-backend-development --challenge=07-express-ts-migration-workflow`
+- `npm run dashboard:dev` → open the dashboard and click **Run Review** for this challenge
+- Optional live check: from `courses/04-typescript-backend-development/project`, run `npm run dev` after importing your exported function in `src/main.ts`

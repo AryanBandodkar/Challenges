@@ -1,95 +1,366 @@
-﻿# Node.js Backend Challenge Engine
+﻿# Challenge Engine – Backend Learner Guide
 
-This repo is a config-driven challenge engine for evaluating learner outcomes across:
+**Step-by-step guide to complete backend challenges, run reviews, and keep your repository up to date.**
 
-- JavaScript Fundamentals & Async Programming
-- Node.js Core Fundamentals
-- Express.js & RESTful API Development
-- TypeScript for Backend Development
-- NestJS Enterprise Framework
+---
 
-The challenge catalog is based on module concepts only (project ideas are intentionally excluded).
+## Step 1: Clone the Repository
 
-Reference alignment note: `docs/original-system-alignment.md` documents parity and intentional differences versus the original system blueprint.
+Clone the repository to your computer:
 
-## Prerequisites
+```bash
+git clone https://github.com/sparkplustech/challenge-engine-nodejs.git
+cd challenge-engine-nodejs
+```
 
-- Node.js 20+ (required for global `fetch` and ESM runtime behavior).
-- npm 10+.
+---
 
-## Engine Principles
+## Step 2: Create Your Own GitHub Repository
 
-- Deterministic review flow and reproducible scoring
-- Evidence-first tracking (`results/*.json`, `learner-results/progress.json`)
-- Config-first scale: add courses/challenges without changing core process
-- Learner-ready stubs: challenge folders contain instructions + metadata, not solutions
+Create a personal GitHub repository where you'll save your challenge work.
 
-## Standard Flow
+1. Sign in to GitHub.
+2. Click **+ → New repository**.
+3. Give it a name (for example: `my-nodejs-challenge-engine`).
+4. Leave it **empty** (don't add a README or `.gitignore`).
+5. Click **Create repository**.
+6. Copy the repository's **HTTPS URL**.
 
-1. Define course and challenge metadata in `courses/*/course-config.json`.
-2. Run `npm run setup` to scaffold challenge folders and learner stubs.
-3. Run `npm run readmes:refresh` after metadata updates so all challenge READMEs stay aligned with review expectations.
-4. Run review commands (`review:challenge`, `review:course`, `review:changed`, `review:all`).
-5. Review engine writes challenge and course results, then progress and README evidence update automatically.
+You'll use this as your **origin** repository.
 
-## Learner Quick Start
+---
 
-1. Run `npm run setup` once to scaffold local challenge workspace.
-2. In each course folder you work in, install `nodemon` with `npm install --save-dev nodemon`.
-3. Pick one challenge README under `courses/<course-id>/project/challenges/<challenge-id>/README.md`.
-4. Implement only the scoped file(s) listed in that README.
-5. If you want to see the project working before review, update that course project's `main.js` and run `npm run dev` from `courses/<course-id>/project`.
-6. Run `npm run review:challenge -- --course=<courseId> --challenge=<challengeId>`.
-7. Iterate until the challenge passes.
+## Step 3: Configure Git Remotes
 
-## Review Commands
+From the project root, run:
 
-Run these commands from the challenge-engine root folder (this repository root).
+```bash
+git remote add upstream https://github.com/sparkplustech/challenge-engine-nodejs.git
+git remote set-url origin <your-repository-url>
+git remote -v
+```
 
-- `npm run readmes:refresh`
-- `npm run review:challenge -- --course=<courseId> --challenge=<challengeId>`
-- `npm run review:course -- --course=<courseId>`
-- `npm run review:changed -- --ref=HEAD~1`
-- `npm run review:all`
-- `npm run readme:evidence`
-- `npm run release:check`
-- `npm run ci:validate`
+Replace:
 
-## Dashboard Commands
+```text
+<your-repository-url>
+```
 
-- `npm run dashboard:setup`
-- `npm run dashboard:dev` (API on `http://localhost:7700`, UI with HMR on `http://localhost:5174`)
-- `npm run dashboard:build`
-- `npm run dashboard` (serves built UI + API from port `7700`)
+with your own GitHub repository URL.
 
-Dashboard docs: `dashboard/README.md`
+Your remotes should look like:
 
-## AI Review Notes
+- **origin** → Your GitHub repository
+- **upstream** → Course repository
 
-- Copy `.env.example` to `.env` only in internal maintainer environments.
-- Never ship a real `GROQ_API_KEY` to learner distributions.
-- `GROQ_API_KEY` is read from `.env` (or shell env var).
-- AI review only runs when challenge code is substantial; placeholder stubs are skipped.
-- Optional env vars: `GROQ_MODEL`, `AI_REVIEW_MAX_FILES`, `AI_REVIEW_MAX_CHARS`.
+---
 
-## Generated Outputs
+## Step 4: Run Setup (One Time)
 
-- `pathway-review/pathway-summary.json`: pathway-level scores and completion.
-- `pathway-review/skill-breakdown.json`: skill-level appearance and pass-rate analysis.
-- `learner-results/progress.json`: learner-facing aggregated progress snapshot.
+From the repository root:
 
-## Progress Summary
+```bash
+npm run setup
+```
 
-<!-- PROGRESS_SUMMARY_START -->
-- Overall Score: **4.78%**
-- Completion: **4.35%** (3/69)
-- Badge Level: **none**
+This command will:
 
-| Course | Score | Completion | Badge |
-|---|---:|---:|---|
-| JavaScript Fundamentals & Async Programming | 31.88% | 37.5% | none |
-| Node.js Core Fundamentals | 0% | 0% | none |
-| Express.js & RESTful API Development | 0% | 0% | none |
-| TypeScript for Backend Development | 0% | 0% | none |
-| NestJS Enterprise Framework | 0% | 0% | none |
-<!-- PROGRESS_SUMMARY_END -->
+- Install project dependencies.
+- Set up all backend course projects.
+- Prepare the review engine.
+- Install everything needed to start solving challenges.
+
+> Run this once when you first clone the repository and again after pulling major updates.
+
+---
+
+## Step 5: Configure AI Review (Optional)
+
+If you want AI-powered code reviews, create a `.env` file in the repository root:
+
+```env
+GROQ_API_KEY=your_api_key
+```
+
+The review engine will automatically use this key when available.
+
+> **Note:** AI Review is optional. The challenge engine works normally without it.
+
+---
+
+## Step 6: Install Nodemon (One Time Per Course)
+
+Each backend course uses **nodemon** during development.
+
+Before starting a course, install it inside that course's project folder:
+
+```bash
+cd courses/<course-id>/project
+npm install --save-dev nodemon
+```
+
+Examples:
+
+```bash
+cd courses/01-javascript-fundamentals-async/project
+npm install --save-dev nodemon
+```
+
+```bash
+cd courses/02-nodejs-core-fundamentals/project
+npm install --save-dev nodemon
+```
+
+Repeat this once for every course you work on.
+
+---
+
+## Step 7: Start the Dashboard
+
+Build the dashboard once:
+
+```bash
+npm run dashboard:build
+```
+
+Start the dashboard:
+
+```bash
+npm run dashboard
+```
+
+Dashboard URL:
+
+```
+http://localhost:7700
+```
+
+## Step 8: Start a Course Project
+
+Choose the course you're working on.
+
+Example:
+
+```bash
+cd courses/01-javascript-fundamentals-async/project
+npm run dev
+```
+
+Other available backend courses:
+
+```text
+courses/02-nodejs-core-fundamentals/project
+courses/03-express-rest-api/project
+courses/04-typescript-backend/project
+courses/05-nestjs-enterprise-framework/project
+```
+
+Each course project runs independently.
+Refer the challengeflow.md for more clarification 
+
+---
+
+## Step 9: Complete a Challenge
+
+1. Open a challenge from the dashboard or open its README:
+
+```
+courses/<course-id>/project/challenges/<challenge-id>/README.md
+```
+
+2. Read the requirements carefully.
+3. Modify **only** the files listed under **Files In Scope**.
+4. Save your changes.
+
+---
+
+## Step 10: Run a Review
+
+From the repository root:
+
+```bash
+npm run review:challenge -- --course=<courseId> --challenge=<challengeId>
+```
+
+Example:
+
+```bash
+npm run review:challenge -- --course=01-javascript-fundamentals-async --challenge=01-es6-syntax-foundations
+```
+
+You can also run reviews directly from the dashboard by clicking **Run Review**.
+
+Keep improving your solution until you pass.
+
+---
+
+## Step 11: Push Your Work
+
+Save your progress to GitHub:
+
+```bash
+git add .
+git commit -m "Complete challenge 01-es6-syntax-foundations"
+git push -u origin main
+```
+
+After your first push, simply use:
+
+```bash
+git push
+```
+
+---
+
+## Step 12: Get Latest Course Updates
+
+To receive new challenges and updates from the course repository:
+
+```bash
+npm run sync-upstream
+```
+
+Or manually:
+
+```bash
+git add .
+git commit -m "WIP before update"
+git fetch upstream
+git merge upstream/main -X theirs
+```
+
+After updating, run setup again:
+
+```bash
+npm run setup
+```
+
+---
+
+# Quick Reference
+
+| Task | Command |
+|------|---------|
+| First-time setup | `npm run setup` |
+| Build dashboard | `npm run dashboard:build` |
+| Start dashboard | `npm run dashboard` |
+| Dashboard development | `npm run dashboard:dev` |
+| Install nodemon | `cd courses/<course>/project && npm install --save-dev nodemon` |
+| Start a course | `cd courses/<course>/project && npm run dev` |
+| Review one challenge | `npm run review:challenge -- --course=<courseId> --challenge=<challengeId>` |
+| Review an entire course | `npm run review:course -- --course=<courseId>` |
+| Review all courses | `npm run review:all` |
+| Push your work | `git add . && git commit -m "..." && git push` |
+| Sync with course updates | `npm run sync-upstream` |
+
+---
+
+# Troubleshooting
+
+### Setup fails
+
+Run:
+
+```bash
+npm install
+npm run setup
+```
+
+---
+
+### Dashboard doesn't start
+
+Build it first:
+
+```bash
+npm run dashboard:build
+npm run dashboard
+```
+
+---
+
+### `nodemon` is not recognized
+
+Install it inside the course project:
+
+```bash
+npm install --save-dev nodemon
+```
+
+---
+
+### Review score is 0%
+
+Check that:
+
+- You only modified the required files.
+- Placeholder code (`TODO`, `throw new Error(...)`) has been removed.
+- The required function is exported correctly.
+
+---
+
+### Git remotes are incorrect
+
+Check your remotes:
+
+```bash
+git remote -v
+```
+
+Update your origin:
+
+```bash
+git remote set-url origin <your-repository-url>
+```
+
+Add the course repository if it's missing:
+
+```bash
+git remote add upstream https://github.com/sparkplustech/challenge-engine-nodejs.git
+```
+
+---
+
+### Merge conflicts
+
+Use:
+
+```bash
+npm run sync-upstream
+```
+
+or
+
+```bash
+git merge upstream/main -X theirs
+```
+
+---
+
+# How Your Challenges Are Scored
+
+Each challenge is evaluated using:
+
+- ✅ Functional Tests
+- ✅ Code Quality
+- ✅ Required Architecture
+- ✅ Best Practices
+- ✅ AI Review (if configured)
+
+> **Note:** A challenge containing placeholder code or missing required files will receive a **0% score**.
+
+---
+
+# Generated Reports
+
+The review engine automatically updates:
+
+- `learner-results/progress.json`
+- `pathway-review/pathway-summary.json`
+- `pathway-review/skill-breakdown.json`
+
+These files track your progress across all backend courses.
+
+---
+
+## Happy Coding! 🚀

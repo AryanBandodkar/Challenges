@@ -1,50 +1,32 @@
-# 03-middleware-request-lifecycle: Middleware Request Lifecycle
+# Challenge 03: Middleware Request Lifecycle
+
+**Work on this challenge only.** After you finish and run review, move on to the next challenge. You don't need to read other challenge READMEs yet.
+
+**Difficulty:** intermediate | **Estimated time:** 3 hours
 
 ## Goal
 
-Demonstrate practical understanding of **Express.js Fundamentals** concepts through implementation-level work.
+Implement custom middleware that calls `next()` and participates in the request lifecycle.
 
-## Concepts Covered
+## What to do
 
-- middleware
-- request/response cycle
+1. **Implement the solver** — Open `src/challenges/03-middleware-request-lifecycle/index.js` and implement `solve_03_middleware_request_lifecycle`.
+2. Write custom middleware that calls `next()` to continue the request lifecycle.
+3. Chain middleware before route handlers in your Express app setup.
+4. **Clean up** — Remove all `TODO` and `throw new Error('Not implemented')` placeholders before review.
 
-## Files In Scope
+## Code
 
-- `src/challenges/03-middleware-request-lifecycle/index.js`
+Use JavaScript. Export `solve_03_middleware_request_lifecycle` from `src/challenges/03-middleware-request-lifecycle/index.js`. Edit only the scoped file(s) listed in the steps above. Remove placeholder stubs (`TODO`, `throw new Error('Not implemented')`). Avoid `var` and unnecessary `console.*` where possible.
 
-## Implementation Contract
+## Review
 
-1. Implement the solution in `src/challenges/03-middleware-request-lifecycle/index.js`.
-2. Export function `solve_03_middleware_request_lifecycle` from the primary source file.
-3. Keep code modular and production-oriented (no hard-coded secrets or unsafe patterns).
-4. Do not leave placeholder markers such as `TODO` or `throw new Error('Not implemented')` in scoped files.
+Review checks: scoped files exist and are not placeholder stubs; implement middleware that calls `next()` correctly; code quality and best practices; optional challenge unit/E2E tests when present; AI code review when enabled. Pass threshold: **≥ 80%**.
 
-## Architecture Signals To Include
+> **Note:** Missing scoped files or placeholder code scores **0%** until replaced with real implementation.
 
-- Implement middleware that calls `next()` correctly. (`middlewareNext`)
+## Verify
 
-## Scoring Notes
-
-- If challenge test files are present, test evidence is detected from:
-  - `tests/challenge-03-middleware-request-lifecycle.test.js` or `tests/challenge-03-middleware-request-lifecycle.test.ts`
-  - `tests/e2e/challenge-03-middleware-request-lifecycle.spec.js` or `tests/e2e/challenge-03-middleware-request-lifecycle.spec.ts`
-- If no challenge-specific test files are provided by course maintainers, the test layer is treated as neutral (not a penalty).
-- If any scoped file is placeholder/missing, overall challenge score is forced to `0%`.
-- Otherwise, challenge score combines implementation, architecture, quality, best-practices, test evidence, and AI review layers.
-
-## Done Definition (Learner Self-Check)
-
-1. The scoped file(s) are implemented and not placeholders.
-2. The export `solve_03_middleware_request_lifecycle` exists and is callable.
-3. Required architecture signals above are visible in your code.
-4. Run review command: `npm run review:challenge -- --course=03-express-rest-api-development --challenge=03-middleware-request-lifecycle`.
-
-## Evaluation Layers
-
-- Functional tests
-- Code quality
-- Architecture checks
-- Best-practices checks
-- E2E/API behavior checks
-- AI review
+- `npm run review:challenge -- --course=03-express-rest-api-development --challenge=03-middleware-request-lifecycle`
+- `npm run dashboard:dev` → open the dashboard and click **Run Review** for this challenge
+- Optional live check: from `courses/03-express-rest-api-development/project`, run `npm run dev` after importing your exported function in `src/main.js`

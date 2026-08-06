@@ -1,50 +1,32 @@
-# 06-semver-lockfile-policy: Semver Lockfile Policy
+# Challenge 06: Semver Lockfile Policy
+
+**Work on this challenge only.** After you finish and run review, move on to the next challenge. You don't need to read other challenge READMEs yet.
+
+**Difficulty:** beginner | **Estimated time:** 2 hours
 
 ## Goal
 
-Demonstrate practical understanding of **NPM & Package Management** concepts through implementation-level work.
+Implement semver comparison or lockfile policy rules and return a clear policy outcome.
 
-## Concepts Covered
+## What to do
 
-- semver
-- package-lock
+1. **Implement the solver** — Open `src/challenges/06-semver-lockfile-policy/index.js` and implement `solve_06_semver_lockfile_policy`.
+2. Implement semver comparison or lockfile policy logic (version ranges, pinning, or upgrade rules).
+3. Return a clear result from the exported function (for example allowed versions or policy outcome).
+4. **Clean up** — Remove all `TODO` and `throw new Error('Not implemented')` placeholders before review.
 
-## Files In Scope
+## Code
 
-- `src/challenges/06-semver-lockfile-policy/index.js`
+Use JavaScript. Export `solve_06_semver_lockfile_policy` from `src/challenges/06-semver-lockfile-policy/index.js`. Edit only the scoped file(s) listed in the steps above. Remove placeholder stubs (`TODO`, `throw new Error('Not implemented')`). Avoid `var` and unnecessary `console.*` where possible.
 
-## Implementation Contract
+## Review
 
-1. Implement the solution in `src/challenges/06-semver-lockfile-policy/index.js`.
-2. Export function `solve_06_semver_lockfile_policy` from the primary source file.
-3. Keep code modular and production-oriented (no hard-coded secrets or unsafe patterns).
-4. Do not leave placeholder markers such as `TODO` or `throw new Error('Not implemented')` in scoped files.
+Review checks: scoped files exist and are not placeholder stubs; application of semver, package-lock; code quality and best practices; optional challenge unit/E2E tests when present; AI code review when enabled. Pass threshold: **≥ 80%**.
 
-## Architecture Signals To Include
+> **Note:** Missing scoped files or placeholder code scores **0%** until replaced with real implementation.
 
-- No explicit architecture pattern key is required for this challenge.
+## Verify
 
-## Scoring Notes
-
-- If challenge test files are present, test evidence is detected from:
-  - `tests/challenge-06-semver-lockfile-policy.test.js` or `tests/challenge-06-semver-lockfile-policy.test.ts`
-  - `tests/e2e/challenge-06-semver-lockfile-policy.spec.js` or `tests/e2e/challenge-06-semver-lockfile-policy.spec.ts`
-- If no challenge-specific test files are provided by course maintainers, the test layer is treated as neutral (not a penalty).
-- If any scoped file is placeholder/missing, overall challenge score is forced to `0%`.
-- Otherwise, challenge score combines implementation, architecture, quality, best-practices, test evidence, and AI review layers.
-
-## Done Definition (Learner Self-Check)
-
-1. The scoped file(s) are implemented and not placeholders.
-2. The export `solve_06_semver_lockfile_policy` exists and is callable.
-3. Required architecture signals above are visible in your code.
-4. Run review command: `npm run review:challenge -- --course=02-nodejs-core-fundamentals --challenge=06-semver-lockfile-policy`.
-
-## Evaluation Layers
-
-- Functional tests
-- Code quality
-- Architecture checks
-- Best-practices checks
-- E2E/API behavior checks
-- AI review
+- `npm run review:challenge -- --course=02-nodejs-core-fundamentals --challenge=06-semver-lockfile-policy`
+- `npm run dashboard:dev` → open the dashboard and click **Run Review** for this challenge
+- Optional live check: from `courses/02-nodejs-core-fundamentals/project`, run `npm run dev` after importing your exported function in `src/main.js`

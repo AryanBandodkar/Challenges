@@ -1,54 +1,32 @@
-# 04-process-worker-lifecycle: Process Worker Lifecycle
+# Challenge 04: Process Worker Lifecycle
+
+**Work on this challenge only.** After you finish and run review, move on to the next challenge. You don't need to read other challenge READMEs yet.
+
+**Difficulty:** intermediate | **Estimated time:** 4 hours
 
 ## Goal
 
-Demonstrate practical understanding of **Node.js Architecture & Core APIs** concepts through implementation-level work.
+Demonstrate process lifecycle control with `process.env`/`process.argv` and child-process APIs.
 
-## Concepts Covered
+## What to do
 
-- process.env
-- argv
-- exit codes
-- worker threads
-- child processes
+1. **Implement the solver** — Open `src/challenges/04-process-worker-lifecycle/index.js` and implement `solve_04_process_worker_lifecycle`.
+2. Read `process.env` or `process.argv` and use child-process APIs (`spawn`, `fork`, or `execFile`).
+3. Demonstrate process lifecycle control (start, signal, or exit handling) in your code.
+4. **Clean up** — Remove all `TODO` and `throw new Error('Not implemented')` placeholders before review.
 
-## Files In Scope
+## Code
 
-- `src/challenges/04-process-worker-lifecycle/index.js`
+Use JavaScript. Export `solve_04_process_worker_lifecycle` from `src/challenges/04-process-worker-lifecycle/index.js`. Edit only the scoped file(s) listed in the steps above. Remove placeholder stubs (`TODO`, `throw new Error('Not implemented')`). Avoid `var` and unnecessary `console.*` where possible.
 
-## Implementation Contract
+## Review
 
-1. Implement the solution in `src/challenges/04-process-worker-lifecycle/index.js`.
-2. Export function `solve_04_process_worker_lifecycle` from the primary source file.
-3. Keep code modular and production-oriented (no hard-coded secrets or unsafe patterns).
-4. Do not leave placeholder markers such as `TODO` or `throw new Error('Not implemented')` in scoped files.
+Review checks: scoped files exist and are not placeholder stubs; use `process.env`, `process.argv`, or `process.exit`; use node child-process apis (`spawn`, `fork`, `execfile`, or import child_process); code quality and best practices; optional challenge unit/E2E tests when present; AI code review when enabled. Pass threshold: **≥ 80%**.
 
-## Architecture Signals To Include
+> **Note:** Missing scoped files or placeholder code scores **0%** until replaced with real implementation.
 
-- Use `process.env`, `process.argv`, or `process.exit`. (`processUsage`)
-- Use Node child-process APIs (`spawn`, `fork`, `execFile`, or import child_process). (`childProcessUsage`)
+## Verify
 
-## Scoring Notes
-
-- If challenge test files are present, test evidence is detected from:
-  - `tests/challenge-04-process-worker-lifecycle.test.js` or `tests/challenge-04-process-worker-lifecycle.test.ts`
-  - `tests/e2e/challenge-04-process-worker-lifecycle.spec.js` or `tests/e2e/challenge-04-process-worker-lifecycle.spec.ts`
-- If no challenge-specific test files are provided by course maintainers, the test layer is treated as neutral (not a penalty).
-- If any scoped file is placeholder/missing, overall challenge score is forced to `0%`.
-- Otherwise, challenge score combines implementation, architecture, quality, best-practices, test evidence, and AI review layers.
-
-## Done Definition (Learner Self-Check)
-
-1. The scoped file(s) are implemented and not placeholders.
-2. The export `solve_04_process_worker_lifecycle` exists and is callable.
-3. Required architecture signals above are visible in your code.
-4. Run review command: `npm run review:challenge -- --course=02-nodejs-core-fundamentals --challenge=04-process-worker-lifecycle`.
-
-## Evaluation Layers
-
-- Functional tests
-- Code quality
-- Architecture checks
-- Best-practices checks
-- E2E/API behavior checks
-- AI review
+- `npm run review:challenge -- --course=02-nodejs-core-fundamentals --challenge=04-process-worker-lifecycle`
+- `npm run dashboard:dev` → open the dashboard and click **Run Review** for this challenge
+- Optional live check: from `courses/02-nodejs-core-fundamentals/project`, run `npm run dev` after importing your exported function in `src/main.js`

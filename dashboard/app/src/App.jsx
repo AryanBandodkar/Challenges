@@ -6,7 +6,7 @@ const REQUEST_TIMEOUT_MS = 20000;
 const COURSE_PAGE_LIMIT = 20;
 const CHALLENGE_PAGE_LIMIT = 50;
 const REVIEW_POLL_INTERVAL_MS = 2500;
-const REVIEW_POLL_TIMEOUT_MS = 120000;
+const REVIEW_POLL_TIMEOUT_MS = 180000;
 
 const LAYER_LABELS = {
   functionalTests: 'Functional Tests',
@@ -442,42 +442,65 @@ export default function App() {
     if (!selectedCourseId || !selectedChallengeId || runningReview) return;
 
     setRunningReview(true);
+    setError('');
     try {
+      const initialLastRun = challengeDetail?.lastRun || null;
       const response = await fetchJson('/review', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           courseId: selectedCourseId,
           challengeId: selectedChallengeId
-        })
+        }),
+        timeoutMs: REVIEW_POLL_TIMEOUT_MS
       });
 
-      const initialStamp = response?.progress?.lastUpdated || null;
-      const startedAt = Date.now();
+      if (response?.result) {
+        if (response?.progress) {
+          setProgress(response.progress);
+        }
+        await Promise.all([
+          loadCourseDetail(selectedCourseId),
+          loadChallenges(selectedCourseId),
+          loadChallengeDetail(selectedCourseId, selectedChallengeId)
+        ]);
+        return;
+      }
 
+      if (!response?.started && !response?.alreadyRunning) {
+        throw new Error('Review did not start.');
+      }
+
+      if (response?.progress) {
+        setProgress(response.progress);
+      }
+
+      const startedAt = Date.now();
       while (Date.now() - startedAt < REVIEW_POLL_TIMEOUT_MS) {
         await new Promise((resolve) => setTimeout(resolve, REVIEW_POLL_INTERVAL_MS));
-        const latest = await fetchJson('/progress');
-        const latestStamp = latest?.lastUpdated || null;
+        const latest = await fetchJson(
+          `/courses/${selectedCourseId}/challenges/${selectedChallengeId}`
+        );
+        const latestLastRun = latest?.lastRun || null;
         const changed =
-          initialStamp == null ? latestStamp != null : latestStamp !== initialStamp;
+          initialLastRun == null ? latestLastRun != null : latestLastRun !== initialLastRun;
 
         if (changed) {
-          setProgress(latest);
+          setChallengeDetail(latest);
+          const progressData = await fetchJson('/progress');
+          setProgress(progressData);
           await Promise.all([
             loadCourseDetail(selectedCourseId),
-            loadChallenges(selectedCourseId),
-            loadChallengeDetail(selectedCourseId, selectedChallengeId)
+            loadChallenges(selectedCourseId)
           ]);
-          setRunningReview(false);
           return;
         }
       }
 
-      setError('Review started, but no update was detected within 2 minutes.');
-      setRunningReview(false);
+      setError('Review started, but no update was detected within 3 minutes.');
     } catch (err) {
-      setError(err.message || 'Unable to start review.');
+      setError(err.message || 'Unable to run review.');
+    } finally {
       setRunningReview(false);
     }
   };

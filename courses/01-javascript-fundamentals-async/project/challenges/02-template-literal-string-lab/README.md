@@ -1,50 +1,90 @@
-# 02-template-literal-string-lab: Template Literal String Lab
+# Challenge 02: Template Literal String Lab
+
+**Work on this challenge only.** After you finish and run the review, move on to the next challenge. You don't need to read other challenge READMEs yet.
+
+**Difficulty:** Beginner | **Estimated time:** 2 hours
 
 ## Goal
 
-Demonstrate practical understanding of **Modern JavaScript Essentials** concepts through implementation-level work.
+Practice using template literals by creating formatted strings without using string concatenation.
 
-## Concepts Covered
+## What to do
 
-- template literals
-- string manipulation
+1. Open `src/challenges/02-template-literal-string-lab/index.js`.
+2. Implement and export the function:
+   ```js
+   solve_02_template_literal_string_lab
+   ```
+3. Inside the function:
+   - Create one or more variables containing sample values (such as a name, age, course, score, or any other data).
+   - Use template literals (`` ` ` ``) to build a formatted string.
+   - Include labels, summaries, or a multi-line message instead of concatenating strings with `+`.
+4. Return the formatted string from your function.
 
-## Files In Scope
+   Example:
 
-- `src/challenges/02-template-literal-string-lab/index.js`
+   ```js
+   Name: Alex
+   Course: JavaScript
+   Score: 95
+   ```
 
-## Implementation Contract
+5. Remove all placeholder code such as:
+   - `TODO`
+   - `throw new Error("Not implemented")`
 
-1. Implement the solution in `src/challenges/02-template-literal-string-lab/index.js`.
-2. Export function `solve_02_template_literal_string_lab` from the primary source file.
-3. Keep code modular and production-oriented (no hard-coded secrets or unsafe patterns).
-4. Do not leave placeholder markers such as `TODO` or `throw new Error('Not implemented')` in scoped files.
+## Code
 
-## Architecture Signals To Include
+- Use JavaScript.
+- Edit only:
+  ```
+  src/challenges/02-template-literal-string-lab/index.js
+  ```
+- Export `solve_02_template_literal_string_lab`.
+- Use template literals instead of string concatenation.
+- Avoid using `var`.
+- Avoid unnecessary `console.log()` statements.
+- Write clean, readable, and modular code.
 
-- Use template literals for string construction. (`templateLiteral`)
+## Review
 
-## Scoring Notes
+Your solution will be checked for:
 
-- If challenge test files are present, test evidence is detected from:
-  - `tests/challenge-02-template-literal-string-lab.test.js` or `tests/challenge-02-template-literal-string-lab.test.ts`
-  - `tests/e2e/challenge-02-template-literal-string-lab.spec.js` or `tests/e2e/challenge-02-template-literal-string-lab.spec.ts`
-- If no challenge-specific test files are provided by course maintainers, the test layer is treated as neutral (not a penalty).
-- If any scoped file is placeholder/missing, overall challenge score is forced to `0%`.
-- Otherwise, challenge score combines implementation, architecture, quality, best-practices, test evidence, and AI review layers.
+- Correct implementation of the exported function.
+- No remaining placeholder code.
+- Proper use of template literals for string construction.
+- Returning a formatted string.
+- Code quality and best practices.
+- Optional unit/E2E tests (if provided).
+- AI code review (if enabled).
 
-## Done Definition (Learner Self-Check)
+**Passing score:** **80% or higher**
 
-1. The scoped file(s) are implemented and not placeholders.
-2. The export `solve_02_template_literal_string_lab` exists and is callable.
-3. Required architecture signals above are visible in your code.
-4. Run review command: `npm run review:challenge -- --course=01-javascript-fundamentals-async --challenge=02-template-literal-string-lab`.
+> **Note:** If the required file is missing or still contains placeholder code, the challenge will receive a **0% score**.
 
-## Evaluation Layers
+## Verify
 
-- Functional tests
-- Code quality
-- Architecture checks
-- Best-practices checks
-- E2E/API behavior checks
-- AI review
+Run either of the following:
+
+```bash
+npm run review:challenge -- --course=01-javascript-fundamentals-async --challenge=02-template-literal-string-lab
+```
+
+or
+
+```bash
+npm run dashboard:dev
+```
+
+Then open the dashboard and click **Run Review** for this challenge.
+
+### Optional
+
+To test your solution locally:
+
+1. Import `solve_02_template_literal_string_lab` in `src/main.js`.
+2. From `courses/01-javascript-fundamentals-async/project`, run:
+
+```bash
+npm run dev
+```

@@ -1,25 +1,19 @@
 import { existsSync } from 'fs';
 import { join } from 'path';
 import { pathToFileURL } from 'url';
+import { getArg, hasFlag } from '../shared/utils/cli-args.js';
 import { resolveRepoRoot } from '../shared/utils/root.js';
+import { formatReviewOutput } from './format-review-output.js';
 import { updateProgress } from './update-progress.js';
 
 const ROOT = resolveRepoRoot(import.meta.url);
 
-function getArg(name) {
-  const entry = process.argv.find((value) => value.startsWith(`--${name}=`));
-  return entry ? entry.split('=')[1] : null;
-}
-
-async function runReviewChallenge() {
-  const courseId = getArg('course');
-  const challengeId = getArg('challenge');
-
+export async function runReviewChallenge({ rootDir = ROOT, courseId, challengeId } = {}) {
   if (!courseId || !challengeId) {
     throw new Error('Usage: npm run review:challenge -- --course=<courseId> --challenge=<challengeId>');
   }
 
-  const reviewEnginePath = join(ROOT, 'courses', courseId, 'review-engine', 'index.js');
+  const reviewEnginePath = join(rootDir, 'courses', courseId, 'review-engine', 'index.js');
   if (!existsSync(reviewEnginePath)) {
     throw new Error(`Review engine not found: ${reviewEnginePath}`);
   }
@@ -29,12 +23,45 @@ async function runReviewChallenge() {
   if (!result?.summary) {
     throw new Error(`Review engine for ${courseId} returned invalid output.`);
   }
-  const pathwaySummary = updateProgress({ rootDir: ROOT });
 
-  console.log(JSON.stringify({ result, pathwaySummary }, null, 2));
+  if (result.reviewedChallenges?.length !== 1 || result.reviewedChallenges[0] !== challengeId) {
+    throw new Error(
+      `Expected to review only ${challengeId}, but reviewed: ${(result.reviewedChallenges || []).join(', ') || 'none'}`
+    );
+  }
+
+  const pathwaySummary = updateProgress({ rootDir });
+
+  return {
+    result,
+    pathwaySummary,
+    resultsDir: join(rootDir, 'courses', courseId, 'results')
+  };
 }
 
-runReviewChallenge().catch((error) => {
-  console.error(error.message);
-  process.exit(1);
-});
+const isMain = process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href;
+
+if (isMain) {
+  const courseId = getArg('course');
+  const challengeId = getArg('challenge');
+
+  runReviewChallenge({ courseId, challengeId })
+    .then(({ result, pathwaySummary, resultsDir }) => {
+      if (hasFlag('json')) {
+        console.log(JSON.stringify({ result, pathwaySummary }, null, 2));
+        return;
+      }
+
+      console.log(
+        formatReviewOutput({
+          result,
+          pathwaySummary,
+          resultsDir
+        })
+      );
+    })
+    .catch((error) => {
+      console.error(error.message);
+      process.exit(1);
+    });
+}

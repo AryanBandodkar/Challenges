@@ -1,15 +1,12 @@
 import { existsSync } from 'fs';
 import { join } from 'path';
 import { pathToFileURL } from 'url';
+import { getArg, hasFlag } from '../shared/utils/cli-args.js';
 import { resolveRepoRoot } from '../shared/utils/root.js';
+import { formatReviewOutput } from './format-review-output.js';
 import { updateProgress } from './update-progress.js';
 
 const ROOT = resolveRepoRoot(import.meta.url);
-
-function getArg(name) {
-  const entry = process.argv.find((value) => value.startsWith(`--${name}=`));
-  return entry ? entry.split('=')[1] : null;
-}
 
 async function runReviewCourse() {
   const courseId = getArg('course');
@@ -31,7 +28,18 @@ async function runReviewCourse() {
   }
   const pathwaySummary = updateProgress({ rootDir: ROOT });
 
-  console.log(JSON.stringify({ result, pathwaySummary }, null, 2));
+  if (hasFlag('json')) {
+    console.log(JSON.stringify({ result, pathwaySummary }, null, 2));
+    return;
+  }
+
+  console.log(
+    formatReviewOutput({
+      result,
+      pathwaySummary,
+      resultsDir: join(ROOT, 'courses', courseId, 'results')
+    })
+  );
 }
 
 runReviewCourse().catch((error) => {

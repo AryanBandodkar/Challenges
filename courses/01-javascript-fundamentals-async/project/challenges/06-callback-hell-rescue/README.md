@@ -1,50 +1,108 @@
-# 06-callback-hell-rescue: Callback Hell Rescue
+# Challenge 06: Callback Hell Rescue
+
+**Work on this challenge only.** After you finish and run the review, move on to the next challenge. You don't need to read other challenge READMEs yet.
+
+**Difficulty:** Intermediate | **Estimated time:** 3 hours
 
 ## Goal
 
-Demonstrate practical understanding of **Asynchronous JavaScript Mastery** concepts through implementation-level work.
+Practice asynchronous programming by coordinating multiple operations using callback functions and handling errors through callback-based control flow.
 
-## Concepts Covered
+## What to do
 
-- callbacks
-- control flow
+1. Open `src/challenges/06-callback-hell-rescue/index.js`.
+2. Implement and export the function:
+   ```js
+   solve_06_callback_hell_rescue
+   ```
+3. Inside the function:
+   - Create two or more asynchronous operations that use callbacks.
+   - Execute the operations sequentially or with nested callbacks.
+   - Pass the result of one callback to the next operation where appropriate.
+   - Handle and propagate errors through the callback chain.
+4. Return the final result (or error) through the callback flow.
 
-## Files In Scope
+   Example:
 
-- `src/challenges/06-callback-hell-rescue/index.js`
+   ```js
+   function fetchData(callback) {
+     setTimeout(() => callback(null, "Data"), 500);
+   }
 
-## Implementation Contract
+   function processData(data, callback) {
+     setTimeout(() => callback(null, `${data} Processed`), 500);
+   }
 
-1. Implement the solution in `src/challenges/06-callback-hell-rescue/index.js`.
-2. Export function `solve_06_callback_hell_rescue` from the primary source file.
-3. Keep code modular and production-oriented (no hard-coded secrets or unsafe patterns).
-4. Do not leave placeholder markers such as `TODO` or `throw new Error('Not implemented')` in scoped files.
+   fetchData((err, data) => {
+     if (err) return callback(err);
 
-## Architecture Signals To Include
+     processData(data, (err, result) => {
+       if (err) return callback(err);
 
-- Implement callback-style control flow in at least one function. (`callbackFunction`)
+       callback(null, result);
+     });
+   });
+   ```
 
-## Scoring Notes
+5. Remove all placeholder code such as:
+   - `TODO`
+   - `throw new Error("Not implemented")`
 
-- If challenge test files are present, test evidence is detected from:
-  - `tests/challenge-06-callback-hell-rescue.test.js` or `tests/challenge-06-callback-hell-rescue.test.ts`
-  - `tests/e2e/challenge-06-callback-hell-rescue.spec.js` or `tests/e2e/challenge-06-callback-hell-rescue.spec.ts`
-- If no challenge-specific test files are provided by course maintainers, the test layer is treated as neutral (not a penalty).
-- If any scoped file is placeholder/missing, overall challenge score is forced to `0%`.
-- Otherwise, challenge score combines implementation, architecture, quality, best-practices, test evidence, and AI review layers.
+## Code
 
-## Done Definition (Learner Self-Check)
+- Use JavaScript.
+- Edit only:
+  ```
+  src/challenges/06-callback-hell-rescue/index.js
+  ```
+- Export `solve_06_callback_hell_rescue`.
+- Use callback functions to coordinate asynchronous operations.
+- Handle and propagate errors through callbacks.
+- Avoid using Promises or `async/await` unless explicitly instructed.
+- Avoid using `var`.
+- Avoid unnecessary `console.log()` statements.
+- Write clean, readable, and modular code.
 
-1. The scoped file(s) are implemented and not placeholders.
-2. The export `solve_06_callback_hell_rescue` exists and is callable.
-3. Required architecture signals above are visible in your code.
-4. Run review command: `npm run review:challenge -- --course=01-javascript-fundamentals-async --challenge=06-callback-hell-rescue`.
+## Review
 
-## Evaluation Layers
+Your solution will be checked for:
 
-- Functional tests
-- Code quality
-- Architecture checks
-- Best-practices checks
-- E2E/API behavior checks
-- AI review
+- Correct implementation of the exported function.
+- No remaining placeholder code.
+- Proper use of callback-based asynchronous control flow.
+- Correct error handling and propagation through callbacks.
+- Returning or passing the final result correctly.
+- Code quality and best practices.
+- Optional unit/E2E tests (if provided).
+- AI code review (if enabled).
+
+**Passing score:** **80% or higher**
+
+> **Note:** If the required file is missing or still contains placeholder code, the challenge will receive a **0% score**.
+
+## Verify
+
+Run either of the following:
+
+```bash
+npm run review:challenge -- --course=01-javascript-fundamentals-async --challenge=06-callback-hell-rescue
+```
+
+or
+
+```bash
+npm run dashboard:dev
+```
+
+Then open the dashboard and click **Run Review** for this challenge.
+
+### Optional
+
+To test your solution locally:
+
+1. Import `solve_06_callback_hell_rescue` in `src/main.js`.
+2. From `courses/01-javascript-fundamentals-async/project`, run:
+
+```bash
+npm run dev
+```

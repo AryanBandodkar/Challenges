@@ -3,10 +3,10 @@
 import cors from 'cors';
 import dotenv from 'dotenv';
 import express from 'express';
-import { spawn } from 'child_process';
 import { existsSync, readFileSync } from 'fs';
 import { dirname, join, resolve } from 'path';
 import { fileURLToPath } from 'url';
+import { runReviewChallenge } from '../scripts/run-review-challenge.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -396,6 +396,13 @@ app.get('/api/courses/:courseId/challenges/:challengeId', (req, res) => {
   });
 });
 
+function getChallengeReviewedAt(courseId, challengeId) {
+  const result = getCourseResults(courseId).find((item) => item.challengeId === challengeId);
+  return result?.reviewedAt || null;
+}
+
+const reviewJobs = new Map();
+
 app.post('/api/review', (req, res) => {
   const { courseId, challengeId } = req.body || {};
   if (!courseId || !challengeId) {
@@ -414,29 +421,51 @@ app.post('/api/review', (req, res) => {
     return;
   }
 
-  const reviewScript = join(ROOT_DIR, 'scripts', 'run-review-challenge.js');
-  if (!existsSync(reviewScript)) {
-    res.status(500).json({ error: 'Review script not found' });
+  const jobKey = `${courseId}:${challengeId}`;
+  const activeJob = reviewJobs.get(jobKey);
+  if (activeJob?.status === 'running') {
+    res.json({
+      ok: true,
+      started: false,
+      alreadyRunning: true,
+      progress: buildProgressResponse()
+    });
     return;
   }
 
-  const child = spawn(
-    'node',
-    [reviewScript, `--course=${courseId}`, `--challenge=${challengeId}`],
-    {
-      cwd: ROOT_DIR,
-      detached: true,
-      stdio: 'ignore',
-      env: { ...process.env }
-    }
-  );
-  child.unref();
+  const previousReviewedAt = getChallengeReviewedAt(courseId, challengeId);
+  reviewJobs.set(jobKey, {
+    status: 'running',
+    startedAt: new Date().toISOString(),
+    previousReviewedAt
+  });
 
   res.json({
     ok: true,
     started: true,
     progress: buildProgressResponse()
   });
+
+  runReviewChallenge({
+    rootDir: ROOT_DIR,
+    courseId,
+    challengeId
+  })
+    .then(() => {
+      reviewJobs.set(jobKey, {
+        status: 'completed',
+        completedAt: new Date().toISOString(),
+        reviewedAt: getChallengeReviewedAt(courseId, challengeId)
+      });
+    })
+    .catch((error) => {
+      reviewJobs.set(jobKey, {
+        status: 'failed',
+        completedAt: new Date().toISOString(),
+        error: error.message || 'Review failed'
+      });
+      console.error(`Review failed for ${jobKey}:`, error.message);
+    });
 });
 
 const uiDistPath = join(__dirname, 'app', 'dist');

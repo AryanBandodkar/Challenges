@@ -1,52 +1,106 @@
-# 07-promises-chain-rejection-handling: Promises Chain Rejection Handling
+# Challenge 07: Promises Chain Rejection Handling
+
+**Work on this challenge only.** After you finish and run the review, move on to the next challenge. You don't need to read other challenge READMEs yet.
+
+**Difficulty:** Intermediate | **Estimated time:** 3 hours
 
 ## Goal
 
-Demonstrate practical understanding of **Asynchronous JavaScript Mastery** concepts through implementation-level work.
+Practice asynchronous programming by chaining Promises to execute tasks sequentially and handling errors using `.catch()`.
 
-## Concepts Covered
+## What to do
 
-- Promises
-- chaining
-- error handling
+1. Open `src/challenges/07-promises-chain-rejection-handling/index.js`.
+2. Implement and export the function:
+   ```js
+   solve_07_promises_chain_rejection_handling
+   ```
+3. Inside the function:
+   - Create one or more asynchronous operations using Promises.
+   - Chain the operations using `.then()` so they execute in sequence.
+   - Handle any errors using `.catch()`.
+   - Return the final resolved value or an appropriate error message.
+4. Demonstrate both successful execution and error handling through your Promise chain.
 
-## Files In Scope
+   Example:
 
-- `src/challenges/07-promises-chain-rejection-handling/index.js`
+   ```js
+   function fetchData() {
+     return Promise.resolve("Data");
+   }
 
-## Implementation Contract
+   function processData(data) {
+     return Promise.resolve(`${data} Processed`);
+   }
 
-1. Implement the solution in `src/challenges/07-promises-chain-rejection-handling/index.js`.
-2. Export function `solve_07_promises_chain_rejection_handling` from the primary source file.
-3. Keep code modular and production-oriented (no hard-coded secrets or unsafe patterns).
-4. Do not leave placeholder markers such as `TODO` or `throw new Error('Not implemented')` in scoped files.
+   export function solve_07_promises_chain_rejection_handling() {
+     return fetchData()
+       .then(processData)
+       .then((result) => result)
+       .catch((error) => `Error: ${error.message}`);
+   }
+   ```
 
-## Architecture Signals To Include
+5. Remove all placeholder code such as:
+   - `TODO`
+   - `throw new Error("Not implemented")`
 
-- Use Promise-based async logic (`new Promise` or `Promise.*`). (`promiseUsage`)
-- Handle Promise errors with `.catch()`. (`promiseCatch`)
+## Code
 
-## Scoring Notes
+- Use JavaScript.
+- Edit only:
+  ```
+  src/challenges/07-promises-chain-rejection-handling/index.js
+  ```
+- Export `solve_07_promises_chain_rejection_handling`.
+- Use Promise chaining with `.then()`.
+- Handle errors using `.catch()`.
+- Avoid using `async`/`await` unless explicitly instructed.
+- Avoid using `var`.
+- Avoid unnecessary `console.log()` statements.
+- Write clean, readable, and modular code.
 
-- If challenge test files are present, test evidence is detected from:
-  - `tests/challenge-07-promises-chain-rejection-handling.test.js` or `tests/challenge-07-promises-chain-rejection-handling.test.ts`
-  - `tests/e2e/challenge-07-promises-chain-rejection-handling.spec.js` or `tests/e2e/challenge-07-promises-chain-rejection-handling.spec.ts`
-- If no challenge-specific test files are provided by course maintainers, the test layer is treated as neutral (not a penalty).
-- If any scoped file is placeholder/missing, overall challenge score is forced to `0%`.
-- Otherwise, challenge score combines implementation, architecture, quality, best-practices, test evidence, and AI review layers.
+## Review
 
-## Done Definition (Learner Self-Check)
+Your solution will be checked for:
 
-1. The scoped file(s) are implemented and not placeholders.
-2. The export `solve_07_promises_chain_rejection_handling` exists and is callable.
-3. Required architecture signals above are visible in your code.
-4. Run review command: `npm run review:challenge -- --course=01-javascript-fundamentals-async --challenge=07-promises-chain-rejection-handling`.
+- Correct implementation of the exported function.
+- No remaining placeholder code.
+- Proper use of Promise-based asynchronous logic.
+- Sequential execution using `.then()`.
+- Proper error handling with `.catch()`.
+- Returning the final resolved value or an appropriate error result.
+- Code quality and best practices.
+- Optional unit/E2E tests (if provided).
+- AI code review (if enabled).
 
-## Evaluation Layers
+**Passing score:** **80% or higher**
 
-- Functional tests
-- Code quality
-- Architecture checks
-- Best-practices checks
-- E2E/API behavior checks
-- AI review
+> **Note:** If the required file is missing or still contains placeholder code, the challenge will receive a **0% score**.
+
+## Verify
+
+Run either of the following:
+
+```bash
+npm run review:challenge -- --course=01-javascript-fundamentals-async --challenge=07-promises-chain-rejection-handling
+```
+
+or
+
+```bash
+npm run dashboard:dev
+```
+
+Then open the dashboard and click **Run Review** for this challenge.
+
+### Optional
+
+To test your solution locally:
+
+1. Import `solve_07_promises_chain_rejection_handling` in `src/main.js`.
+2. From `courses/01-javascript-fundamentals-async/project`, run:
+
+```bash
+npm run dev
+```

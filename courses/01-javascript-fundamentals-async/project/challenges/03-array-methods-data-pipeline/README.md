@@ -1,55 +1,97 @@
-# 03-array-methods-data-pipeline: Array Methods Data Pipeline
+# Challenge 03: Array Methods Data Pipeline
+
+**Work on this challenge only.** After you finish and run the review, move on to the next challenge. You don't need to read other challenge READMEs yet.
+
+**Difficulty:** Beginner | **Estimated time:** 3 hours
 
 ## Goal
 
-Demonstrate practical understanding of **Modern JavaScript Essentials** concepts through implementation-level work.
+Practice using JavaScript array methods by transforming and processing a dataset through a `.map()` → `.filter()` → `.reduce()` pipeline.
 
-## Concepts Covered
+## What to do
 
-- map
-- filter
-- reduce
-- forEach
-- find
+1. Open `src/challenges/03-array-methods-data-pipeline/index.js`.
+2. Implement and export the function:
+   ```js
+   solve_03_array_methods_data_pipeline
+   ```
+3. Inside the function:
+   - Create or work with a dataset (such as an array of numbers or objects).
+   - Use `.map()` to transform each item.
+   - Use `.filter()` to keep only the items that meet a condition.
+   - Use `.reduce()` to aggregate the filtered data into a single value (such as a sum, average, or total).
+4. Return the final aggregated result.
 
-## Files In Scope
+   Example:
 
-- `src/challenges/03-array-methods-data-pipeline/index.js`
+   ```js
+   const numbers = [1, 2, 3, 4, 5];
 
-## Implementation Contract
+   // map -> [2, 4, 6, 8, 10]
+   // filter -> [6, 8, 10]
+   // reduce -> 24
 
-1. Implement the solution in `src/challenges/03-array-methods-data-pipeline/index.js`.
-2. Export function `solve_03_array_methods_data_pipeline` from the primary source file.
-3. Keep code modular and production-oriented (no hard-coded secrets or unsafe patterns).
-4. Do not leave placeholder markers such as `TODO` or `throw new Error('Not implemented')` in scoped files.
+   return 24;
+   ```
 
-## Architecture Signals To Include
+5. Remove all placeholder code such as:
+   - `TODO`
+   - `throw new Error("Not implemented")`
 
-- Use `.map()` in your transformation flow. (`arrayMap`)
-- Use `.filter()` to narrow data. (`arrayFilter`)
-- Use `.reduce()` for aggregation. (`arrayReduce`)
+## Code
 
-## Scoring Notes
+- Use JavaScript.
+- Edit only:
+  ```
+  src/challenges/03-array-methods-data-pipeline/index.js
+  ```
+- Export `solve_03_array_methods_data_pipeline`.
+- Use `.map()`, `.filter()`, and `.reduce()` in a single processing pipeline.
+- Avoid using `var`.
+- Avoid unnecessary `console.log()` statements.
+- Write clean, readable, and modular code.
 
-- If challenge test files are present, test evidence is detected from:
-  - `tests/challenge-03-array-methods-data-pipeline.test.js` or `tests/challenge-03-array-methods-data-pipeline.test.ts`
-  - `tests/e2e/challenge-03-array-methods-data-pipeline.spec.js` or `tests/e2e/challenge-03-array-methods-data-pipeline.spec.ts`
-- If no challenge-specific test files are provided by course maintainers, the test layer is treated as neutral (not a penalty).
-- If any scoped file is placeholder/missing, overall challenge score is forced to `0%`.
-- Otherwise, challenge score combines implementation, architecture, quality, best-practices, test evidence, and AI review layers.
+## Review
 
-## Done Definition (Learner Self-Check)
+Your solution will be checked for:
 
-1. The scoped file(s) are implemented and not placeholders.
-2. The export `solve_03_array_methods_data_pipeline` exists and is callable.
-3. Required architecture signals above are visible in your code.
-4. Run review command: `npm run review:challenge -- --course=01-javascript-fundamentals-async --challenge=03-array-methods-data-pipeline`.
+- Correct implementation of the exported function.
+- No remaining placeholder code.
+- Proper use of `.map()` for data transformation.
+- Proper use of `.filter()` to narrow the dataset.
+- Proper use of `.reduce()` to aggregate the final result.
+- Returning the aggregated result.
+- Code quality and best practices.
+- Optional unit/E2E tests (if provided).
+- AI code review (if enabled).
 
-## Evaluation Layers
+**Passing score:** **80% or higher**
 
-- Functional tests
-- Code quality
-- Architecture checks
-- Best-practices checks
-- E2E/API behavior checks
-- AI review
+> **Note:** If the required file is missing or still contains placeholder code, the challenge will receive a **0% score**.
+
+## Verify
+
+Run either of the following:
+
+```bash
+npm run review:challenge -- --course=01-javascript-fundamentals-async --challenge=03-array-methods-data-pipeline
+```
+
+or
+
+```bash
+npm run dashboard:dev
+```
+
+Then open the dashboard and click **Run Review** for this challenge.
+
+### Optional
+
+To test your solution locally:
+
+1. Import `solve_03_array_methods_data_pipeline` in `src/main.js`.
+2. From `courses/01-javascript-fundamentals-async/project`, run:
+
+```bash
+npm run dev
+```
