@@ -1,4 +1,4 @@
-import { solve_01_es6_syntax_foundations } from './challenges/01-es6-syntax-foundations/index.js';
+import { solve_06_callback_hell_rescue } from './challenges/06-callback-hell-rescue/index.js';
 // ...other imports
 
-console.log(await solve_01_es6_syntax_foundations());
+console.log(await solve_06_callback_hell_rescue());

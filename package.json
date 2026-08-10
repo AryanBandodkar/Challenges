@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "setup": "node scripts/scaffold-challenges.js",
+    "setup": "npm install && node scripts/scaffold-challenges.js && npm run dashboard:setup",
     "reset:workspace": "node scripts/reset-course-workspace.js",
     "readmes:refresh": "node scripts/refresh-challenge-readmes.js",
     "progress:update": "node scripts/update-progress.js",
@@ -27,7 +27,8 @@
     "dashboard": "npm run dashboard:build && npm --prefix dashboard run start"
   },
   "devDependencies": {
-    "concurrently": "^8.2.2"
+    "concurrently": "^8.2.2",
+    "vite": "^8.2.1"
   },
   "dependencies": {
     "cors": "^2.8.6"

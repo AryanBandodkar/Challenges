@@ -1,11 +1,94 @@
 {
   "courseId": "01-javascript-fundamentals-async",
   "courseName": "JavaScript Fundamentals & Async Programming",
-  "averageScore": 0,
-  "completionPercentage": 0,
+  "averageScore": 83.08,
+  "completionPercentage": 62.5,
   "totalChallenges": 8,
-  "completedChallenges": 0,
-  "badgeLevel": "none",
-  "challengeResults": [],
-  "generatedAt": "2026-08-06T12:50:02.059Z"
+  "completedChallenges": 5,
+  "reviewedChallengesCount": 6,
+  "badgeLevel": "bronze",
+  "challengeResults": [
+    {
+      "challengeId": "01-es6-syntax-foundations",
+      "challengeName": "ES6 Syntax Foundations",
+      "score": 98.5,
+      "passed": true,
+      "reviewedAt": "2026-08-10T11:16:25.536Z"
+    },
+    {
+      "challengeId": "02-template-literal-string-lab",
+      "challengeName": "Template Literal String Lab",
+      "score": 100,
+      "passed": true,
+      "reviewedAt": "2026-08-10T11:22:00.300Z"
+    },
+    {
+      "challengeId": "03-array-methods-data-pipeline",
+      "challengeName": "Array Methods Data Pipeline",
+      "score": 100,
+      "passed": true,
+      "reviewedAt": "2026-08-10T11:24:41.902Z"
+    },
+    {
+      "challengeId": "04-oop-inheritance-refactor",
+      "challengeName": "OOP Inheritance Refactor",
+      "score": 100,
+      "passed": true,
+      "reviewedAt": "2026-08-10T11:30:03.933Z"
+    },
+    {
+      "challengeId": "05-module-system-conversion",
+      "challengeName": "Module System Conversion",
+      "score": 100,
+      "passed": true,
+      "reviewedAt": "2026-08-10T11:34:47.749Z"
+    },
+    {
+      "challengeId": "06-callback-hell-rescue",
+      "challengeName": "Callback Hell Rescue",
+      "score": 0,
+      "passed": false,
+      "reviewedAt": "2026-08-10T12:23:13.887Z"
+    }
+  ],
+  "skillStrengths": [
+    "let/const",
+    "arrow functions",
+    "destructuring",
+    "spread/rest",
+    "template literals",
+    "string manipulation",
+    "map",
+    "filter",
+    "reduce",
+    "forEach",
+    "find",
+    "classes"
+  ],
+  "improvementAreas": [
+    "callbacks",
+    "control flow"
+  ],
+  "aiStrengths": [
+    "Correct implementation of the exported function",
+    "Use of const/let",
+    "Use of at least one arrow function",
+    "Use of array destructuring",
+    "Use of spread or rest syntax (...) in real logic",
+    "Returning a meaningful result object",
+    "Proper use of template literals for string construction",
+    "Returning a formatted string",
+    "Code quality and best practices",
+    "Proper use of .map() for data transformation",
+    "Proper use of .filter() to narrow the dataset",
+    "Proper use of .reduce() to aggregate the final result"
+  ],
+  "aiImprovements": [
+    "Code quality and best practices could be improved",
+    "Optional unit/E2E tests are missing",
+    "AI code review is not enabled",
+    "Code organization and structure could be improved for better readability",
+    "Consider using more descriptive variable names for better understanding"
+  ],
+  "generatedAt": "2026-08-10T12:23:13.890Z"
 }
