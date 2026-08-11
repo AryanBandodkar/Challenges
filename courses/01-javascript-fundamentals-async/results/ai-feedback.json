@@ -83,17 +83,52 @@
   {
     "challengeId": "06-callback-hell-rescue",
     "challengeName": "Callback Hell Rescue",
-    "score": 90,
+    "score": 80,
     "mode": "live",
     "strengths": [
-      "Correct implementation of the exported function",
       "Proper use of callback-based asynchronous control flow",
       "Correct error handling and propagation"
     ],
     "improvements": [
-      "Code organization and structure could be improved for better readability",
-      "Consider using more descriptive variable names for better understanding"
+      "Consider using a more robust error handling mechanism",
+      "Code could benefit from additional comments for clarity"
     ],
-    "reviewedAt": "2026-08-10T12:23:13.887Z"
+    "reviewedAt": "2026-08-11T11:34:34.485Z"
+  },
+  {
+    "challengeId": "07-promises-chain-rejection-handling",
+    "challengeName": "Promises Chain Rejection Handling",
+    "score": 80,
+    "mode": "live",
+    "strengths": [
+      "Correct implementation of the exported function",
+      "Proper use of Promise-based asynchronous logic",
+      "Sequential execution using .then()",
+      "Proper error handling with .catch()",
+      "Returning the final resolved value or an appropriate error message"
+    ],
+    "improvements": [
+      "Code organization and structure could be improved for better readability",
+      "Error handling could be more robust with additional error messages",
+      "Consider using async/await for better readability and maintainability"
+    ],
+    "reviewedAt": "2026-08-11T05:43:17.922Z"
+  },
+  {
+    "challengeId": "08-async-await-event-loop-diagnostics",
+    "challengeName": "Async Await Event Loop Diagnostics",
+    "score": 80,
+    "mode": "live",
+    "strengths": [
+      "Correct implementation of async/await and setTimeout",
+      "Proper use of try/catch for error handling",
+      "Modular code structure with a separate async function"
+    ],
+    "improvements": [
+      "Consider adding more steps to demonstrate the event loop execution order",
+      "Use more descriptive variable names for better readability",
+      "Add comments to explain the purpose of each section of code"
+    ],
+    "reviewedAt": "2026-08-11T08:03:19.039Z"
   }
 ]

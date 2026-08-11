@@ -20,9 +20,9 @@ This project uses challenge stubs only. Learners implement each challenge in `sr
 ## Challenge Progress
 
 <!-- COURSE_PROGRESS_START -->
-- Average Score: **83.08%**
-- Completion: **62.5%** (5/8)
-- Badge Level: **bronze**
+- Average Score: **98.54%**
+- Completion: **100%** (8/8)
+- Badge Level: **gold**
 
 | Challenge | Module | Status | Score |
 |---|---|---|---:|
@@ -31,7 +31,7 @@ This project uses challenge stubs only. Learners implement each challenge in `sr
 | Array Methods Data Pipeline | Modern JavaScript Essentials | Passed | 100% |
 | OOP Inheritance Refactor | Modern JavaScript Essentials | Passed | 100% |
 | Module System Conversion | Modern JavaScript Essentials | Passed | 100% |
-| Callback Hell Rescue | Asynchronous JavaScript Mastery | Not passed | 0% |
-| Promises Chain Rejection Handling | Asynchronous JavaScript Mastery | Not passed | 0% |
-| Async Await Event Loop Diagnostics | Asynchronous JavaScript Mastery | Not passed | 0% |
+| Callback Hell Rescue | Asynchronous JavaScript Mastery | Passed | 95.8% |
+| Promises Chain Rejection Handling | Asynchronous JavaScript Mastery | Passed | 97% |
+| Async Await Event Loop Diagnostics | Asynchronous JavaScript Mastery | Passed | 97% |
 <!-- COURSE_PROGRESS_END -->

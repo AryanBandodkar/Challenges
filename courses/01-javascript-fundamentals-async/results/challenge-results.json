@@ -362,25 +362,26 @@
     "challengeName": "Callback Hell Rescue",
     "moduleId": "m2-asynchronous-javascript-mastery",
     "moduleName": "Asynchronous JavaScript Mastery",
-    "score": 0,
-    "passed": false,
+    "score": 95.8,
+    "passed": true,
     "layers": {
       "functionalTests": {
-        "score": 50,
+        "score": 100,
         "totalChecks": 2,
-        "passedChecks": 1,
+        "passedChecks": 2,
         "failedFiles": [],
         "testFile": "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\challenge-06-callback-hell-rescue.test.js",
-        "testPassed": false,
-        "testError": "TAP version 13\n# Subtest: no placeholder code remains in scoped source\nok 1 - no placeholder code remains in scoped source\n  ---\n  duration_ms: 1.1583\n  ...\n# Subtest: uses callback-based async control flow without Promises or async/await\nok 2 - uses callback-based async control flow without Promises or async/await\n  ---\n  duration_ms: 0.6582\n  ...\n# Subtest: exports solve_06_callback_hell_rescue\nok 3 - exports solve_06_callback_hell_rescue\n  ---\n  duration_ms: 0.1563\n  ...\n# Subtest: coordinate",
+        "testPassed": true,
+        "testError": null,
         "note": "Functional checks include scoped file validation and challenge unit tests."
       },
       "codeQuality": {
-        "score": 96,
+        "score": 92,
         "errors": 0,
-        "warnings": 1,
+        "warnings": 2,
         "details": [
-          "src/challenges/06-callback-hell-rescue/index.js:17 trailing whitespace"
+          "src/challenges/06-callback-hell-rescue/index.js:11 trailing whitespace",
+          "src/challenges/06-callback-hell-rescue/index.js:26 trailing whitespace"
         ]
       },
       "architecture": {
@@ -413,19 +414,168 @@
         ]
       },
       "aiReview": {
-        "score": 90,
+        "score": 80,
         "mode": "live",
         "strengths": [
-          "Correct implementation of the exported function",
           "Proper use of callback-based asynchronous control flow",
           "Correct error handling and propagation"
         ],
         "improvements": [
-          "Code organization and structure could be improved for better readability",
-          "Consider using more descriptive variable names for better understanding"
+          "Consider using a more robust error handling mechanism",
+          "Code could benefit from additional comments for clarity"
         ]
       }
     },
-    "reviewedAt": "2026-08-10T12:23:13.887Z"
+    "reviewedAt": "2026-08-11T11:34:34.485Z"
+  },
+  {
+    "challengeId": "07-promises-chain-rejection-handling",
+    "challengeName": "Promises Chain Rejection Handling",
+    "moduleId": "m2-asynchronous-javascript-mastery",
+    "moduleName": "Asynchronous JavaScript Mastery",
+    "score": 97,
+    "passed": true,
+    "layers": {
+      "functionalTests": {
+        "score": 100,
+        "totalChecks": 2,
+        "passedChecks": 2,
+        "failedFiles": [],
+        "testFile": "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\challenge-07-promises-chain-rejection-handling.test.js",
+        "testPassed": true,
+        "testError": null,
+        "note": "Functional checks include scoped file validation and challenge unit tests."
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 100,
+        "required": [
+          "promiseUsage",
+          "promiseCatch"
+        ],
+        "found": [
+          "promiseUsage",
+          "promiseCatch"
+        ],
+        "missing": []
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "evidence",
+        "hasUnit": true,
+        "hasE2E": true,
+        "unitCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\challenge-07-promises-chain-rejection-handling.test.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\challenge-07-promises-chain-rejection-handling.test.ts"
+        ],
+        "e2eCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\e2e\\challenge-07-promises-chain-rejection-handling.spec.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\e2e\\challenge-07-promises-chain-rejection-handling.spec.ts"
+        ]
+      },
+      "aiReview": {
+        "score": 80,
+        "mode": "live",
+        "strengths": [
+          "Correct implementation of the exported function",
+          "Proper use of Promise-based asynchronous logic",
+          "Sequential execution using .then()",
+          "Proper error handling with .catch()",
+          "Returning the final resolved value or an appropriate error message"
+        ],
+        "improvements": [
+          "Code organization and structure could be improved for better readability",
+          "Error handling could be more robust with additional error messages",
+          "Consider using async/await for better readability and maintainability"
+        ]
+      }
+    },
+    "reviewedAt": "2026-08-11T05:43:17.922Z"
+  },
+  {
+    "challengeId": "08-async-await-event-loop-diagnostics",
+    "challengeName": "Async Await Event Loop Diagnostics",
+    "moduleId": "m2-asynchronous-javascript-mastery",
+    "moduleName": "Asynchronous JavaScript Mastery",
+    "score": 97,
+    "passed": true,
+    "layers": {
+      "functionalTests": {
+        "score": 100,
+        "totalChecks": 2,
+        "passedChecks": 2,
+        "failedFiles": [],
+        "testFile": "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\challenge-08-async-await-event-loop-diagnostics.test.js",
+        "testPassed": true,
+        "testError": null,
+        "note": "Functional checks include scoped file validation and challenge unit tests."
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 100,
+        "required": [
+          "asyncFunction",
+          "awaitExpression",
+          "tryCatch",
+          "setTimeoutUsage"
+        ],
+        "found": [
+          "asyncFunction",
+          "awaitExpression",
+          "tryCatch",
+          "setTimeoutUsage"
+        ],
+        "missing": []
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "evidence",
+        "hasUnit": true,
+        "hasE2E": true,
+        "unitCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\challenge-08-async-await-event-loop-diagnostics.test.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\challenge-08-async-await-event-loop-diagnostics.test.ts"
+        ],
+        "e2eCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\e2e\\challenge-08-async-await-event-loop-diagnostics.spec.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\01-javascript-fundamentals-async\\project\\tests\\e2e\\challenge-08-async-await-event-loop-diagnostics.spec.ts"
+        ]
+      },
+      "aiReview": {
+        "score": 80,
+        "mode": "live",
+        "strengths": [
+          "Correct implementation of async/await and setTimeout",
+          "Proper use of try/catch for error handling",
+          "Modular code structure with a separate async function"
+        ],
+        "improvements": [
+          "Consider adding more steps to demonstrate the event loop execution order",
+          "Use more descriptive variable names for better readability",
+          "Add comments to explain the purpose of each section of code"
+        ]
+      }
+    },
+    "reviewedAt": "2026-08-11T08:03:19.039Z"
   }
 ]
