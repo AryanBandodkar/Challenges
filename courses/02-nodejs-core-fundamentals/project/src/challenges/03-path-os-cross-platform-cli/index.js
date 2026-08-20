@@ -1,4 +1,22 @@
-// TODO: Implement 03-path-os-cross-platform-cli - Path OS Cross Platform CLI
+import path from "node:path";
+import os from "node:os";
+
 export function solve_03_path_os_cross_platform_cli() {
-  throw new Error('Not implemented');
+ 
+  const filePath = path.join("data", "files", "example.txt");
+
+  const normalizedPath = path.normalize(filePath);
+  const platform = os.platform();
+  const architecture = os.arch();
+  const homeDirectory = os.homedir();
+
+ 
+  return {
+    filePath,
+    normalizedPath,
+    platform,
+    architecture,
+    homeDirectory,
+    separator: path.sep,
+  };
 }

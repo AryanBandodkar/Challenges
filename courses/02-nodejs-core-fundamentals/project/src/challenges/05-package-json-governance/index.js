@@ -1,4 +1,28 @@
-// TODO: Implement 05-package-json-governance - Package JSON Governance
 export function solve_05_package_json_governance() {
-  throw new Error('Not implemented');
+  const packageJson = `{
+    "name": "my-node-project",
+    "version": "1.0.0",
+    "dependencies": {
+      "express": "^5.1.0"
+    },
+    "devDependencies": {
+      "nodemon": "^3.1.10"
+    },
+    "scripts": {
+      "start": "node src/main.js",
+      "dev": "nodemon src/main.js",
+      "test": "node --test"
+    }
+  }`;
+
+  const config = JSON.parse(packageJson);
+  const npmScript = config.scripts.dev;
+
+  return {
+    dependencies: config.dependencies,
+    devDependencies: config.devDependencies,
+    scripts: config.scripts,
+    npmScript
+  };
+
 }

@@ -1,11 +1,11 @@
 {
   "pathwayName": "Node.js Backend Engineer",
   "pathwayVersion": "1.0.0",
-  "overallScore": 14.78,
-  "completionPercentage": 11.59,
+  "overallScore": 30.03,
+  "completionPercentage": 30.43,
   "badgeLevel": "none",
   "totalChallenges": 69,
-  "completedChallenges": 8,
+  "completedChallenges": 21,
   "courses": [
     {
       "id": "01-javascript-fundamentals-async",
@@ -21,11 +21,11 @@
       "id": "02-nodejs-core-fundamentals",
       "name": "Node.js Core Fundamentals",
       "weight": 0.2,
-      "averageScore": 0,
-      "completionPercentage": 0,
+      "averageScore": 76.25,
+      "completionPercentage": 86.67,
       "totalChallenges": 15,
-      "completedChallenges": 0,
-      "badgeLevel": "none"
+      "completedChallenges": 13,
+      "badgeLevel": "silver"
     },
     {
       "id": "03-express-rest-api-development",
@@ -58,5 +58,5 @@
       "badgeLevel": "none"
     }
   ],
-  "generatedAt": "2026-08-11T11:34:34.493Z"
+  "generatedAt": "2026-08-19T10:48:08.848Z"
 }

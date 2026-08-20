@@ -1,1 +1,192 @@
-[]
+[
+  {
+    "challengeId": "01-runtime-event-loop-visualizer",
+    "challengeName": "Runtime Event Loop Visualizer",
+    "score": 90,
+    "mode": "live",
+    "strengths": [
+      "Correctly implemented the solver function",
+      "Used promise-based async logic",
+      "Used setTimeout to model async scheduling behavior"
+    ],
+    "improvements": [
+      "Consider adding comments to explain the logic behind the event loop visualizer",
+      "The function could benefit from input validation to handle potential edge cases",
+      "The use of a hardcoded timeout value (10) might not be ideal; consider making it configurable"
+    ],
+    "reviewedAt": "2026-08-16T09:03:26.870Z"
+  },
+  {
+    "challengeId": "02-fs-stream-buffer-operations",
+    "challengeName": "FS Stream Buffer Operations",
+    "score": 0,
+    "mode": "error",
+    "strengths": [],
+    "improvements": [
+      "AI review request failed (404).",
+      "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+    ],
+    "reviewedAt": "2026-08-19T10:41:03.168Z"
+  },
+  {
+    "challengeId": "03-path-os-cross-platform-cli",
+    "challengeName": "Path OS Cross Platform CLI",
+    "score": 100,
+    "mode": "live",
+    "strengths": [
+      "Correctly imported and used the `path` and `os` modules",
+      "Implemented cross-platform path helpers and system metadata",
+      "Returned normalized paths and platform info from the exported function",
+      "Code quality and best practices are good"
+    ],
+    "improvements": [],
+    "reviewedAt": "2026-08-16T09:39:25.564Z"
+  },
+  {
+    "challengeId": "04-process-worker-lifecycle",
+    "challengeName": "Process Worker Lifecycle",
+    "score": 0,
+    "mode": "error",
+    "strengths": [],
+    "improvements": [
+      "AI review request failed (404).",
+      "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+    ],
+    "reviewedAt": "2026-08-19T10:11:08.903Z"
+  },
+  {
+    "challengeId": "05-package-json-governance",
+    "challengeName": "Package JSON Governance",
+    "score": 0,
+    "mode": "error",
+    "strengths": [],
+    "improvements": [
+      "AI review request failed (404).",
+      "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+    ],
+    "reviewedAt": "2026-08-19T10:18:45.713Z"
+  },
+  {
+    "challengeId": "06-semver-lockfile-policy",
+    "challengeName": "Semver Lockfile Policy",
+    "score": 80,
+    "mode": "live",
+    "strengths": [
+      "Correctly implemented semver comparison logic",
+      "Returned a clear policy outcome"
+    ],
+    "improvements": [
+      "Consider using a more robust semver library for version comparison",
+      "Add input validation for currentVersion and requestedVersion parameters"
+    ],
+    "reviewedAt": "2026-08-17T07:04:24.288Z"
+  },
+  {
+    "challengeId": "07-dotenv-script-automation",
+    "challengeName": "Dotenv Script Automation",
+    "score": 0,
+    "mode": "error",
+    "strengths": [],
+    "improvements": [
+      "AI review request failed (404).",
+      "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+    ],
+    "reviewedAt": "2026-08-19T10:47:47.056Z"
+  },
+  {
+    "challengeId": "08-native-http-routing-core",
+    "challengeName": "Native HTTP Routing Core",
+    "score": 0,
+    "mode": "error",
+    "strengths": [],
+    "improvements": [
+      "AI review request failed (404).",
+      "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+    ],
+    "reviewedAt": "2026-08-17T09:38:52.425Z"
+  },
+  {
+    "challengeId": "09-query-headers-status-contract",
+    "challengeName": "Query Headers Status Contract",
+    "score": 0,
+    "mode": "error",
+    "strengths": [],
+    "improvements": [
+      "AI review request failed (404).",
+      "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+    ],
+    "reviewedAt": "2026-08-19T07:19:36.001Z"
+  },
+  {
+    "challengeId": "10-stream-based-transfer-service",
+    "challengeName": "Stream Based Transfer Service",
+    "score": 0,
+    "mode": "error",
+    "strengths": [],
+    "improvements": [
+      "AI review request failed (404).",
+      "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+    ],
+    "reviewedAt": "2026-08-19T07:32:43.211Z"
+  },
+  {
+    "challengeId": "11-operational-vs-programmer-errors",
+    "challengeName": "Operational vs Programmer Errors",
+    "score": 0,
+    "mode": "error",
+    "strengths": [],
+    "improvements": [
+      "AI review request failed (404).",
+      "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+    ],
+    "reviewedAt": "2026-08-19T07:58:30.862Z"
+  },
+  {
+    "challengeId": "12-debug-and-log-observability",
+    "challengeName": "Debug and Log Observability",
+    "score": 0,
+    "mode": "error",
+    "strengths": [],
+    "improvements": [
+      "AI review request failed (404).",
+      "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+    ],
+    "reviewedAt": "2026-08-19T08:32:08.559Z"
+  },
+  {
+    "challengeId": "13-environment-specific-configuration",
+    "challengeName": "Environment Specific Configuration",
+    "score": 0,
+    "mode": "error",
+    "strengths": [],
+    "improvements": [
+      "AI review request failed (404).",
+      "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+    ],
+    "reviewedAt": "2026-08-19T10:48:08.839Z"
+  },
+  {
+    "challengeId": "14-utility-libraries-and-package-publishing",
+    "challengeName": "Utility Libraries and Package Publishing",
+    "score": 0,
+    "mode": "error",
+    "strengths": [],
+    "improvements": [
+      "AI review request failed (404).",
+      "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+    ],
+    "reviewedAt": "2026-08-19T10:42:20.192Z"
+  },
+  {
+    "challengeId": "15-graceful-shutdown-signal-handling",
+    "challengeName": "Graceful Shutdown Signal Handling",
+    "score": 0,
+    "mode": "error",
+    "strengths": [],
+    "improvements": [
+      "AI review request failed (404).",
+      "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+    ],
+    "reviewedAt": "2026-08-19T10:03:52.307Z"
+  }
+]

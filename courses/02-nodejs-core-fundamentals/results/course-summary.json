@@ -1,11 +1,162 @@
 {
   "courseId": "02-nodejs-core-fundamentals",
   "courseName": "Node.js Core Fundamentals",
-  "averageScore": 0,
-  "completionPercentage": 0,
+  "averageScore": 76.25,
+  "completionPercentage": 86.67,
   "totalChallenges": 15,
-  "completedChallenges": 0,
-  "badgeLevel": "none",
-  "challengeResults": [],
-  "generatedAt": "2026-08-06T12:50:02.127Z"
+  "completedChallenges": 13,
+  "reviewedChallengesCount": 15,
+  "badgeLevel": "silver",
+  "challengeResults": [
+    {
+      "challengeId": "01-runtime-event-loop-visualizer",
+      "challengeName": "Runtime Event Loop Visualizer",
+      "score": 98.5,
+      "passed": true,
+      "reviewedAt": "2026-08-16T09:03:26.870Z"
+    },
+    {
+      "challengeId": "02-fs-stream-buffer-operations",
+      "challengeName": "FS Stream Buffer Operations",
+      "score": 0,
+      "passed": false,
+      "reviewedAt": "2026-08-19T10:41:03.168Z"
+    },
+    {
+      "challengeId": "03-path-os-cross-platform-cli",
+      "challengeName": "Path OS Cross Platform CLI",
+      "score": 98.8,
+      "passed": true,
+      "reviewedAt": "2026-08-16T09:39:25.564Z"
+    },
+    {
+      "challengeId": "04-process-worker-lifecycle",
+      "challengeName": "Process Worker Lifecycle",
+      "score": 0,
+      "passed": false,
+      "reviewedAt": "2026-08-19T10:11:08.903Z"
+    },
+    {
+      "challengeId": "05-package-json-governance",
+      "challengeName": "Package JSON Governance",
+      "score": 85,
+      "passed": true,
+      "reviewedAt": "2026-08-19T10:18:45.713Z"
+    },
+    {
+      "challengeId": "06-semver-lockfile-policy",
+      "challengeName": "Semver Lockfile Policy",
+      "score": 97,
+      "passed": true,
+      "reviewedAt": "2026-08-17T07:04:24.288Z"
+    },
+    {
+      "challengeId": "07-dotenv-script-automation",
+      "challengeName": "Dotenv Script Automation",
+      "score": 85,
+      "passed": true,
+      "reviewedAt": "2026-08-19T10:47:47.056Z"
+    },
+    {
+      "challengeId": "08-native-http-routing-core",
+      "challengeName": "Native HTTP Routing Core",
+      "score": 85,
+      "passed": true,
+      "reviewedAt": "2026-08-17T09:38:52.425Z"
+    },
+    {
+      "challengeId": "09-query-headers-status-contract",
+      "challengeName": "Query Headers Status Contract",
+      "score": 85,
+      "passed": true,
+      "reviewedAt": "2026-08-19T07:19:36.001Z"
+    },
+    {
+      "challengeId": "10-stream-based-transfer-service",
+      "challengeName": "Stream Based Transfer Service",
+      "score": 85,
+      "passed": true,
+      "reviewedAt": "2026-08-19T07:32:43.211Z"
+    },
+    {
+      "challengeId": "11-operational-vs-programmer-errors",
+      "challengeName": "Operational vs Programmer Errors",
+      "score": 85,
+      "passed": true,
+      "reviewedAt": "2026-08-19T07:58:30.862Z"
+    },
+    {
+      "challengeId": "12-debug-and-log-observability",
+      "challengeName": "Debug and Log Observability",
+      "score": 85,
+      "passed": true,
+      "reviewedAt": "2026-08-19T08:32:08.559Z"
+    },
+    {
+      "challengeId": "13-environment-specific-configuration",
+      "challengeName": "Environment Specific Configuration",
+      "score": 85,
+      "passed": true,
+      "reviewedAt": "2026-08-19T10:48:08.839Z"
+    },
+    {
+      "challengeId": "14-utility-libraries-and-package-publishing",
+      "challengeName": "Utility Libraries and Package Publishing",
+      "score": 85,
+      "passed": true,
+      "reviewedAt": "2026-08-19T10:42:20.192Z"
+    },
+    {
+      "challengeId": "15-graceful-shutdown-signal-handling",
+      "challengeName": "Graceful Shutdown Signal Handling",
+      "score": 84.4,
+      "passed": true,
+      "reviewedAt": "2026-08-19T10:03:52.307Z"
+    }
+  ],
+  "skillStrengths": [
+    "V8 runtime",
+    "event loop phases",
+    "microtasks/macrotasks",
+    "path",
+    "os",
+    "cross-platform compatibility",
+    "package.json",
+    "dependencies",
+    "devDependencies",
+    "npm/yarn fundamentals",
+    "semver",
+    "package-lock"
+  ],
+  "improvementAreas": [
+    "fs",
+    "streams",
+    "buffers",
+    "process.env",
+    "argv",
+    "exit codes",
+    "worker threads",
+    "child processes"
+  ],
+  "aiStrengths": [
+    "Correctly implemented the solver function",
+    "Used promise-based async logic",
+    "Used setTimeout to model async scheduling behavior",
+    "Correctly imported and used the `path` and `os` modules",
+    "Implemented cross-platform path helpers and system metadata",
+    "Returned normalized paths and platform info from the exported function",
+    "Code quality and best practices are good",
+    "Correctly implemented semver comparison logic",
+    "Returned a clear policy outcome"
+  ],
+  "aiImprovements": [
+    "Consider adding comments to explain the logic behind the event loop visualizer",
+    "The function could benefit from input validation to handle potential edge cases",
+    "The use of a hardcoded timeout value (10) might not be ideal; consider making it configurable",
+    "AI review request failed (404).",
+    "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n",
+    "Consider using a more robust semver library for version comparison",
+    "Add input validation for currentVersion and requestedVersion parameters"
+  ],
+  "generatedAt": "2026-08-19T10:48:08.840Z"
 }

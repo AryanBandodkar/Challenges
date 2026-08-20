@@ -33,25 +33,25 @@ This project uses challenge stubs only. Learners implement each challenge in `sr
 ## Challenge Progress
 
 <!-- COURSE_PROGRESS_START -->
-- Average Score: **0%**
-- Completion: **0%** (0/15)
-- Badge Level: **none**
+- Average Score: **76.25%**
+- Completion: **86.67%** (13/15)
+- Badge Level: **silver**
 
 | Challenge | Module | Status | Score |
 |---|---|---|---:|
-| Runtime Event Loop Visualizer | Node.js Architecture & Core APIs | Not passed | 0% |
+| Runtime Event Loop Visualizer | Node.js Architecture & Core APIs | Passed | 98.5% |
 | FS Stream Buffer Operations | Node.js Architecture & Core APIs | Not passed | 0% |
-| Path OS Cross Platform CLI | Node.js Architecture & Core APIs | Not passed | 0% |
+| Path OS Cross Platform CLI | Node.js Architecture & Core APIs | Passed | 98.8% |
 | Process Worker Lifecycle | Node.js Architecture & Core APIs | Not passed | 0% |
-| Package JSON Governance | NPM & Package Management | Not passed | 0% |
-| Semver Lockfile Policy | NPM & Package Management | Not passed | 0% |
-| Dotenv Script Automation | NPM & Package Management | Not passed | 0% |
-| Native HTTP Routing Core | HTTP & Network Programming | Not passed | 0% |
-| Query Headers Status Contract | HTTP & Network Programming | Not passed | 0% |
-| Stream Based Transfer Service | HTTP & Network Programming | Not passed | 0% |
-| Operational vs Programmer Errors | Error Handling & Debugging | Not passed | 0% |
-| Debug and Log Observability | Error Handling & Debugging | Not passed | 0% |
-| Environment Specific Configuration | Error Handling & Debugging | Not passed | 0% |
-| Utility Libraries and Package Publishing | NPM & Package Management | Not passed | 0% |
-| Graceful Shutdown Signal Handling | Error Handling & Debugging | Not passed | 0% |
+| Package JSON Governance | NPM & Package Management | Passed | 85% |
+| Semver Lockfile Policy | NPM & Package Management | Passed | 97% |
+| Dotenv Script Automation | NPM & Package Management | Passed | 85% |
+| Native HTTP Routing Core | HTTP & Network Programming | Passed | 85% |
+| Query Headers Status Contract | HTTP & Network Programming | Passed | 85% |
+| Stream Based Transfer Service | HTTP & Network Programming | Passed | 85% |
+| Operational vs Programmer Errors | Error Handling & Debugging | Passed | 85% |
+| Debug and Log Observability | Error Handling & Debugging | Passed | 85% |
+| Environment Specific Configuration | Error Handling & Debugging | Passed | 85% |
+| Utility Libraries and Package Publishing | NPM & Package Management | Passed | 85% |
+| Graceful Shutdown Signal Handling | Error Handling & Debugging | Passed | 84.4% |
 <!-- COURSE_PROGRESS_END -->
