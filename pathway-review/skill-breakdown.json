@@ -4,44 +4,44 @@
   "totals": {
     "trackedSkills": 187,
     "skillAppearances": 195,
-    "reviewedSkillAppearances": 68,
-    "passedSkillAppearances": 60
+    "reviewedSkillAppearances": 98,
+    "passedSkillAppearances": 98
   },
   "topStrengths": [
     "dotenv",
+    "middleware",
+    "status codes",
+    "ACID",
+    "API versioning",
+    "app configuration",
+    "argv",
     "arrow functions",
     "async/await",
+    "buffers",
     "callbacks",
-    "chaining",
-    "classes",
-    "CommonJS",
-    "control flow",
-    "cross-platform compatibility",
-    "debugger workflow",
-    "dependencies",
-    "destructuring"
+    "chaining"
   ],
   "improvementAreas": [
-    "argv",
-    "buffers",
-    "child processes",
-    "exit codes",
-    "fs",
-    "process.env",
-    "streams",
-    "worker threads",
     "dotenv",
+    "middleware",
+    "status codes",
+    "ACID",
+    "API versioning",
+    "app configuration",
+    "argv",
     "arrow functions",
     "async/await",
-    "callbacks"
+    "buffers",
+    "callbacks",
+    "chaining"
   ],
   "skills": [
     {
       "skill": "middleware",
       "appearances": 3,
-      "reviewedChallenges": 0,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "reviewedChallenges": 2,
+      "passedChallenges": 2,
+      "passRate": 100,
       "courseIds": [
         "03-express-rest-api-development",
         "05-nestjs-enterprise-framework"
@@ -112,8 +112,8 @@
     {
       "skill": "status codes",
       "appearances": 2,
-      "reviewedChallenges": 1,
-      "passedChallenges": 1,
+      "reviewedChallenges": 2,
+      "passedChallenges": 2,
       "passRate": 100,
       "courseIds": [
         "02-nodejs-core-fundamentals",
@@ -155,9 +155,9 @@
     {
       "skill": "ACID",
       "appearances": 1,
-      "reviewedChallenges": 0,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "reviewedChallenges": 1,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "03-express-rest-api-development"
       ],
@@ -194,9 +194,9 @@
     {
       "skill": "API versioning",
       "appearances": 1,
-      "reviewedChallenges": 0,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "reviewedChallenges": 1,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "03-express-rest-api-development"
       ],
@@ -207,9 +207,9 @@
     {
       "skill": "app configuration",
       "appearances": 1,
-      "reviewedChallenges": 0,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "reviewedChallenges": 1,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "03-express-rest-api-development"
       ],
@@ -221,8 +221,8 @@
       "skill": "argv",
       "appearances": 1,
       "reviewedChallenges": 1,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "02-nodejs-core-fundamentals"
       ],
@@ -286,8 +286,8 @@
       "skill": "buffers",
       "appearances": 1,
       "reviewedChallenges": 1,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "02-nodejs-core-fundamentals"
       ],
@@ -325,8 +325,8 @@
       "skill": "child processes",
       "appearances": 1,
       "reviewedChallenges": 1,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "02-nodejs-core-fundamentals"
       ],
@@ -376,9 +376,9 @@
     {
       "skill": "content negotiation",
       "appearances": 1,
-      "reviewedChallenges": 0,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "reviewedChallenges": 1,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "03-express-rest-api-development"
       ],
@@ -428,9 +428,9 @@
     {
       "skill": "CORS",
       "appearances": 1,
-      "reviewedChallenges": 0,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "reviewedChallenges": 1,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "03-express-rest-api-development"
       ],
@@ -741,8 +741,8 @@
       "skill": "exit codes",
       "appearances": 1,
       "reviewedChallenges": 1,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "02-nodejs-core-fundamentals"
       ],
@@ -753,9 +753,9 @@
     {
       "skill": "Express setup",
       "appearances": 1,
-      "reviewedChallenges": 0,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "reviewedChallenges": 1,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "03-express-rest-api-development"
       ],
@@ -845,8 +845,8 @@
       "skill": "fs",
       "appearances": 1,
       "reviewedChallenges": 1,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "02-nodejs-core-fundamentals"
       ],
@@ -935,9 +935,9 @@
     {
       "skill": "HTTP methods",
       "appearances": 1,
-      "reviewedChallenges": 0,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "reviewedChallenges": 1,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "03-express-rest-api-development"
       ],
@@ -987,9 +987,9 @@
     {
       "skill": "indexing",
       "appearances": 1,
-      "reviewedChallenges": 0,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "reviewedChallenges": 1,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "03-express-rest-api-development"
       ],
@@ -1078,9 +1078,9 @@
     {
       "skill": "JWT",
       "appearances": 1,
-      "reviewedChallenges": 0,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "reviewedChallenges": 1,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "03-express-rest-api-development"
       ],
@@ -1286,9 +1286,9 @@
     {
       "skill": "Mongoose schema",
       "appearances": 1,
-      "reviewedChallenges": 0,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "reviewedChallenges": 1,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "03-express-rest-api-development"
       ],
@@ -1299,9 +1299,9 @@
     {
       "skill": "N+1 mitigation",
       "appearances": 1,
-      "reviewedChallenges": 0,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "reviewedChallenges": 1,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "03-express-rest-api-development"
       ],
@@ -1351,9 +1351,9 @@
     {
       "skill": "normalization",
       "appearances": 1,
-      "reviewedChallenges": 0,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "reviewedChallenges": 1,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "03-express-rest-api-development"
       ],
@@ -1507,9 +1507,9 @@
     {
       "skill": "parameterized queries",
       "appearances": 1,
-      "reviewedChallenges": 0,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "reviewedChallenges": 1,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "03-express-rest-api-development"
       ],
@@ -1559,9 +1559,9 @@
     {
       "skill": "pg pool",
       "appearances": 1,
-      "reviewedChallenges": 0,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "reviewedChallenges": 1,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "03-express-rest-api-development"
       ],
@@ -1599,8 +1599,8 @@
       "skill": "process.env",
       "appearances": 1,
       "reviewedChallenges": 1,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "02-nodejs-core-fundamentals"
       ],
@@ -1650,9 +1650,9 @@
     {
       "skill": "query optimization",
       "appearances": 1,
-      "reviewedChallenges": 0,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "reviewedChallenges": 1,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "03-express-rest-api-development"
       ],
@@ -1676,9 +1676,9 @@
     {
       "skill": "query strings",
       "appearances": 1,
-      "reviewedChallenges": 0,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "reviewedChallenges": 1,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "03-express-rest-api-development"
       ],
@@ -1754,9 +1754,9 @@
     {
       "skill": "refresh tokens",
       "appearances": 1,
-      "reviewedChallenges": 0,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "reviewedChallenges": 1,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "03-express-rest-api-development"
       ],
@@ -1819,9 +1819,9 @@
     {
       "skill": "request/response cycle",
       "appearances": 1,
-      "reviewedChallenges": 0,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "reviewedChallenges": 1,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "03-express-rest-api-development"
       ],
@@ -1845,9 +1845,9 @@
     {
       "skill": "resource modeling",
       "appearances": 1,
-      "reviewedChallenges": 0,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "reviewedChallenges": 1,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "03-express-rest-api-development"
       ],
@@ -1858,9 +1858,9 @@
     {
       "skill": "response formatting",
       "appearances": 1,
-      "reviewedChallenges": 0,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "reviewedChallenges": 1,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "03-express-rest-api-development"
       ],
@@ -1910,9 +1910,9 @@
     {
       "skill": "RESTful design",
       "appearances": 1,
-      "reviewedChallenges": 0,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "reviewedChallenges": 1,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "03-express-rest-api-development"
       ],
@@ -1923,9 +1923,9 @@
     {
       "skill": "route handlers",
       "appearances": 1,
-      "reviewedChallenges": 0,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "reviewedChallenges": 1,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "03-express-rest-api-development"
       ],
@@ -1936,9 +1936,9 @@
     {
       "skill": "route params",
       "appearances": 1,
-      "reviewedChallenges": 0,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "reviewedChallenges": 1,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "03-express-rest-api-development"
       ],
@@ -2105,9 +2105,9 @@
     {
       "skill": "SQL vs NoSQL",
       "appearances": 1,
-      "reviewedChallenges": 0,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "reviewedChallenges": 1,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "03-express-rest-api-development"
       ],
@@ -2171,8 +2171,8 @@
       "skill": "streams",
       "appearances": 1,
       "reviewedChallenges": 1,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "02-nodejs-core-fundamentals"
       ],
@@ -2261,9 +2261,9 @@
     {
       "skill": "token verification",
       "appearances": 1,
-      "reviewedChallenges": 0,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "reviewedChallenges": 1,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "03-express-rest-api-development"
       ],
@@ -2274,9 +2274,9 @@
     {
       "skill": "transactions",
       "appearances": 1,
-      "reviewedChallenges": 0,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "reviewedChallenges": 1,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "03-express-rest-api-development"
       ],
@@ -2443,9 +2443,9 @@
     {
       "skill": "validation",
       "appearances": 1,
-      "reviewedChallenges": 0,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "reviewedChallenges": 1,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "03-express-rest-api-development"
       ],
@@ -2457,8 +2457,8 @@
       "skill": "worker threads",
       "appearances": 1,
       "reviewedChallenges": 1,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "02-nodejs-core-fundamentals"
       ],
@@ -2480,5 +2480,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-08-19T10:48:08.855Z"
+  "generatedAt": "2026-08-26T12:31:35.983Z"
 }

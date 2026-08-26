@@ -33,16 +33,16 @@ This project uses challenge stubs only. Learners implement each challenge in `sr
 ## Challenge Progress
 
 <!-- COURSE_PROGRESS_START -->
-- Average Score: **76.25%**
-- Completion: **86.67%** (13/15)
+- Average Score: **87.58%**
+- Completion: **100%** (15/15)
 - Badge Level: **silver**
 
 | Challenge | Module | Status | Score |
 |---|---|---|---:|
 | Runtime Event Loop Visualizer | Node.js Architecture & Core APIs | Passed | 98.5% |
-| FS Stream Buffer Operations | Node.js Architecture & Core APIs | Not passed | 0% |
+| FS Stream Buffer Operations | Node.js Architecture & Core APIs | Passed | 85% |
 | Path OS Cross Platform CLI | Node.js Architecture & Core APIs | Passed | 98.8% |
-| Process Worker Lifecycle | Node.js Architecture & Core APIs | Not passed | 0% |
+| Process Worker Lifecycle | Node.js Architecture & Core APIs | Passed | 85% |
 | Package JSON Governance | NPM & Package Management | Passed | 85% |
 | Semver Lockfile Policy | NPM & Package Management | Passed | 97% |
 | Dotenv Script Automation | NPM & Package Management | Passed | 85% |

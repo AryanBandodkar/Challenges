@@ -76,17 +76,17 @@
     "challengeName": "FS Stream Buffer Operations",
     "moduleId": "m1-node-architecture-core-apis",
     "moduleName": "Node.js Architecture & Core APIs",
-    "score": 0,
-    "passed": false,
+    "score": 85,
+    "passed": true,
     "layers": {
       "functionalTests": {
-        "score": 50,
+        "score": 100,
         "totalChecks": 2,
-        "passedChecks": 1,
+        "passedChecks": 2,
         "failedFiles": [],
         "testFile": "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-02-fs-stream-buffer-operations.test.js",
-        "testPassed": false,
-        "testError": "TAP version 13\n# Subtest: no placeholder code remains in scoped source\nok 1 - no placeholder code remains in scoped source\n  ---\n  duration_ms: 1.0179\n  ...\n# Subtest: imports fs and uses stream pipeline or read/write streams\nok 2 - imports fs and uses stream pipeline or read/write streams\n  ---\n  duration_ms: 0.5709\n  ...\n# Subtest: exports solve_02_fs_stream_buffer_operations\nok 3 - exports solve_02_fs_stream_buffer_operations\n  ---\n  duration_ms: 0.121\n  ...\n# Subtest: returns a meaningful re",
+        "testPassed": true,
+        "testError": null,
         "note": "Functional checks include scoped file validation and challenge unit tests."
       },
       "codeQuality": {
@@ -136,7 +136,7 @@
         ]
       }
     },
-    "reviewedAt": "2026-08-19T10:41:03.168Z"
+    "reviewedAt": "2026-08-26T08:21:41.673Z"
   },
   {
     "challengeId": "03-path-os-cross-platform-cli",
@@ -215,26 +215,24 @@
     "challengeName": "Process Worker Lifecycle",
     "moduleId": "m1-node-architecture-core-apis",
     "moduleName": "Node.js Architecture & Core APIs",
-    "score": 0,
-    "passed": false,
+    "score": 85,
+    "passed": true,
     "layers": {
       "functionalTests": {
-        "score": 50,
+        "score": 100,
         "totalChecks": 2,
-        "passedChecks": 1,
+        "passedChecks": 2,
         "failedFiles": [],
         "testFile": "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\02-nodejs-core-fundamentals\\project\\tests\\challenge-04-process-worker-lifecycle.test.js",
-        "testPassed": false,
-        "testError": "TAP version 13\n# Subtest: no placeholder code remains in scoped source\nok 1 - no placeholder code remains in scoped source\n  ---\n  duration_ms: 0.9892\n  ...\n# Subtest: uses process APIs and child process or worker threads\nnot ok 2 - uses process APIs and child process or worker threads\n  ---\n  duration_ms: 0.6572\n  location: 'C:\\\\Users\\\\Aryan Bandodkar\\\\OneDrive\\\\Desktop\\\\Challenges\\\\challenge-engine-nodejs\\\\courses\\\\02-nodejs-core-fundamentals\\\\project\\\\tests\\\\challenge-04-process-worker-lifecy",
+        "testPassed": true,
+        "testError": null,
         "note": "Functional checks include scoped file validation and challenge unit tests."
       },
       "codeQuality": {
-        "score": 96,
+        "score": 100,
         "errors": 0,
-        "warnings": 1,
-        "details": [
-          "src/challenges/04-process-worker-lifecycle/index.js: console.log used 1 time(s)"
-        ]
+        "warnings": 0,
+        "details": []
       },
       "architecture": {
         "score": 100,
@@ -277,7 +275,7 @@
         ]
       }
     },
-    "reviewedAt": "2026-08-19T10:11:08.903Z"
+    "reviewedAt": "2026-08-21T11:19:19.279Z"
   },
   {
     "challengeId": "05-package-json-governance",

@@ -26,7 +26,7 @@
       "AI review request failed (404).",
       "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
     ],
-    "reviewedAt": "2026-08-19T10:41:03.168Z"
+    "reviewedAt": "2026-08-26T08:21:41.673Z"
   },
   {
     "challengeId": "03-path-os-cross-platform-cli",
@@ -52,7 +52,7 @@
       "AI review request failed (404).",
       "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
     ],
-    "reviewedAt": "2026-08-19T10:11:08.903Z"
+    "reviewedAt": "2026-08-21T11:19:19.279Z"
   },
   {
     "challengeId": "05-package-json-governance",

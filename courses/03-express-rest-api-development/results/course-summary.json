@@ -1,11 +1,110 @@
 {
   "courseId": "03-express-rest-api-development",
   "courseName": "Express.js & RESTful API Development",
-  "averageScore": 0,
-  "completionPercentage": 0,
+  "averageScore": 84.82,
+  "completionPercentage": 52.38,
   "totalChallenges": 21,
-  "completedChallenges": 0,
-  "badgeLevel": "none",
-  "challengeResults": [],
-  "generatedAt": "2026-08-06T12:50:02.221Z"
+  "completedChallenges": 11,
+  "reviewedChallengesCount": 11,
+  "badgeLevel": "bronze",
+  "challengeResults": [
+    {
+      "challengeId": "01-express-app-bootstrap",
+      "challengeName": "Express App Bootstrap",
+      "score": 85,
+      "passed": true,
+      "reviewedAt": "2026-08-26T09:28:51.388Z"
+    },
+    {
+      "challengeId": "02-routing-params-query-handlers",
+      "challengeName": "Routing Params Query Handlers",
+      "score": 85,
+      "passed": true,
+      "reviewedAt": "2026-08-26T09:30:31.590Z"
+    },
+    {
+      "challengeId": "03-middleware-request-lifecycle",
+      "challengeName": "Middleware Request Lifecycle",
+      "score": 85,
+      "passed": true,
+      "reviewedAt": "2026-08-26T09:35:40.295Z"
+    },
+    {
+      "challengeId": "04-rest-resource-design",
+      "challengeName": "REST Resource Design",
+      "score": 85,
+      "passed": true,
+      "reviewedAt": "2026-08-26T09:53:52.471Z"
+    },
+    {
+      "challengeId": "05-http-method-status-formatting",
+      "challengeName": "HTTP Method Status Formatting",
+      "score": 85,
+      "passed": true,
+      "reviewedAt": "2026-08-26T10:32:07.136Z"
+    },
+    {
+      "challengeId": "06-versioning-cors-content-negotiation",
+      "challengeName": "Versioning CORS Content Negotiation",
+      "score": 85,
+      "passed": true,
+      "reviewedAt": "2026-08-26T10:56:25.346Z"
+    },
+    {
+      "challengeId": "07-postgres-pool-parameterized-queries",
+      "challengeName": "Postgres Pool Parameterized Queries",
+      "score": 85,
+      "passed": true,
+      "reviewedAt": "2026-08-26T11:30:27.855Z"
+    },
+    {
+      "challengeId": "08-mongoose-schema-model-validation",
+      "challengeName": "Mongoose Schema Model Validation",
+      "score": 85,
+      "passed": true,
+      "reviewedAt": "2026-08-26T11:55:46.156Z"
+    },
+    {
+      "challengeId": "09-sql-vs-nosql-design-review",
+      "challengeName": "SQL vs NoSQL Design Review",
+      "score": 85,
+      "passed": true,
+      "reviewedAt": "2026-08-26T12:01:47.680Z"
+    },
+    {
+      "challengeId": "10-transaction-acid-n-plus-one-fix",
+      "challengeName": "Transaction ACID N Plus One Fix",
+      "score": 85,
+      "passed": true,
+      "reviewedAt": "2026-08-26T12:11:53.688Z"
+    },
+    {
+      "challengeId": "11-jwt-refresh-token-auth",
+      "challengeName": "JWT Refresh Token Auth",
+      "score": 83,
+      "passed": true,
+      "reviewedAt": "2026-08-26T12:31:35.967Z"
+    }
+  ],
+  "skillStrengths": [
+    "Express setup",
+    "app configuration",
+    "route params",
+    "query strings",
+    "route handlers",
+    "middleware",
+    "request/response cycle",
+    "RESTful design",
+    "resource modeling",
+    "HTTP methods",
+    "status codes",
+    "response formatting"
+  ],
+  "improvementAreas": [],
+  "aiStrengths": [],
+  "aiImprovements": [
+    "AI review request failed (404).",
+    "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+  ],
+  "generatedAt": "2026-08-26T12:31:35.969Z"
 }

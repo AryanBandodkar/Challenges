@@ -1,11 +1,26 @@
 import fs from "node:fs";
 import { pipeline } from "node:stream/promises";
+import { Readable } from "node:stream";
 
-export function solve_02_fs_stream_buffer_operations() {
-  const readStream = fs.createReadStream("./source.txt");
-  const writeStream = fs.createWriteStream("./copy.txt");
+export async function solve_02_fs_stream_buffer_operations() {
+  const filePath = "./stream-buffer-demo.txt";
+  const data = Buffer.from("Hello from a Node.js stream");
 
-  const transfer = pipeline(readStream, writeStream);
+  await pipeline(
+    Readable.from([data]),
+    fs.createWriteStream(filePath)
+  );
 
-  return transfer;
+  const chunks = [];
+
+  await pipeline(
+    fs.createReadStream(filePath),
+    async function* (source) {
+      for await (const chunk of source) {
+        chunks.push(chunk);
+      }
+    }
+  );
+
+  return Buffer.concat(chunks);
 }
