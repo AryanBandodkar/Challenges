@@ -1,4 +1,23 @@
-// TODO: Implement 07-postgres-pool-parameterized-queries - Postgres Pool Parameterized Queries
+import pg from 'pg';
+
+const { Pool } = pg;
+
+const pool = new Pool({
+  connectionString: process.env.DATABASE_URL,
+});
+
+export async function parameterizedQuery(id) {
+  const result = await pool.query(
+    'SELECT * FROM users WHERE id = $1',
+    [id]
+  );
+
+  return result.rows;
+}
+
 export function solve_07_postgres_pool_parameterized_queries() {
-  throw new Error('Not implemented');
+  return {
+    pool,
+    parameterizedQuery,
+  };
 }

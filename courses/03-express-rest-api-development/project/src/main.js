@@ -1,5 +1,5 @@
-import { solve_08_mongoose_schema_model_validation } from './challenges/08-mongoose-schema-model-validation/index.js';
+import { solve_07_postgres_pool_parameterized_queries } from './challenges/07-postgres-pool-parameterized-queries/index.js';
 
-const result = await solve_08_mongoose_schema_model_validation();
+const result = await solve_07_postgres_pool_parameterized_queries();
 
 console.log(result);

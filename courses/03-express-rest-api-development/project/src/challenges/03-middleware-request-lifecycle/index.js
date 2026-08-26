@@ -1,4 +1,21 @@
-// TODO: Implement 03-middleware-request-lifecycle - Middleware Request Lifecycle
+import express from 'express';
+
 export function solve_03_middleware_request_lifecycle() {
-  throw new Error('Not implemented');
+  const app = express();
+
+  const requestMiddleware = (req, res, next) => {
+    req.requestStarted = true;
+    next();
+  };
+
+  app.use(requestMiddleware);
+
+  app.get('/hello', (req, res) => {
+    res.json({
+      message: 'Hello',
+      middlewareExecuted: req.requestStarted === true
+    });
+  });
+
+  return app;
 }

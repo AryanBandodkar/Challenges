@@ -44,23 +44,23 @@ This project uses challenge stubs only. Learners implement each challenge in `sr
 ## Challenge Progress
 
 <!-- COURSE_PROGRESS_START -->
-- Average Score: **0%**
-- Completion: **0%** (0/21)
-- Badge Level: **none**
+- Average Score: **84.82%**
+- Completion: **52.38%** (11/21)
+- Badge Level: **bronze**
 
 | Challenge | Module | Status | Score |
 |---|---|---|---:|
-| Express App Bootstrap | Express.js Fundamentals | Not passed | 0% |
-| Routing Params Query Handlers | Express.js Fundamentals | Not passed | 0% |
-| Middleware Request Lifecycle | Express.js Fundamentals | Not passed | 0% |
-| REST Resource Design | REST API Design & Implementation | Not passed | 0% |
-| HTTP Method Status Formatting | REST API Design & Implementation | Not passed | 0% |
-| Versioning CORS Content Negotiation | REST API Design & Implementation | Not passed | 0% |
-| Postgres Pool Parameterized Queries | Database Integration | Not passed | 0% |
-| Mongoose Schema Model Validation | Database Integration | Not passed | 0% |
-| SQL vs NoSQL Design Review | Database Integration | Not passed | 0% |
-| Transaction ACID N Plus One Fix | Database Integration | Not passed | 0% |
-| JWT Refresh Token Auth | Authentication & Security | Not passed | 0% |
+| Express App Bootstrap | Express.js Fundamentals | Passed | 85% |
+| Routing Params Query Handlers | Express.js Fundamentals | Passed | 85% |
+| Middleware Request Lifecycle | Express.js Fundamentals | Passed | 85% |
+| REST Resource Design | REST API Design & Implementation | Passed | 85% |
+| HTTP Method Status Formatting | REST API Design & Implementation | Passed | 85% |
+| Versioning CORS Content Negotiation | REST API Design & Implementation | Passed | 85% |
+| Postgres Pool Parameterized Queries | Database Integration | Passed | 85% |
+| Mongoose Schema Model Validation | Database Integration | Passed | 85% |
+| SQL vs NoSQL Design Review | Database Integration | Passed | 85% |
+| Transaction ACID N Plus One Fix | Database Integration | Passed | 85% |
+| JWT Refresh Token Auth | Authentication & Security | Passed | 83% |
 | Bcrypt Session Cookie Security | Authentication & Security | Not passed | 0% |
 | OAuth Validation Sanitization | Authentication & Security | Not passed | 0% |
 | Rate Limiting DDoS Protection | Authentication & Security | Not passed | 0% |

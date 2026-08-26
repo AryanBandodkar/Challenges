@@ -1,4 +1,7 @@
-// TODO: Implement 01-express-app-bootstrap - Express App Bootstrap
+import express from 'express';
+
 export function solve_01_express_app_bootstrap() {
-  throw new Error('Not implemented');
+  const app = express();
+  app.use(express.json());
+  return app;
 }
