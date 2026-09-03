@@ -1,4 +1,13 @@
-// TODO: Implement 19-https-tls-api-hardening - HTTPS TLS API Hardening
+import https from 'node:https';
+
 export function solve_19_https_tls_api_hardening() {
-  throw new Error('Not implemented');
+  const tlsOptions = {
+    minVersion: 'TLSv1.2',
+    maxVersion: 'TLSv1.3',
+  };
+
+  return {
+    server: https.createServer,
+    tlsOptions,
+  };
 }

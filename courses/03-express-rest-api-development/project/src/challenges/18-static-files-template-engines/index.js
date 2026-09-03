@@ -1,4 +1,19 @@
-// TODO: Implement 18-static-files-template-engines - Static Files and Template Engines
+import express from 'express';
+
+const app = express();
+
+app.use(express.static('public'));
+
+app.set('view engine', 'ejs');
+
+app.get('/', (req, res) => {
+  res.render('index', { name: 'Aryan' });
+});
+
 export function solve_18_static_files_template_engines() {
-  throw new Error('Not implemented');
+  return {
+    app,
+    static: true,
+    viewEngine: 'ejs',
+  };
 }

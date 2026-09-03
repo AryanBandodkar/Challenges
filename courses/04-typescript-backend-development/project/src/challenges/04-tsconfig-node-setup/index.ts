@@ -1,4 +1,12 @@
-// TODO: Implement 04-tsconfig-node-setup - TSConfig Node Setup
 export function solve_04_tsconfig_node_setup(): string {
-  throw new Error('Not implemented');
+  const config: string = `{
+    "compilerOptions": {
+      "target": "ES2022",
+      "module": "NodeNext",
+      "moduleResolution": "NodeNext",
+      "strict": true
+    }
+  }`;
+
+  return config;
 }

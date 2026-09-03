@@ -713,5 +713,659 @@
       }
     },
     "reviewedAt": "2026-08-26T12:31:35.967Z"
+  },
+  {
+    "challengeId": "12-bcrypt-session-cookie-security",
+    "challengeName": "Bcrypt Session Cookie Security",
+    "moduleId": "m4-authentication-security",
+    "moduleName": "Authentication & Security",
+    "score": 83,
+    "passed": true,
+    "layers": {
+      "functionalTests": {
+        "score": 100,
+        "totalChecks": 2,
+        "passedChecks": 2,
+        "failedFiles": [],
+        "testFile": "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-12-bcrypt-session-cookie-security.test.js",
+        "testPassed": true,
+        "testError": null,
+        "note": "Functional checks include scoped file validation and challenge unit tests."
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 100,
+        "required": [
+          "bcryptUsage"
+        ],
+        "found": [
+          "bcryptUsage"
+        ],
+        "missing": []
+      },
+      "bestPractices": {
+        "score": 80,
+        "issueCount": 1,
+        "issues": [
+          "src/challenges/12-bcrypt-session-cookie-security/index.js: Hardcoded password detected."
+        ]
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "evidence",
+        "hasUnit": true,
+        "hasE2E": true,
+        "unitCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-12-bcrypt-session-cookie-security.test.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-12-bcrypt-session-cookie-security.test.ts"
+        ],
+        "e2eCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-12-bcrypt-session-cookie-security.spec.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-12-bcrypt-session-cookie-security.spec.ts"
+        ]
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "error",
+        "strengths": [],
+        "improvements": [
+          "AI review request failed (404).",
+          "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+        ]
+      }
+    },
+    "reviewedAt": "2026-08-27T07:14:30.350Z"
+  },
+  {
+    "challengeId": "13-oauth-validation-sanitization",
+    "challengeName": "OAuth Validation Sanitization",
+    "moduleId": "m4-authentication-security",
+    "moduleName": "Authentication & Security",
+    "score": 85,
+    "passed": true,
+    "layers": {
+      "functionalTests": {
+        "score": 100,
+        "totalChecks": 2,
+        "passedChecks": 2,
+        "failedFiles": [],
+        "testFile": "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-13-oauth-validation-sanitization.test.js",
+        "testPassed": true,
+        "testError": null,
+        "note": "Functional checks include scoped file validation and challenge unit tests."
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 100,
+        "required": [
+          "inputValidation"
+        ],
+        "found": [
+          "inputValidation"
+        ],
+        "missing": []
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "evidence",
+        "hasUnit": true,
+        "hasE2E": true,
+        "unitCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-13-oauth-validation-sanitization.test.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-13-oauth-validation-sanitization.test.ts"
+        ],
+        "e2eCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-13-oauth-validation-sanitization.spec.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-13-oauth-validation-sanitization.spec.ts"
+        ]
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "error",
+        "strengths": [],
+        "improvements": [
+          "AI review request failed (404).",
+          "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+        ]
+      }
+    },
+    "reviewedAt": "2026-08-27T07:39:49.120Z"
+  },
+  {
+    "challengeId": "14-rate-limiting-ddos-protection",
+    "challengeName": "Rate Limiting DDoS Protection",
+    "moduleId": "m4-authentication-security",
+    "moduleName": "Authentication & Security",
+    "score": 85,
+    "passed": true,
+    "layers": {
+      "functionalTests": {
+        "score": 100,
+        "totalChecks": 2,
+        "passedChecks": 2,
+        "failedFiles": [],
+        "testFile": "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-14-rate-limiting-ddos-protection.test.js",
+        "testPassed": true,
+        "testError": null,
+        "note": "Functional checks include scoped file validation and challenge unit tests."
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 100,
+        "required": [
+          "rateLimitMiddleware"
+        ],
+        "found": [
+          "rateLimitMiddleware"
+        ],
+        "missing": []
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "evidence",
+        "hasUnit": true,
+        "hasE2E": true,
+        "unitCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-14-rate-limiting-ddos-protection.test.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-14-rate-limiting-ddos-protection.test.ts"
+        ],
+        "e2eCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-14-rate-limiting-ddos-protection.spec.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-14-rate-limiting-ddos-protection.spec.ts"
+        ]
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "error",
+        "strengths": [],
+        "improvements": [
+          "AI review request failed (404).",
+          "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+        ]
+      }
+    },
+    "reviewedAt": "2026-08-27T07:57:26.834Z"
+  },
+  {
+    "challengeId": "15-openapi-contract-documentation",
+    "challengeName": "OpenAPI Contract Documentation",
+    "moduleId": "m5-api-documentation-testing",
+    "moduleName": "API Documentation & Testing",
+    "score": 85,
+    "passed": true,
+    "layers": {
+      "functionalTests": {
+        "score": 100,
+        "totalChecks": 2,
+        "passedChecks": 2,
+        "failedFiles": [],
+        "testFile": "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-15-openapi-contract-documentation.test.js",
+        "testPassed": true,
+        "testError": null,
+        "note": "Functional checks include scoped file validation and challenge unit tests."
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 100,
+        "required": [
+          "openApiDoc"
+        ],
+        "found": [
+          "openApiDoc"
+        ],
+        "missing": []
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "evidence",
+        "hasUnit": true,
+        "hasE2E": true,
+        "unitCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-15-openapi-contract-documentation.test.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-15-openapi-contract-documentation.test.ts"
+        ],
+        "e2eCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-15-openapi-contract-documentation.spec.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-15-openapi-contract-documentation.spec.ts"
+        ]
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "error",
+        "strengths": [],
+        "improvements": [
+          "AI review request failed (404).",
+          "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+        ]
+      }
+    },
+    "reviewedAt": "2026-08-27T08:24:04.463Z"
+  },
+  {
+    "challengeId": "16-jest-unit-integration-tests",
+    "challengeName": "Jest Unit Integration Tests",
+    "moduleId": "m5-api-documentation-testing",
+    "moduleName": "API Documentation & Testing",
+    "score": 85,
+    "passed": true,
+    "layers": {
+      "functionalTests": {
+        "score": 100,
+        "totalChecks": 2,
+        "passedChecks": 2,
+        "failedFiles": [],
+        "testFile": "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-16-jest-unit-integration-tests.test.js",
+        "testPassed": true,
+        "testError": null,
+        "note": "Functional checks include scoped file validation and challenge unit tests."
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 100,
+        "required": [
+          "jestDescribeIt"
+        ],
+        "found": [
+          "jestDescribeIt"
+        ],
+        "missing": []
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "evidence",
+        "hasUnit": true,
+        "hasE2E": true,
+        "unitCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-16-jest-unit-integration-tests.test.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-16-jest-unit-integration-tests.test.ts"
+        ],
+        "e2eCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-16-jest-unit-integration-tests.spec.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-16-jest-unit-integration-tests.spec.ts"
+        ]
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "error",
+        "strengths": [],
+        "improvements": [
+          "AI review request failed (404).",
+          "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+        ]
+      }
+    },
+    "reviewedAt": "2026-08-27T08:45:10.909Z"
+  },
+  {
+    "challengeId": "17-coverage-mocking-versioned-api-tests",
+    "challengeName": "Coverage Mocking Versioned API Tests",
+    "moduleId": "m5-api-documentation-testing",
+    "moduleName": "API Documentation & Testing",
+    "score": 85,
+    "passed": true,
+    "layers": {
+      "functionalTests": {
+        "score": 100,
+        "totalChecks": 2,
+        "passedChecks": 2,
+        "failedFiles": [],
+        "testFile": "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-17-coverage-mocking-versioned-api-tests.test.js",
+        "testPassed": true,
+        "testError": null,
+        "note": "Functional checks include scoped file validation and challenge unit tests."
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 100,
+        "required": [
+          "supertestRequest"
+        ],
+        "found": [
+          "supertestRequest"
+        ],
+        "missing": []
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "evidence",
+        "hasUnit": true,
+        "hasE2E": true,
+        "unitCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-17-coverage-mocking-versioned-api-tests.test.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-17-coverage-mocking-versioned-api-tests.test.ts"
+        ],
+        "e2eCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-17-coverage-mocking-versioned-api-tests.spec.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-17-coverage-mocking-versioned-api-tests.spec.ts"
+        ]
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "error",
+        "strengths": [],
+        "improvements": [
+          "AI review request failed (404).",
+          "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+        ]
+      }
+    },
+    "reviewedAt": "2026-08-27T09:05:18.492Z"
+  },
+  {
+    "challengeId": "18-static-files-template-engines",
+    "challengeName": "Static Files and Template Engines",
+    "moduleId": "m1-express-fundamentals",
+    "moduleName": "Express.js Fundamentals",
+    "score": 85,
+    "passed": true,
+    "layers": {
+      "functionalTests": {
+        "score": 100,
+        "totalChecks": 2,
+        "passedChecks": 2,
+        "failedFiles": [],
+        "testFile": "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-18-static-files-template-engines.test.js",
+        "testPassed": true,
+        "testError": null,
+        "note": "Functional checks include scoped file validation and challenge unit tests."
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 100,
+        "required": [
+          "expressStaticServing",
+          "templateEngineSetup"
+        ],
+        "found": [
+          "expressStaticServing",
+          "templateEngineSetup"
+        ],
+        "missing": []
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "evidence",
+        "hasUnit": true,
+        "hasE2E": true,
+        "unitCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-18-static-files-template-engines.test.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-18-static-files-template-engines.test.ts"
+        ],
+        "e2eCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-18-static-files-template-engines.spec.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-18-static-files-template-engines.spec.ts"
+        ]
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "error",
+        "strengths": [],
+        "improvements": [
+          "AI review request failed (404).",
+          "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+        ]
+      }
+    },
+    "reviewedAt": "2026-08-27T09:29:09.869Z"
+  },
+  {
+    "challengeId": "19-https-tls-api-hardening",
+    "challengeName": "HTTPS TLS API Hardening",
+    "moduleId": "m4-authentication-security",
+    "moduleName": "Authentication & Security",
+    "score": 85,
+    "passed": true,
+    "layers": {
+      "functionalTests": {
+        "score": 100,
+        "totalChecks": 2,
+        "passedChecks": 2,
+        "failedFiles": [],
+        "testFile": "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-19-https-tls-api-hardening.test.js",
+        "testPassed": true,
+        "testError": null,
+        "note": "Functional checks include scoped file validation and challenge unit tests."
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 100,
+        "required": [
+          "httpsServer"
+        ],
+        "found": [
+          "httpsServer"
+        ],
+        "missing": []
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "evidence",
+        "hasUnit": true,
+        "hasE2E": true,
+        "unitCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-19-https-tls-api-hardening.test.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-19-https-tls-api-hardening.test.ts"
+        ],
+        "e2eCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-19-https-tls-api-hardening.spec.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-19-https-tls-api-hardening.spec.ts"
+        ]
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "error",
+        "strengths": [],
+        "improvements": [
+          "AI review request failed (404).",
+          "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+        ]
+      }
+    },
+    "reviewedAt": "2026-08-27T10:22:18.201Z"
+  },
+  {
+    "challengeId": "20-health-readiness-endpoints",
+    "challengeName": "Health and Readiness Endpoints",
+    "moduleId": "m1-express-fundamentals",
+    "moduleName": "Express.js Fundamentals",
+    "score": 85,
+    "passed": true,
+    "layers": {
+      "functionalTests": {
+        "score": 100,
+        "totalChecks": 2,
+        "passedChecks": 2,
+        "failedFiles": [],
+        "testFile": "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-20-health-readiness-endpoints.test.js",
+        "testPassed": true,
+        "testError": null,
+        "note": "Functional checks include scoped file validation and challenge unit tests."
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 100,
+        "required": [
+          "healthEndpoint"
+        ],
+        "found": [
+          "healthEndpoint"
+        ],
+        "missing": []
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "evidence",
+        "hasUnit": true,
+        "hasE2E": true,
+        "unitCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-20-health-readiness-endpoints.test.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-20-health-readiness-endpoints.test.ts"
+        ],
+        "e2eCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-20-health-readiness-endpoints.spec.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-20-health-readiness-endpoints.spec.ts"
+        ]
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "error",
+        "strengths": [],
+        "improvements": [
+          "AI review request failed (404).",
+          "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+        ]
+      }
+    },
+    "reviewedAt": "2026-08-27T11:37:32.127Z"
+  },
+  {
+    "challengeId": "21-pagination-sorting-filter-contract",
+    "challengeName": "Pagination Sorting Filter Contract",
+    "moduleId": "m2-rest-api-design-implementation",
+    "moduleName": "REST API Design & Implementation",
+    "score": 85,
+    "passed": true,
+    "layers": {
+      "functionalTests": {
+        "score": 100,
+        "totalChecks": 2,
+        "passedChecks": 2,
+        "failedFiles": [],
+        "testFile": "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-21-pagination-sorting-filter-contract.test.js",
+        "testPassed": true,
+        "testError": null,
+        "note": "Functional checks include scoped file validation and challenge unit tests."
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 100,
+        "required": [
+          "paginationQueryHandling"
+        ],
+        "found": [
+          "paginationQueryHandling"
+        ],
+        "missing": []
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "evidence",
+        "hasUnit": true,
+        "hasE2E": true,
+        "unitCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-21-pagination-sorting-filter-contract.test.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\challenge-21-pagination-sorting-filter-contract.test.ts"
+        ],
+        "e2eCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-21-pagination-sorting-filter-contract.spec.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\03-express-rest-api-development\\project\\tests\\e2e\\challenge-21-pagination-sorting-filter-contract.spec.ts"
+        ]
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "error",
+        "strengths": [],
+        "improvements": [
+          "AI review request failed (404).",
+          "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+        ]
+      }
+    },
+    "reviewedAt": "2026-08-27T12:07:59.574Z"
   }
 ]

@@ -1,3 +1,19 @@
-// TODO: Implement supporting file for 07-express-ts-migration-workflow - Express TS Migration Workflow
-// File: package.json
-export {};
+{
+    "name": "express-ts-migration-workflow",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "nodemon --exec ts-node-esm src/main.ts",
+        "start": "ts-node src/challenges/07-express-ts-migration-workflow/index.ts"
+    },
+    "devDependencies": {
+        "@types/express": "^5.0.6",
+        "nodemon": "^3.1.14",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.9.3"
+    },
+    "dependencies": {
+        "express": "^5.2.1",
+        "zod": "^4.5.4"
+    }
+}

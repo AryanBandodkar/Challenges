@@ -1,1 +1,534 @@
-[]
+[
+  {
+    "challengeId": "01-typed-primitives-functions",
+    "challengeName": "Typed Primitives and Functions",
+    "moduleId": "m1-typescript-essentials",
+    "moduleName": "TypeScript Essentials",
+    "score": 85,
+    "passed": true,
+    "layers": {
+      "functionalTests": {
+        "score": 100,
+        "totalChecks": 2,
+        "passedChecks": 2,
+        "failedFiles": [],
+        "testFile": "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\04-typescript-backend-development\\project\\tests\\challenge-01-typed-primitives-functions.test.js",
+        "testPassed": true,
+        "testError": null,
+        "note": "Functional checks include scoped file validation and challenge unit tests."
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 100,
+        "required": [
+          "typeAnnotation"
+        ],
+        "found": [
+          "typeAnnotation"
+        ],
+        "missing": []
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "evidence",
+        "hasUnit": true,
+        "hasE2E": true,
+        "unitCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\04-typescript-backend-development\\project\\tests\\challenge-01-typed-primitives-functions.test.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\04-typescript-backend-development\\project\\tests\\challenge-01-typed-primitives-functions.test.ts"
+        ],
+        "e2eCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\04-typescript-backend-development\\project\\tests\\e2e\\challenge-01-typed-primitives-functions.spec.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\04-typescript-backend-development\\project\\tests\\e2e\\challenge-01-typed-primitives-functions.spec.ts"
+        ]
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "error",
+        "strengths": [],
+        "improvements": [
+          "AI review request failed (404).",
+          "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+        ]
+      }
+    },
+    "reviewedAt": "2026-09-03T10:06:44.969Z"
+  },
+  {
+    "challengeId": "02-interfaces-types-unions",
+    "challengeName": "Interfaces Types Unions",
+    "moduleId": "m1-typescript-essentials",
+    "moduleName": "TypeScript Essentials",
+    "score": 0,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 50,
+        "totalChecks": 2,
+        "passedChecks": 1,
+        "failedFiles": [],
+        "testFile": "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\04-typescript-backend-development\\project\\tests\\challenge-02-interfaces-types-unions.test.js",
+        "testPassed": false,
+        "testError": "✔ no placeholder code remains in scoped source (0.8467ms)\n✔ defines interfaces, type aliases, enums, and tuple types (0.5819ms)\n✔ exports solve_02_interfaces_types_unions from scoped source (0.1706ms)\n✖ returns interfaces, types, unions, and tuples demonstration output (29.1102ms)\nℹ tests 4\nℹ suites 0\nℹ pass 3\nℹ fail 1\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 116.0769\n\n✖ failing tests:\n\ntest at tests\\challenge-02-interfaces-types-unions.test.js:45:1\n✖ returns interfaces, types, unions, a",
+        "note": "Functional checks include scoped file validation and challenge unit tests."
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 100,
+        "required": [
+          "interfaceDeclaration",
+          "typeAlias",
+          "enumDeclaration",
+          "tupleType"
+        ],
+        "found": [
+          "interfaceDeclaration",
+          "typeAlias",
+          "enumDeclaration",
+          "tupleType"
+        ],
+        "missing": []
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "evidence",
+        "hasUnit": true,
+        "hasE2E": true,
+        "unitCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\04-typescript-backend-development\\project\\tests\\challenge-02-interfaces-types-unions.test.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\04-typescript-backend-development\\project\\tests\\challenge-02-interfaces-types-unions.test.ts"
+        ],
+        "e2eCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\04-typescript-backend-development\\project\\tests\\e2e\\challenge-02-interfaces-types-unions.spec.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\04-typescript-backend-development\\project\\tests\\e2e\\challenge-02-interfaces-types-unions.spec.ts"
+        ]
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "error",
+        "strengths": [],
+        "improvements": [
+          "AI review request failed (404).",
+          "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+        ]
+      }
+    },
+    "reviewedAt": "2026-09-03T11:15:21.672Z"
+  },
+  {
+    "challengeId": "03-generics-guards-utility-types",
+    "challengeName": "Generics Guards Utility Types",
+    "moduleId": "m1-typescript-essentials",
+    "moduleName": "TypeScript Essentials",
+    "score": 85,
+    "passed": true,
+    "layers": {
+      "functionalTests": {
+        "score": 100,
+        "totalChecks": 2,
+        "passedChecks": 2,
+        "failedFiles": [],
+        "testFile": "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\04-typescript-backend-development\\project\\tests\\challenge-03-generics-guards-utility-types.test.js",
+        "testPassed": true,
+        "testError": null,
+        "note": "Functional checks include scoped file validation and challenge unit tests."
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 100,
+        "required": [
+          "genericType",
+          "typeGuard"
+        ],
+        "found": [
+          "genericType",
+          "typeGuard"
+        ],
+        "missing": []
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "evidence",
+        "hasUnit": true,
+        "hasE2E": true,
+        "unitCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\04-typescript-backend-development\\project\\tests\\challenge-03-generics-guards-utility-types.test.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\04-typescript-backend-development\\project\\tests\\challenge-03-generics-guards-utility-types.test.ts"
+        ],
+        "e2eCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\04-typescript-backend-development\\project\\tests\\e2e\\challenge-03-generics-guards-utility-types.spec.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\04-typescript-backend-development\\project\\tests\\e2e\\challenge-03-generics-guards-utility-types.spec.ts"
+        ]
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "error",
+        "strengths": [],
+        "improvements": [
+          "AI review request failed (404).",
+          "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+        ]
+      }
+    },
+    "reviewedAt": "2026-09-03T10:10:21.079Z"
+  },
+  {
+    "challengeId": "04-tsconfig-node-setup",
+    "challengeName": "TSConfig Node Setup",
+    "moduleId": "m2-typescript-node-express",
+    "moduleName": "TypeScript with Node.js & Express",
+    "score": 85,
+    "passed": true,
+    "layers": {
+      "functionalTests": {
+        "score": 100,
+        "totalChecks": 2,
+        "passedChecks": 2,
+        "failedFiles": [],
+        "testFile": "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\04-typescript-backend-development\\project\\tests\\challenge-04-tsconfig-node-setup.test.js",
+        "testPassed": true,
+        "testError": null,
+        "note": "Functional checks include scoped file validation and challenge unit tests."
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 100,
+        "required": [
+          "tsConfigPresent"
+        ],
+        "found": [
+          "tsConfigPresent"
+        ],
+        "missing": []
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "evidence",
+        "hasUnit": true,
+        "hasE2E": true,
+        "unitCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\04-typescript-backend-development\\project\\tests\\challenge-04-tsconfig-node-setup.test.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\04-typescript-backend-development\\project\\tests\\challenge-04-tsconfig-node-setup.test.ts"
+        ],
+        "e2eCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\04-typescript-backend-development\\project\\tests\\e2e\\challenge-04-tsconfig-node-setup.spec.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\04-typescript-backend-development\\project\\tests\\e2e\\challenge-04-tsconfig-node-setup.spec.ts"
+        ]
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "error",
+        "strengths": [],
+        "improvements": [
+          "AI review request failed (404).",
+          "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+        ]
+      }
+    },
+    "reviewedAt": "2026-09-03T10:13:58.561Z"
+  },
+  {
+    "challengeId": "05-typed-express-request-response",
+    "challengeName": "Typed Express Request Response",
+    "moduleId": "m2-typescript-node-express",
+    "moduleName": "TypeScript with Node.js & Express",
+    "score": 85,
+    "passed": true,
+    "layers": {
+      "functionalTests": {
+        "score": 100,
+        "totalChecks": 2,
+        "passedChecks": 2,
+        "failedFiles": [],
+        "testFile": "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\04-typescript-backend-development\\project\\tests\\challenge-05-typed-express-request-response.test.js",
+        "testPassed": true,
+        "testError": null,
+        "note": "Functional checks include scoped file validation and challenge unit tests."
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 100,
+        "required": [
+          "expressTypeImport",
+          "typeAnnotation"
+        ],
+        "found": [
+          "expressTypeImport",
+          "typeAnnotation"
+        ],
+        "missing": []
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "evidence",
+        "hasUnit": true,
+        "hasE2E": true,
+        "unitCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\04-typescript-backend-development\\project\\tests\\challenge-05-typed-express-request-response.test.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\04-typescript-backend-development\\project\\tests\\challenge-05-typed-express-request-response.test.ts"
+        ],
+        "e2eCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\04-typescript-backend-development\\project\\tests\\e2e\\challenge-05-typed-express-request-response.spec.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\04-typescript-backend-development\\project\\tests\\e2e\\challenge-05-typed-express-request-response.spec.ts"
+        ]
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "error",
+        "strengths": [],
+        "improvements": [
+          "AI review request failed (404).",
+          "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+        ]
+      }
+    },
+    "reviewedAt": "2026-09-03T10:14:42.851Z"
+  },
+  {
+    "challengeId": "06-path-mapping-custom-types",
+    "challengeName": "Path Mapping Custom Types",
+    "moduleId": "m2-typescript-node-express",
+    "moduleName": "TypeScript with Node.js & Express",
+    "score": 85,
+    "passed": true,
+    "layers": {
+      "functionalTests": {
+        "score": 100,
+        "totalChecks": 2,
+        "passedChecks": 2,
+        "failedFiles": [],
+        "testFile": "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\04-typescript-backend-development\\project\\tests\\challenge-06-path-mapping-custom-types.test.js",
+        "testPassed": true,
+        "testError": null,
+        "note": "Functional checks include scoped file validation and challenge unit tests."
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 100,
+        "required": [
+          "pathAliasImport"
+        ],
+        "found": [
+          "pathAliasImport"
+        ],
+        "missing": []
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "evidence",
+        "hasUnit": true,
+        "hasE2E": true,
+        "unitCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\04-typescript-backend-development\\project\\tests\\challenge-06-path-mapping-custom-types.test.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\04-typescript-backend-development\\project\\tests\\challenge-06-path-mapping-custom-types.test.ts"
+        ],
+        "e2eCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\04-typescript-backend-development\\project\\tests\\e2e\\challenge-06-path-mapping-custom-types.spec.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\04-typescript-backend-development\\project\\tests\\e2e\\challenge-06-path-mapping-custom-types.spec.ts"
+        ]
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "error",
+        "strengths": [],
+        "improvements": [
+          "AI review request failed (404).",
+          "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+        ]
+      }
+    },
+    "reviewedAt": "2026-09-03T11:03:10.361Z"
+  },
+  {
+    "challengeId": "07-express-ts-migration-workflow",
+    "challengeName": "Express TS Migration Workflow",
+    "moduleId": "m2-typescript-node-express",
+    "moduleName": "TypeScript with Node.js & Express",
+    "score": 85,
+    "passed": true,
+    "layers": {
+      "functionalTests": {
+        "score": 100,
+        "totalChecks": 3,
+        "passedChecks": 3,
+        "failedFiles": [],
+        "testFile": "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\04-typescript-backend-development\\project\\tests\\challenge-07-express-ts-migration-workflow.test.js",
+        "testPassed": true,
+        "testError": null,
+        "note": "Functional checks include scoped file validation and challenge unit tests."
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 100,
+        "required": [
+          "tsNodeScript",
+          "nodemonScript"
+        ],
+        "found": [
+          "tsNodeScript",
+          "nodemonScript"
+        ],
+        "missing": []
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "evidence",
+        "hasUnit": true,
+        "hasE2E": true,
+        "unitCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\04-typescript-backend-development\\project\\tests\\challenge-07-express-ts-migration-workflow.test.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\04-typescript-backend-development\\project\\tests\\challenge-07-express-ts-migration-workflow.test.ts"
+        ],
+        "e2eCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\04-typescript-backend-development\\project\\tests\\e2e\\challenge-07-express-ts-migration-workflow.spec.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\04-typescript-backend-development\\project\\tests\\e2e\\challenge-07-express-ts-migration-workflow.spec.ts"
+        ]
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "error",
+        "strengths": [],
+        "improvements": [
+          "AI review request failed (404).",
+          "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+        ]
+      }
+    },
+    "reviewedAt": "2026-09-03T10:06:36.242Z"
+  },
+  {
+    "challengeId": "08-environment-schema-validation",
+    "challengeName": "Environment Schema Validation",
+    "moduleId": "m2-typescript-node-express",
+    "moduleName": "TypeScript with Node.js & Express",
+    "score": 85,
+    "passed": true,
+    "layers": {
+      "functionalTests": {
+        "score": 100,
+        "totalChecks": 2,
+        "passedChecks": 2,
+        "failedFiles": [],
+        "testFile": "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\04-typescript-backend-development\\project\\tests\\challenge-08-environment-schema-validation.test.js",
+        "testPassed": true,
+        "testError": null,
+        "note": "Functional checks include scoped file validation and challenge unit tests."
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 100,
+        "required": [
+          "envSchemaValidation"
+        ],
+        "found": [
+          "envSchemaValidation"
+        ],
+        "missing": []
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 100,
+        "mode": "evidence",
+        "hasUnit": true,
+        "hasE2E": true,
+        "unitCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\04-typescript-backend-development\\project\\tests\\challenge-08-environment-schema-validation.test.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\04-typescript-backend-development\\project\\tests\\challenge-08-environment-schema-validation.test.ts"
+        ],
+        "e2eCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\04-typescript-backend-development\\project\\tests\\e2e\\challenge-08-environment-schema-validation.spec.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\04-typescript-backend-development\\project\\tests\\e2e\\challenge-08-environment-schema-validation.spec.ts"
+        ]
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "error",
+        "strengths": [],
+        "improvements": [
+          "AI review request failed (404).",
+          "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+        ]
+      }
+    },
+    "reviewedAt": "2026-09-03T11:07:43.380Z"
+  }
+]

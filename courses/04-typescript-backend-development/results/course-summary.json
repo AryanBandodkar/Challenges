@@ -1,11 +1,96 @@
 {
   "courseId": "04-typescript-backend-development",
   "courseName": "TypeScript for Backend Development",
-  "averageScore": 0,
-  "completionPercentage": 0,
+  "averageScore": 74.38,
+  "completionPercentage": 87.5,
   "totalChallenges": 8,
-  "completedChallenges": 0,
-  "badgeLevel": "none",
-  "challengeResults": [],
-  "generatedAt": "2026-08-06T12:50:02.234Z"
+  "completedChallenges": 7,
+  "reviewedChallengesCount": 8,
+  "badgeLevel": "bronze",
+  "challengeResults": [
+    {
+      "challengeId": "01-typed-primitives-functions",
+      "challengeName": "Typed Primitives and Functions",
+      "score": 85,
+      "passed": true,
+      "reviewedAt": "2026-09-03T10:06:44.969Z"
+    },
+    {
+      "challengeId": "02-interfaces-types-unions",
+      "challengeName": "Interfaces Types Unions",
+      "score": 0,
+      "passed": false,
+      "reviewedAt": "2026-09-03T11:15:21.672Z"
+    },
+    {
+      "challengeId": "03-generics-guards-utility-types",
+      "challengeName": "Generics Guards Utility Types",
+      "score": 85,
+      "passed": true,
+      "reviewedAt": "2026-09-03T10:10:21.079Z"
+    },
+    {
+      "challengeId": "04-tsconfig-node-setup",
+      "challengeName": "TSConfig Node Setup",
+      "score": 85,
+      "passed": true,
+      "reviewedAt": "2026-09-03T10:13:58.561Z"
+    },
+    {
+      "challengeId": "05-typed-express-request-response",
+      "challengeName": "Typed Express Request Response",
+      "score": 85,
+      "passed": true,
+      "reviewedAt": "2026-09-03T10:14:42.851Z"
+    },
+    {
+      "challengeId": "06-path-mapping-custom-types",
+      "challengeName": "Path Mapping Custom Types",
+      "score": 85,
+      "passed": true,
+      "reviewedAt": "2026-09-03T11:03:10.361Z"
+    },
+    {
+      "challengeId": "07-express-ts-migration-workflow",
+      "challengeName": "Express TS Migration Workflow",
+      "score": 85,
+      "passed": true,
+      "reviewedAt": "2026-09-03T10:06:36.242Z"
+    },
+    {
+      "challengeId": "08-environment-schema-validation",
+      "challengeName": "Environment Schema Validation",
+      "score": 85,
+      "passed": true,
+      "reviewedAt": "2026-09-03T11:07:43.380Z"
+    }
+  ],
+  "skillStrengths": [
+    "type annotations",
+    "typed functions",
+    "generics",
+    "type guards",
+    "utility types",
+    "tsconfig",
+    "Node TypeScript setup",
+    "Request typing",
+    "Response typing",
+    "middleware typing",
+    "custom type definitions",
+    "module resolution"
+  ],
+  "improvementAreas": [
+    "interfaces",
+    "types",
+    "unions",
+    "intersections",
+    "enums",
+    "tuples"
+  ],
+  "aiStrengths": [],
+  "aiImprovements": [
+    "AI review request failed (404).",
+    "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+  ],
+  "generatedAt": "2026-09-03T11:15:21.674Z"
 }

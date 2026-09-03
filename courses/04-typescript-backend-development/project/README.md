@@ -22,18 +22,18 @@ This project uses challenge stubs only. Learners implement each challenge in `sr
 ## Challenge Progress
 
 <!-- COURSE_PROGRESS_START -->
-- Average Score: **0%**
-- Completion: **0%** (0/8)
-- Badge Level: **none**
+- Average Score: **74.38%**
+- Completion: **87.5%** (7/8)
+- Badge Level: **bronze**
 
 | Challenge | Module | Status | Score |
 |---|---|---|---:|
-| Typed Primitives and Functions | TypeScript Essentials | Not passed | 0% |
+| Typed Primitives and Functions | TypeScript Essentials | Passed | 85% |
 | Interfaces Types Unions | TypeScript Essentials | Not passed | 0% |
-| Generics Guards Utility Types | TypeScript Essentials | Not passed | 0% |
-| TSConfig Node Setup | TypeScript with Node.js & Express | Not passed | 0% |
-| Typed Express Request Response | TypeScript with Node.js & Express | Not passed | 0% |
-| Path Mapping Custom Types | TypeScript with Node.js & Express | Not passed | 0% |
-| Express TS Migration Workflow | TypeScript with Node.js & Express | Not passed | 0% |
-| Environment Schema Validation | TypeScript with Node.js & Express | Not passed | 0% |
+| Generics Guards Utility Types | TypeScript Essentials | Passed | 85% |
+| TSConfig Node Setup | TypeScript with Node.js & Express | Passed | 85% |
+| Typed Express Request Response | TypeScript with Node.js & Express | Passed | 85% |
+| Path Mapping Custom Types | TypeScript with Node.js & Express | Passed | 85% |
+| Express TS Migration Workflow | TypeScript with Node.js & Express | Passed | 85% |
+| Environment Schema Validation | TypeScript with Node.js & Express | Passed | 85% |
 <!-- COURSE_PROGRESS_END -->

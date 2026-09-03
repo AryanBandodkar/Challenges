@@ -1,1 +1,98 @@
-[]
+[
+  {
+    "challengeId": "01-typed-primitives-functions",
+    "challengeName": "Typed Primitives and Functions",
+    "score": 0,
+    "mode": "error",
+    "strengths": [],
+    "improvements": [
+      "AI review request failed (404).",
+      "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+    ],
+    "reviewedAt": "2026-09-03T10:06:44.969Z"
+  },
+  {
+    "challengeId": "02-interfaces-types-unions",
+    "challengeName": "Interfaces Types Unions",
+    "score": 0,
+    "mode": "error",
+    "strengths": [],
+    "improvements": [
+      "AI review request failed (404).",
+      "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+    ],
+    "reviewedAt": "2026-09-03T11:15:21.672Z"
+  },
+  {
+    "challengeId": "03-generics-guards-utility-types",
+    "challengeName": "Generics Guards Utility Types",
+    "score": 0,
+    "mode": "error",
+    "strengths": [],
+    "improvements": [
+      "AI review request failed (404).",
+      "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+    ],
+    "reviewedAt": "2026-09-03T10:10:21.079Z"
+  },
+  {
+    "challengeId": "04-tsconfig-node-setup",
+    "challengeName": "TSConfig Node Setup",
+    "score": 0,
+    "mode": "error",
+    "strengths": [],
+    "improvements": [
+      "AI review request failed (404).",
+      "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+    ],
+    "reviewedAt": "2026-09-03T10:13:58.561Z"
+  },
+  {
+    "challengeId": "05-typed-express-request-response",
+    "challengeName": "Typed Express Request Response",
+    "score": 0,
+    "mode": "error",
+    "strengths": [],
+    "improvements": [
+      "AI review request failed (404).",
+      "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+    ],
+    "reviewedAt": "2026-09-03T10:14:42.851Z"
+  },
+  {
+    "challengeId": "06-path-mapping-custom-types",
+    "challengeName": "Path Mapping Custom Types",
+    "score": 0,
+    "mode": "error",
+    "strengths": [],
+    "improvements": [
+      "AI review request failed (404).",
+      "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+    ],
+    "reviewedAt": "2026-09-03T11:03:10.361Z"
+  },
+  {
+    "challengeId": "07-express-ts-migration-workflow",
+    "challengeName": "Express TS Migration Workflow",
+    "score": 0,
+    "mode": "error",
+    "strengths": [],
+    "improvements": [
+      "AI review request failed (404).",
+      "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+    ],
+    "reviewedAt": "2026-09-03T10:06:36.242Z"
+  },
+  {
+    "challengeId": "08-environment-schema-validation",
+    "challengeName": "Environment Schema Validation",
+    "score": 0,
+    "mode": "error",
+    "strengths": [],
+    "improvements": [
+      "AI review request failed (404).",
+      "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+    ],
+    "reviewedAt": "2026-09-03T11:07:43.380Z"
+  }
+]

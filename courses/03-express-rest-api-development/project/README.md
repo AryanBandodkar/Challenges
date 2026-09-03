@@ -44,9 +44,9 @@ This project uses challenge stubs only. Learners implement each challenge in `sr
 ## Challenge Progress
 
 <!-- COURSE_PROGRESS_START -->
-- Average Score: **84.82%**
-- Completion: **52.38%** (11/21)
-- Badge Level: **bronze**
+- Average Score: **84.81%**
+- Completion: **100%** (21/21)
+- Badge Level: **silver**
 
 | Challenge | Module | Status | Score |
 |---|---|---|---:|
@@ -61,14 +61,14 @@ This project uses challenge stubs only. Learners implement each challenge in `sr
 | SQL vs NoSQL Design Review | Database Integration | Passed | 85% |
 | Transaction ACID N Plus One Fix | Database Integration | Passed | 85% |
 | JWT Refresh Token Auth | Authentication & Security | Passed | 83% |
-| Bcrypt Session Cookie Security | Authentication & Security | Not passed | 0% |
-| OAuth Validation Sanitization | Authentication & Security | Not passed | 0% |
-| Rate Limiting DDoS Protection | Authentication & Security | Not passed | 0% |
-| OpenAPI Contract Documentation | API Documentation & Testing | Not passed | 0% |
-| Jest Unit Integration Tests | API Documentation & Testing | Not passed | 0% |
-| Coverage Mocking Versioned API Tests | API Documentation & Testing | Not passed | 0% |
-| Static Files and Template Engines | Express.js Fundamentals | Not passed | 0% |
-| HTTPS TLS API Hardening | Authentication & Security | Not passed | 0% |
-| Health and Readiness Endpoints | Express.js Fundamentals | Not passed | 0% |
-| Pagination Sorting Filter Contract | REST API Design & Implementation | Not passed | 0% |
+| Bcrypt Session Cookie Security | Authentication & Security | Passed | 83% |
+| OAuth Validation Sanitization | Authentication & Security | Passed | 85% |
+| Rate Limiting DDoS Protection | Authentication & Security | Passed | 85% |
+| OpenAPI Contract Documentation | API Documentation & Testing | Passed | 85% |
+| Jest Unit Integration Tests | API Documentation & Testing | Passed | 85% |
+| Coverage Mocking Versioned API Tests | API Documentation & Testing | Passed | 85% |
+| Static Files and Template Engines | Express.js Fundamentals | Passed | 85% |
+| HTTPS TLS API Hardening | Authentication & Security | Passed | 85% |
+| Health and Readiness Endpoints | Express.js Fundamentals | Passed | 85% |
+| Pagination Sorting Filter Contract | REST API Design & Implementation | Passed | 85% |
 <!-- COURSE_PROGRESS_END -->
