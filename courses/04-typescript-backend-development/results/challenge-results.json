@@ -69,17 +69,17 @@
     "challengeName": "Interfaces Types Unions",
     "moduleId": "m1-typescript-essentials",
     "moduleName": "TypeScript Essentials",
-    "score": 0,
-    "passed": false,
+    "score": 85,
+    "passed": true,
     "layers": {
       "functionalTests": {
-        "score": 50,
+        "score": 100,
         "totalChecks": 2,
-        "passedChecks": 1,
+        "passedChecks": 2,
         "failedFiles": [],
         "testFile": "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\04-typescript-backend-development\\project\\tests\\challenge-02-interfaces-types-unions.test.js",
-        "testPassed": false,
-        "testError": "✔ no placeholder code remains in scoped source (0.8467ms)\n✔ defines interfaces, type aliases, enums, and tuple types (0.5819ms)\n✔ exports solve_02_interfaces_types_unions from scoped source (0.1706ms)\n✖ returns interfaces, types, unions, and tuples demonstration output (29.1102ms)\nℹ tests 4\nℹ suites 0\nℹ pass 3\nℹ fail 1\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 116.0769\n\n✖ failing tests:\n\ntest at tests\\challenge-02-interfaces-types-unions.test.js:45:1\n✖ returns interfaces, types, unions, a",
+        "testPassed": true,
+        "testError": null,
         "note": "Functional checks include scoped file validation and challenge unit tests."
       },
       "codeQuality": {
@@ -133,7 +133,7 @@
         ]
       }
     },
-    "reviewedAt": "2026-09-03T11:15:21.672Z"
+    "reviewedAt": "2026-09-11T10:07:22.802Z"
   },
   {
     "challengeId": "03-generics-guards-utility-types",

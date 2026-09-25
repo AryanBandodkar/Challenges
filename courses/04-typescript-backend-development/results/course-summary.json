@@ -1,12 +1,12 @@
 {
   "courseId": "04-typescript-backend-development",
   "courseName": "TypeScript for Backend Development",
-  "averageScore": 74.38,
-  "completionPercentage": 87.5,
+  "averageScore": 85,
+  "completionPercentage": 100,
   "totalChallenges": 8,
-  "completedChallenges": 7,
+  "completedChallenges": 8,
   "reviewedChallengesCount": 8,
-  "badgeLevel": "bronze",
+  "badgeLevel": "silver",
   "challengeResults": [
     {
       "challengeId": "01-typed-primitives-functions",
@@ -18,9 +18,9 @@
     {
       "challengeId": "02-interfaces-types-unions",
       "challengeName": "Interfaces Types Unions",
-      "score": 0,
-      "passed": false,
-      "reviewedAt": "2026-09-03T11:15:21.672Z"
+      "score": 85,
+      "passed": true,
+      "reviewedAt": "2026-09-11T10:07:22.802Z"
     },
     {
       "challengeId": "03-generics-guards-utility-types",
@@ -68,29 +68,22 @@
   "skillStrengths": [
     "type annotations",
     "typed functions",
-    "generics",
-    "type guards",
-    "utility types",
-    "tsconfig",
-    "Node TypeScript setup",
-    "Request typing",
-    "Response typing",
-    "middleware typing",
-    "custom type definitions",
-    "module resolution"
-  ],
-  "improvementAreas": [
     "interfaces",
     "types",
     "unions",
     "intersections",
     "enums",
-    "tuples"
+    "tuples",
+    "generics",
+    "type guards",
+    "utility types",
+    "tsconfig"
   ],
+  "improvementAreas": [],
   "aiStrengths": [],
   "aiImprovements": [
     "AI review request failed (404).",
     "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
   ],
-  "generatedAt": "2026-09-03T11:15:21.674Z"
+  "generatedAt": "2026-09-11T10:07:22.803Z"
 }

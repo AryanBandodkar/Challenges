@@ -1,1 +1,206 @@
-[]
+[
+  {
+    "challengeId": "01-nest-modules-controllers-services",
+    "challengeName": "Nest Modules Controllers Services",
+    "score": 0,
+    "mode": "error",
+    "strengths": [],
+    "improvements": [
+      "AI review request failed (404).",
+      "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+    ],
+    "reviewedAt": "2026-09-11T10:15:48.892Z"
+  },
+  {
+    "challengeId": "02-dependency-injection-providers",
+    "challengeName": "Dependency Injection Providers",
+    "score": 0,
+    "mode": "error",
+    "strengths": [],
+    "improvements": [
+      "AI review request failed (404).",
+      "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+    ],
+    "reviewedAt": "2026-09-11T10:21:11.781Z"
+  },
+  {
+    "challengeId": "03-middleware-guards-interceptors-pipes",
+    "challengeName": "Middleware Guards Interceptors Pipes",
+    "score": 0,
+    "mode": "error",
+    "strengths": [],
+    "improvements": [
+      "AI review request failed (404).",
+      "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+    ],
+    "reviewedAt": "2026-09-11T12:18:32.145Z"
+  },
+  {
+    "challengeId": "04-exception-filter-error-handling",
+    "challengeName": "Exception Filter Error Handling",
+    "score": 0,
+    "mode": "error",
+    "strengths": [],
+    "improvements": [
+      "AI review request failed (404).",
+      "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+    ],
+    "reviewedAt": "2026-09-11T12:31:41.546Z"
+  },
+  {
+    "challengeId": "05-custom-decorators-metadata-reflection",
+    "challengeName": "Custom Decorators Metadata Reflection",
+    "score": 0,
+    "mode": "error",
+    "strengths": [],
+    "improvements": [
+      "AI review request failed (404).",
+      "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+    ],
+    "reviewedAt": "2026-09-11T12:37:37.429Z"
+  },
+  {
+    "challengeId": "06-typeorm-prisma-repository-pattern",
+    "challengeName": "TypeORM Prisma Repository Pattern",
+    "score": 0,
+    "mode": "error",
+    "strengths": [],
+    "improvements": [
+      "AI review request failed (404).",
+      "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+    ],
+    "reviewedAt": "2026-09-11T13:32:25.730Z"
+  },
+  {
+    "challengeId": "07-validation-config-logging",
+    "challengeName": "Validation Config Logging",
+    "score": 0,
+    "mode": "error",
+    "strengths": [],
+    "improvements": [
+      "AI review request failed (404).",
+      "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+    ],
+    "reviewedAt": "2026-09-11T14:24:49.546Z"
+  },
+  {
+    "challengeId": "08-passport-local-jwt-strategies",
+    "challengeName": "Passport Local JWT Strategies",
+    "score": 0,
+    "mode": "error",
+    "strengths": [],
+    "improvements": [
+      "AI review request failed (404).",
+      "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+    ],
+    "reviewedAt": "2026-09-11T15:16:45.839Z"
+  },
+  {
+    "challengeId": "09-rbac-guards-route-protection",
+    "challengeName": "RBAC Guards Route Protection",
+    "score": 0,
+    "mode": "error",
+    "strengths": [],
+    "improvements": [
+      "AI review request failed (404).",
+      "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+    ],
+    "reviewedAt": "2026-09-15T06:33:21.402Z"
+  },
+  {
+    "challengeId": "10-refresh-token-api-key-auth",
+    "challengeName": "Refresh Token API Key Auth",
+    "score": 0,
+    "mode": "error",
+    "strengths": [],
+    "improvements": [
+      "AI review request failed (404).",
+      "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+    ],
+    "reviewedAt": "2026-09-15T06:45:58.862Z"
+  },
+  {
+    "challengeId": "11-microservices-architecture-patterns",
+    "challengeName": "Microservices Architecture Patterns",
+    "score": 0,
+    "mode": "error",
+    "strengths": [],
+    "improvements": [
+      "AI review request failed (404).",
+      "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+    ],
+    "reviewedAt": "2026-09-15T06:56:32.372Z"
+  },
+  {
+    "challengeId": "12-rabbitmq-redis-event-driven-flow",
+    "challengeName": "RabbitMQ Redis Event Driven Flow",
+    "score": 0,
+    "mode": "error",
+    "strengths": [],
+    "improvements": [
+      "AI review request failed (404).",
+      "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+    ],
+    "reviewedAt": "2026-09-15T07:08:05.965Z"
+  },
+  {
+    "challengeId": "13-grpc-rest-interservice-bridge",
+    "challengeName": "gRPC REST Interservice Bridge",
+    "score": 0,
+    "mode": "error",
+    "strengths": [],
+    "improvements": [
+      "AI review request failed (404).",
+      "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+    ],
+    "reviewedAt": "2026-09-15T07:19:04.549Z"
+  },
+  {
+    "challengeId": "14-unit-e2e-mocking-strategy",
+    "challengeName": "Unit E2E Mocking Strategy",
+    "score": 0,
+    "mode": "error",
+    "strengths": [],
+    "improvements": [
+      "AI review request failed (404).",
+      "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+    ],
+    "reviewedAt": "2026-09-15T07:33:48.503Z"
+  },
+  {
+    "challengeId": "15-coverage-reporting-tdd-cycle",
+    "challengeName": "Coverage Reporting TDD Cycle",
+    "score": 0,
+    "mode": "error",
+    "strengths": [],
+    "improvements": [
+      "AI review request failed (404).",
+      "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+    ],
+    "reviewedAt": "2026-09-15T08:22:45.738Z"
+  },
+  {
+    "challengeId": "16-service-discovery-basics",
+    "challengeName": "Service Discovery Basics",
+    "score": 0,
+    "mode": "error",
+    "strengths": [],
+    "improvements": [
+      "AI review request failed (404).",
+      "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+    ],
+    "reviewedAt": "2026-09-15T08:42:47.330Z"
+  },
+  {
+    "challengeId": "17-request-id-logging-interceptor",
+    "challengeName": "Request ID Logging Interceptor",
+    "score": 0,
+    "mode": "error",
+    "strengths": [],
+    "improvements": [
+      "AI review request failed (404).",
+      "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+    ],
+    "reviewedAt": "2026-09-15T10:52:36.811Z"
+  }
+]

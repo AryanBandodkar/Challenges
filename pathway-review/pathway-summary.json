@@ -1,11 +1,11 @@
 {
   "pathwayName": "Node.js Backend Engineer",
   "pathwayVersion": "1.0.0",
-  "overallScore": 60.94,
-  "completionPercentage": 73.91,
-  "badgeLevel": "bronze",
+  "overallScore": 85.89,
+  "completionPercentage": 75.36,
+  "badgeLevel": "silver",
   "totalChallenges": 69,
-  "completedChallenges": 51,
+  "completedChallenges": 52,
   "courses": [
     {
       "id": "01-javascript-fundamentals-async",
@@ -41,22 +41,22 @@
       "id": "04-typescript-backend-development",
       "name": "TypeScript for Backend Development",
       "weight": 0.1,
-      "averageScore": 74.38,
-      "completionPercentage": 87.5,
+      "averageScore": 85,
+      "completionPercentage": 100,
       "totalChallenges": 8,
-      "completedChallenges": 7,
-      "badgeLevel": "bronze"
+      "completedChallenges": 8,
+      "badgeLevel": "silver"
     },
     {
       "id": "05-nestjs-enterprise-framework",
       "name": "NestJS Enterprise Framework",
       "weight": 0.3,
-      "averageScore": 0,
+      "averageScore": 79.63,
       "completionPercentage": 0,
       "totalChallenges": 17,
       "completedChallenges": 0,
       "badgeLevel": "none"
     }
   ],
-  "generatedAt": "2026-09-03T11:15:21.681Z"
+  "generatedAt": "2026-09-15T10:52:36.821Z"
 }

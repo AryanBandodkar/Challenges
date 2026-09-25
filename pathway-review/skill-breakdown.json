@@ -4,12 +4,11 @@
   "totals": {
     "trackedSkills": 187,
     "skillAppearances": 195,
-    "reviewedSkillAppearances": 152,
-    "passedSkillAppearances": 146
+    "reviewedSkillAppearances": 195,
+    "passedSkillAppearances": 152
   },
   "topStrengths": [
     "dotenv",
-    "middleware",
     "status codes",
     "ACID",
     "API version test documentation",
@@ -19,29 +18,30 @@
     "arrow functions",
     "async/await",
     "bcrypt",
-    "buffers"
+    "buffers",
+    "callbacks"
   ],
   "improvementAreas": [
-    "enums",
-    "interfaces",
-    "intersections",
-    "tuples",
-    "types",
-    "unions",
-    "dotenv",
-    "middleware",
-    "status codes",
-    "ACID",
-    "API version test documentation",
-    "API versioning"
+    "guards",
+    "interceptors",
+    "@nestjs/config",
+    "API key auth",
+    "authorization",
+    "class-validator",
+    "controllers",
+    "coverage reporting",
+    "custom decorators",
+    "dependency injection",
+    "e2e tests",
+    "error flow"
   ],
   "skills": [
     {
       "skill": "middleware",
       "appearances": 3,
-      "reviewedChallenges": 2,
+      "reviewedChallenges": 3,
       "passedChallenges": 2,
-      "passRate": 100,
+      "passRate": 66.67,
       "courseIds": [
         "03-express-rest-api-development",
         "05-nestjs-enterprise-framework"
@@ -69,7 +69,7 @@
     {
       "skill": "guards",
       "appearances": 2,
-      "reviewedChallenges": 0,
+      "reviewedChallenges": 2,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -83,7 +83,7 @@
     {
       "skill": "interceptors",
       "appearances": 2,
-      "reviewedChallenges": 0,
+      "reviewedChallenges": 2,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -97,9 +97,9 @@
     {
       "skill": "mocking",
       "appearances": 2,
-      "reviewedChallenges": 1,
+      "reviewedChallenges": 2,
       "passedChallenges": 1,
-      "passRate": 100,
+      "passRate": 50,
       "courseIds": [
         "03-express-rest-api-development",
         "05-nestjs-enterprise-framework"
@@ -127,9 +127,9 @@
     {
       "skill": "unit tests",
       "appearances": 2,
-      "reviewedChallenges": 1,
+      "reviewedChallenges": 2,
       "passedChallenges": 1,
-      "passRate": 100,
+      "passRate": 50,
       "courseIds": [
         "03-express-rest-api-development",
         "05-nestjs-enterprise-framework"
@@ -142,7 +142,7 @@
     {
       "skill": "@nestjs/config",
       "appearances": 1,
-      "reviewedChallenges": 0,
+      "reviewedChallenges": 1,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -168,7 +168,7 @@
     {
       "skill": "API key auth",
       "appearances": 1,
-      "reviewedChallenges": 0,
+      "reviewedChallenges": 1,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -259,7 +259,7 @@
     {
       "skill": "authorization",
       "appearances": 1,
-      "reviewedChallenges": 0,
+      "reviewedChallenges": 1,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -337,7 +337,7 @@
     {
       "skill": "class-validator",
       "appearances": 1,
-      "reviewedChallenges": 0,
+      "reviewedChallenges": 1,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -402,7 +402,7 @@
     {
       "skill": "controllers",
       "appearances": 1,
-      "reviewedChallenges": 0,
+      "reviewedChallenges": 1,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -454,7 +454,7 @@
     {
       "skill": "coverage reporting",
       "appearances": 1,
-      "reviewedChallenges": 0,
+      "reviewedChallenges": 1,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -480,7 +480,7 @@
     {
       "skill": "custom decorators",
       "appearances": 1,
-      "reviewedChallenges": 0,
+      "reviewedChallenges": 1,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -545,7 +545,7 @@
     {
       "skill": "dependency injection",
       "appearances": 1,
-      "reviewedChallenges": 0,
+      "reviewedChallenges": 1,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -597,7 +597,7 @@
     {
       "skill": "e2e tests",
       "appearances": 1,
-      "reviewedChallenges": 0,
+      "reviewedChallenges": 1,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -611,8 +611,8 @@
       "skill": "enums",
       "appearances": 1,
       "reviewedChallenges": 1,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "04-typescript-backend-development"
       ],
@@ -649,7 +649,7 @@
     {
       "skill": "error flow",
       "appearances": 1,
-      "reviewedChallenges": 0,
+      "reviewedChallenges": 1,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -714,7 +714,7 @@
     {
       "skill": "event-driven architecture",
       "appearances": 1,
-      "reviewedChallenges": 0,
+      "reviewedChallenges": 1,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -727,7 +727,7 @@
     {
       "skill": "exception filters",
       "appearances": 1,
-      "reviewedChallenges": 0,
+      "reviewedChallenges": 1,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -896,7 +896,7 @@
     {
       "skill": "gRPC",
       "appearances": 1,
-      "reviewedChallenges": 0,
+      "reviewedChallenges": 1,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -1027,8 +1027,8 @@
       "skill": "interfaces",
       "appearances": 1,
       "reviewedChallenges": 1,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "04-typescript-backend-development"
       ],
@@ -1040,8 +1040,8 @@
       "skill": "intersections",
       "appearances": 1,
       "reviewedChallenges": 1,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "04-typescript-backend-development"
       ],
@@ -1091,7 +1091,7 @@
     {
       "skill": "JWT strategy",
       "appearances": 1,
-      "reviewedChallenges": 0,
+      "reviewedChallenges": 1,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -1130,7 +1130,7 @@
     {
       "skill": "local strategy",
       "appearances": 1,
-      "reviewedChallenges": 0,
+      "reviewedChallenges": 1,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -1156,7 +1156,7 @@
     {
       "skill": "logging",
       "appearances": 1,
-      "reviewedChallenges": 0,
+      "reviewedChallenges": 1,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -1195,7 +1195,7 @@
     {
       "skill": "message queues",
       "appearances": 1,
-      "reviewedChallenges": 0,
+      "reviewedChallenges": 1,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -1208,7 +1208,7 @@
     {
       "skill": "metadata reflection",
       "appearances": 1,
-      "reviewedChallenges": 0,
+      "reviewedChallenges": 1,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -1221,7 +1221,7 @@
     {
       "skill": "microservices architecture",
       "appearances": 1,
-      "reviewedChallenges": 0,
+      "reviewedChallenges": 1,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -1273,7 +1273,7 @@
     {
       "skill": "modules",
       "appearances": 1,
-      "reviewedChallenges": 0,
+      "reviewedChallenges": 1,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -1520,7 +1520,7 @@
     {
       "skill": "Passport",
       "appearances": 1,
-      "reviewedChallenges": 0,
+      "reviewedChallenges": 1,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -1572,7 +1572,7 @@
     {
       "skill": "pipes",
       "appearances": 1,
-      "reviewedChallenges": 0,
+      "reviewedChallenges": 1,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -1637,7 +1637,7 @@
     {
       "skill": "providers",
       "appearances": 1,
-      "reviewedChallenges": 0,
+      "reviewedChallenges": 1,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -1702,7 +1702,7 @@
     {
       "skill": "RBAC",
       "appearances": 1,
-      "reviewedChallenges": 0,
+      "reviewedChallenges": 1,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -1741,7 +1741,7 @@
     {
       "skill": "refresh token rotation",
       "appearances": 1,
-      "reviewedChallenges": 0,
+      "reviewedChallenges": 1,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -1767,7 +1767,7 @@
     {
       "skill": "repository pattern",
       "appearances": 1,
-      "reviewedChallenges": 0,
+      "reviewedChallenges": 1,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -1780,7 +1780,7 @@
     {
       "skill": "request correlation id",
       "appearances": 1,
-      "reviewedChallenges": 0,
+      "reviewedChallenges": 1,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -1897,7 +1897,7 @@
     {
       "skill": "REST bridge",
       "appearances": 1,
-      "reviewedChallenges": 0,
+      "reviewedChallenges": 1,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -1988,7 +1988,7 @@
     {
       "skill": "service boundaries",
       "appearances": 1,
-      "reviewedChallenges": 0,
+      "reviewedChallenges": 1,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -2001,7 +2001,7 @@
     {
       "skill": "service communication",
       "appearances": 1,
-      "reviewedChallenges": 0,
+      "reviewedChallenges": 1,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -2014,7 +2014,7 @@
     {
       "skill": "service discovery basics",
       "appearances": 1,
-      "reviewedChallenges": 0,
+      "reviewedChallenges": 1,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -2027,7 +2027,7 @@
     {
       "skill": "service registry patterns",
       "appearances": 1,
-      "reviewedChallenges": 0,
+      "reviewedChallenges": 1,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -2040,7 +2040,7 @@
     {
       "skill": "services",
       "appearances": 1,
-      "reviewedChallenges": 0,
+      "reviewedChallenges": 1,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -2196,7 +2196,7 @@
     {
       "skill": "structured logging context",
       "appearances": 1,
-      "reviewedChallenges": 0,
+      "reviewedChallenges": 1,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -2222,7 +2222,7 @@
     {
       "skill": "TDD workflow",
       "appearances": 1,
-      "reviewedChallenges": 0,
+      "reviewedChallenges": 1,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -2327,8 +2327,8 @@
       "skill": "tuples",
       "appearances": 1,
       "reviewedChallenges": 1,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "04-typescript-backend-development"
       ],
@@ -2378,7 +2378,7 @@
     {
       "skill": "TypeORM/Prisma",
       "appearances": 1,
-      "reviewedChallenges": 0,
+      "reviewedChallenges": 1,
       "passedChallenges": 0,
       "passRate": 0,
       "courseIds": [
@@ -2392,8 +2392,8 @@
       "skill": "types",
       "appearances": 1,
       "reviewedChallenges": 1,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "04-typescript-backend-development"
       ],
@@ -2405,8 +2405,8 @@
       "skill": "unions",
       "appearances": 1,
       "reviewedChallenges": 1,
-      "passedChallenges": 0,
-      "passRate": 0,
+      "passedChallenges": 1,
+      "passRate": 100,
       "courseIds": [
         "04-typescript-backend-development"
       ],
@@ -2480,5 +2480,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-09-03T11:15:21.688Z"
+  "generatedAt": "2026-09-15T10:52:36.830Z"
 }

@@ -1,1 +1,1119 @@
-[]
+[
+  {
+    "challengeId": "01-nest-modules-controllers-services",
+    "challengeName": "Nest Modules Controllers Services",
+    "moduleId": "m1-nestjs-architecture-core-concepts",
+    "moduleName": "NestJS Architecture & Core Concepts",
+    "score": 79.75,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 100,
+        "totalChecks": 2,
+        "passedChecks": 2,
+        "failedFiles": [],
+        "testFile": "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-01-nest-modules-controllers-services.test.js",
+        "testPassed": true,
+        "testError": null,
+        "note": "Functional checks include scoped file validation and challenge unit tests."
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 100,
+        "required": [
+          "nestjsModule",
+          "nestjsController",
+          "nestjsInjectable"
+        ],
+        "found": [
+          "nestjsModule",
+          "nestjsController",
+          "nestjsInjectable"
+        ],
+        "missing": []
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 65,
+        "mode": "evidence",
+        "hasUnit": true,
+        "hasE2E": false,
+        "unitCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-01-nest-modules-controllers-services.test.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-01-nest-modules-controllers-services.test.ts"
+        ],
+        "e2eCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-01-nest-modules-controllers-services.spec.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-01-nest-modules-controllers-services.spec.ts"
+        ]
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "error",
+        "strengths": [],
+        "improvements": [
+          "AI review request failed (404).",
+          "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+        ]
+      }
+    },
+    "reviewedAt": "2026-09-11T10:15:48.892Z"
+  },
+  {
+    "challengeId": "02-dependency-injection-providers",
+    "challengeName": "Dependency Injection Providers",
+    "moduleId": "m1-nestjs-architecture-core-concepts",
+    "moduleName": "NestJS Architecture & Core Concepts",
+    "score": 79.75,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 100,
+        "totalChecks": 2,
+        "passedChecks": 2,
+        "failedFiles": [],
+        "testFile": "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-02-dependency-injection-providers.test.js",
+        "testPassed": true,
+        "testError": null,
+        "note": "Functional checks include scoped file validation and challenge unit tests."
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 100,
+        "required": [
+          "nestjsInjectable"
+        ],
+        "found": [
+          "nestjsInjectable"
+        ],
+        "missing": []
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 65,
+        "mode": "evidence",
+        "hasUnit": true,
+        "hasE2E": false,
+        "unitCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-02-dependency-injection-providers.test.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-02-dependency-injection-providers.test.ts"
+        ],
+        "e2eCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-02-dependency-injection-providers.spec.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-02-dependency-injection-providers.spec.ts"
+        ]
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "error",
+        "strengths": [],
+        "improvements": [
+          "AI review request failed (404).",
+          "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+        ]
+      }
+    },
+    "reviewedAt": "2026-09-11T10:21:11.781Z"
+  },
+  {
+    "challengeId": "03-middleware-guards-interceptors-pipes",
+    "challengeName": "Middleware Guards Interceptors Pipes",
+    "moduleId": "m1-nestjs-architecture-core-concepts",
+    "moduleName": "NestJS Architecture & Core Concepts",
+    "score": 79.75,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 100,
+        "totalChecks": 2,
+        "passedChecks": 2,
+        "failedFiles": [],
+        "testFile": "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-03-middleware-guards-interceptors-pipes.test.js",
+        "testPassed": true,
+        "testError": null,
+        "note": "Functional checks include scoped file validation and challenge unit tests."
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 100,
+        "required": [
+          "nestjsGuard",
+          "nestjsPipe"
+        ],
+        "found": [
+          "nestjsGuard",
+          "nestjsPipe"
+        ],
+        "missing": []
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 65,
+        "mode": "evidence",
+        "hasUnit": true,
+        "hasE2E": false,
+        "unitCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-03-middleware-guards-interceptors-pipes.test.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-03-middleware-guards-interceptors-pipes.test.ts"
+        ],
+        "e2eCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-03-middleware-guards-interceptors-pipes.spec.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-03-middleware-guards-interceptors-pipes.spec.ts"
+        ]
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "error",
+        "strengths": [],
+        "improvements": [
+          "AI review request failed (404).",
+          "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+        ]
+      }
+    },
+    "reviewedAt": "2026-09-11T12:18:32.145Z"
+  },
+  {
+    "challengeId": "04-exception-filter-error-handling",
+    "challengeName": "Exception Filter Error Handling",
+    "moduleId": "m1-nestjs-architecture-core-concepts",
+    "moduleName": "NestJS Architecture & Core Concepts",
+    "score": 79.75,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 100,
+        "totalChecks": 2,
+        "passedChecks": 2,
+        "failedFiles": [],
+        "testFile": "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-04-exception-filter-error-handling.test.js",
+        "testPassed": true,
+        "testError": null,
+        "note": "Functional checks include scoped file validation and challenge unit tests."
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 100,
+        "required": [
+          "nestjsExceptionFilter"
+        ],
+        "found": [
+          "nestjsExceptionFilter"
+        ],
+        "missing": []
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 65,
+        "mode": "evidence",
+        "hasUnit": true,
+        "hasE2E": false,
+        "unitCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-04-exception-filter-error-handling.test.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-04-exception-filter-error-handling.test.ts"
+        ],
+        "e2eCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-04-exception-filter-error-handling.spec.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-04-exception-filter-error-handling.spec.ts"
+        ]
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "error",
+        "strengths": [],
+        "improvements": [
+          "AI review request failed (404).",
+          "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+        ]
+      }
+    },
+    "reviewedAt": "2026-09-11T12:31:41.546Z"
+  },
+  {
+    "challengeId": "05-custom-decorators-metadata-reflection",
+    "challengeName": "Custom Decorators Metadata Reflection",
+    "moduleId": "m2-advanced-nestjs-features",
+    "moduleName": "Advanced NestJS Features",
+    "score": 79.75,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 100,
+        "totalChecks": 2,
+        "passedChecks": 2,
+        "failedFiles": [],
+        "testFile": "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-05-custom-decorators-metadata-reflection.test.js",
+        "testPassed": true,
+        "testError": null,
+        "note": "Functional checks include scoped file validation and challenge unit tests."
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 100,
+        "required": [
+          "nestjsDecorator"
+        ],
+        "found": [
+          "nestjsDecorator"
+        ],
+        "missing": []
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 65,
+        "mode": "evidence",
+        "hasUnit": true,
+        "hasE2E": false,
+        "unitCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-05-custom-decorators-metadata-reflection.test.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-05-custom-decorators-metadata-reflection.test.ts"
+        ],
+        "e2eCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-05-custom-decorators-metadata-reflection.spec.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-05-custom-decorators-metadata-reflection.spec.ts"
+        ]
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "error",
+        "strengths": [],
+        "improvements": [
+          "AI review request failed (404).",
+          "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+        ]
+      }
+    },
+    "reviewedAt": "2026-09-11T12:37:37.429Z"
+  },
+  {
+    "challengeId": "06-typeorm-prisma-repository-pattern",
+    "challengeName": "TypeORM Prisma Repository Pattern",
+    "moduleId": "m2-advanced-nestjs-features",
+    "moduleName": "Advanced NestJS Features",
+    "score": 79.75,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 100,
+        "totalChecks": 2,
+        "passedChecks": 2,
+        "failedFiles": [],
+        "testFile": "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-06-typeorm-prisma-repository-pattern.test.js",
+        "testPassed": true,
+        "testError": null,
+        "note": "Functional checks include scoped file validation and challenge unit tests."
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 100,
+        "required": [
+          "repositoryPattern"
+        ],
+        "found": [
+          "repositoryPattern"
+        ],
+        "missing": []
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 65,
+        "mode": "evidence",
+        "hasUnit": true,
+        "hasE2E": false,
+        "unitCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-06-typeorm-prisma-repository-pattern.test.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-06-typeorm-prisma-repository-pattern.test.ts"
+        ],
+        "e2eCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-06-typeorm-prisma-repository-pattern.spec.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-06-typeorm-prisma-repository-pattern.spec.ts"
+        ]
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "error",
+        "strengths": [],
+        "improvements": [
+          "AI review request failed (404).",
+          "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+        ]
+      }
+    },
+    "reviewedAt": "2026-09-11T13:32:25.730Z"
+  },
+  {
+    "challengeId": "07-validation-config-logging",
+    "challengeName": "Validation Config Logging",
+    "moduleId": "m2-advanced-nestjs-features",
+    "moduleName": "Advanced NestJS Features",
+    "score": 79.75,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 100,
+        "totalChecks": 2,
+        "passedChecks": 2,
+        "failedFiles": [],
+        "testFile": "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-07-validation-config-logging.test.js",
+        "testPassed": true,
+        "testError": null,
+        "note": "Functional checks include scoped file validation and challenge unit tests."
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 100,
+        "required": [
+          "classValidatorUsage"
+        ],
+        "found": [
+          "classValidatorUsage"
+        ],
+        "missing": []
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 65,
+        "mode": "evidence",
+        "hasUnit": true,
+        "hasE2E": false,
+        "unitCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-07-validation-config-logging.test.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-07-validation-config-logging.test.ts"
+        ],
+        "e2eCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-07-validation-config-logging.spec.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-07-validation-config-logging.spec.ts"
+        ]
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "error",
+        "strengths": [],
+        "improvements": [
+          "AI review request failed (404).",
+          "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+        ]
+      }
+    },
+    "reviewedAt": "2026-09-11T14:24:49.546Z"
+  },
+  {
+    "challengeId": "08-passport-local-jwt-strategies",
+    "challengeName": "Passport Local JWT Strategies",
+    "moduleId": "m3-authentication-authorization",
+    "moduleName": "Authentication & Authorization",
+    "score": 79.75,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 100,
+        "totalChecks": 2,
+        "passedChecks": 2,
+        "failedFiles": [],
+        "testFile": "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-08-passport-local-jwt-strategies.test.js",
+        "testPassed": true,
+        "testError": null,
+        "note": "Functional checks include scoped file validation and challenge unit tests."
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 100,
+        "required": [
+          "passportStrategy"
+        ],
+        "found": [
+          "passportStrategy"
+        ],
+        "missing": []
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 65,
+        "mode": "evidence",
+        "hasUnit": true,
+        "hasE2E": false,
+        "unitCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-08-passport-local-jwt-strategies.test.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-08-passport-local-jwt-strategies.test.ts"
+        ],
+        "e2eCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-08-passport-local-jwt-strategies.spec.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-08-passport-local-jwt-strategies.spec.ts"
+        ]
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "error",
+        "strengths": [],
+        "improvements": [
+          "AI review request failed (404).",
+          "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+        ]
+      }
+    },
+    "reviewedAt": "2026-09-11T15:16:45.839Z"
+  },
+  {
+    "challengeId": "09-rbac-guards-route-protection",
+    "challengeName": "RBAC Guards Route Protection",
+    "moduleId": "m3-authentication-authorization",
+    "moduleName": "Authentication & Authorization",
+    "score": 79.75,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 100,
+        "totalChecks": 2,
+        "passedChecks": 2,
+        "failedFiles": [],
+        "testFile": "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-09-rbac-guards-route-protection.test.js",
+        "testPassed": true,
+        "testError": null,
+        "note": "Functional checks include scoped file validation and challenge unit tests."
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 100,
+        "required": [
+          "nestjsGuard",
+          "rolesDecorator"
+        ],
+        "found": [
+          "nestjsGuard",
+          "rolesDecorator"
+        ],
+        "missing": []
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 65,
+        "mode": "evidence",
+        "hasUnit": true,
+        "hasE2E": false,
+        "unitCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-09-rbac-guards-route-protection.test.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-09-rbac-guards-route-protection.test.ts"
+        ],
+        "e2eCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-09-rbac-guards-route-protection.spec.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-09-rbac-guards-route-protection.spec.ts"
+        ]
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "error",
+        "strengths": [],
+        "improvements": [
+          "AI review request failed (404).",
+          "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+        ]
+      }
+    },
+    "reviewedAt": "2026-09-15T06:33:21.402Z"
+  },
+  {
+    "challengeId": "10-refresh-token-api-key-auth",
+    "challengeName": "Refresh Token API Key Auth",
+    "moduleId": "m3-authentication-authorization",
+    "moduleName": "Authentication & Authorization",
+    "score": 77.75,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 100,
+        "totalChecks": 2,
+        "passedChecks": 2,
+        "failedFiles": [],
+        "testFile": "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-10-refresh-token-api-key-auth.test.js",
+        "testPassed": true,
+        "testError": null,
+        "note": "Functional checks include scoped file validation and challenge unit tests."
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 100,
+        "required": [
+          "jwtSignVerify"
+        ],
+        "found": [
+          "jwtSignVerify"
+        ],
+        "missing": []
+      },
+      "bestPractices": {
+        "score": 80,
+        "issueCount": 1,
+        "issues": [
+          "src/challenges/10-refresh-token-api-key-auth/index.ts: Hardcoded secret detected."
+        ]
+      },
+      "e2eTests": {
+        "score": 65,
+        "mode": "evidence",
+        "hasUnit": true,
+        "hasE2E": false,
+        "unitCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-10-refresh-token-api-key-auth.test.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-10-refresh-token-api-key-auth.test.ts"
+        ],
+        "e2eCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-10-refresh-token-api-key-auth.spec.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-10-refresh-token-api-key-auth.spec.ts"
+        ]
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "error",
+        "strengths": [],
+        "improvements": [
+          "AI review request failed (404).",
+          "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+        ]
+      }
+    },
+    "reviewedAt": "2026-09-15T06:45:58.862Z"
+  },
+  {
+    "challengeId": "11-microservices-architecture-patterns",
+    "challengeName": "Microservices Architecture Patterns",
+    "moduleId": "m4-microservices-communication",
+    "moduleName": "Microservices & Communication",
+    "score": 79.75,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 100,
+        "totalChecks": 2,
+        "passedChecks": 2,
+        "failedFiles": [],
+        "testFile": "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-11-microservices-architecture-patterns.test.js",
+        "testPassed": true,
+        "testError": null,
+        "note": "Functional checks include scoped file validation and challenge unit tests."
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 100,
+        "required": [
+          "nestjsModule"
+        ],
+        "found": [
+          "nestjsModule"
+        ],
+        "missing": []
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 65,
+        "mode": "evidence",
+        "hasUnit": true,
+        "hasE2E": false,
+        "unitCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-11-microservices-architecture-patterns.test.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-11-microservices-architecture-patterns.test.ts"
+        ],
+        "e2eCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-11-microservices-architecture-patterns.spec.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-11-microservices-architecture-patterns.spec.ts"
+        ]
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "error",
+        "strengths": [],
+        "improvements": [
+          "AI review request failed (404).",
+          "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+        ]
+      }
+    },
+    "reviewedAt": "2026-09-15T06:56:32.372Z"
+  },
+  {
+    "challengeId": "12-rabbitmq-redis-event-driven-flow",
+    "challengeName": "RabbitMQ Redis Event Driven Flow",
+    "moduleId": "m4-microservices-communication",
+    "moduleName": "Microservices & Communication",
+    "score": 79.75,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 100,
+        "totalChecks": 2,
+        "passedChecks": 2,
+        "failedFiles": [],
+        "testFile": "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-12-rabbitmq-redis-event-driven-flow.test.js",
+        "testPassed": true,
+        "testError": null,
+        "note": "Functional checks include scoped file validation and challenge unit tests."
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 100,
+        "required": [
+          "eventHandler"
+        ],
+        "found": [
+          "eventHandler"
+        ],
+        "missing": []
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 65,
+        "mode": "evidence",
+        "hasUnit": true,
+        "hasE2E": false,
+        "unitCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-12-rabbitmq-redis-event-driven-flow.test.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-12-rabbitmq-redis-event-driven-flow.test.ts"
+        ],
+        "e2eCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-12-rabbitmq-redis-event-driven-flow.spec.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-12-rabbitmq-redis-event-driven-flow.spec.ts"
+        ]
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "error",
+        "strengths": [],
+        "improvements": [
+          "AI review request failed (404).",
+          "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+        ]
+      }
+    },
+    "reviewedAt": "2026-09-15T07:08:05.965Z"
+  },
+  {
+    "challengeId": "13-grpc-rest-interservice-bridge",
+    "challengeName": "gRPC REST Interservice Bridge",
+    "moduleId": "m4-microservices-communication",
+    "moduleName": "Microservices & Communication",
+    "score": 79.75,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 100,
+        "totalChecks": 2,
+        "passedChecks": 2,
+        "failedFiles": [],
+        "testFile": "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-13-grpc-rest-interservice-bridge.test.js",
+        "testPassed": true,
+        "testError": null,
+        "note": "Functional checks include scoped file validation and challenge unit tests."
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 100,
+        "required": [
+          "grpcClient"
+        ],
+        "found": [
+          "grpcClient"
+        ],
+        "missing": []
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 65,
+        "mode": "evidence",
+        "hasUnit": true,
+        "hasE2E": false,
+        "unitCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-13-grpc-rest-interservice-bridge.test.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-13-grpc-rest-interservice-bridge.test.ts"
+        ],
+        "e2eCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-13-grpc-rest-interservice-bridge.spec.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-13-grpc-rest-interservice-bridge.spec.ts"
+        ]
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "error",
+        "strengths": [],
+        "improvements": [
+          "AI review request failed (404).",
+          "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+        ]
+      }
+    },
+    "reviewedAt": "2026-09-15T07:19:04.549Z"
+  },
+  {
+    "challengeId": "14-unit-e2e-mocking-strategy",
+    "challengeName": "Unit E2E Mocking Strategy",
+    "moduleId": "m5-testing-in-nestjs",
+    "moduleName": "Testing in NestJS",
+    "score": 79.75,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 100,
+        "totalChecks": 2,
+        "passedChecks": 2,
+        "failedFiles": [],
+        "testFile": "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-14-unit-e2e-mocking-strategy.test.js",
+        "testPassed": true,
+        "testError": null,
+        "note": "Functional checks include scoped file validation and challenge unit tests."
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 100,
+        "required": [
+          "jestDescribeIt",
+          "supertestRequest"
+        ],
+        "found": [
+          "jestDescribeIt",
+          "supertestRequest"
+        ],
+        "missing": []
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 65,
+        "mode": "evidence",
+        "hasUnit": true,
+        "hasE2E": false,
+        "unitCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-14-unit-e2e-mocking-strategy.test.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-14-unit-e2e-mocking-strategy.test.ts"
+        ],
+        "e2eCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-14-unit-e2e-mocking-strategy.spec.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-14-unit-e2e-mocking-strategy.spec.ts"
+        ]
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "error",
+        "strengths": [],
+        "improvements": [
+          "AI review request failed (404).",
+          "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+        ]
+      }
+    },
+    "reviewedAt": "2026-09-15T07:33:48.503Z"
+  },
+  {
+    "challengeId": "15-coverage-reporting-tdd-cycle",
+    "challengeName": "Coverage Reporting TDD Cycle",
+    "moduleId": "m5-testing-in-nestjs",
+    "moduleName": "Testing in NestJS",
+    "score": 79.75,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 100,
+        "totalChecks": 2,
+        "passedChecks": 2,
+        "failedFiles": [],
+        "testFile": "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-15-coverage-reporting-tdd-cycle.test.js",
+        "testPassed": true,
+        "testError": null,
+        "note": "Functional checks include scoped file validation and challenge unit tests."
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 100,
+        "required": [
+          "jestDescribeIt"
+        ],
+        "found": [
+          "jestDescribeIt"
+        ],
+        "missing": []
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 65,
+        "mode": "evidence",
+        "hasUnit": true,
+        "hasE2E": false,
+        "unitCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-15-coverage-reporting-tdd-cycle.test.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-15-coverage-reporting-tdd-cycle.test.ts"
+        ],
+        "e2eCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-15-coverage-reporting-tdd-cycle.spec.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-15-coverage-reporting-tdd-cycle.spec.ts"
+        ]
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "error",
+        "strengths": [],
+        "improvements": [
+          "AI review request failed (404).",
+          "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+        ]
+      }
+    },
+    "reviewedAt": "2026-09-15T08:22:45.738Z"
+  },
+  {
+    "challengeId": "16-service-discovery-basics",
+    "challengeName": "Service Discovery Basics",
+    "moduleId": "m4-microservices-communication",
+    "moduleName": "Microservices & Communication",
+    "score": 79.75,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 100,
+        "totalChecks": 2,
+        "passedChecks": 2,
+        "failedFiles": [],
+        "testFile": "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-16-service-discovery-basics.test.js",
+        "testPassed": true,
+        "testError": null,
+        "note": "Functional checks include scoped file validation and challenge unit tests."
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 100,
+        "required": [
+          "serviceDiscoveryPattern"
+        ],
+        "found": [
+          "serviceDiscoveryPattern"
+        ],
+        "missing": []
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 65,
+        "mode": "evidence",
+        "hasUnit": true,
+        "hasE2E": false,
+        "unitCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-16-service-discovery-basics.test.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-16-service-discovery-basics.test.ts"
+        ],
+        "e2eCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-16-service-discovery-basics.spec.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-16-service-discovery-basics.spec.ts"
+        ]
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "error",
+        "strengths": [],
+        "improvements": [
+          "AI review request failed (404).",
+          "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+        ]
+      }
+    },
+    "reviewedAt": "2026-09-15T08:42:47.330Z"
+  },
+  {
+    "challengeId": "17-request-id-logging-interceptor",
+    "challengeName": "Request ID Logging Interceptor",
+    "moduleId": "m2-advanced-nestjs-features",
+    "moduleName": "Advanced NestJS Features",
+    "score": 79.75,
+    "passed": false,
+    "layers": {
+      "functionalTests": {
+        "score": 100,
+        "totalChecks": 2,
+        "passedChecks": 2,
+        "failedFiles": [],
+        "testFile": "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-17-request-id-logging-interceptor.test.js",
+        "testPassed": true,
+        "testError": null,
+        "note": "Functional checks include scoped file validation and challenge unit tests."
+      },
+      "codeQuality": {
+        "score": 100,
+        "errors": 0,
+        "warnings": 0,
+        "details": []
+      },
+      "architecture": {
+        "score": 100,
+        "required": [
+          "requestIdInterceptor"
+        ],
+        "found": [
+          "requestIdInterceptor"
+        ],
+        "missing": []
+      },
+      "bestPractices": {
+        "score": 100,
+        "issueCount": 0,
+        "issues": []
+      },
+      "e2eTests": {
+        "score": 65,
+        "mode": "evidence",
+        "hasUnit": true,
+        "hasE2E": false,
+        "unitCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-17-request-id-logging-interceptor.test.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\challenge-17-request-id-logging-interceptor.test.ts"
+        ],
+        "e2eCandidates": [
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-17-request-id-logging-interceptor.spec.js",
+          "C:\\Users\\Aryan Bandodkar\\OneDrive\\Desktop\\Challenges\\challenge-engine-nodejs\\courses\\05-nestjs-enterprise-framework\\project\\tests\\e2e\\challenge-17-request-id-logging-interceptor.spec.ts"
+        ]
+      },
+      "aiReview": {
+        "score": 0,
+        "mode": "error",
+        "strengths": [],
+        "improvements": [
+          "AI review request failed (404).",
+          "{\"error\":{\"message\":\"The model `llama-3.1-8b-instant` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+        ]
+      }
+    },
+    "reviewedAt": "2026-09-15T10:52:36.811Z"
+  }
+]

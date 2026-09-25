@@ -22,14 +22,14 @@ This project uses challenge stubs only. Learners implement each challenge in `sr
 ## Challenge Progress
 
 <!-- COURSE_PROGRESS_START -->
-- Average Score: **74.38%**
-- Completion: **87.5%** (7/8)
-- Badge Level: **bronze**
+- Average Score: **85%**
+- Completion: **100%** (8/8)
+- Badge Level: **silver**
 
 | Challenge | Module | Status | Score |
 |---|---|---|---:|
 | Typed Primitives and Functions | TypeScript Essentials | Passed | 85% |
-| Interfaces Types Unions | TypeScript Essentials | Not passed | 0% |
+| Interfaces Types Unions | TypeScript Essentials | Passed | 85% |
 | Generics Guards Utility Types | TypeScript Essentials | Passed | 85% |
 | TSConfig Node Setup | TypeScript with Node.js & Express | Passed | 85% |
 | Typed Express Request Response | TypeScript with Node.js & Express | Passed | 85% |
